@@ -1,0 +1,1680 @@
+{
+  "runId": "2026-10-20T09-34-37-980Z-browser",
+  "status": "passed",
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "captures": [
+    {
+      "frame": 0,
+      "file": "frame-0000.png",
+      "sha256": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 0,
+      "attackInstances": 0,
+      "drawCalls": 82,
+      "triangles": 3472,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 60,
+      "file": "frame-0060.png",
+      "sha256": "a39c4bbfe67b210d80beaa819cf8d3cb1dc30fccee9c6d495603412b6a00a800",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 4,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4144,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 1,
+      "dropped": 0
+    },
+    {
+      "frame": 119,
+      "file": "frame-0119.png",
+      "sha256": "0525eac27e5216c1d1de8d4d001e82eeba2981e9157d403d8687878bed8de5a4",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4312,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 120,
+      "file": "frame-0120.png",
+      "sha256": "727be71a40366c0eda72adc69953542c9c16cd06331a7fa7971fd074f87c63b3",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4480,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 121,
+      "file": "frame-0121.png",
+      "sha256": "cd36d943d4268307c05fb5543f87dba5f3646165d5644d7ffb9c45396894d108",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4480,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 300,
+      "file": "frame-0300.png",
+      "sha256": "ca983221bc5ac4c2c9eb47da7b35151150332e7ce6b3b6f7aea79158e8a41caa",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4480,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 419,
+      "file": "frame-0419.png",
+      "sha256": "b3b6d4c90cd630dc95b6003d81995335a3f5df85eea7cdcf807e19b1f1960460",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4312,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 420,
+      "file": "frame-0420.png",
+      "sha256": "bbab4e65ea4d037c830d631220daa12af41e607c702127c2d32a2d5930dfdf97",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4480,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 421,
+      "file": "frame-0421.png",
+      "sha256": "4709e872e12a07d9b20afb76618b7034ce36140f17cbceb6773ddb0c65ae0890",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 0,
+      "drawCalls": 83,
+      "triangles": 4480,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 0,
+      "dropped": 0
+    },
+    {
+      "frame": 600,
+      "file": "frame-0600.png",
+      "sha256": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 194.54803602812524,
+          "maxX": 278.18118013684034,
+          "minY": 961.8980239388675,
+          "maxY": 1035.2909424466243,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 295.5663410093642,
+          "maxX": 382.2652284706738,
+          "minY": 1024.4842722287976,
+          "maxY": 1106.4390049282804,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 461.30850285897736,
+          "maxX": 545.0387334756808,
+          "minY": 1062.6335516740357,
+          "maxY": 1149.9779197833777,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 675.779904102528,
+          "maxX": 756.4051229776061,
+          "minY": 1040.2885426619503,
+          "maxY": 1124.4603194819822,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 483.78924154915154,
+          "maxX": 589.4387789426768,
+          "minY": 906.0207462204519,
+          "maxY": 968.6381088518699,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 580.1017615575283,
+          "maxX": 656.0459725306337,
+          "minY": 737.6758181174785,
+          "maxY": 848.6679642161619,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 8,
+      "attackInstances": 76,
+      "drawCalls": 84,
+      "triangles": 5728,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 24,
+      "dropped": 11
+    },
+    {
+      "frame": 809,
+      "file": "frame-0809.png",
+      "sha256": "c6e04e6d36ba01f6139c00556929d0c75d0d504e98d2867849d07222a59133ce",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 182.25767269128454,
+          "maxX": 269.91389456795514,
+          "minY": 967.5838290184132,
+          "maxY": 1043.9727037754722,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.5177535691915,
+          "maxX": 381.0281627846352,
+          "minY": 1032.3278466907736,
+          "maxY": 1117.7333113255318,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 465.9612766867076,
+          "maxX": 552.7538682459545,
+          "minY": 1070.3744960841682,
+          "maxY": 1161.2501409945712,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.0713215897049,
+          "maxX": 771.1192991690594,
+          "minY": 1043.7057323518895,
+          "maxY": 1130.733705953554,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.05780961675214,
+          "maxX": 591.2176317182334,
+          "minY": 905.4183597806102,
+          "maxY": 969.5599783820653,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 576.7794702452019,
+          "maxX": 654.1467810808183,
+          "minY": 730.375083066554,
+          "maxY": 844.2414004701013,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 141,
+      "drawCalls": 84,
+      "triangles": 6004,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 225
+    },
+    {
+      "frame": 810,
+      "file": "frame-0810.png",
+      "sha256": "7a22a7187bd70eddad7b882f02c1ae320a1028961980d2339634cae4378087b9",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 182.21210580119845,
+          "maxX": 269.88347798960257,
+          "minY": 967.6058988696043,
+          "maxY": 1044.0059489439109,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.4999221840819,
+          "maxX": 381.02453545806947,
+          "minY": 1032.3577910399483,
+          "maxY": 1117.7760954623914,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 465.9801544287056,
+          "maxX": 552.783968641542,
+          "minY": 1070.4035747646935,
+          "maxY": 1161.2922710525754,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.1180880533051,
+          "maxX": 771.1748022726734,
+          "minY": 1043.7180038306692,
+          "maxY": 1130.7563897030848,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.0514583694672,
+          "maxX": 591.2242008525566,
+          "minY": 905.416218465047,
+          "maxY": 969.5633055135588,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 576.7664512685576,
+          "maxX": 654.1388245374845,
+          "minY": 730.3480210946027,
+          "maxY": 844.2248815825327,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 142,
+      "drawCalls": 84,
+      "triangles": 6184,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 225
+    },
+    {
+      "frame": 811,
+      "file": "frame-0811.png",
+      "sha256": "743510ed86b625731e977a5e55c9b96b658723b40b8bfdcc05eca3c910408881",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 182.1667118371861,
+          "maxX": 269.8531786137883,
+          "minY": 967.6278924370009,
+          "maxY": 1044.0390759256866,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.48216520582986,
+          "maxX": 381.02092914750585,
+          "minY": 1032.3876282370102,
+          "maxY": 1117.818724048669,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 465.99897282295166,
+          "maxX": 552.8139660579575,
+          "minY": 1070.4325458662765,
+          "maxY": 1161.3342436589328,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.1646859448645,
+          "maxX": 771.2301017626176,
+          "minY": 1043.7302256777343,
+          "maxY": 1130.7789829485969,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.04513173723393,
+          "maxX": 591.230744859538,
+          "minY": 905.4140859656109,
+          "maxY": 969.5666193330128,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 576.7534764627501,
+          "maxX": 654.1308913666224,
+          "minY": 730.3210618564201,
+          "maxY": 844.208424602052,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 142,
+      "drawCalls": 84,
+      "triangles": 6184,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 225
+    },
+    {
+      "frame": 1020,
+      "file": "frame-1020.png",
+      "sha256": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 177.1889292460367,
+          "maxX": 266.5414848434295,
+          "minY": 970.0854253059038,
+          "maxY": 1047.7205685488007,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 288.5763722930942,
+          "maxX": 380.66991467661353,
+          "minY": 1035.699144512777,
+          "maxY": 1122.5348731883391,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 468.1378798962825,
+          "maxX": 556.1722231450078,
+          "minY": 1073.626221614927,
+          "maxY": 1165.9514458710203,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 693.328750701377,
+          "maxX": 777.3367315574347,
+          "minY": 1045.051544072499,
+          "maxY": 1133.2292360586462,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 481.3545018585164,
+          "maxX": 591.9471315187395,
+          "minY": 905.1844546756543,
+          "maxY": 969.9258030876704,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 575.2987608510683,
+          "maxX": 653.2193781008663,
+          "minY": 727.3649618523954,
+          "maxY": 842.399071603197,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 153,
+      "drawCalls": 84,
+      "triangles": 6316,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 24,
+      "dropped": 568
+    },
+    {
+      "frame": 1319,
+      "file": "frame-1319.png",
+      "sha256": "7ecd27546414353aca4e01a24d988c0d3f56b5f7fd75defa56ea229dc2cc455d",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 186.87107835600284,
+          "maxX": 273.0025368597305,
+          "minY": 965.3878538294027,
+          "maxY": 1040.647908061576,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.357696936007,
+          "maxX": 381.4327360159455,
+          "minY": 1029.3296224426294,
+          "maxY": 1113.436856905384,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.11331100855404,
+          "maxX": 549.7644053779704,
+          "minY": 1067.444893386771,
+          "maxY": 1156.9974558151268,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 683.3825757268963,
+          "maxX": 765.5363586291467,
+          "minY": 1042.4476529917874,
+          "maxY": 1128.4144841939824,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.70348139308305,
+          "maxX": 590.5515262452531,
+          "minY": 905.6387199972198,
+          "maxY": 969.2195936037044,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.0704869705329,
+          "maxX": 654.9170281695448,
+          "minY": 733.1151577008067,
+          "maxY": 845.9097687602817,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 152,
+      "drawCalls": 84,
+      "triangles": 6136,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 1069
+    },
+    {
+      "frame": 1320,
+      "file": "frame-1320.png",
+      "sha256": "e621379702e6a5fdc019818758cc9aab8e60811dbd1aa245d93ef4b27e4f6e91",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 186.9294768783501,
+          "maxX": 273.04174885842554,
+          "minY": 965.3605395067627,
+          "maxY": 1040.6063376475677,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.381421334635,
+          "maxX": 381.43832586347975,
+          "minY": 1029.2920910535422,
+          "maxY": 1113.3829141651856,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.09071360193985,
+          "maxX": 549.7272935767527,
+          "minY": 1067.4079929397346,
+          "maxY": 1156.943786696806,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 683.3238056644967,
+          "maxX": 765.4661489253759,
+          "minY": 1042.43153244593,
+          "maxY": 1128.384844379812,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.7116878203884,
+          "maxX": 590.5430816598207,
+          "minY": 905.6415542983432,
+          "maxY": 969.2152405355612,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.086487548253,
+          "maxX": 654.9263326258769,
+          "minY": 733.1498454475425,
+          "maxY": 845.9308357499775,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 154,
+      "drawCalls": 84,
+      "triangles": 6328,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 1069
+    },
+    {
+      "frame": 1321,
+      "file": "frame-1321.png",
+      "sha256": "131e37e20f5a1f48675f654479beb5bbe046d3fe9c7f81ecda54ac95563b0d84",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 186.98798882835194,
+          "maxX": 273.081039861838,
+          "minY": 965.333184122285,
+          "maxY": 1040.5646993036457,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.4052025428496,
+          "maxX": 381.4439381883022,
+          "minY": 1029.254497246784,
+          "maxY": 1113.3288776949853,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.06809202368294,
+          "maxX": 549.690127836451,
+          "minY": 1067.3710254337816,
+          "maxY": 1156.8900174619926,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 683.2649359717275,
+          "maxX": 765.395814400585,
+          "minY": 1042.4153757818156,
+          "maxY": 1128.3551400466013,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.71991101270623,
+          "maxX": 590.5346203573507,
+          "minY": 905.6443952213283,
+          "maxY": 969.210877913063,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.1025106890432,
+          "maxX": 654.9356440422592,
+          "minY": 733.1846006405679,
+          "maxY": 845.951942351689,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 148,
+      "drawCalls": 84,
+      "triangles": 6256,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 24,
+      "dropped": 1075
+    },
+    {
+      "frame": 1500,
+      "file": "frame-1500.png",
+      "sha256": "7c801a632abde9e5a3b2dea0a0ca02e614336346510544712e7d4b68cd1f46b4",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 153,
+      "drawCalls": 84,
+      "triangles": 6316,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 1371
+    },
+    {
+      "frame": 1649,
+      "file": "frame-1649.png",
+      "sha256": "87f2f1f92d52f33c662bc8ac0d0d5c422746a9a4690cccd9d25e4a2f1ac9d519",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 153,
+      "drawCalls": 84,
+      "triangles": 6148,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 1618
+    },
+    {
+      "frame": 1650,
+      "file": "frame-1650.png",
+      "sha256": "eabdfe213284c92ae4e882bfbefa7e1bb81c1b313b886ee3318a460029a122ab",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 153,
+      "drawCalls": 84,
+      "triangles": 6316,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 24,
+      "dropped": 1618
+    },
+    {
+      "frame": 1651,
+      "file": "frame-1651.png",
+      "sha256": "2f1afd585347cec6be52bafe67666667a40e63e29cdb50ce019843965c2bd37b",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 6,
+      "attackInstances": 149,
+      "drawCalls": 84,
+      "triangles": 6268,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 24,
+      "dropped": 1624
+    },
+    {
+      "frame": 1799,
+      "file": "frame-1799.png",
+      "sha256": "c8b203078455b0dd2d53aa62ac231fbc33cab024af0f7b95aac3eb8a5f7b0238",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "normalInstances": 5,
+      "attackInstances": 150,
+      "drawCalls": 84,
+      "triangles": 6112,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+      "queueLength": 23,
+      "dropped": 1872
+    }
+  ],
+  "failures": [],
+  "consoleErrors": [],
+  "browser": "151.0.7922.34",
+  "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL 4.5.0)",
+  "checkedFrames": 1800,
+  "nativeSeekSamples": 22,
+  "repeatSeekSamples": 5,
+  "frameMetrics": [
+    {
+      "frame": 0,
+      "calls": 82,
+      "triangles": 3472
+    },
+    {
+      "frame": 30,
+      "calls": 83,
+      "triangles": 3808
+    },
+    {
+      "frame": 60,
+      "calls": 83,
+      "triangles": 4144
+    },
+    {
+      "frame": 90,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 120,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 150,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 180,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 210,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 240,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 270,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 300,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 330,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 360,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 390,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 420,
+      "calls": 83,
+      "triangles": 4480
+    },
+    {
+      "frame": 450,
+      "calls": 84,
+      "triangles": 4552
+    },
+    {
+      "frame": 480,
+      "calls": 84,
+      "triangles": 4672
+    },
+    {
+      "frame": 510,
+      "calls": 84,
+      "triangles": 4840
+    },
+    {
+      "frame": 540,
+      "calls": 84,
+      "triangles": 4984
+    },
+    {
+      "frame": 570,
+      "calls": 84,
+      "triangles": 5332
+    },
+    {
+      "frame": 600,
+      "calls": 84,
+      "triangles": 5728
+    },
+    {
+      "frame": 630,
+      "calls": 84,
+      "triangles": 5692
+    },
+    {
+      "frame": 660,
+      "calls": 84,
+      "triangles": 5656
+    },
+    {
+      "frame": 690,
+      "calls": 84,
+      "triangles": 5596
+    },
+    {
+      "frame": 720,
+      "calls": 84,
+      "triangles": 5704
+    },
+    {
+      "frame": 750,
+      "calls": 84,
+      "triangles": 5968
+    },
+    {
+      "frame": 780,
+      "calls": 84,
+      "triangles": 6076
+    },
+    {
+      "frame": 810,
+      "calls": 84,
+      "triangles": 6184
+    },
+    {
+      "frame": 840,
+      "calls": 84,
+      "triangles": 6124
+    },
+    {
+      "frame": 870,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 900,
+      "calls": 84,
+      "triangles": 6328
+    },
+    {
+      "frame": 930,
+      "calls": 84,
+      "triangles": 6280
+    },
+    {
+      "frame": 960,
+      "calls": 84,
+      "triangles": 6304
+    },
+    {
+      "frame": 990,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1020,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1050,
+      "calls": 84,
+      "triangles": 6292
+    },
+    {
+      "frame": 1080,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1110,
+      "calls": 84,
+      "triangles": 6328
+    },
+    {
+      "frame": 1140,
+      "calls": 84,
+      "triangles": 6280
+    },
+    {
+      "frame": 1170,
+      "calls": 84,
+      "triangles": 6304
+    },
+    {
+      "frame": 1200,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1230,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1260,
+      "calls": 84,
+      "triangles": 6292
+    },
+    {
+      "frame": 1290,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1320,
+      "calls": 84,
+      "triangles": 6328
+    },
+    {
+      "frame": 1350,
+      "calls": 84,
+      "triangles": 6280
+    },
+    {
+      "frame": 1380,
+      "calls": 84,
+      "triangles": 6304
+    },
+    {
+      "frame": 1410,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1440,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1470,
+      "calls": 84,
+      "triangles": 6292
+    },
+    {
+      "frame": 1500,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1530,
+      "calls": 84,
+      "triangles": 6328
+    },
+    {
+      "frame": 1560,
+      "calls": 84,
+      "triangles": 6280
+    },
+    {
+      "frame": 1590,
+      "calls": 84,
+      "triangles": 6304
+    },
+    {
+      "frame": 1620,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1650,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1680,
+      "calls": 84,
+      "triangles": 6292
+    },
+    {
+      "frame": 1710,
+      "calls": 84,
+      "triangles": 6316
+    },
+    {
+      "frame": 1740,
+      "calls": 84,
+      "triangles": 6328
+    },
+    {
+      "frame": 1770,
+      "calls": 84,
+      "triangles": 6280
+    }
+  ]
+}

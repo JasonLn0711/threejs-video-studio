@@ -1,0 +1,33 @@
+{
+  "id": "ddos-capacity",
+  "concept": "Volumetric DDoS exhausts a shared network link",
+  "language": "en-US",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 60,
+  "seed": 1973,
+  "safeArea": { "left": 90, "right": 900, "top": 240, "bottom": 1480 },
+  "voice": { "name": "af_heart", "language": "en-us", "speed": 1.0, "tempoPasses": 0 },
+  "beats": [
+    { "start": 0, "end": 4, "eyebrow": "DDoS / NETWORK CAPACITY", "title": "Online.\nBut unreachable.", "detail": "Follow the traffic to find the bottleneck." },
+    { "start": 4, "end": 14, "eyebrow": "01 / NORMAL FLOW", "title": "One link.\nFinite capacity.", "detail": "Legitimate traffic shares a path to the service." },
+    { "start": 14, "end": 27, "eyebrow": "02 / MANY SOURCES", "title": "More traffic.\nSame link.", "detail": "Attack traffic converges from many devices." },
+    { "start": 27, "end": 44, "eyebrow": "03 / THE BOTTLENECK", "title": "Capacity reached.", "detail": "Packets queue. Full queues drop packets." },
+    { "start": 44, "end": 55, "eyebrow": "04 / THE USER EXPERIENCE", "title": "Normal traffic\ngets caught too.", "detail": "The server can remain online while access fails." },
+    { "start": 55, "end": 60, "eyebrow": "ONE CONCEPT / DDoS", "title": "A full link can\nblock a service.", "detail": "Shared capacity becomes an availability limit." }
+  ],
+  "narration": [
+    { "at": 0.35, "until": 4.0, "text": "The server is online. Why won't the page load?" },
+    { "at": 4.4, "until": 9.0, "text": "Follow the traffic. This network link has limited capacity." },
+    { "at": 9.3, "until": 14.0, "text": "Normally, packets pass through and the service stays reachable." },
+    { "at": 14.4, "until": 20.3, "text": "Now, many devices send attack traffic toward the same destination." },
+    { "at": 20.6, "until": 26.8, "text": "Their separate paths converge on one shared link. Its capacity hasn't changed." },
+    { "at": 27.4, "until": 34.2, "text": "More traffic arrives than the link can carry. Packets wait in a queue." },
+    { "at": 34.5, "until": 39.6, "text": "When that queue fills, additional packets are dropped." },
+    { "at": 40.0, "until": 44.0, "text": "Legitimate traffic shares this bottleneck too." },
+    { "at": 44.4, "until": 50.0, "text": "A normal request may be delayed or lost before it reaches the server." },
+    { "at": 50.3, "until": 55.0, "text": "The machine can still be running while users cannot reach it." },
+    { "at": 55.3, "until": 59.8, "text": "That's one way a distributed denial of service takes a service offline." }
+  ]
+}

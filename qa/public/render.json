@@ -1,0 +1,27 @@
+{
+  "identity": "9b1b2abf4f58606cb085b64e3248af4ac99eba085925000e8f0570696b5326fa",
+  "sha256": "282bce7f805065fdcc76d48ae1b61c6a608c02866fcb60cf8de310a42effeadb",
+  "runId": "2026-10-20T09-35-19-057Z-render",
+  "source": {
+    "examples/ddos-capacity/assets/audio/narration.wav": "3388049dd46a8dc956a491453294ab120b396ca2f69219815f2c4d119d8a1b5c",
+    "examples/ddos-capacity/assets/fonts/IBMPlexMono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "examples/ddos-capacity/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+    "examples/ddos-capacity/assets/fonts/Oswald-OFL.txt": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+    "examples/ddos-capacity/assets/fonts/Oswald.ttf": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+    "examples/ddos-capacity/assets/fonts/manifest.json": "c70fc3be5e987d10cdcc78b815f855400cca1718cddf42509d032711e674e324",
+    "examples/ddos-capacity/captions.json": "b2eb9ab8a0d31bb0148522bccff579d71fd649936bf8e896ae1dc3aa7d73610f",
+    "examples/ddos-capacity/film.json": "5eebf940c5be3615c04f62a81ff01082d64629f040388e9714ad3c5abc98c9d7",
+    "examples/ddos-capacity/index.html": "1f9fe9054d696415640b00dc505327a0a9df84abb0016400700b6db3a401d821",
+    "package-lock.json": "714c80acd1cf2ccbe2f99e0f4f496be31f0eb06d037791c09cf08f5f09be2700",
+    "scripts/build.mjs": "bc0d9a32ffa6a0544b6cfdb3fc24891dea2d14d7204b1654a945a5a24a83dd1d",
+    "src/scene.ts": "646ff42ff5db49a4a92d66a2f77f283b5ea669180666d7939c814025edf726f7",
+    "src/traffic.ts": "27bd7091261cd3048a22a2a8e0d20192d96aa6f83662519470ace2149a80817b",
+    "scripts/render-exec.mjs": "fbf6ad8d85fcc03990c572e251e797d4fbdfd7fb75ecffc771ad6f879c00494e"
+  },
+  "settings": {
+    "fps": 30,
+    "workers": 1,
+    "quality": "delivery",
+    "browserGpu": true
+  }
+}

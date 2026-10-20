@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Clean npm install, rebuild and three native-seek pixel comparisons on the original machine; not a second full MP4 render or cross-platform certification.",
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "frames": [
+    {
+      "frame": 0,
+      "actual": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
+      "expected": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
+      "passed": true
+    },
+    {
+      "frame": 600,
+      "actual": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
+      "expected": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
+      "passed": true
+    },
+    {
+      "frame": 1020,
+      "actual": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
+      "expected": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
+      "passed": true
+    }
+  ]
+}

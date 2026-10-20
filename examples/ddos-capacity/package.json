@@ -1,0 +1,10 @@
+{
+  "name": "ddos-capacity",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../scripts/studio.mjs preview",
+    "check": "node ../../scripts/studio.mjs check",
+    "render": "node ../../scripts/studio.mjs render"
+  }
+}

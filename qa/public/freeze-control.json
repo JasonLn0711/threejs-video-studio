@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "method": "FFmpeg freezedetect on the 1080x740 canvas at (0,565), -80 dB noise threshold, minimum 2 seconds; excludes the static title/caption field",
+  "initialWholeFrameMethod": "-60 dB over the entire image, minimum 2 seconds",
+  "initialCandidates": [
+    0.366667,
+    4.4,
+    9.3,
+    50.3,
+    55.3
+  ],
+  "diagnosis": "The static title/caption field dominates the whole-frame average; native and encoded sampled images show moving packet positions. Final detection isolates the declared 3D viewport and uses -80 dB.",
+  "finalDetectedIntervals": [],
+  "negativeControl": {
+    "input": "3-second repetition of encoded frame 0, 25 fps",
+    "detectedFreezeStart": 0,
+    "detectionTime": 2,
+    "passed": true
+  }
+}
