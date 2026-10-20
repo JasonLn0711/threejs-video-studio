@@ -38,3 +38,9 @@ repository is read-only reference material. No learning credit is inferred.
 An actual 1,800-frame MP4, current-source browser and encoded-media checks,
 repeatable seek, source archive restoration, and verified GitHub main push.
 Human viewing/listening and social-platform acceptance retain separate states.
+
+## Timing amendment — 2026-10-20
+
+Use 0.35 seconds between complete spoken sentences. Keep the original wording
+and voice speed. Narration ends at 42.381917 seconds; retain the animated
+takeaway for 17.618083 seconds so the MP4 is exactly 60.000 seconds.

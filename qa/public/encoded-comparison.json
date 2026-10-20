@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "videoSha256": "282bce7f805065fdcc76d48ae1b61c6a608c02866fcb60cf8de310a42effeadb",
+  "videoSha256": "22ad67340749f447d75374605f3d98b8ffe6e319a98bad923a3e5f564ec54011",
   "method": "Decoded RGB channels 0..255, no registration or masking, 12 preselected native/encoded frames. Tolerances declared before measurement.",
   "tolerance": {
     "meanAbsoluteChannelError": 8,
@@ -9,98 +9,98 @@
   "frames": [
     {
       "frame": 0,
-      "nativeSha256": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
-      "encodedSha256": "a507aa1219cdba1499f88d77e5da42179cc1be9b36ce89de3bf2662420a5836c",
-      "meanAbsoluteChannelError": 2.6233249742798352,
-      "fractionPixelsWithChannelErrorOver40": 0.012546296296296297,
+      "nativeSha256": "fcf3fd1d93152959397dfc1649b560c5eaa543c01410236c64a87b6e9f71360b",
+      "encodedSha256": "1555a640087b39d3b6b2aa583b61ac1413e7c145627488c46265446aaac0778c",
+      "meanAbsoluteChannelError": 1.5403076774691358,
+      "fractionPixelsWithChannelErrorOver40": 0.0023519483024691356,
       "passed": true
     },
     {
       "frame": 60,
-      "nativeSha256": "a39c4bbfe67b210d80beaa819cf8d3cb1dc30fccee9c6d495603412b6a00a800",
-      "encodedSha256": "00a8aee66cca4e5256a54270bcf6b0f43fe0fb17897685a687105b464cd53b50",
-      "meanAbsoluteChannelError": 3.631468942901235,
-      "fractionPixelsWithChannelErrorOver40": 0.01826678240740741,
+      "nativeSha256": "08fae95cfdfb19926b239b0a9834db83171c1e079e090139ff2ca98071826f98",
+      "encodedSha256": "026513648d3c735c0e4636445dcf9f377debb26cfbaf60cc21d7897ffc89dacc",
+      "meanAbsoluteChannelError": 1.6316378922325103,
+      "fractionPixelsWithChannelErrorOver40": 0.003084490740740741,
       "passed": true
     },
     {
       "frame": 120,
-      "nativeSha256": "727be71a40366c0eda72adc69953542c9c16cd06331a7fa7971fd074f87c63b3",
-      "encodedSha256": "a28f620eb11a7057b14b2ed3b56f05204e185d0e79b1c7a7bc478da6016a51d3",
-      "meanAbsoluteChannelError": 3.587610757458848,
-      "fractionPixelsWithChannelErrorOver40": 0.014115065586419753,
+      "nativeSha256": "9d91c7b95792f6b07a76ee9e344610f0f0304ca43326fa01986239a19584a26a",
+      "encodedSha256": "a3e6d647d7f6804e0d33a7d29e6088fe889aac0bc87aeb20b324a4bb13cbad6b",
+      "meanAbsoluteChannelError": 1.5981380208333333,
+      "fractionPixelsWithChannelErrorOver40": 0.002700617283950617,
       "passed": true
     },
     {
       "frame": 300,
-      "nativeSha256": "ca983221bc5ac4c2c9eb47da7b35151150332e7ce6b3b6f7aea79158e8a41caa",
-      "encodedSha256": "fcb8a5ca7ad89f61e6072943fbc8a96bd188d09f5b114be79aba57e425cb68b3",
-      "meanAbsoluteChannelError": 3.667957818930041,
-      "fractionPixelsWithChannelErrorOver40": 0.018995949074074075,
+      "nativeSha256": "a04f35fb8d6fe7268dcaa30e6de59fd691e53972ab6eb3947f5740799a771abd",
+      "encodedSha256": "8334dbf819f0577b15d8bb150a11d552530894d02a2674312a9a25b0bf6b780f",
+      "meanAbsoluteChannelError": 1.8188824588477366,
+      "fractionPixelsWithChannelErrorOver40": 0.004488811728395062,
       "passed": true
     },
     {
       "frame": 420,
-      "nativeSha256": "bbab4e65ea4d037c830d631220daa12af41e607c702127c2d32a2d5930dfdf97",
-      "encodedSha256": "c66f5afeb506a6588cd73d21d4cb01ac3e3c55f5cbaf549211ec689f1c14d087",
-      "meanAbsoluteChannelError": 2.430495273919753,
-      "fractionPixelsWithChannelErrorOver40": 0.011182002314814815,
+      "nativeSha256": "e51234b80c667e4a44447c47e8c1a56f4a1ced0f9010cf4ae6d9c7bcc950e72f",
+      "encodedSha256": "e882424245c9173261c4d68d606091dac0aa943a0d2b6b22c540629e660da7eb",
+      "meanAbsoluteChannelError": 1.8383439429012345,
+      "fractionPixelsWithChannelErrorOver40": 0.004520640432098765,
       "passed": true
     },
     {
       "frame": 600,
-      "nativeSha256": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
-      "encodedSha256": "0ea163124589b20c88770301effffeddc2fc8013ce1ff46e24fd145d6bfff056",
-      "meanAbsoluteChannelError": 2.485773533950617,
-      "fractionPixelsWithChannelErrorOver40": 0.011399498456790124,
+      "nativeSha256": "df19e67617ebc59dd3492d12a1610aafb2c755cb1aef0b69af1fc39a237e0e24",
+      "encodedSha256": "f4d8dc64059bc58802227a9ca290cf664d8a455624cbba88e5adf68effa58d77",
+      "meanAbsoluteChannelError": 1.6965416023662552,
+      "fractionPixelsWithChannelErrorOver40": 0.003285108024691358,
       "passed": true
     },
     {
       "frame": 810,
-      "nativeSha256": "7a22a7187bd70eddad7b882f02c1ae320a1028961980d2339634cae4378087b9",
-      "encodedSha256": "97f72fa92185f0f99b6e1a95054e78c2d5b7f2c625398fe1c2512478aa995488",
-      "meanAbsoluteChannelError": 2.3550842335390945,
-      "fractionPixelsWithChannelErrorOver40": 0.010492380401234567,
+      "nativeSha256": "0e5612bead74ebe65620464084b1dc465806a95883c5567d4a63d904bcaa2cda",
+      "encodedSha256": "6e46d52e4bf299c5e65cca33dad6a459dcee3c3d1bd565818c9d39e6927c57b9",
+      "meanAbsoluteChannelError": 1.7815623392489712,
+      "fractionPixelsWithChannelErrorOver40": 0.0039703896604938275,
       "passed": true
     },
     {
       "frame": 1020,
-      "nativeSha256": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
-      "encodedSha256": "003748300dc43869e82588d11ea8343cd306d1abf513eda4b514784f6d0b650b",
-      "meanAbsoluteChannelError": 2.3487189750514403,
-      "fractionPixelsWithChannelErrorOver40": 0.01053047839506173,
+      "nativeSha256": "b4a679a388fb5fc33f5ff148d7173e712abdc8f3b661545d4f19223336e4c5d3",
+      "encodedSha256": "f6badd59056e78953f37d078f8846f9aeb973ff94d0e1cca2fad990c6f58f472",
+      "meanAbsoluteChannelError": 1.8974580439814814,
+      "fractionPixelsWithChannelErrorOver40": 0.004898726851851852,
       "passed": true
     },
     {
       "frame": 1320,
-      "nativeSha256": "e621379702e6a5fdc019818758cc9aab8e60811dbd1aa245d93ef4b27e4f6e91",
-      "encodedSha256": "3add37b46d04be746cda6c2851d1886d2b10347d770220f4a8815e6735daed66",
-      "meanAbsoluteChannelError": 2.5987527327674895,
-      "fractionPixelsWithChannelErrorOver40": 0.012339409722222222,
+      "nativeSha256": "9b4e3e270cd8cab2c1d8f21cb1da9652088be3becb1b894b97408dadf98df7ca",
+      "encodedSha256": "c83d8d0cd9f4e4fbf592a802d60ad6b0e631c149895ae56f3db4edfcdadb62bc",
+      "meanAbsoluteChannelError": 1.5467817644032922,
+      "fractionPixelsWithChannelErrorOver40": 0.002302758487654321,
       "passed": true
     },
     {
       "frame": 1500,
-      "nativeSha256": "7c801a632abde9e5a3b2dea0a0ca02e614336346510544712e7d4b68cd1f46b4",
-      "encodedSha256": "6fbc5398bf30bcd6711a55644c09f3f6d2427e83100236b65f8cd8e39a60ddf5",
-      "meanAbsoluteChannelError": 2.5742518647119343,
-      "fractionPixelsWithChannelErrorOver40": 0.012389081790123456,
+      "nativeSha256": "44da37e54a745cb6054c6b59cf95ad4a06db3603410c52b9247103dcbd15320d",
+      "encodedSha256": "a3b485abd1fea841fd071afe301386bb2d2a641d72ffb32619b95f92533d1d20",
+      "meanAbsoluteChannelError": 1.542202449845679,
+      "fractionPixelsWithChannelErrorOver40": 0.002294560185185185,
       "passed": true
     },
     {
       "frame": 1650,
-      "nativeSha256": "eabdfe213284c92ae4e882bfbefa7e1bb81c1b313b886ee3318a460029a122ab",
-      "encodedSha256": "1b98b64815b9c6ef23a0e8be81f2628d35a18fdc42bb5d853efd5fafcab47397",
-      "meanAbsoluteChannelError": 2.399373070987654,
-      "fractionPixelsWithChannelErrorOver40": 0.011103877314814815,
+      "nativeSha256": "521cd49c63968504729c427bcbf572a363e61aad3e426d50b801c717ef7ef885",
+      "encodedSha256": "3ff4185bfbfb3f34ef9edf19eb6bfc318157f0786e55f7603822fd463e4d83bb",
+      "meanAbsoluteChannelError": 1.5464372749485598,
+      "fractionPixelsWithChannelErrorOver40": 0.0023075810185185187,
       "passed": true
     },
     {
       "frame": 1799,
-      "nativeSha256": "c8b203078455b0dd2d53aa62ac231fbc33cab024af0f7b95aac3eb8a5f7b0238",
-      "encodedSha256": "c5e5a9382c79e9ceae8ff9595fc249ecaaf7b9d37eb7e056f78a9a0a785a25c8",
-      "meanAbsoluteChannelError": 2.3998231738683127,
-      "fractionPixelsWithChannelErrorOver40": 0.011124614197530865,
+      "nativeSha256": "6f65a10783dba61851806381a710fefaf6fabbaf72321f756c0ab14077dd8878",
+      "encodedSha256": "84d2703b3cd86b6923f6c2d077c48ea133fe8b8fb277aed7883653691a0a09fe",
+      "meanAbsoluteChannelError": 1.5477056005658436,
+      "fractionPixelsWithChannelErrorOver40": 0.0023138503086419754,
       "passed": true
     }
   ]

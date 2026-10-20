@@ -1,16 +1,17 @@
 {
   "status": "agent_sample_review_passed",
-  "videoSha256": "282bce7f805065fdcc76d48ae1b61c6a608c02866fcb60cf8de310a42effeadb",
-  "scope": "Visual inspection of all 71 encoded samples in five contact sheets, with full-resolution inspection of frames 121, 630 and 1680; not a continuous human viewing/listening pass.",
-  "findings": "Cause/effect sequence, three-dimensional silhouettes, labels and captions are visible. No unintended clipping or blank frame observed in reviewed samples. Fine packet motion requires continuous viewer review.",
+  "videoSha256": "22ad67340749f447d75374605f3d98b8ffe6e319a98bad923a3e5f564ec54011",
+  "scope": "All 76 encoded samples inspected in five contact sheets; frames 420 and 1200 also inspected at full resolution. Continuous human viewing/listening remains pending.",
+  "findings": "Retimed captions and scene boundaries are visible without observed clipping. The final takeaway continues with packet motion after narration ends; it is an intentional 17.618083-second ending hold.",
   "sampleFrames": [
     0,
     30,
     60,
     90,
-    119,
+    106,
+    107,
+    108,
     120,
-    121,
     150,
     180,
     210,
@@ -18,29 +19,34 @@
     270,
     300,
     330,
+    338,
+    339,
+    340,
     360,
     390,
-    419,
     420,
-    421,
     450,
     480,
     510,
     540,
     570,
     600,
+    614,
+    615,
+    616,
     630,
     660,
     690,
     720,
     750,
     780,
-    809,
     810,
-    811,
     840,
     870,
     900,
+    917,
+    918,
+    919,
     930,
     960,
     990,
@@ -49,14 +55,15 @@
     1080,
     1110,
     1140,
+    1148,
+    1149,
+    1150,
     1170,
     1200,
     1230,
     1260,
     1290,
-    1319,
     1320,
-    1321,
     1350,
     1380,
     1410,
@@ -67,9 +74,7 @@
     1560,
     1590,
     1620,
-    1649,
     1650,
-    1651,
     1680,
     1710,
     1740,
@@ -81,23 +86,23 @@
   "contactSheets": [
     {
       "file": "contact-sheet-1.jpg",
-      "sha256": "67f90087e12cbb2144c1e15ee2e318e84a61a9129647f15832fd10660e4eff8d"
+      "sha256": "5f5ea052b90527317a6b42202a6bda566f61272142842741d4e8e1290c6419c4"
     },
     {
       "file": "contact-sheet-2.jpg",
-      "sha256": "8c936b54302eedf5c90ede6b13a777057bee7bb0b8ab6ad963a56f976c5bef20"
+      "sha256": "4b4c34aec3843ace458335d8570495273515d46708e7ca91f5bf0e9c8374a13b"
     },
     {
       "file": "contact-sheet-3.jpg",
-      "sha256": "671840a616bd919494544945c49a2cc3353a25a438e71eea2d7a078eaf824778"
+      "sha256": "99c6b0178474b2ef2e8e63de02553c3723150428f23863062461c644e28f0577"
     },
     {
       "file": "contact-sheet-4.jpg",
-      "sha256": "c8dcd177ff7c8338979e231510b697302a6fccd9d6c620ad2b84b264f0271d14"
+      "sha256": "0bb6ec054d18b4278a3ac3081bfad2af0ad6af1a926a488c05b5381edb2a2b3d"
     },
     {
       "file": "contact-sheet-5.jpg",
-      "sha256": "23144e71f03f33cef57faa594ab7afa3b592db60fa5f756d30375dfec95edcb6"
+      "sha256": "24dcf6a5e6a221220236f88e685d2c956dc70a7de847fad83b0a61033b4ba0e0"
     }
   ]
 }

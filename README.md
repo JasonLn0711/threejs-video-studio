@@ -22,6 +22,11 @@ See the [brief](examples/ddos-capacity/BRIEF.md),
 Delivery status and measured results are in [the evidence index](qa/public/README.md).
 Human listening/viewing and social-platform upload are separate acceptance layers.
 
+Current timing revision: 15 sentences with exactly 0.35 seconds between processed
+clips. Wording and voice speed are preserved. Narration ends at 42.381917 seconds;
+the animated takeaway continues for 17.618083 seconds, reaching exactly 60 seconds.
+`python3 scripts/verify_audio.py` verifies all 14 gaps at PCM sample precision.
+
 ## Setup
 
 Use Node.js 24, Python 3.12+ and FFmpeg/ffprobe on PATH.

@@ -1,50 +1,44 @@
 # Storyboard
 
-status: outline
+Timing revision: 0.35 seconds between processed sentence clips. Original wording
+and voice speed are preserved. One continuous scene; six narration-aligned beats.
 
-One continuous scene, six time windows. Motion contract:
-`hyperframes-animation/adapters/three.md` — absolute-time camera, explicit
-object visibility, deterministic traffic and boundary inspection.
-
-## Frame 1
+## Beat 1
 
 src: index.html
 
-0–4 seconds. A service remains lit while a request waits. Hold the composition
-long enough to read the hook. No opening logo.
+0.000000–3.566667 seconds. Introduce the reachable-service question while the server remains lit.
 
-## Frame 2
-
-src: index.html
-
-4–14 seconds. Normal cyan spheres traverse the branching foreground toward
-the router and reach the server along a narrow shared uplink. Slow dolly.
-
-## Frame 3
+## Beat 2
 
 src: index.html
 
-14–27 seconds. Orange cubes emerge from multiple source devices. Their lanes
-converge; the uplink never widens. The camera shifts slightly to expose depth.
+3.566667–11.300000 seconds. Normal cyan packets traverse the shared link.
 
-## Frame 4
-
-src: index.html
-
-27–44 seconds. Show the fixed throughput and growing input queue. After the
-queue fills, incoming cubes and normal spheres visibly drop away. The server
-and link retain their physical geometry and scale.
-
-## Frame 5
+## Beat 3
 
 src: index.html
 
-44–55 seconds. Enlarge a normal sphere's marker in the queue. Delay and loss
-remain visible alongside a still-lit server. Do not add server failure.
+11.300000–20.500000 seconds. Multiple orange streams converge on the same fixed-width uplink.
 
-## Frame 6
+## Beat 4
 
 src: index.html
 
-55–60 seconds. Return to an overview. Capacity and the visible packet backlog
-carry the final single-concept conclusion. Maintain motion through the last frame.
+20.500000–30.600000 seconds. A bounded queue fills; excess packets drop.
+
+## Beat 5
+
+src: index.html
+
+30.600000–38.300000 seconds. Legitimate packets share the bottleneck while the server stays online.
+
+## Beat 6
+
+src: index.html
+
+38.300000–60.000000 seconds. Keep the takeaway visible and packet animation running through frame 1799.
+
+Final spoken sentence ends at 42.381917 seconds.
+The animated takeaway continues for 17.618083 seconds to make
+the delivery exactly 60.000 seconds. This final hold contains no further sentence.

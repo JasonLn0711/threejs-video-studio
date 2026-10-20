@@ -200,7 +200,18 @@ This is a new profile, not a retuning of existing CEH audio.
 The audio assembly MUST have exact sample indices, no unintended overlaps,
 clipping or truncated speech. If a clip exceeds its window, revise the script or
 explicitly revise the timeline. Never crop speech or silently speed the full film.
-Short silent windows for observing the mechanism are intentional and documented.
+Timing amendment (2026-10-20): each complete spoken sentence MUST be synthesized
+and timed separately. The interval from one processed sentence clip's end to the
+next clip's start is **0.35 seconds** (16,800 samples at 48 kHz). Do not add another
+pause at beat boundaries. Preserve the original baseline, trim synthesis edge
+silence only in processed clips, and record the trim method and sample indices.
+Sentence captions follow these measured clips; scene beats follow their starts.
+
+The pilot preserves its original wording and voice speed. It begins at 0.35 seconds;
+after the final sentence, the takeaway remains visible with continuing 3D animation
+until exactly 60.000 seconds. This ending interval is an explicit final hold, not an
+inter-sentence pause. Do not stretch speech or insert additional pauses to fill the
+remaining duration. Report both narration end and final-hold duration.
 
 Keep PCM truth separate from lossy AAC behavior. AAC encoder delay/residue does
 not establish an error in the PCM ledger. Compare decoded audio against the

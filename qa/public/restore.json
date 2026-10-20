@@ -5,20 +5,20 @@
   "frames": [
     {
       "frame": 0,
-      "actual": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
-      "expected": "96fc2c912bca47d627affa958e490872ea4c295b12d9b4cd4041a23240b0085e",
+      "actual": "fcf3fd1d93152959397dfc1649b560c5eaa543c01410236c64a87b6e9f71360b",
+      "expected": "fcf3fd1d93152959397dfc1649b560c5eaa543c01410236c64a87b6e9f71360b",
       "passed": true
     },
     {
       "frame": 600,
-      "actual": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
-      "expected": "f91eef5a8d1679f15676a10e0b9cfcb2489a94279582c5acb1da3e529b0e6361",
+      "actual": "df19e67617ebc59dd3492d12a1610aafb2c755cb1aef0b69af1fc39a237e0e24",
+      "expected": "df19e67617ebc59dd3492d12a1610aafb2c755cb1aef0b69af1fc39a237e0e24",
       "passed": true
     },
     {
       "frame": 1020,
-      "actual": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
-      "expected": "9591dbff7197cd247d02933fc9800f197d61c4a8a2e3ac44b3ebd9e6848b2c3b",
+      "actual": "b4a679a388fb5fc33f5ff148d7173e712abdc8f3b661545d4f19223336e4c5d3",
+      "expected": "b4a679a388fb5fc33f5ff148d7173e712abdc8f3b661545d4f19223336e4c5d3",
       "passed": true
     }
   ]

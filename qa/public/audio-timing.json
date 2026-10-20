@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "sentences": 15,
+  "gaps": [
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800,
+    16800
+  ],
+  "gapSeconds": 0.35,
+  "sampleRate": 48000,
+  "audioFrames": 2880000,
+  "durationSeconds": 60,
+  "narrationEndSeconds": 42.38191666666667,
+  "animatedTailSeconds": 17.61808333333333,
+  "pcmSha256": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
+  "scope": "Exact processed-clip boundaries and zero PCM between clips; phonetic boundary acceptance requires listening."
+}
