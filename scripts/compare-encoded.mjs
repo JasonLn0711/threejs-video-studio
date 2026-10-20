@@ -8,7 +8,7 @@ const native = JSON.parse(await fs.readFile(nativeFile)), encoded = JSON.parse(a
 const hash = b => createHash('sha256').update(b).digest('hex');
 const tolerance = { meanAbsoluteChannelError: 8, fractionPixelsWithChannelErrorOver40: .02 };
 const frames = [];
-for (const frame of [0, 60, 120, 300, 420, 600, 810, 1020, 1320, 1500, 1650, 1799]) {
+for (const frame of native.captures.map(c => c.frame)) {
   const ref = native.captures.find(x => x.frame === frame), sample = encoded.samples.find(x => x.frame === frame);
   const aBytes = await fs.readFile(path.join(path.dirname(nativeFile), ref.file));
   const bBytes = await fs.readFile(path.join(path.dirname(encodedFile), sample.file));
@@ -26,7 +26,7 @@ for (const frame of [0, 60, 120, 300, 420, 600, 810, 1020, 1320, 1500, 1650, 179
     fractionPixelsWithChannelErrorOver40: fraction, passed: mae <= tolerance.meanAbsoluteChannelError && fraction <= tolerance.fractionPixelsWithChannelErrorOver40 });
 }
 const report = { status: frames.every(f => f.passed) ? 'passed' : 'failed', videoSha256: encoded.videoSha256,
-  method: 'Decoded RGB channels 0..255, no registration or masking, 12 preselected native/encoded frames. Tolerances declared before measurement.', tolerance, frames };
+  method: 'Decoded RGB channels 0..255, no registration or masking, All preselected native/encoded frames, including incident boundaries and peaks. Tolerances declared before measurement.', tolerance, frames };
 await fs.writeFile(output, JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify(report));
 if (report.status !== 'passed') process.exitCode = 1;

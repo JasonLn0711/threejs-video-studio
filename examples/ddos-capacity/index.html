@@ -22,6 +22,10 @@
 #capacity-fill{height:100%;background:#4dd4ff;transform-origin:left center;transform:scaleX(0)}
 #queue-state{font:400 24px/1.2 'IBM Plex Mono';color:#b7c6d7;margin-top:12px}
 #caption{position:absolute;left:96px;top:1330px;width:800px;height:140px;font:400 50px/1.25 Oswald;text-align:left;color:#eef3f8;margin:0}
+#incident{position:absolute;left:96px;top:580px;width:800px;height:108px;display:flex;align-items:center;gap:20px;padding:6px 20px;background:#261820;border:2px solid #ff5c68;transform-origin:center;opacity:0;visibility:hidden;pointer-events:none}
+#incident-icon{flex:0 0 72px;width:72px;height:72px;color:#ff5c68}
+#incident-title{font:600 44px/1.05 Oswald;padding-bottom:10px;letter-spacing:.5px;color:#ff5c68;white-space:nowrap}
+#incident-detail{font:400 28px/1.2 'IBM Plex Mono';color:#eef3f8;white-space:nowrap;margin-top:0}
 #footnote{position:absolute;left:96px;top:1580px;font:400 21px/1.4 'IBM Plex Mono';color:#b7c6d7;margin:0}
 </style>
 </head>
@@ -30,6 +34,7 @@
 <section data-hf-id="hf-voce" id="stage" class="clip">
 <canvas data-hf-id="hf-y3wi" id="world" width="1080" height="740" aria-label="A three-dimensional network link with finite capacity"></canvas>
 <div data-hf-id="hf-og58" id="editorial"><p data-hf-id="hf-x13l" id="eyebrow"></p><h1 data-hf-id="hf-1vgv" id="headline"></h1><p data-hf-id="hf-xjwr" id="detail"></p></div>
+<div data-hf-id="hf-incident" id="incident" role="status"><svg data-hf-id="hf-incident-icon" id="incident-icon" viewBox="0 0 80 80" aria-hidden="true"><path d="M40 5 L76 70 H4 Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><path d="M40 27 V47" stroke="currentColor" stroke-width="6" stroke-linecap="round"/><circle cx="40" cy="59" r="3.5" fill="currentColor"/></svg><div data-hf-id="hf-incident-copy"><div data-hf-id="hf-incident-title" id="incident-title"></div><div data-hf-id="hf-incident-detail" id="incident-detail"></div></div></div>
 <div data-hf-id="hf-w6yf" id="server-label" class="object-label">SERVER · ONLINE</div>
 <div data-hf-id="hf-p6ti" id="link-label" class="object-label">SHARED LINK</div>
 <div data-hf-id="hf-ch09" id="normal-label" class="object-label">NORMAL</div>

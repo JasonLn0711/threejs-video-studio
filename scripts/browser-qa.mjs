@@ -45,8 +45,11 @@ try {
   };
   const film = JSON.parse(await fs.readFile(path.join(project, 'film.json'), 'utf8'));
   const boundaries = film.beats.slice(1).map(b => Math.round(b.start * film.fps));
+  const incidents = await page.evaluate(() => window.studio.inspect().incidentCues);
+  const eventFrames = incidents.events.flatMap(e => [e.start - 1, e.start, e.start + 6, e.start + 12, e.end - 1, e.end]);
+  const repeats = [1020, 60, 1799, 0, 810, ...incidents.events.map(e => e.start + 6)];
   const frames = [...new Set([0, 60, 120, 300, 420, 600, 810, 1020, 1320, 1500, 1650, 1799,
-    ...boundaries.flatMap(f => [f - 1, f, f + 1])])].sort((a, b) => a - b);
+    incidents.warningFrame, ...eventFrames, ...boundaries.flatMap(f => [f - 1, f, f + 1])])].sort((a, b) => a - b);
   for (const frame of frames) {
     await seek(frame);
     const state = await page.evaluate(() => window.studio.inspect());
@@ -55,7 +58,7 @@ try {
     const bytes = await page.screenshot({ path: path.join(out, file) });
     report.captures.push({ frame, file, sha256: hash(bytes), ...state });
   }
-  for (const frame of [1020, 60, 1799, 0, 810]) {
+  for (const frame of repeats) {
     await seek(frame);
     const bytes = await page.screenshot();
     const expected = report.captures.find(c => c.frame === frame).sha256;
@@ -73,10 +76,10 @@ try {
       const state = window.studio.inspect();
       for (const b of state.objects) if (!b.visibleDepth || b.minX < 40 || b.maxX > 1040 || b.minY < 565 || b.maxY > 1305)
         issues.push({ kind: '3d-object-bounds', frame: f, object: b });
-      for (const id of ['eyebrow', 'headline', 'detail', 'caption']) {
+      for (const id of ['eyebrow', 'headline', 'detail', 'caption', ...(state.incident ? ['incident', 'incident-title', 'incident-detail'] : [])]) {
         const el = document.getElementById(id), box = el.getBoundingClientRect();
         if (box.x < 90 || box.right > 900 || box.y < 240 || box.bottom > 1480 ||
-            el.scrollHeight > el.clientHeight + 1) issues.push({ kind: 'text-bounds', frame: f, id,
+            el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1) issues.push({ kind: 'text-bounds', frame: f, id,
               height: el.clientHeight, scrollHeight: el.scrollHeight, bottom: box.bottom });
       }
       if (f % 30 === 0) results.push({ frame: f, calls: state.drawCalls, triangles: state.triangles });
@@ -88,7 +91,7 @@ try {
   report = { ...report, status: failures.length ? 'failed' : 'passed',
     captureProfile: 'HyperFrames-compatible gl-egl, font-render-hinting=none, sRGB, deviceScaleFactor=1',
     browser: browser.version(), gpu: report.captures[0].gpu, checkedFrames: 1800,
-    nativeSeekSamples: frames.length, repeatSeekSamples: 5, frameMetrics: allFrames.results };
+    nativeSeekSamples: frames.length, repeatSeekSamples: repeats.length, frameMetrics: allFrames.results };
 } catch (e) { failures.push({ kind: 'runtime', message: e.message }); }
 finally {
   await browser.close(); server.close();

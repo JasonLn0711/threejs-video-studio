@@ -57,7 +57,7 @@ try {
     const identity = await qaIdentity();
     await child('audio-timing', 'python3', ['scripts/verify_audio.py']);
     await child('types', path.join(root, 'node_modules/.bin/tsc'), ['--noEmit']);
-    await child('tests', process.execPath, ['--test', 'tests/traffic.test.mjs']);
+    await child('tests', process.execPath, ['--test', 'tests/traffic.test.mjs', 'tests/events.test.mjs']);
     const raw = await child('hyperframes-check', hf, ['check', '--json', '--samples', '13'], project, false);
     const native = JSON.parse(raw);
     if (!native.ok || native.browserSkipped) throw new Error('Native HyperFrames gate did not pass');

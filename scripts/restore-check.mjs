@@ -31,14 +31,14 @@ const server = http.createServer(async (req, res) => {
 });
 await new Promise(r => server.listen(0, '127.0.0.1', r));
 let browser;
-const receipt = { status: 'failed', scope: 'Clean npm install, rebuild and three native-seek pixel comparisons on the original machine; not a second full MP4 render or cross-platform certification.', runtimeHash: hash(runtime), frames: [] };
+const receipt = { status: 'failed', scope: 'Clean npm install, rebuild and native-seek pixel comparisons including incident peaks on the original machine; not a second full MP4 render or cross-platform certification.', runtimeHash: hash(runtime), frames: [] };
 try {
   browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=gl-egl', '--ignore-gpu-blocklist', '--font-render-hinting=none', '--force-color-profile=srgb', '--force-device-scale-factor=1'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   await page.goto(`http://127.0.0.1:${server.address().port}`, { waitUntil: 'networkidle' });
   await page.waitForFunction(() => window.studio && window.__player?.renderSeek);
   await page.evaluate(async () => { await document.fonts.ready; await Promise.all(Object.values(window.__hf?.buildReady || {})); window.__player.pause(); });
-  for (const frame of [0, 600, 1020]) {
+  for (const frame of [0, 600, 1020, ...golden.captures[0].incidentCues.events.map(e => e.start + 6)]) {
     await page.evaluate(async f => { await window.__player.renderSeek(f / 30, { exact: true }); await window.__hfWaitForSeekCompletion?.(); await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r))); }, frame);
     const actual = hash(await page.screenshot()), expected = golden.captures.find(x => x.frame === frame).sha256;
     receipt.frames.push({ frame, actual, expected, passed: actual === expected });

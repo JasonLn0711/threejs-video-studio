@@ -21,6 +21,7 @@ def sha(p):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("video")
+    parser.add_argument("--browser-report")
     parser.add_argument("--reference", default="examples/ddos-capacity/assets/audio/narration.wav")
     parser.add_argument("--output", default="qa/encoded")
     args = parser.parse_args()
@@ -76,6 +77,9 @@ def main():
     checks["audioReferenceAgreement"] = correlation >= .98 and nrmse <= .15
     frames = sorted(set([n * 30 for n in range(60)] + [1799] +
                         [round(b["start"] * film["fps"]) + d for b in film["beats"][1:] for d in [-1, 0, 1]]))
+    if args.browser_report:
+        native = json.loads(Path(args.browser_report).read_text())
+        frames = sorted(set(frames + [c["frame"] for c in native["captures"]]))
     select = "+".join(f"eq(n\\,{f})" for f in frames)
     call(["ffmpeg", "-v", "error", "-i", str(movie), "-vf", f"select='{select}'",
           "-fps_mode", "vfr", "-y", str(out / "sample-%03d.png")])

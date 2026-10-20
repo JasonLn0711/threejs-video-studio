@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { buildIncidentCues, cueAt } from './events';
 import { buildTraffic, frameIndex, beatAt, QUEUE_LIMIT } from './traffic';
 import film from '../examples/ddos-capacity/film.json';
 import captions from '../examples/ddos-capacity/captions.json';
@@ -90,6 +91,12 @@ good.instanceMatrix.setUsage(THREE.DynamicDrawUsage); bad.instanceMatrix.setUsag
 good.frustumCulled = false; bad.frustumCulled = false; scene.add(good, bad);
 const dummy = new THREE.Object3D();
 const model = buildTraffic(film.fps, film.duration, film.seed, film.beats[2].start, film.beats[3].start - film.beats[2].start);
+const incidents = buildIncidentCues(model, Math.round(film.beats[4].start * film.fps));
+const ringGeometry = new THREE.TorusGeometry(1.05, .035, 8, 64); geometry.push(ringGeometry);
+const ringMaterial = new THREE.MeshBasicMaterial({ color: 0xff5c68, transparent: true, opacity: 0, depthWrite: false, toneMapped: false }); materials.push(ringMaterial);
+const impactRing = new THREE.Mesh(ringGeometry, ringMaterial); impactRing.rotation.x = -Math.PI / 2;
+impactRing.position.set(0, .08, 1.1); scene.add(impactRing);
+const incidentLight = new THREE.PointLight(0xff5c68, 0, 4, 2); incidentLight.position.set(0, 2, 1); scene.add(incidentLight);
 const el = (id: string) => document.getElementById(id)!;
 const labels = [
   { id: 'server-label', point: new THREE.Vector3(0, 2.9, -6.4) },
@@ -107,7 +114,8 @@ export function renderAt(frame: number) {
   lastFrame = frame;
   const t = frame / film.fps, state = model.frames[frame];
   const push = Math.sin(Math.min(1, Math.max(0, (t - film.beats[2].start - 2) / (film.beats[5].start - film.beats[2].start - 2))) * Math.PI);
-  camera.position.set(7.5 - 1.2 * push, 13.8 - .6 * push, 19.8 - push);
+  const event = cueAt(frame, incidents.events);
+  camera.position.set(7.5 - 1.2 * push, 13.8 - .6 * push - .2 * event.impact, 19.8 - push - .65 * event.impact);
   camera.lookAt(0, .3, -.2);
   camera.updateMatrixWorld(true);
   let gn = 0, bn = 0;
@@ -150,7 +158,20 @@ export function renderAt(frame: number) {
   el('caption').style.opacity = cue ? '1' : '0';
   el('capacity-fill').style.transform = `scaleX(${state.utilization})`;
   el('capacity-state').textContent = state.queue.length >= QUEUE_LIMIT - 1 ? 'SATURATED' : (t >= film.beats[2].start ? 'FILLING' : 'ROOM AVAILABLE');
-  el('capacity-fill').style.backgroundColor = state.queue.length ? '#ff7a59' : '#4dd4ff';
+  const saturated = state.queue.length >= QUEUE_LIMIT - 1;
+  const warning = frame >= incidents.warningFrame && frame < incidents.events[0].start;
+  el('capacity-fill').style.backgroundColor = saturated ? '#ff5c68' : warning ? '#ffc56e' : state.queue.length ? '#ff7a59' : '#4dd4ff';
+  el('capacity-state').style.color = saturated ? '#ff5c68' : warning ? '#ffc56e' : '#eef3f8';
+  el('incident').style.opacity = String(event.opacity);
+  el('incident').style.visibility = event.cue ? 'visible' : 'hidden';
+  el('incident').style.transform = `translateY(${event.lift}px) scale(${event.scale})`;
+  el('incident-title').textContent = event.cue?.title ?? '';
+  el('incident-detail').textContent = event.cue?.detail ?? '';
+  impactRing.visible = event.ring > 0;
+  impactRing.scale.setScalar(1 + (1 - event.ring) * .85);
+  ringMaterial.opacity = event.ring * .8;
+  incidentLight.intensity = event.opacity * 3.5;
+
   el('queue-state').textContent = state.queue.length >= QUEUE_LIMIT - 1 ? 'QUEUE FULL · PACKETS DROP' : (state.queue.length ? 'QUEUE BUILDING' : 'PACKETS PASS THROUGH');
   for (const label of labels) {
     const p = projection(label.point);
@@ -170,7 +191,7 @@ function inspect() {
       visibleDepth: points.every(p => p.depth >= -1 && p.depth <= 1) };
   });
   const gl = renderer.getContext(), ext = gl.getExtension('WEBGL_debug_renderer_info');
-  return { frame: lastFrame, objects, normalInstances: good.count, attackInstances: bad.count,
+  return { frame: lastFrame, objects, incident: cueAt(lastFrame, incidents.events).cue?.id ?? null, incidentCues: incidents, serverOnline: true, normalInstances: good.count, attackInstances: bad.count,
     drawCalls: renderer.info.render.calls, triangles: renderer.info.render.triangles,
     gpu: ext ? gl.getParameter(ext.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER),
     queueLength: model.frames[lastFrame].queue.length, dropped: model.frames[lastFrame].dropped };
