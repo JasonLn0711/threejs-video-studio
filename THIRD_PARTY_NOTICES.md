@@ -19,7 +19,9 @@ licenses remain separate.
 
 The npm lockfile preserves the transitive dependency graph. Installed dependencies
 retain their upstream notices. esbuild emits bundled legal comments beside the
-generated scene. Third-party bundled components are not relicensed by this repo.
+generated scene. The complete [Three.js MIT license](examples/ddos-capacity/assets/licenses/three-LICENSE.txt)
+is included for the bundled runtime. Third-party bundled components retain
+their original licenses.
 
 Font source URLs, SHA-256 values and local OFL files are recorded in
 [the font manifest](examples/ddos-capacity/assets/fonts/manifest.json).
