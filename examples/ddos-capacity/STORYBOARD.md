@@ -42,3 +42,15 @@ src: index.html
 Final spoken sentence ends at 42.381917 seconds.
 The animated takeaway continues for 17.618083 seconds to make
 the delivery exactly 60.000 seconds. This final hold contains no further sentence.
+
+## Cinematic event treatment
+
+At frame 463 (15.433 s), amber capacity anticipates saturation. The first packet
+loss at frame 478 (15.933 s) triggers a red outlined warning triangle,
+“PACKETS DROPPED / LINK CAPACITY EXCEEDED”, a brief camera push and an expanding
+ring at the queue. The banner holds through frame 549. At frame 928 (30.933 s),
+a modeled legitimate request is dropped; “REQUEST LOST / SERVER STILL ONLINE”
+holds through frame 1011. Each cue enters over nine frames and fades over eight.
+The server remains green and operational. The effect is a local visual impact;
+there is no added sound or full-screen flash. Narration and the 60-second timing
+remain unchanged.

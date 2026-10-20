@@ -1,5 +1,5 @@
 {
-  "runId": "2026-10-20T10-13-12-258Z-browser",
+  "runId": "2026-10-20T10-26-15-606Z-browser",
   "status": "passed",
   "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
   "captures": [
@@ -57,6 +57,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 0,
       "attackInstances": 0,
       "drawCalls": 82,
@@ -119,6 +141,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 4,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -181,6 +225,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -243,6 +309,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -305,6 +393,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -367,6 +477,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -429,6 +561,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -491,6 +645,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -553,6 +729,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -615,6 +813,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 0,
       "drawCalls": 83,
@@ -677,6 +897,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 31,
       "drawCalls": 84,
@@ -686,9 +928,597 @@
       "dropped": 0
     },
     {
+      "frame": 463,
+      "file": "frame-0463.png",
+      "sha256": "08a0abcba073478824bf6f5c6e0ba66107fd836ddac9187faf0ab2e933566ee4",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 193.09254983101653,
+          "maxX": 277.1957009456605,
+          "minY": 962.5442562927035,
+          "maxY": 1036.2901031409722,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 294.9443232605394,
+          "maxX": 382.0924835768107,
+          "minY": 1025.389356475177,
+          "maxY": 1107.7514155933752,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 461.8149465424304,
+          "maxX": 545.9112629556033,
+          "minY": 1063.5396124057759,
+          "maxY": 1151.3031824386294,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 677.2023673344522,
+          "maxX": 758.121133899118,
+          "minY": 1040.7039289207241,
+          "maxY": 1125.2187345231196,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 483.5823256834011,
+          "maxX": 589.6501478452119,
+          "minY": 905.9468707835581,
+          "maxY": 968.7497637631202,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 579.727734398941,
+          "maxX": 655.8464200548543,
+          "minY": 736.8110441013494,
+          "maxY": 848.1467805217835,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 6,
+      "attackInstances": 57,
+      "drawCalls": 84,
+      "triangles": 5164,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 18,
+      "dropped": 0
+    },
+    {
+      "frame": 477,
+      "file": "frame-0477.png",
+      "sha256": "4575979f98c57581566dd6f3dee6a36a91b258620634a2fb8ac6c3787cbeff8f",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 191.91666392667506,
+          "maxX": 276.4007676033617,
+          "minY": 963.0715558483558,
+          "maxY": 1037.102894225287,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 294.44640906750374,
+          "maxX": 381.9579608312916,
+          "minY": 1026.125165323708,
+          "maxY": 1108.8165690046553,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 462.23265986524643,
+          "maxX": 546.6241072931149,
+          "minY": 1064.27371516982,
+          "maxY": 1152.3757833114491,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 678.3580113914602,
+          "maxX": 759.5126784787575,
+          "minY": 1041.0374964868931,
+          "maxY": 1125.8285282290622,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 483.4155189837152,
+          "maxX": 589.8207773820689,
+          "minY": 905.8876772394078,
+          "maxY": 968.8394933087438,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 579.4217928132131,
+          "maxX": 655.6802790124333,
+          "minY": 736.1124338154391,
+          "maxY": 847.7251174731296,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 6,
+      "attackInstances": 67,
+      "drawCalls": 84,
+      "triangles": 5284,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 0
+    },
+    {
+      "frame": 478,
+      "file": "frame-0478.png",
+      "sha256": "f4efe64870c9563b51508d0025701d6a6c7243e143e1eee5921aa66f23f3e53b",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 191.83328134773086,
+          "maxX": 276.3444406683156,
+          "minY": 963.1091246712253,
+          "maxY": 1037.1607196785696,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 294.4112594439554,
+          "maxX": 381.9485937523059,
+          "minY": 1026.1774983816024,
+          "maxY": 1108.8922649998244,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 462.26257222520496,
+          "maxX": 546.6749257682795,
+          "minY": 1064.3258418282535,
+          "maxY": 1152.4519068681916,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 678.4401776741698,
+          "maxX": 759.611529514641,
+          "minY": 1041.0610805418437,
+          "maxY": 1125.871668535182,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 483.4037029420087,
+          "maxX": 589.8328721724904,
+          "minY": 905.88349651024,
+          "maxY": 968.845839804268,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 579.3999701841882,
+          "maxX": 655.6683303426338,
+          "minY": 736.0628963791762,
+          "maxY": 847.6951968731873,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "packet-loss",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 6,
+      "attackInstances": 68,
+      "drawCalls": 85,
+      "triangles": 6320,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 1
+    },
+    {
+      "frame": 484,
+      "file": "frame-0484.png",
+      "sha256": "2e14309f476174de24117a9065ae4faa7ad6a9088c74ca2aa2f04ba87c1e0f0f",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 183.9938476831815,
+          "maxX": 270.49233768727925,
+          "minY": 962.9841383507123,
+          "maxY": 1038.7730653002818,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 287.14574968517303,
+          "maxX": 376.9518426127566,
+          "minY": 1028.3267814730543,
+          "maxY": 1113.2240016112028,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 457.98379871322794,
+          "maxX": 544.6343840401229,
+          "minY": 1068.4243713918966,
+          "maxY": 1159.0997572586311,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 679.6616026084897,
+          "maxX": 763.0849749302299,
+          "minY": 1045.259283393975,
+          "maxY": 1132.5789434818985,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.22426476221847,
+          "maxX": 590.7862197164329,
+          "minY": 905.1216126408292,
+          "maxY": 969.8092420451949,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.3741352890801,
+          "maxX": 659.2721278186999,
+          "minY": 732.0216719626958,
+          "maxY": 845.7879999440424,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "packet-loss",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 7,
+      "attackInstances": 73,
+      "drawCalls": 85,
+      "triangles": 6548,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 4
+    },
+    {
+      "frame": 490,
+      "file": "frame-0490.png",
+      "sha256": "525a815022db487d4f2ccca528e68d77119c7982a866f0e57e5b0b2fee084e49",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 187.11025963590237,
+          "maxX": 272.8729319510965,
+          "minY": 963.393129780939,
+          "maxY": 1038.5070834644814,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.4237694559964,
+          "maxX": 379.3420317935213,
+          "minY": 1027.7432404910858,
+          "maxY": 1111.7725847872398,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 460.38193609790324,
+          "maxX": 546.1145834772773,
+          "minY": 1066.869630711948,
+          "maxY": 1156.499793189755,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 679.8115148311134,
+          "maxX": 762.270372967782,
+          "minY": 1043.3898181080808,
+          "maxY": 1129.6425313194368,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.70006575599086,
+          "maxX": 590.4248345891785,
+          "minY": 905.4611521053423,
+          "maxY": 969.3895241613066,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 580.1971639348507,
+          "maxX": 657.3777339518864,
+          "minY": 733.5699917136441,
+          "maxY": 846.4583442718599,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "packet-loss",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 7,
+      "attackInstances": 78,
+      "drawCalls": 85,
+      "triangles": 6608,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 8
+    },
+    {
+      "frame": 549,
+      "file": "frame-0549.png",
+      "sha256": "cfdd41e1fe0c82c8c4f6576ee8482cb0b5df698821380e62d1e120497289d2f6",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 186.2363856634141,
+          "maxX": 272.5765522102737,
+          "minY": 965.685486469485,
+          "maxY": 1041.1005330833677,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.10054445501464,
+          "maxX": 381.37273242137593,
+          "minY": 1029.7381996547033,
+          "maxY": 1114.0238337853666,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.36017664920524,
+          "maxX": 550.1689159729506,
+          "minY": 1067.8462351209948,
+          "maxY": 1157.581012875937,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 684.0222408710775,
+          "maxX": 766.3001616398594,
+          "minY": 1042.6225459023267,
+          "maxY": 1128.736170452204,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.6143446450809,
+          "maxX": 590.6432842338273,
+          "minY": 905.6079878647981,
+          "maxY": 969.2668332372148,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 577.8960397949845,
+          "maxX": 654.8151893384343,
+          "minY": 732.7381654346455,
+          "maxY": 845.680722411181,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "packet-loss",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 7,
+      "attackInstances": 108,
+      "drawCalls": 84,
+      "triangles": 5944,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 55
+    },
+    {
+      "frame": 550,
+      "file": "frame-0550.png",
+      "sha256": "eeb4fad1d3632cf369d6c2522182eb759b53ed307c26d52f33ac96310ce43e07",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 186.16347114738778,
+          "maxX": 272.5276359259815,
+          "minY": 965.7197697284284,
+          "maxY": 1041.1526283276846,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.07108363050907,
+          "maxX": 381.36592706316287,
+          "minY": 1029.7852169120802,
+          "maxY": 1114.0913501178745,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.38868621059265,
+          "maxX": 550.2155240348932,
+          "minY": 1067.8923766829816,
+          "maxY": 1157.6480838850202,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 684.0958363223491,
+          "maxX": 766.387995715511,
+          "minY": 1042.6426014121812,
+          "maxY": 1128.7730735741322,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.60411071765617,
+          "maxX": 590.6538231525788,
+          "minY": 905.6044657519483,
+          "maxY": 969.2722518813134,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 577.8759346765665,
+          "maxX": 654.8034059703094,
+          "minY": 732.6948564900165,
+          "maxY": 845.6543993545469,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 7,
+      "attackInstances": 109,
+      "drawCalls": 84,
+      "triangles": 5956,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 56
+    },
+    {
       "frame": 600,
       "file": "frame-0600.png",
-      "sha256": "df19e67617ebc59dd3492d12a1610aafb2c755cb1aef0b69af1fc39a237e0e24",
+      "sha256": "ff6b4c334665632c996d27a5fd2a3b91b04824be9c21044e44673b463d8950f2",
       "objects": [
         {
           "id": "source-0",
@@ -739,6 +1569,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 8,
       "attackInstances": 130,
       "drawCalls": 84,
@@ -750,7 +1602,7 @@
     {
       "frame": 614,
       "file": "frame-0614.png",
-      "sha256": "c1328ba32d6cbbc1ae1d9e8bde7b5f1e095a8f409821a0fc435ed5c1ffd25680",
+      "sha256": "8b211e9fa07035d60691e298314d6857d2155da8078ea60238209464deba0c1d",
       "objects": [
         {
           "id": "source-0",
@@ -801,6 +1653,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 137,
       "drawCalls": 84,
@@ -812,7 +1686,7 @@
     {
       "frame": 615,
       "file": "frame-0615.png",
-      "sha256": "e068ef85410e04716a5afcb77c4ea457ace7553731e53856b9996aaea4dd4c08",
+      "sha256": "63f45bd2a6f6267a597648d14cf91bc1a6befe33581fec7023bb0711d9498ce9",
       "objects": [
         {
           "id": "source-0",
@@ -863,6 +1737,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 7,
       "attackInstances": 138,
       "drawCalls": 84,
@@ -874,7 +1770,7 @@
     {
       "frame": 616,
       "file": "frame-0616.png",
-      "sha256": "5fc3d14afad68617c650859c54fa8b0d0e5d0cfde5de7eeb569d2bd3fd9fa06f",
+      "sha256": "1298dc3fcc38a9fee4002691c5df4e0e915f7e0c5a0b4bb844e54bf9f09fb71b",
       "objects": [
         {
           "id": "source-0",
@@ -925,6 +1821,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 7,
       "attackInstances": 136,
       "drawCalls": 84,
@@ -936,7 +1854,7 @@
     {
       "frame": 810,
       "file": "frame-0810.png",
-      "sha256": "0e5612bead74ebe65620464084b1dc465806a95883c5567d4a63d904bcaa2cda",
+      "sha256": "d63dbb9423f630e3acf68f903aa5fbb2ae3a5a027d6cdd8d76f72c44d3928c81",
       "objects": [
         {
           "id": "source-0",
@@ -987,6 +1905,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 152,
       "drawCalls": 84,
@@ -998,7 +1938,7 @@
     {
       "frame": 917,
       "file": "frame-0917.png",
-      "sha256": "189a893029f98e06a50eceb19d77f74186fb0b6dc979c3198d389af1fefb42a6",
+      "sha256": "4ed4b44577bf131cb0a244dcfbed1760028d5beef28ee331fd0528416fe9901b",
       "objects": [
         {
           "id": "source-0",
@@ -1049,6 +1989,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 149,
       "drawCalls": 84,
@@ -1060,7 +2022,7 @@
     {
       "frame": 918,
       "file": "frame-0918.png",
-      "sha256": "2200c75917ba198eca1083354c388e4a964d4e50ae4d22f9712741e6be7025ae",
+      "sha256": "4aca2b829f3d792c1f491f1c15de15274667afb56d02e14855bcf3464ee99f2a",
       "objects": [
         {
           "id": "source-0",
@@ -1111,6 +2073,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 151,
       "drawCalls": 84,
@@ -1122,7 +2106,7 @@
     {
       "frame": 919,
       "file": "frame-0919.png",
-      "sha256": "88558b9f59e5859216030bbbf36e2282cca4d5d5efaffa8e059591ec6722122c",
+      "sha256": "0ad7edf1ba35d55c4862dfd7d5487740e6091b5cab211778e89f9cc1cb6af856",
       "objects": [
         {
           "id": "source-0",
@@ -1173,6 +2157,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 153,
       "drawCalls": 84,
@@ -1182,9 +2188,513 @@
       "dropped": 635
     },
     {
+      "frame": 927,
+      "file": "frame-0927.png",
+      "sha256": "bc2b2985e478db261d4dada4800c79bc90a3e30f35c7bc2b24015444932eec3b",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 181.58571256041157,
+          "maxX": 269.4655320201945,
+          "minY": 967.9100485577164,
+          "maxY": 1044.4637738618599,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.25548779713574,
+          "maxX": 380.9754118872231,
+          "minY": 1032.7700882069362,
+          "maxY": 1118.3649304526211,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 466.24091545222575,
+          "maxX": 553.1988972790257,
+          "minY": 1070.8035927287362,
+          "maxY": 1161.8716669124042,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.761879968906,
+          "maxX": 771.9385012756647,
+          "minY": 1043.8863830939688,
+          "maxY": 1131.0677643846734,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 481.96420209770866,
+          "maxX": 591.3144844437732,
+          "minY": 905.3868528850137,
+          "maxY": 969.6089725271843,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 576.5869494406166,
+          "maxX": 654.0287525333084,
+          "minY": 729.9760123480793,
+          "maxY": 843.9977221085735,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 149,
+      "drawCalls": 84,
+      "triangles": 6100,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 23,
+      "dropped": 647
+    },
+    {
+      "frame": 928,
+      "file": "frame-0928.png",
+      "sha256": "db7bbb739b1e33481916d2b2fccd36d3821cd231c4ed4498e5bb771d2623d48e",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 181.64086731909572,
+          "maxX": 269.5023191623759,
+          "minY": 967.8832106084029,
+          "maxY": 1044.4234007246807,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 290.2769589909256,
+          "maxX": 380.97968180205584,
+          "minY": 1032.7337352899815,
+          "maxY": 1118.3130306468565,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 466.21786103429145,
+          "maxX": 553.1622762048854,
+          "minY": 1070.7683494502821,
+          "maxY": 1161.8206318191715,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.7051251781052,
+          "maxX": 771.871202959373,
+          "minY": 1043.8715805419051,
+          "maxY": 1131.0403812986265,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 481.9718812119205,
+          "maxX": 591.3065363652331,
+          "minY": 905.3894332891562,
+          "maxY": 969.6049567317418,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 576.6027948345983,
+          "maxX": 654.0384966568423,
+          "minY": 730.0087679630785,
+          "maxY": 844.0177297658515,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "request-lost",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 150,
+      "drawCalls": 85,
+      "triangles": 7136,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 653
+    },
+    {
+      "frame": 934,
+      "file": "frame-0934.png",
+      "sha256": "fb148a742c73feef41c8965d6cc82e959a4b36cc89ca13a1ed1f29aa6e32a3c2",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 174.14123937949648,
+          "maxX": 263.876392991419,
+          "minY": 967.5145584656668,
+          "maxY": 1045.7019494397891,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 282.99941945503025,
+          "maxX": 375.8829582384523,
+          "minY": 1034.6404458926072,
+          "maxY": 1122.3125614467233,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 461.57988792158994,
+          "maxX": 550.7021273637762,
+          "minY": 1074.7095497046546,
+          "maxY": 1168.2331524774922,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 689.3970986465147,
+          "maxX": 774.7791383054931,
+          "minY": 1048.0848663128263,
+          "maxY": 1137.7044678152408,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 480.8447029313131,
+          "maxX": 592.1984860480346,
+          "minY": 904.6377057004253,
+          "maxY": 970.5535758806616,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.788517544331,
+          "maxX": 657.8185834739485,
+          "minY": 726.207648175908,
+          "maxY": 842.2497150404811,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "request-lost",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 6,
+      "attackInstances": 154,
+      "drawCalls": 85,
+      "triangles": 7352,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 23,
+      "dropped": 659
+    },
+    {
+      "frame": 940,
+      "file": "frame-0940.png",
+      "sha256": "0bdeed4031d2e7593e1127671399261f86d0da82a5e4fff1125e83051ee0949a",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 178.36871454923195,
+          "maxX": 267.0046981393763,
+          "minY": 967.4529380376964,
+          "maxY": 1044.698205087203,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 286.8132912933635,
+          "maxX": 378.4545141247969,
+          "minY": 1033.3583876808286,
+          "maxY": 1119.8472527927934,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 463.6770891927055,
+          "maxX": 551.5917076168892,
+          "minY": 1072.4222113694148,
+          "maxY": 1164.5706240465893,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 688.5346268843373,
+          "maxX": 772.7170488382359,
+          "minY": 1045.8477782507175,
+          "maxY": 1134.1314352311601,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 481.4743704459333,
+          "maxX": 591.6830484921458,
+          "minY": 905.0349174406385,
+          "maxY": 970.0449889370215,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 577.8493608649903,
+          "maxX": 656.031915789351,
+          "minY": 728.3951807276709,
+          "maxY": 843.3115083396023,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "request-lost",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 152,
+      "drawCalls": 85,
+      "triangles": 7160,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 671
+    },
+    {
+      "frame": 1011,
+      "file": "frame-1011.png",
+      "sha256": "19b0129968ca5286580f48cb0a9af7781a10909b6b9b341213a69d82e4b5b170",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 187.1265226003976,
+          "maxX": 273.17407717085524,
+          "minY": 965.2684649253052,
+          "maxY": 1040.4661668344386,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.4615500749496,
+          "maxX": 381.45727235534554,
+          "minY": 1029.1655313853557,
+          "maxY": 1113.200984186491,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 464.0146114796464,
+          "maxX": 549.6022060369255,
+          "minY": 1067.2835190202968,
+          "maxY": 1156.7627290821856,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 683.1256131235932,
+          "maxX": 765.229335397411,
+          "minY": 1042.3771038565014,
+          "maxY": 1128.2847839153467,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.73938365949283,
+          "maxX": 590.5145859939983,
+          "minY": 905.6511258879641,
+          "maxY": 969.2005445180264,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.1404133503858,
+          "maxX": 654.9576455624695,
+          "minY": 733.2668878467931,
+          "maxY": 846.0019094447302,
+          "visibleDepth": true
+        }
+      ],
+      "incident": "request-lost",
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 150,
+      "drawCalls": 84,
+      "triangles": 6112,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 792
+    },
+    {
+      "frame": 1012,
+      "file": "frame-1012.png",
+      "sha256": "86127f63a572c48fbf830cbbb14a8c31eae746591af5b5009fcafe5e7b0cc4dd",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 187.2019187669997,
+          "maxX": 273.22471885881697,
+          "minY": 965.2332701344965,
+          "maxY": 1040.4125713105404,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 292.4922421406326,
+          "maxX": 381.464556760597,
+          "minY": 1029.1171369412186,
+          "maxY": 1113.1314049364676,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 463.9855514583445,
+          "maxX": 549.5543978673766,
+          "minY": 1067.2359050629302,
+          "maxY": 1156.6934628874326,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 683.0498217211141,
+          "maxX": 765.138757428968,
+          "minY": 1042.356263280721,
+          "maxY": 1128.246476662856,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 482.74998347440305,
+          "maxX": 590.5036816711774,
+          "minY": 905.6547916435509,
+          "maxY": 969.1949180412875,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 578.1610215805221,
+          "maxX": 654.9695935717642,
+          "minY": 733.31167233192,
+          "maxY": 846.0291006509714,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 152,
+      "drawCalls": 84,
+      "triangles": 6136,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 23,
+      "dropped": 792
+    },
+    {
       "frame": 1020,
       "file": "frame-1020.png",
-      "sha256": "b4a679a388fb5fc33f5ff148d7173e712abdc8f3b661545d4f19223336e4c5d3",
+      "sha256": "f0f94c273a4c53f1d93d90cae828aa7191e29fc981647b12241a37e7b36de49e",
       "objects": [
         {
           "id": "source-0",
@@ -1235,6 +2745,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 152,
       "drawCalls": 84,
@@ -1246,7 +2778,7 @@
     {
       "frame": 1148,
       "file": "frame-1148.png",
-      "sha256": "1e42a0e4ba67385fc1ac5438b2862cb58bcc92c2ef69d920695907e490218be9",
+      "sha256": "c7e78c461609d34ecc02ffd1b62a899b2140beaa0bb4771e476ec78065e92be3",
       "objects": [
         {
           "id": "source-0",
@@ -1297,6 +2829,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 148,
       "drawCalls": 84,
@@ -1308,7 +2862,7 @@
     {
       "frame": 1149,
       "file": "frame-1149.png",
-      "sha256": "3ee3c0836d6c2dedaec14ab06b4e1fcb3ea07ac5158cf00a1f89f17007edda46",
+      "sha256": "6e883f92d8276f18090a7a74b9fc3db66bda4631678285c4bf3a114d3deac937",
       "objects": [
         {
           "id": "source-0",
@@ -1359,6 +2913,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 150,
       "drawCalls": 84,
@@ -1370,7 +2946,7 @@
     {
       "frame": 1150,
       "file": "frame-1150.png",
-      "sha256": "ab1cc2816c7d7f80c1d8a51607543bc9155c8989b7482c47a3d6c99a2f707192",
+      "sha256": "11dc824816bcf67ad0962c041a026a02f2948ae90a8a632bf5043d76511817a5",
       "objects": [
         {
           "id": "source-0",
@@ -1421,6 +2997,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 152,
       "drawCalls": 84,
@@ -1432,7 +3030,7 @@
     {
       "frame": 1320,
       "file": "frame-1320.png",
-      "sha256": "9b4e3e270cd8cab2c1d8f21cb1da9652088be3becb1b894b97408dadf98df7ca",
+      "sha256": "1820ae63b0c0fac40e5c991b4fa9592dba63883174a7fe8db86e1913cc088425",
       "objects": [
         {
           "id": "source-0",
@@ -1483,6 +3081,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 153,
       "drawCalls": 84,
@@ -1494,7 +3114,7 @@
     {
       "frame": 1500,
       "file": "frame-1500.png",
-      "sha256": "44da37e54a745cb6054c6b59cf95ad4a06db3603410c52b9247103dcbd15320d",
+      "sha256": "22ce224f1a2b3ecd283fdc4bf31aa6d1618d02745a7f4c64caf2950fada94d5f",
       "objects": [
         {
           "id": "source-0",
@@ -1545,6 +3165,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 151,
       "drawCalls": 84,
@@ -1556,7 +3198,7 @@
     {
       "frame": 1650,
       "file": "frame-1650.png",
-      "sha256": "521cd49c63968504729c427bcbf572a363e61aad3e426d50b801c717ef7ef885",
+      "sha256": "d9878b907c8bdb9b7e7c9fc333fe916afe8375687bf42b922b91389652728dd4",
       "objects": [
         {
           "id": "source-0",
@@ -1607,6 +3249,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 6,
       "attackInstances": 153,
       "drawCalls": 84,
@@ -1618,7 +3282,7 @@
     {
       "frame": 1799,
       "file": "frame-1799.png",
-      "sha256": "6f65a10783dba61851806381a710fefaf6fabbaf72321f756c0ab14077dd8878",
+      "sha256": "50304cde48e01641c044db0423a1d44b3711fa3930a54ab66dc94ea8a1a7f781",
       "objects": [
         {
           "id": "source-0",
@@ -1669,6 +3333,28 @@
           "visibleDepth": true
         }
       ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
       "normalInstances": 5,
       "attackInstances": 154,
       "drawCalls": 84,
@@ -1684,8 +3370,8 @@
   "browser": "151.0.7922.34",
   "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
   "checkedFrames": 1800,
-  "nativeSeekSamples": 27,
-  "repeatSeekSamples": 5,
+  "nativeSeekSamples": 40,
+  "repeatSeekSamples": 7,
   "frameMetrics": [
     {
       "frame": 0,
@@ -1769,8 +3455,8 @@
     },
     {
       "frame": 480,
-      "calls": 84,
-      "triangles": 5488
+      "calls": 85,
+      "triangles": 6512
     },
     {
       "frame": 510,
@@ -1844,8 +3530,8 @@
     },
     {
       "frame": 930,
-      "calls": 84,
-      "triangles": 6316
+      "calls": 85,
+      "triangles": 7340
     },
     {
       "frame": 960,

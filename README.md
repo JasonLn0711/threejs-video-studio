@@ -27,6 +27,10 @@ clips. Wording and voice speed are preserved. Narration ends at 42.381917 second
 the animated takeaway continues for 17.618083 seconds, reaching exactly 60 seconds.
 `python3 scripts/verify_audio.py` verifies all 14 gaps at PCM sample precision.
 
+Cinematic event cues now mark the first packet loss and a later lost legitimate
+request with red warning type, an outlined exclamation mark, a brief camera push
+and a local expanding ring. The server stays online throughout the model.
+
 ## Setup
 
 Use Node.js 24, Python 3.12+ and FFmpeg/ffprobe on PATH.
@@ -65,7 +69,7 @@ installation on a new operating system.
 npm run preview
 npm run check
 npm run render
-python3 scripts/verify_video.py output/ddos-capacity.mp4 --output qa/encoded
+python3 scripts/verify_video.py output/ddos-capacity.mp4 --output qa/encoded --browser-report qa/public/browser.json
 npm run package
 ```
 

@@ -145,6 +145,21 @@ meaning. Text and key markers must survive SDR encoding and phone-size viewing.
 Temporal effects, screen-space reflection and motion blur require additional
 history reconstruction tests; they are excluded from the initial profile.
 
+### Event-driven cinematic emphasis
+
+Use anticipation, a brief impact, and a readable aftermath to mark consequential
+state changes. Bind every cue to the simulated event frame. Reserve red type and
+an outlined warning triangle for confirmed overload or loss; use amber for an
+approaching threshold. Pair color with explicit text and a symbol. A short camera
+push and a local expanding ring may focus attention on the affected component.
+Keep captions and equipment labels readable, avoid full-screen flashes and
+repetitive strobing, and reset all effects on arbitrary seeks.
+
+Name the actual failure: packet loss or link saturation does not establish a
+server crash. A crash cue requires a modeled server failure. Sample event entry,
+peak and exit in native and decoded-video QA. Cinematic effects preserve the
+adopted narration, 0.35-second sentence gaps and exact 60-second pilot duration.
+
 ## 6. Deterministic rendering contract
 
 The invariant is `Frame(i) = Render(Source, Assets, Profile, Seed, i / fps)`.

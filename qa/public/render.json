@@ -1,7 +1,7 @@
 {
-  "identity": "3bd3de149638fedeed20bc5c15addd6df66b2b3df2ae63992e2d57d55f7c0b7a",
-  "sha256": "22ad67340749f447d75374605f3d98b8ffe6e319a98bad923a3e5f564ec54011",
-  "runId": "2026-10-20T10-03-49-944Z-render",
+  "identity": "9f06989cd01145a2ecd5340cfa299a48b2bce06be6dc4e4a1cf4c82d8562cc43",
+  "sha256": "e1a6d2ca2407555dbe638ea2904d9600fca8fbd9a282c33c3138f1833a9332d4",
+  "runId": "2026-10-20T10-27-16-491Z-render",
   "source": {
     "examples/ddos-capacity/assets/audio/narration.wav": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
     "examples/ddos-capacity/assets/fonts/IBMPlexMono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
@@ -11,10 +11,11 @@
     "examples/ddos-capacity/assets/fonts/manifest.json": "c70fc3be5e987d10cdcc78b815f855400cca1718cddf42509d032711e674e324",
     "examples/ddos-capacity/captions.json": "66b0137e87339aaca180f698490eb7539c210dc2d8b57912417227ebffae67f6",
     "examples/ddos-capacity/film.json": "8fa51cbfade312bd6265f0f5dffa767bcef645b76da71f1b62fc03a7d05bf04d",
-    "examples/ddos-capacity/index.html": "1f9fe9054d696415640b00dc505327a0a9df84abb0016400700b6db3a401d821",
+    "examples/ddos-capacity/index.html": "32e6b954a2dcb5c40c991613470f6710d3f51ef6a98fe1a80e02ba70f7ecc7e1",
     "package-lock.json": "714c80acd1cf2ccbe2f99e0f4f496be31f0eb06d037791c09cf08f5f09be2700",
     "scripts/build.mjs": "bc0d9a32ffa6a0544b6cfdb3fc24891dea2d14d7204b1654a945a5a24a83dd1d",
-    "src/scene.ts": "0b733d0c8eba54d58b34bea333be625a1ada9d7ec25de4c96d8d0e6f83db14c8",
+    "src/events.ts": "398feff72787d2ca1c2441884d02e2db85041541ac2eea67999372ff0e1d8359",
+    "src/scene.ts": "50c70a920bab8b7acd416b25a4825d6df01fb1ff5246a9411aa5b0f52ae06110",
     "src/traffic.ts": "5706bf93984a19ca11676f36b6ed577a82366197b31ea4b895534a3d0612fc4e",
     "scripts/render-exec.mjs": "fbf6ad8d85fcc03990c572e251e797d4fbdfd7fb75ecffc771ad6f879c00494e"
   },

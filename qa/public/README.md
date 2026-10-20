@@ -1,4 +1,4 @@
-# Pilot evidence — sentence-timing revision, 2026-10-20
+# Pilot evidence — cinematic-event revision, 2026-10-20
 
 The DDoS shared-capacity pilot has passed the recorded technical checks on Linux
 ARM64 / NVIDIA GB10. Human viewing, listening and pronunciation acceptance remain
@@ -6,30 +6,35 @@ pending. No YouTube or Instagram upload has been performed.
 
 | Layer | Result and evidence |
 | --- | --- |
-| Source | One concept; illustrative FIFO model; pinned Three.js/HyperFrames; 4 unit tests and TypeScript checks pass |
-| Native host | [HyperFrames check](native-check.json): 13 layout samples, 58 contrast checks, zero findings; built-in motion check disabled, covered separately below |
-| 3D runtime | [Browser report](browser.json): all 1,800 frames checked for bounds; 27 native seek samples; 5 repeated/reverse seeks with identical pixels |
+| Source | One concept; illustrative FIFO model; pinned Three.js/HyperFrames; 6 unit tests and TypeScript checks pass |
+| Native host | [HyperFrames check](native-check.json): 13 layout samples, 60 contrast checks, zero findings; built-in motion check disabled, covered separately below |
+| 3D runtime | [Browser report](browser.json): all 1,800 frames checked for bounds; 40 native seek samples; 7 repeated/reverse seeks with identical pixels |
 | Render | [Receipt](render.json): complete 60.000-second MP4, 1080×1920, 1,800 frames, 30 fps, H.264/AAC |
 | Encoded media | [Automated report](encoded.json): constant frame timestamps, full decode, subtitle coverage, no detected black/frozen intervals, exact 2,880,000 decoded audio frames |
-| Audio | [Sentence synthesis receipt](speech.json): 15 sentence clips (8 newly generated, 7 verified cache hits), af_heart, speed 1.0, zero tempo passes; AAC/reference correlation 0.999952, normalized RMS error 0.009874 |
-| Pixel comparison | [12 native/encoded comparisons](encoded-comparison.json) pass the declared lossy thresholds; no registration or masking |
-| Sample inspection | [Agent review](visual-review.json): all 76 extracted samples inspected; this is separate from the automated report's pending human-review field |
-| Restore | [Restore report](restore.json): clean npm install and rebuild from ZIP; frames 0, 600 and 1020 match the original native captures byte-for-byte |
-| CLI cancellation | [Controlled SIGTERM check](cli-interruption.json): owned check stops and records cancelled; successful prior gate retained |
+| Audio | [Prior synthesis receipt](speech.json): all 15 sentence clips reused unchanged in this visual revision (the prior timing revision generated 8 and reused 7), af_heart, speed 1.0, zero tempo passes; AAC/reference correlation 0.999952, normalized RMS error 0.009874 |
+| Pixel comparison | [40 native/encoded comparisons](encoded-comparison.json) pass the declared lossy thresholds; no registration or masking |
+| Sample inspection | [Agent review](visual-review.json): all 89 extracted samples inspected; this is separate from the automated report's pending human-review field |
+| Restore | [Restore report](restore.json): clean npm install and rebuild from ZIP; frames 0, 484, 600, 934 and 1020 match the original native captures byte-for-byte |
+| CLI cancellation | [Historical controlled SIGTERM check](cli-interruption.json): owned check stops and records cancelled; successful prior gate retained |
 
-Runtime: Chromium 151.0.7922.34, ANGLE / NVIDIA GB10 / OpenGL ES 3.2. Sampled
-scene complexity: 82–84 draw calls and 3,472–6,628 triangles.
-
-The full production attempt is `2026-10-20T10-03-49-944Z-render`. Its wall time,
-including usage lookup and audio mux, was 340.587 seconds. HyperFrames reported
-321.4 seconds for its native render; capture and encoding overlapped for 299.7
-seconds and must not be added together. One worker was used. There is no paired
-performance comparison or speedup claim.
+Runtime: Chromium 151.0.7922.34, ANGLE / NVIDIA GB10 / OpenGL ES 3.2.
+One GPU worker renders the complete film. The render receipt identifies the exact
+run and source hashes. There is no paired performance comparison or speedup claim.
 
 **Actual capture path:** hardware WebGL rendering with screenshot capture.
 `HeadlessExperimental.enable` was unavailable, so HyperFrames fell back from
 BeginFrame. Some trace rows retained the requested `beginframe` label; the fallback
 message, session initialization and final summary establish the actual path.
+
+## Cinematic event amendment
+
+Amber capacity warning begins at frame 463. Actual first packet loss triggers
+“PACKETS DROPPED” at frame 478; a legitimate request loss triggers “REQUEST LOST”
+at frame 928. An outlined exclamation mark, local expanding ring and brief camera
+push focus attention on the affected queue. The server stays online. All effects
+are deterministic on absolute frame seeks. Native and encoded sampling includes
+event entry, peak and exit. The two rejected layout checks remain in local run
+records; adding font descent space resolved the title overflow before delivery.
 
 ## Timing amendment
 
@@ -44,12 +49,12 @@ final hold is separate from sentence gaps. Captions and scene beats were retimed
 ## Inspection and controls
 
 The final encoded file SHA-256 is
-`22ad67340749f447d75374605f3d98b8ffe6e319a98bad923a3e5f564ec54011`.
+`e1a6d2ca2407555dbe638ea2904d9600fca8fbd9a282c33c3138f1833a9332d4`.
 Its complete extracted-image hash inventory is in `encoded.json`.
 
 [Contact sheet 1](contact-sheet-1.jpg), [2](contact-sheet-2.jpg),
-[3](contact-sheet-3.jpg), [4](contact-sheet-4.jpg), [5](contact-sheet-5.jpg)
-and [the cover extracted at frame 1650](cover.png) show the delivered picture.
+[3](contact-sheet-3.jpg), [4](contact-sheet-4.jpg), [5](contact-sheet-5.jpg),
+[6](contact-sheet-6.jpg) and [the cover extracted at frame 934](cover.png) show the delivered picture.
 These are frames from the MP4, not substitutes captured from the source preview.
 
 The historical [freeze-control record](freeze-control.json) retains the initial whole-frame
@@ -57,10 +62,10 @@ false positives and the revised viewport method. A three-second static control
 is correctly detected after two seconds. Detection is scoped to freezes lasting
 at least two seconds; continuous human review remains a separate check.
 
-The [initial comparison](encoded-comparison-initial.json) failed on frames 420
+The historical [initial comparison](encoded-comparison-initial.json) failed on frames 420
 and 1020 because the QA browser used different font hinting and graphics flags
 from the production renderer. QA and restore now use the production-compatible
-`gl-egl`, `--font-render-hinting=none`, sRGB and pixel ratio 1 profile. All-frame
+`gl-egl`, `--font-render-hinting=none`, sRGB and pixel ratio 1 profile. At that revision, all-frame
 checks, repeated seeks and the 12 encoded comparisons then passed with unchanged
 tolerances. The MP4 itself was unchanged. The corrected native reference was
 visually inspected at frame 420. Earlier receipts remain in Git history.
