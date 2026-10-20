@@ -55,6 +55,7 @@ try {
     await child('preview', hf, ['preview', '--background', '--port', '3047'], project);
   } else if (command === 'check') {
     const identity = await qaIdentity();
+    await child('audio-timing', 'python3', ['scripts/verify_audio.py']);
     await child('types', path.join(root, 'node_modules/.bin/tsc'), ['--noEmit']);
     await child('tests', process.execPath, ['--test', 'tests/traffic.test.mjs']);
     const raw = await child('hyperframes-check', hf, ['check', '--json', '--samples', '13'], project, false);

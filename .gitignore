@@ -25,3 +25,5 @@ qa/encoded/
 
 **/.thumbnails/
 **/.waveform-cache/
+
+qa/history/

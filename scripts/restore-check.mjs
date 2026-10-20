@@ -33,7 +33,7 @@ await new Promise(r => server.listen(0, '127.0.0.1', r));
 let browser;
 const receipt = { status: 'failed', scope: 'Clean npm install, rebuild and three native-seek pixel comparisons on the original machine; not a second full MP4 render or cross-platform certification.', runtimeHash: hash(runtime), frames: [] };
 try {
-  browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=gl', '--ignore-gpu-blocklist'] });
+  browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=gl-egl', '--ignore-gpu-blocklist', '--font-render-hinting=none', '--force-color-profile=srgb', '--force-device-scale-factor=1'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   await page.goto(`http://127.0.0.1:${server.address().port}`, { waitUntil: 'networkidle' });
   await page.waitForFunction(() => window.studio && window.__player?.renderSeek);

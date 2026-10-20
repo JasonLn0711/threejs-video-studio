@@ -42,6 +42,10 @@ def main():
     model = None
     output = np.zeros((round(film["duration"] * 48000), 2), dtype=np.int16)
     clips, generated, reused = [], 0, 0
+    timing = film.get("audioTiming")
+    sequential = timing and timing["mode"] == "sequential_sentences"
+    next_start = round(timing["startSeconds"] * 48000) if sequential else 0
+    gap_samples = round(timing["sentenceGapSeconds"] * 48000) if sequential else 0
     for i, line in enumerate(film["narration"]):
         recipe = {"text": line["text"], "voice": film["voice"], "models": identities, "runtime": runtime}
         key = hashlib.sha256(json.dumps(recipe, sort_keys=True).encode()).hexdigest()
@@ -66,17 +70,41 @@ def main():
         subprocess.run(["ffmpeg", "-v", "error", "-nostdin", "-y", "-i", str(raw),
                         "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(clip)], check=True)
         data, rate = sf.read(clip, dtype="int16", always_2d=True)
-        start = round(line["at"] * rate)
+        trim_start, trim_end = 0, len(data)
+        if sequential:
+            # Preserve the baseline; trim only the processed clip's edge silence.
+            threshold = 32768 * 10 ** (timing["trimThresholdDb"] / 20)
+            active = np.flatnonzero(np.max(np.abs(data.astype(np.int32)), axis=1) >= threshold)
+            if not len(active):
+                raise RuntimeError(f"Sentence {i} has no audible samples")
+            pad = timing["trimPaddingSamples"]
+            trim_start, trim_end = max(0, int(active[0]) - pad), min(len(data), int(active[-1]) + 1 + pad)
+            data = data[trim_start:trim_end]
+            sf.write(clip, data, rate, subtype="PCM_16")
+        start = next_start if sequential else round(line["at"] * rate)
         end = start + len(data)
-        if end > round(line["until"] * rate):
+        if sequential:
+            line["at"], line["until"] = start / rate, end / rate
+            next_start = end + gap_samples
+        if end > len(output):
+            raise RuntimeError("Narration exceeds film duration; revise timing or text")
+        if not sequential and end > round(line["until"] * rate):
             raise RuntimeError(f"Line {i} exceeds its window: {len(data)/rate:.3f}s > {line['until']-line['at']:.3f}s; revise text, never truncate")
         if np.any(output[start:end]):
             raise RuntimeError("Narration overlap")
         output[start:end] = data
         clips.append({"id": i, "text": line["text"], "start": start / rate, "end": end / rate,
                       "startSample": start, "endSample": end, "sha256": digest(clip),
-                      "baselineSha256": digest(raw)})
+                      "baselineSha256": digest(raw),
+                      "trimStartSample48k": trim_start, "trimEndSample48k": trim_end})
         print(f"speech {i+1}/{len(film['narration'])} | generated={generated} reused={reused} | {len(data)/rate:.2f}s", file=sys.stderr)
+    if sequential:
+        for b, beat in enumerate(film["beats"]):
+            first = next(c for c, line in zip(clips, film["narration"]) if line["beat"] == b)
+            beat["start"] = 0 if b == 0 else round(first["start"] * film["fps"]) / film["fps"]
+        for b, beat in enumerate(film["beats"]):
+            beat["end"] = film["beats"][b+1]["start"] if b+1 < len(film["beats"]) else film["duration"]
+        (root / "film.json").write_text(json.dumps(film, indent=2) + "\n")
     target = folder / "narration.wav"
     sf.write(target, output, 48000, subtype="PCM_16")
     (root / "captions.json").write_text(json.dumps(clips, indent=2) + "\n")
@@ -86,7 +114,10 @@ def main():
               "runtime": runtime, "generatedClips": generated, "reusedClips": reused,
               "sampleRate": 48000, "channels": 2, "audioFrames": len(output),
               "tempoPasses": 0, "narrationSha256": digest(target),
-              "humanListening": "pending", "segments": clips}
+              "humanListening": "pending", "segments": clips,
+              "timing": timing, "gapSamples": gap_samples,
+              "narrationEndSeconds": clips[-1]["end"],
+              "animatedTailSeconds": film["duration"] - clips[-1]["end"]}
     (folder / "receipt.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps({k: v for k, v in report.items() if k != "segments"}))
 

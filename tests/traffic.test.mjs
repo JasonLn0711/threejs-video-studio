@@ -29,3 +29,10 @@ test('exact half-open beat boundaries and time clamps', () => {
   assert.equal(frameIndex(-1, 30, 1800), 0);
   assert.throws(() => frameIndex(NaN, 30, 1800));
 });
+test('retimed narration keeps attacks after their cue and preserves link capacity', () => {
+  const m = buildTraffic(30, 60, 1973, 11.3, 9.2);
+  assert.ok(m.packets.filter(p => p.role === 'attack').every(p => p.spawn >= 339));
+  assert.equal(m.frames[338].dropped, 0);
+  assert.ok(m.frames[900].dropped > 0);
+  for (let f = 30; f < 1800; f++) assert.ok(m.frames[f].served - m.frames[f - 30].served <= CAPACITY);
+});

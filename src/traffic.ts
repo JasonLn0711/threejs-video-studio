@@ -6,7 +6,7 @@ export interface Packet {
 export interface TrafficFrame { queue: number[]; arrivals: number; served: number; dropped: number; utilization: number }
 export const CAPACITY = 8;
 export const QUEUE_LIMIT = 24;
-export function buildTraffic(fps = 30, duration = 60, seed = 1973) {
+export function buildTraffic(fps = 30, duration = 60, seed = 1973, attackStart = 14, rampSeconds = 13) {
   if (!Number.isInteger(fps) || fps < 1 || duration <= 0) throw new Error('Invalid timeline');
   const count = Math.round(fps * duration), packets: Packet[] = [], frames: TrafficFrame[] = [];
   const queue: number[] = [];
@@ -15,7 +15,7 @@ export function buildTraffic(fps = 30, duration = 60, seed = 1973) {
   for (let f = 0; f < count; f++) {
     const t = f / fps;
     normalBudget += 2 / fps;
-    attackBudget += (t < 14 ? 0 : 4 + Math.min(1, (t - 14) / 13) * 52) / fps;
+    attackBudget += (t < attackStart ? 0 : 4 + Math.min(1, (t - attackStart) / rampSeconds) * 52) / fps;
     for (const role of ['normal', 'attack'] as const) {
       let budget = role === 'normal' ? normalBudget : attackBudget;
       while (budget >= 1) {

@@ -75,7 +75,7 @@ def main():
     nrmse = math.sqrt(sum((x-y)**2 for x, y in zip(a, b)) / aa)
     checks["audioReferenceAgreement"] = correlation >= .98 and nrmse <= .15
     frames = sorted(set([n * 30 for n in range(60)] + [1799] +
-                        [f + d for f in [120, 420, 810, 1320, 1650] for d in [-1, 0, 1]]))
+                        [round(b["start"] * film["fps"]) + d for b in film["beats"][1:] for d in [-1, 0, 1]]))
     select = "+".join(f"eq(n\\,{f})" for f in frames)
     call(["ffmpeg", "-v", "error", "-i", str(movie), "-vf", f"select='{select}'",
           "-fps_mode", "vfr", "-y", str(out / "sample-%03d.png")])

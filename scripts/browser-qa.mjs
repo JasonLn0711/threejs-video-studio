@@ -26,7 +26,7 @@ const server = http.createServer(async (req, res) => {
 });
 await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
 const port = server.address().port;
-const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=gl', '--ignore-gpu-blocklist'] });
+const browser = await chromium.launch({ headless: true, args: ['--no-sandbox', '--use-gl=angle', '--use-angle=gl-egl', '--ignore-gpu-blocklist', '--font-render-hinting=none', '--force-color-profile=srgb', '--force-device-scale-factor=1'] });
 const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
 const failures = [], consoleErrors = [];
 page.on('pageerror', e => consoleErrors.push(e.message));
@@ -43,8 +43,10 @@ try {
       await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     }, frame);
   };
+  const film = JSON.parse(await fs.readFile(path.join(project, 'film.json'), 'utf8'));
+  const boundaries = film.beats.slice(1).map(b => Math.round(b.start * film.fps));
   const frames = [...new Set([0, 60, 120, 300, 420, 600, 810, 1020, 1320, 1500, 1650, 1799,
-    ...[120, 420, 810, 1320, 1650].flatMap(f => [f - 1, f, f + 1])])].sort((a, b) => a - b);
+    ...boundaries.flatMap(f => [f - 1, f, f + 1])])].sort((a, b) => a - b);
   for (const frame of frames) {
     await seek(frame);
     const state = await page.evaluate(() => window.studio.inspect());
@@ -84,6 +86,7 @@ try {
   failures.push(...allFrames.issues);
   if (consoleErrors.length) failures.push({ kind: 'console-errors', count: consoleErrors.length });
   report = { ...report, status: failures.length ? 'failed' : 'passed',
+    captureProfile: 'HyperFrames-compatible gl-egl, font-render-hinting=none, sRGB, deviceScaleFactor=1',
     browser: browser.version(), gpu: report.captures[0].gpu, checkedFrames: 1800,
     nativeSeekSamples: frames.length, repeatSeekSamples: 5, frameMetrics: allFrames.results };
 } catch (e) { failures.push({ kind: 'runtime', message: e.message }); }

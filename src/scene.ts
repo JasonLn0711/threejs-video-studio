@@ -89,7 +89,7 @@ const good = new THREE.InstancedMesh(sg, normal, 256), bad = new THREE.Instanced
 good.instanceMatrix.setUsage(THREE.DynamicDrawUsage); bad.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
 good.frustumCulled = false; bad.frustumCulled = false; scene.add(good, bad);
 const dummy = new THREE.Object3D();
-const model = buildTraffic(film.fps, film.duration, film.seed);
+const model = buildTraffic(film.fps, film.duration, film.seed, film.beats[2].start, film.beats[3].start - film.beats[2].start);
 const el = (id: string) => document.getElementById(id)!;
 const labels = [
   { id: 'server-label', point: new THREE.Vector3(0, 2.9, -6.4) },
@@ -106,7 +106,7 @@ export function renderAt(frame: number) {
   if (!Number.isInteger(frame) || frame < 0 || frame >= 1800) throw new Error('Frame outside [0, 1799]');
   lastFrame = frame;
   const t = frame / film.fps, state = model.frames[frame];
-  const push = Math.sin(Math.min(1, Math.max(0, (t - 18) / 32)) * Math.PI);
+  const push = Math.sin(Math.min(1, Math.max(0, (t - film.beats[2].start - 2) / (film.beats[5].start - film.beats[2].start - 2))) * Math.PI);
   camera.position.set(7.5 - 1.2 * push, 13.8 - .6 * push, 19.8 - push);
   camera.lookAt(0, .3, -.2);
   camera.updateMatrixWorld(true);
@@ -131,7 +131,7 @@ export function renderAt(frame: number) {
       if (q < 0) continue;
       x = (q % 6 - 2.5) * .27; z = .85 + Math.floor(q / 6) * .30;
       y = .3;
-      if (p.role === 'normal' && t >= 44) scale = 1.5;
+      if (p.role === 'normal' && t >= film.beats[4].start) scale = 1.5;
     }
     dummy.position.set(x, y, z);
     dummy.rotation.set(0, p.role === 'attack' ? t * .8 + p.id : 0, 0);
@@ -149,7 +149,7 @@ export function renderAt(frame: number) {
   el('caption').textContent = cue?.text ?? '';
   el('caption').style.opacity = cue ? '1' : '0';
   el('capacity-fill').style.transform = `scaleX(${state.utilization})`;
-  el('capacity-state').textContent = state.queue.length >= QUEUE_LIMIT - 1 ? 'SATURATED' : (t >= 14 ? 'FILLING' : 'ROOM AVAILABLE');
+  el('capacity-state').textContent = state.queue.length >= QUEUE_LIMIT - 1 ? 'SATURATED' : (t >= film.beats[2].start ? 'FILLING' : 'ROOM AVAILABLE');
   el('capacity-fill').style.backgroundColor = state.queue.length ? '#ff7a59' : '#4dd4ff';
   el('queue-state').textContent = state.queue.length >= QUEUE_LIMIT - 1 ? 'QUEUE FULL · PACKETS DROP' : (state.queue.length ? 'QUEUE BUILDING' : 'PACKETS PASS THROUGH');
   for (const label of labels) {

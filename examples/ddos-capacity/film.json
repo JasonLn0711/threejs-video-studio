@@ -7,27 +7,160 @@
   "fps": 30,
   "duration": 60,
   "seed": 1973,
-  "safeArea": { "left": 90, "right": 900, "top": 240, "bottom": 1480 },
-  "voice": { "name": "af_heart", "language": "en-us", "speed": 1.0, "tempoPasses": 0 },
+  "safeArea": {
+    "left": 90,
+    "right": 900,
+    "top": 240,
+    "bottom": 1480
+  },
+  "voice": {
+    "name": "af_heart",
+    "language": "en-us",
+    "speed": 1.0,
+    "tempoPasses": 0
+  },
   "beats": [
-    { "start": 0, "end": 4, "eyebrow": "DDoS / NETWORK CAPACITY", "title": "Online.\nBut unreachable.", "detail": "Follow the traffic to find the bottleneck." },
-    { "start": 4, "end": 14, "eyebrow": "01 / NORMAL FLOW", "title": "One link.\nFinite capacity.", "detail": "Legitimate traffic shares a path to the service." },
-    { "start": 14, "end": 27, "eyebrow": "02 / MANY SOURCES", "title": "More traffic.\nSame link.", "detail": "Attack traffic converges from many devices." },
-    { "start": 27, "end": 44, "eyebrow": "03 / THE BOTTLENECK", "title": "Capacity reached.", "detail": "Packets queue. Full queues drop packets." },
-    { "start": 44, "end": 55, "eyebrow": "04 / THE USER EXPERIENCE", "title": "Normal traffic\ngets caught too.", "detail": "The server can remain online while access fails." },
-    { "start": 55, "end": 60, "eyebrow": "ONE CONCEPT / DDoS", "title": "A full link can\nblock a service.", "detail": "Shared capacity becomes an availability limit." }
+    {
+      "start": 0,
+      "end": 3.566666666666667,
+      "eyebrow": "DDoS / NETWORK CAPACITY",
+      "title": "Online.\nBut unreachable.",
+      "detail": "Follow the traffic to find the bottleneck."
+    },
+    {
+      "start": 3.566666666666667,
+      "end": 11.3,
+      "eyebrow": "01 / NORMAL FLOW",
+      "title": "One link.\nFinite capacity.",
+      "detail": "Legitimate traffic shares a path to the service."
+    },
+    {
+      "start": 11.3,
+      "end": 20.5,
+      "eyebrow": "02 / MANY SOURCES",
+      "title": "More traffic.\nSame link.",
+      "detail": "Attack traffic converges from many devices."
+    },
+    {
+      "start": 20.5,
+      "end": 30.6,
+      "eyebrow": "03 / THE BOTTLENECK",
+      "title": "Capacity reached.",
+      "detail": "Packets queue. Full queues drop packets."
+    },
+    {
+      "start": 30.6,
+      "end": 38.3,
+      "eyebrow": "04 / THE USER EXPERIENCE",
+      "title": "Normal traffic\ngets caught too.",
+      "detail": "The server can remain online while access fails."
+    },
+    {
+      "start": 38.3,
+      "end": 60,
+      "eyebrow": "ONE CONCEPT / DDoS",
+      "title": "A full link can\nblock a service.",
+      "detail": "Shared capacity becomes an availability limit."
+    }
   ],
   "narration": [
-    { "at": 0.35, "until": 4.0, "text": "The server is online. Why won't the page load?" },
-    { "at": 4.4, "until": 9.0, "text": "Follow the traffic. This network link has limited capacity." },
-    { "at": 9.3, "until": 14.0, "text": "Normally, packets pass through and the service stays reachable." },
-    { "at": 14.4, "until": 20.3, "text": "Now, many devices send attack traffic toward the same destination." },
-    { "at": 20.6, "until": 26.8, "text": "Their separate paths converge on one shared link. Its capacity hasn't changed." },
-    { "at": 27.4, "until": 34.2, "text": "More traffic arrives than the link can carry. Packets wait in a queue." },
-    { "at": 34.5, "until": 39.6, "text": "When that queue fills, additional packets are dropped." },
-    { "at": 40.0, "until": 44.0, "text": "Legitimate traffic shares this bottleneck too." },
-    { "at": 44.4, "until": 50.0, "text": "A normal request may be delayed or lost before it reaches the server." },
-    { "at": 50.3, "until": 55.0, "text": "The machine can still be running while users cannot reach it." },
-    { "at": 55.3, "until": 59.8, "text": "That's one way a distributed denial of service takes a service offline." }
-  ]
+    {
+      "text": "The server is online.",
+      "beat": 0,
+      "at": 0.35,
+      "until": 1.5833541666666666
+    },
+    {
+      "text": "Why won't the page load?",
+      "beat": 0,
+      "at": 1.9333541666666667,
+      "until": 3.2134583333333335
+    },
+    {
+      "text": "Follow the traffic.",
+      "beat": 1,
+      "at": 3.563458333333333,
+      "until": 4.614270833333333
+    },
+    {
+      "text": "This network link has limited capacity.",
+      "beat": 1,
+      "at": 4.964270833333333,
+      "until": 7.300625
+    },
+    {
+      "text": "Normally, packets pass through and the service stays reachable.",
+      "beat": 1,
+      "at": 7.650625,
+      "until": 10.944895833333334
+    },
+    {
+      "text": "Now, many devices send attack traffic toward the same destination.",
+      "beat": 2,
+      "at": 11.294895833333333,
+      "until": 15.345770833333333
+    },
+    {
+      "text": "Their separate paths converge on one shared link.",
+      "beat": 2,
+      "at": 15.695770833333333,
+      "until": 18.1520625
+    },
+    {
+      "text": "Its capacity hasn't changed.",
+      "beat": 2,
+      "at": 18.5020625,
+      "until": 20.137583333333332
+    },
+    {
+      "text": "More traffic arrives than the link can carry.",
+      "beat": 3,
+      "at": 20.487583333333333,
+      "until": 22.809770833333335
+    },
+    {
+      "text": "Packets wait in a queue.",
+      "beat": 3,
+      "at": 23.159770833333333,
+      "until": 24.364958333333334
+    },
+    {
+      "text": "When that queue fills, additional packets are dropped.",
+      "beat": 3,
+      "at": 24.714958333333332,
+      "until": 27.424270833333335
+    },
+    {
+      "text": "Legitimate traffic shares this bottleneck too.",
+      "beat": 3,
+      "at": 27.774270833333333,
+      "until": 30.253020833333334
+    },
+    {
+      "text": "A normal request may be delayed or lost before it reaches the server.",
+      "beat": 4,
+      "at": 30.603020833333332,
+      "until": 34.613770833333334
+    },
+    {
+      "text": "The machine can still be running while users cannot reach it.",
+      "beat": 4,
+      "at": 34.963770833333335,
+      "until": 37.947541666666666
+    },
+    {
+      "text": "That's one way a distributed denial of service takes a service offline.",
+      "beat": 5,
+      "at": 38.29754166666667,
+      "until": 42.38191666666667
+    }
+  ],
+  "audioTiming": {
+    "mode": "sequential_sentences",
+    "sentenceGapSeconds": 0.35,
+    "startSeconds": 0.35,
+    "tailPolicy": "animated_takeaway_until_duration",
+    "trimThresholdDb": -55,
+    "trimPaddingSamples": 240
+  }
 }

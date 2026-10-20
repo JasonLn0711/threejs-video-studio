@@ -1,43 +1,59 @@
 1
-00:00:00,350 --> 00:00:03,145
-The server is online. Why won't the page load?
+00:00:00,350 --> 00:00:01,583
+The server is online.
 
 2
-00:00:04,400 --> 00:00:08,176
-Follow the traffic. This network link has limited capacity.
+00:00:01,933 --> 00:00:03,213
+Why won't the page load?
 
 3
-00:00:09,300 --> 00:00:12,692
-Normally, packets pass through and the service stays reachable.
+00:00:03,563 --> 00:00:04,614
+Follow the traffic.
 
 4
-00:00:14,400 --> 00:00:18,560
-Now, many devices send attack traffic toward the same destination.
+00:00:04,964 --> 00:00:07,301
+This network link has limited capacity.
 
 5
-00:00:20,600 --> 00:00:25,165
-Their separate paths converge on one shared link. Its capacity hasn't changed.
+00:00:07,651 --> 00:00:10,945
+Normally, packets pass through and the service stays reachable.
 
 6
-00:00:27,400 --> 00:00:31,133
-More traffic arrives than the link can carry. Packets wait in a queue.
+00:00:11,295 --> 00:00:15,346
+Now, many devices send attack traffic toward the same destination.
 
 7
-00:00:34,500 --> 00:00:37,316
-When that queue fills, additional packets are dropped.
+00:00:15,696 --> 00:00:18,152
+Their separate paths converge on one shared link.
 
 8
-00:00:40,000 --> 00:00:42,603
-Legitimate traffic shares this bottleneck too.
+00:00:18,502 --> 00:00:20,138
+Its capacity hasn't changed.
 
 9
-00:00:44,400 --> 00:00:48,496
-A normal request may be delayed or lost before it reaches the server.
+00:00:20,488 --> 00:00:22,810
+More traffic arrives than the link can carry.
 
 10
-00:00:50,300 --> 00:00:53,351
-The machine can still be running while users cannot reach it.
+00:00:23,160 --> 00:00:24,365
+Packets wait in a queue.
 
 11
-00:00:55,300 --> 00:00:59,481
+00:00:24,715 --> 00:00:27,424
+When that queue fills, additional packets are dropped.
+
+12
+00:00:27,774 --> 00:00:30,253
+Legitimate traffic shares this bottleneck too.
+
+13
+00:00:30,603 --> 00:00:34,614
+A normal request may be delayed or lost before it reaches the server.
+
+14
+00:00:34,964 --> 00:00:37,948
+The machine can still be running while users cannot reach it.
+
+15
+00:00:38,298 --> 00:00:42,382
 That's one way a distributed denial of service takes a service offline.
