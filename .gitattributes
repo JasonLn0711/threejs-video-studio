@@ -1,0 +1,2 @@
+# Preserve original upstream license bytes, including CRLF and trailing spaces.
+examples/ddos-capacity/assets/fonts/*-OFL.txt -text whitespace=-blank-at-eol
