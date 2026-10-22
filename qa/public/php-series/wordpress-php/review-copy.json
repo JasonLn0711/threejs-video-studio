@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "file": "wordpress-php-review.webm",
+  "scope": "AV1/Opus browser derivative; MP4 is the delivery master",
+  "sha256": "cca8e7c19fe385a0bc7fdc99bb6b1fa7baba28af7fb3b777d69a84bae291d4a7",
+  "frames": 1493,
+  "duration": 49.774,
+  "audioCorrelation": 0.9988545550032603,
+  "audioNormalizedRMSE": 0.06422117163207676,
+  "integratedLufs": -14.78,
+  "truePeakDbtp": -1.9,
+  "fullDecode": "passed",
+  "pixelComparison": {
+    "status": "passed",
+    "samples": 77,
+    "minimumPsnr": 30.627225209598326
+  }
+}

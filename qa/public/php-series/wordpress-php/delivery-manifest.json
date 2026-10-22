@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "files": {
+    "wordpress-php.mp4": {
+      "bytes": 49093554,
+      "sha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4"
+    },
+    "wordpress-php-review.webm": {
+      "bytes": 17277418,
+      "sha256": "cca8e7c19fe385a0bc7fdc99bb6b1fa7baba28af7fb3b777d69a84bae291d4a7"
+    },
+    "wordpress-php-editable.zip": {
+      "bytes": 34930204,
+      "sha256": "36bad4ab77a1e4711b2d0b370f143908c03e4e1b9aa25c3bd12c04ba9aac5e3b"
+    },
+    "captions.en-US.srt": {
+      "bytes": 1386,
+      "sha256": "53b35bb16f3944671ff006e9f7a947b34af435b44a672f1acf41a1f1cc6df81a"
+    },
+    "captions.en-US.vtt": {
+      "bytes": 1394,
+      "sha256": "25620327394085afb2d61d0460724bc5988846cc004c0b1a2674565c662a9b57"
+    },
+    "EP03-wordpress-php-youtube-upload.en-US.txt": {
+      "bytes": 6046,
+      "sha256": "fbe0ba1f1fc39af69e54b6e87afaa5eff02442bf96a2a071cc0dccdf71218599"
+    },
+    "poster.png": {
+      "bytes": 323326,
+      "sha256": "9fad9bfcf67f8cbcdfe08acc405bac746271cb27f508164adb81bb70266ed75b"
+    },
+    "keyframes.jpg": {
+      "bytes": 232206,
+      "sha256": "8c30ceb3143b1ad4c93790786917997ae43b8e1e5d67cd71a603b47bbf1cbdcc"
+    },
+    "SOURCES.md": {
+      "bytes": 1574,
+      "sha256": "a93f2f3bbf06151594090cf40539c7244c50314d01038d48c7458fa18a0b38ce"
+    },
+    "CREDITS.md": {
+      "bytes": 1740,
+      "sha256": "f79aeda1fc163b653738a58b0b706f0cde75dee5561daff3deea2ed333376004"
+    },
+    "qa.json": {
+      "bytes": 3341,
+      "sha256": "4fa49ee3da3f4b65c5b0eb91d223546862fb371f09791296ed1695321353ff52"
+    }
+  },
+  "humanReview": "pending",
+  "uploaded": false
+}

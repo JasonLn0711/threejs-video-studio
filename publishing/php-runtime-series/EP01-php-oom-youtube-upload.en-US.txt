@@ -1,0 +1,88 @@
+YOUTUBE SHORTS UPLOAD PACKET — EPISODE 01
+Language: English (United States)
+Video: php-oom.mp4
+Matching subtitle file: EP01-php-oom.en-US.srt
+Duration: 53.47 seconds
+Format: 1080 x 1920, 30 fps, H.264/AAC
+
+TITLE — recommended
+PHP RCE Before Your Code Runs | CVE-2026-109618
+
+TITLE — alternative (choose one title)
+Before Your Code Runs: PHP’s Memory Error Explained
+
+DESCRIPTION — copy only the text between these markers
+[BEGIN DESCRIPTION]
+Your website’s code may not have started when a PHP runtime vulnerability is triggered.
+
+CVE-2026-109618 involves out-of-memory handling that can interrupt partially initialized internal data. Cleanup may then treat that unfinished state as valid. Under exploitable conditions, a crafted request can lead to unauthenticated remote code execution (RCE).
+
+The pre-application attack scenario was demonstrated with Apache mod_php. Other deployments have different conditions. Code execution starts with the web worker’s permissions; root access is not automatic.
+
+PHP released the security fix on October 21, 2026. Update the PHP runtime and verify that the service actually serving requests has loaded the fix. A firewall does not repair the underlying runtime.
+
+PHP Runtime Failures — Episode 1 of 2: Before Your Code Runs.
+Episode 2 explores stale worker state and use-after-free.
+
+Conceptual 3D animation, not footage of a live exploit. Narration is AI-generated with Kokoro’s am_michael voice; no real person is impersonated.
+
+Official sources:
+PHP security announcement (October 21, 2026):
+https://www.php.net/archive/2026.php#2026-10-21-5
+Technical advisory:
+https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w
+
+Sound credits:
+"basscapes_Subbassonly.wav" by suonho — CC BY 4.0
+https://freesound.org/people/suonho/sounds/58764
+License: https://creativecommons.org/licenses/by/4.0/
+Modified through resampling, filtering, envelopes and mixing.
+
+"mechanical key hard.wav" by bigmonmulgrew — CC0 1.0
+https://freesound.org/people/bigmonmulgrew/sounds/378085
+Terms: https://creativecommons.org/publicdomain/zero/1.0/
+Modified through resampling, filtering, envelopes and mixing.
+
+#PHP #Cybersecurity #Shorts
+[END DESCRIPTION]
+
+TAGS — comma-separated, for the tags field
+PHP, PHP security, CVE-2026-109618, RCE, remote code execution, memory safety, out of memory, OOM, mod_php, Apache, runtime security, cybersecurity, patch management
+
+HASHTAGS — already included at the end of the description
+#PHP #Cybersecurity #Shorts
+
+PINNED COMMENT — optional draft
+RCE does not automatically mean root access. The initial permissions belong to the PHP worker. When checking a fix, verify the runtime actually serving web requests.
+
+UPLOAD SETTINGS — suggested values, not actions already performed
+Video language: English (United States)
+Title and description language: English (United States)
+Category: Education
+Audience: Not made for kids — this is general technical education for students and developers, not child-directed content.
+Playlist suggestion: Cybersecurity Explained — Runtime & Memory Safety
+Episode order: 01 of 02
+Related video: EP02 — PHP Use-After-Free Explained | CVE-2026-109619
+Set the related-video link after the companion video has been uploaded; no public URL exists in this packet.
+Visibility and schedule: Choose according to your channel’s release plan. No upload or publication has been performed.
+
+COVER FRAME — editorial suggestion
+19.10 seconds — unsafe cleanup reaches the unfinished memory cell.
+Optional cover wording: BEFORE YOUR CODE RUNS
+
+SUBTITLES
+Use the matching UTF-8 .srt file as an English (United States) subtitle track with existing timing.
+The SRT matches the final MP4’s spoken text and burned-in caption timing. Utterance timing is measured; phrase splits are proportional estimates, not word-level forced alignment.
+The MP4 already has burned-in captions. Enabling a separate caption track may show a second set of subtitles; check the player display after import.
+
+PRODUCTION NOTE FOR THE UPLOADER
+The description discloses synthetic narration and the conceptual animation. If Studio asks about AI use, describe those actual production facts. No real event footage or identifiable person’s cloned voice is used.
+Keep the sound attribution and license links in the published description.
+
+YOUTUBE HELP REFERENCES — checked 2026-10-22
+Shorts upload:
+https://support.google.com/youtube/answer/12779649?hl=en
+Supported subtitle files (plain UTF-8 SRT):
+https://support.google.com/youtube/answer/2734698?hl=en
+AI-use disclosure guidance:
+https://support.google.com/youtube/answer/14328491?hl=en

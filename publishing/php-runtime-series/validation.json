@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "episodes": [
+    {
+      "episode": "01",
+      "titleCharacters": 47,
+      "descriptionCharacters": 1724,
+      "subtitleCues": 17,
+      "subtitleTextCoverage": "complete",
+      "subtitleLastEnd": 51.944,
+      "files": [
+        "EP01-php-oom-youtube-upload.en-US.txt",
+        "EP01-php-oom.en-US.srt"
+      ]
+    },
+    {
+      "episode": "02",
+      "titleCharacters": 46,
+      "descriptionCharacters": 1693,
+      "subtitleCues": 21,
+      "subtitleTextCoverage": "complete",
+      "subtitleLastEnd": 55.744,
+      "files": [
+        "EP02-php-stale-state-youtube-upload.en-US.txt",
+        "EP02-php-stale-state.en-US.srt"
+      ]
+    },
+    {
+      "episode": "03",
+      "status": "passed",
+      "titleCharacters": 34,
+      "descriptionCharacters": 1781,
+      "tagCharacters": 327,
+      "subtitleCues": 21,
+      "subtitleTextCoverage": "complete",
+      "subtitleLastEnd": 48.262,
+      "timingMethod": "measured utterance edges; estimated phrase boundaries",
+      "files": [
+        "EP03-wordpress-php-youtube-upload.en-US.txt",
+        "EP03-wordpress-php.en-US.srt"
+      ]
+    }
+  ],
+  "zipSha256": "7bc09502660a5620621f5fad9008efff8505bc53784ab70783053d7fb87814de"
+}

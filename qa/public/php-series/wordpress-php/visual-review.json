@@ -1,0 +1,25 @@
+{
+  "status": "sampled_visual_review_complete",
+  "reviewer": "assistant",
+  "method": "Viewed a contact sheet of seven decoded shot midpoints plus the final frame; separately viewed the 1080x1920 cover",
+  "frames": [
+    62,
+    215,
+    481,
+    730,
+    892,
+    1108,
+    1364,
+    1492
+  ],
+  "observations": [
+    "Headlines and captions remain readable in their reserved bands.",
+    "WordPress core indicator is separate from the unknown PHP patch status.",
+    "All seven shots preserve the conceptual assembly or a clearly labeled maintenance endpoint.",
+    "Backport shot shows a fix entering an existing package; it does not mark a live site verified.",
+    "Closing shot retains a clear verification instruction and a bounded final hold."
+  ],
+  "humanViewingAndListening": "pending",
+  "scope": "Sampled decoded-image inspection; not a claim of full-film listening or human acceptance",
+  "videoSha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4"
+}

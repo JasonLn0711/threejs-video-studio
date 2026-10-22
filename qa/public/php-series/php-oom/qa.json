@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "project": "php-oom",
+  "title": "Before Your Code Runs",
+  "cve": "CVE-2026-109618",
+  "durationSeconds": 53.46666666666667,
+  "frameCount": 1604,
+  "format": "1080x1920 / 30 fps / H.264 / AAC stereo 48 kHz",
+  "encoder": "nvenc",
+  "videoSha256": "e5e180eb074218531aaf53c7a7457e6117e7d0335734d2836fea677ef57a21f8",
+  "sourceIdentity": "b8d1577596843f76947aef1ffef76a5554b712d7117bff33ad1b6a4ff3b86742",
+  "fullFrameBrowser": {
+    "checkedFrames": 1604,
+    "layoutFindings": 0,
+    "errors": [],
+    "seekRepeatChecks": [
+      {
+        "frame": 10,
+        "passed": true,
+        "actual": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c",
+        "expected": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c"
+      },
+      {
+        "frame": 90,
+        "passed": true,
+        "actual": "4281d36d37a0c8fb8e0e9f920f8a1f73ad7d575f18578de0c29ebf05bd3066d3",
+        "expected": "4281d36d37a0c8fb8e0e9f920f8a1f73ad7d575f18578de0c29ebf05bd3066d3"
+      },
+      {
+        "frame": 50,
+        "passed": true,
+        "actual": "67b3d951ce3ced7b0131fd6f44d0b36e6ccc423be2f22eab06cf284d68769f95",
+        "expected": "67b3d951ce3ced7b0131fd6f44d0b36e6ccc423be2f22eab06cf284d68769f95"
+      },
+      {
+        "frame": 10,
+        "passed": true,
+        "actual": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c",
+        "expected": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c"
+      }
+    ]
+  },
+  "audio": {
+    "status": "passed",
+    "project": "php-oom",
+    "duration": 53.46666666666667,
+    "frameCount": 1604,
+    "narrationEndSeconds": 51.94379166666667,
+    "finalHoldSeconds": 1.522875,
+    "trailingSilenceSeconds": 0.19722916666666668,
+    "integratedLufs": -14.37,
+    "truePeakDbtp": -1.98,
+    "detectedSilences": [
+      [
+        16.0044,
+        16.5566
+      ]
+    ],
+    "intentionalSilences": [
+      [
+        16.005166666666668,
+        16.55516666666667
+      ]
+    ],
+    "mixSha256": "c06c3b82a8a5158f5a1076b1e9715d53949ee65441c421177f08ef024bfb7de1",
+    "humanListening": "pending",
+    "encoded": {
+      "status": "passed",
+      "videoSha256": "e5e180eb074218531aaf53c7a7457e6117e7d0335734d2836fea677ef57a21f8",
+      "frames": 1604,
+      "duration": 53.466667,
+      "audioCorrelation": 0.9998740200435062,
+      "audioNormalizedRMSE": 0.015964225193847152,
+      "integratedLufs": -14.39,
+      "truePeakDbtp": -1.78,
+      "fullDecode": "passed",
+      "humanListening": "pending"
+    }
+  },
+  "videoAnomalies": {
+    "status": "passed",
+    "project": "php-oom",
+    "duration": 53.46666666666667,
+    "frameCount": 1604,
+    "utterances": 11,
+    "displayCues": 17,
+    "captionTextCoverage": "complete",
+    "timingMethod": "measured utterances; proportional phrase timing, not word forced alignment",
+    "technicalFacts": "Source-linked editorial review is documented separately; this check validates declared content consistency.",
+    "humanReview": "pending",
+    "videoSha256": "e5e180eb074218531aaf53c7a7457e6117e7d0335734d2836fea677ef57a21f8",
+    "blackIntervals": [],
+    "freezeIntervals": [],
+    "anomalyMethod": "Full decoded stream; black >=98% pixels below 2% for 0.1s; freeze noise -60dB for 1s"
+  },
+  "encodedSampleComparison": {
+    "samples": 77,
+    "status": "passed",
+    "minimumPsnr": 29.994768106476997,
+    "tolerance": {
+      "meanAbsoluteChannelError": 8,
+      "fractionPixelsWithChannelErrorOver40": 0.02
+    }
+  },
+  "package": {
+    "status": "passed",
+    "zip": "php-oom-editable.zip",
+    "zipSha256": "cd4bdb9891f76df26abc55c2f42b2b5309a4c5759979af51d36458c7a571d0a7",
+    "files": 100,
+    "crc": "passed",
+    "extractedHashes": "passed",
+    "restoreReceiptSha256": "842582f47de5494ca734656a3f390127467010c0a19f79b4ec178692b40f928d",
+    "videoSha256": "e5e180eb074218531aaf53c7a7457e6117e7d0335734d2836fea677ef57a21f8",
+    "scope": "Full film editable source"
+  },
+  "restore": {
+    "status": "passed",
+    "frames": 77,
+    "tolerance": {
+      "meanAbsoluteChannelError": 0.005,
+      "maximumChannelError": 16,
+      "fractionPixelsWithChannelErrorOver8": 0.0001
+    },
+    "scope": "Clean install, rebuild and sequential native-seek pixel comparison on this machine; tiny GPU edge-raster variation is bounded explicitly"
+  },
+  "humanViewingListening": "pending",
+  "publication": "not_requested"
+}

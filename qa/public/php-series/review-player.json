@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope": "Local file review page; both AV1/Opus WebM fallback files loaded, played and sought to 10 seconds in Chromium. This installed browser does not support H.264; MP4 master decoding is verified separately with FFmpeg.",
+  "videos": [
+    {
+      "source": "php-oom-review.webm",
+      "duration": 53.49,
+      "width": 1080,
+      "height": 1920,
+      "currentTime": 10,
+      "error": null,
+      "decodedFrames": 63
+    },
+    {
+      "source": "php-stale-state-review.webm",
+      "duration": 57.288,
+      "width": 1080,
+      "height": 1920,
+      "currentTime": 10,
+      "error": null,
+      "decodedFrames": 61
+    }
+  ]
+}

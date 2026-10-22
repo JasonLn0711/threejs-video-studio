@@ -1,0 +1,887 @@
+{
+  "status": "passed",
+  "command": "render",
+  "project": "wordpress-php",
+  "run": "qa/projects/wordpress-php/runs/2026-10-22T12-48-57-859Z-render",
+  "encoded": {
+    "status": "passed",
+    "method": "Unregistered RGB comparison using the existing DDoS delivery tolerance; PSNR is diagnostic. Independent repeat encodes must decode to exactly identical frames.",
+    "tolerance": {
+      "meanAbsoluteChannelError": 8,
+      "fractionPixelsWithChannelErrorOver40": 0.02
+    },
+    "minimumPsnr": 30.645356808559825,
+    "frames": [
+      {
+        "frame": 0,
+        "meanAbsoluteChannelError": 2.1299760480967076,
+        "fractionPixelsWithChannelErrorOver40": 0.003099440586419753,
+        "psnr": 31.89374600245359,
+        "decoded": "decoded-000.png"
+      },
+      {
+        "frame": 1,
+        "meanAbsoluteChannelError": 2.125917888374486,
+        "fractionPixelsWithChannelErrorOver40": 0.0031018518518518517,
+        "psnr": 31.88992206851513,
+        "decoded": "decoded-001.png"
+      },
+      {
+        "frame": 30,
+        "meanAbsoluteChannelError": 2.1125962898662554,
+        "fractionPixelsWithChannelErrorOver40": 0.0031028163580246915,
+        "psnr": 31.89960904353817,
+        "decoded": "decoded-002.png"
+      },
+      {
+        "frame": 60,
+        "meanAbsoluteChannelError": 2.06046473122428,
+        "fractionPixelsWithChannelErrorOver40": 0.003092206790123457,
+        "psnr": 31.958103560818994,
+        "decoded": "decoded-003.png"
+      },
+      {
+        "frame": 62,
+        "meanAbsoluteChannelError": 2.058381076388889,
+        "fractionPixelsWithChannelErrorOver40": 0.003091724537037037,
+        "psnr": 31.961874561188473,
+        "decoded": "decoded-004.png"
+      },
+      {
+        "frame": 90,
+        "meanAbsoluteChannelError": 2.0584495563271603,
+        "fractionPixelsWithChannelErrorOver40": 0.003096064814814815,
+        "psnr": 31.955038472489164,
+        "decoded": "decoded-005.png"
+      },
+      {
+        "frame": 120,
+        "meanAbsoluteChannelError": 2.02563978909465,
+        "fractionPixelsWithChannelErrorOver40": 0.0031028163580246915,
+        "psnr": 31.94952647300036,
+        "decoded": "decoded-006.png"
+      },
+      {
+        "frame": 123,
+        "meanAbsoluteChannelError": 2.024944862397119,
+        "fractionPixelsWithChannelErrorOver40": 0.0031004050925925925,
+        "psnr": 31.947320345681295,
+        "decoded": "decoded-007.png"
+      },
+      {
+        "frame": 124,
+        "meanAbsoluteChannelError": 2.087637281378601,
+        "fractionPixelsWithChannelErrorOver40": 0.0033921682098765433,
+        "psnr": 31.275688857670133,
+        "decoded": "decoded-008.png"
+      },
+      {
+        "frame": 125,
+        "meanAbsoluteChannelError": 2.066073013117284,
+        "fractionPixelsWithChannelErrorOver40": 0.003388792438271605,
+        "psnr": 31.282201410758795,
+        "decoded": "decoded-009.png"
+      },
+      {
+        "frame": 150,
+        "meanAbsoluteChannelError": 2.052533275462963,
+        "fractionPixelsWithChannelErrorOver40": 0.0033926504629629628,
+        "psnr": 31.288537734897993,
+        "decoded": "decoded-010.png"
+      },
+      {
+        "frame": 180,
+        "meanAbsoluteChannelError": 2.0540170074588477,
+        "fractionPixelsWithChannelErrorOver40": 0.0033931327160493826,
+        "psnr": 31.28937093301043,
+        "decoded": "decoded-011.png"
+      },
+      {
+        "frame": 210,
+        "meanAbsoluteChannelError": 2.071764403292181,
+        "fractionPixelsWithChannelErrorOver40": 0.0033955439814814816,
+        "psnr": 31.283934581269314,
+        "decoded": "decoded-012.png"
+      },
+      {
+        "frame": 215,
+        "meanAbsoluteChannelError": 2.0724948559670784,
+        "fractionPixelsWithChannelErrorOver40": 0.003394579475308642,
+        "psnr": 31.28120136942629,
+        "decoded": "decoded-013.png"
+      },
+      {
+        "frame": 240,
+        "meanAbsoluteChannelError": 2.059415670010288,
+        "fractionPixelsWithChannelErrorOver40": 0.0033921682098765433,
+        "psnr": 31.283056418770194,
+        "decoded": "decoded-014.png"
+      },
+      {
+        "frame": 270,
+        "meanAbsoluteChannelError": 2.0625954861111113,
+        "fractionPixelsWithChannelErrorOver40": 0.003383005401234568,
+        "psnr": 31.283445622026655,
+        "decoded": "decoded-015.png"
+      },
+      {
+        "frame": 300,
+        "meanAbsoluteChannelError": 2.080567772633745,
+        "fractionPixelsWithChannelErrorOver40": 0.0033878279320987653,
+        "psnr": 31.280752658040992,
+        "decoded": "decoded-016.png"
+      },
+      {
+        "frame": 305,
+        "meanAbsoluteChannelError": 2.081485178755144,
+        "fractionPixelsWithChannelErrorOver40": 0.003384934413580247,
+        "psnr": 31.278948806650824,
+        "decoded": "decoded-017.png"
+      },
+      {
+        "frame": 306,
+        "meanAbsoluteChannelError": 2.1608786651234566,
+        "fractionPixelsWithChannelErrorOver40": 0.003751446759259259,
+        "psnr": 31.05681945722385,
+        "decoded": "decoded-018.png"
+      },
+      {
+        "frame": 307,
+        "meanAbsoluteChannelError": 2.1385768711419755,
+        "fractionPixelsWithChannelErrorOver40": 0.0037133487654320988,
+        "psnr": 31.0714984048533,
+        "decoded": "decoded-019.png"
+      },
+      {
+        "frame": 330,
+        "meanAbsoluteChannelError": 2.127611400462963,
+        "fractionPixelsWithChannelErrorOver40": 0.0037041859567901233,
+        "psnr": 31.075599041247287,
+        "decoded": "decoded-020.png"
+      },
+      {
+        "frame": 360,
+        "meanAbsoluteChannelError": 2.1258810763888887,
+        "fractionPixelsWithChannelErrorOver40": 0.003704668209876543,
+        "psnr": 31.076615168918508,
+        "decoded": "decoded-021.png"
+      },
+      {
+        "frame": 390,
+        "meanAbsoluteChannelError": 2.1252197466563785,
+        "fractionPixelsWithChannelErrorOver40": 0.003707079475308642,
+        "psnr": 31.074129521035676,
+        "decoded": "decoded-022.png"
+      },
+      {
+        "frame": 420,
+        "meanAbsoluteChannelError": 2.1262980645576133,
+        "fractionPixelsWithChannelErrorOver40": 0.0037041859567901233,
+        "psnr": 31.071127422914184,
+        "decoded": "decoded-023.png"
+      },
+      {
+        "frame": 450,
+        "meanAbsoluteChannelError": 2.125382908950617,
+        "fractionPixelsWithChannelErrorOver40": 0.003707079475308642,
+        "psnr": 31.069324558466015,
+        "decoded": "decoded-024.png"
+      },
+      {
+        "frame": 480,
+        "meanAbsoluteChannelError": 2.124805652006173,
+        "fractionPixelsWithChannelErrorOver40": 0.0037041859567901233,
+        "psnr": 31.06534011520135,
+        "decoded": "decoded-025.png"
+      },
+      {
+        "frame": 481,
+        "meanAbsoluteChannelError": 2.1251051311728397,
+        "fractionPixelsWithChannelErrorOver40": 0.003702739197530864,
+        "psnr": 31.065159369749612,
+        "decoded": "decoded-026.png"
+      },
+      {
+        "frame": 510,
+        "meanAbsoluteChannelError": 2.130924961419753,
+        "fractionPixelsWithChannelErrorOver40": 0.0036945408950617284,
+        "psnr": 31.061542091249486,
+        "decoded": "decoded-027.png"
+      },
+      {
+        "frame": 540,
+        "meanAbsoluteChannelError": 2.1299853716563786,
+        "fractionPixelsWithChannelErrorOver40": 0.0036988811728395064,
+        "psnr": 31.058867908267498,
+        "decoded": "decoded-028.png"
+      },
+      {
+        "frame": 570,
+        "meanAbsoluteChannelError": 2.130708108281893,
+        "fractionPixelsWithChannelErrorOver40": 0.0036974344135802467,
+        "psnr": 31.058089528524242,
+        "decoded": "decoded-029.png"
+      },
+      {
+        "frame": 600,
+        "meanAbsoluteChannelError": 2.1308846129115224,
+        "fractionPixelsWithChannelErrorOver40": 0.003704668209876543,
+        "psnr": 31.05441514460413,
+        "decoded": "decoded-030.png"
+      },
+      {
+        "frame": 630,
+        "meanAbsoluteChannelError": 2.132088798868313,
+        "fractionPixelsWithChannelErrorOver40": 0.0037061149691358024,
+        "psnr": 31.053918003134704,
+        "decoded": "decoded-031.png"
+      },
+      {
+        "frame": 656,
+        "meanAbsoluteChannelError": 2.143233989197531,
+        "fractionPixelsWithChannelErrorOver40": 0.003712866512345679,
+        "psnr": 31.050630296163128,
+        "decoded": "decoded-032.png"
+      },
+      {
+        "frame": 657,
+        "meanAbsoluteChannelError": 2.1673191550925925,
+        "fractionPixelsWithChannelErrorOver40": 0.004089988425925926,
+        "psnr": 30.851078392541563,
+        "decoded": "decoded-033.png"
+      },
+      {
+        "frame": 658,
+        "meanAbsoluteChannelError": 2.1516128150720166,
+        "fractionPixelsWithChannelErrorOver40": 0.004085648148148148,
+        "psnr": 30.855623559462515,
+        "decoded": "decoded-034.png"
+      },
+      {
+        "frame": 660,
+        "meanAbsoluteChannelError": 2.1471735146604938,
+        "fractionPixelsWithChannelErrorOver40": 0.004079378858024691,
+        "psnr": 30.857113950997892,
+        "decoded": "decoded-035.png"
+      },
+      {
+        "frame": 690,
+        "meanAbsoluteChannelError": 2.1452239261831276,
+        "fractionPixelsWithChannelErrorOver40": 0.004133873456790124,
+        "psnr": 30.766287249677823,
+        "decoded": "decoded-036.png"
+      },
+      {
+        "frame": 720,
+        "meanAbsoluteChannelError": 2.1482208076131686,
+        "fractionPixelsWithChannelErrorOver40": 0.00415991512345679,
+        "psnr": 30.73200466206364,
+        "decoded": "decoded-037.png"
+      },
+      {
+        "frame": 730,
+        "meanAbsoluteChannelError": 2.148173868312757,
+        "fractionPixelsWithChannelErrorOver40": 0.004161844135802469,
+        "psnr": 30.730459813423195,
+        "decoded": "decoded-038.png"
+      },
+      {
+        "frame": 750,
+        "meanAbsoluteChannelError": 2.1636908436213993,
+        "fractionPixelsWithChannelErrorOver40": 0.004196566358024691,
+        "psnr": 30.6665404257058,
+        "decoded": "decoded-039.png"
+      },
+      {
+        "frame": 780,
+        "meanAbsoluteChannelError": 2.149877668467078,
+        "fractionPixelsWithChannelErrorOver40": 0.00419801311728395,
+        "psnr": 30.667481467978913,
+        "decoded": "decoded-040.png"
+      },
+      {
+        "frame": 802,
+        "meanAbsoluteChannelError": 2.1581113361625515,
+        "fractionPixelsWithChannelErrorOver40": 0.0042018711419753085,
+        "psnr": 30.664494186446976,
+        "decoded": "decoded-041.png"
+      },
+      {
+        "frame": 803,
+        "meanAbsoluteChannelError": 2.2524508101851852,
+        "fractionPixelsWithChannelErrorOver40": 0.003992573302469136,
+        "psnr": 30.805111207325915,
+        "decoded": "decoded-042.png"
+      },
+      {
+        "frame": 804,
+        "meanAbsoluteChannelError": 2.2402973894032923,
+        "fractionPixelsWithChannelErrorOver40": 0.003962191358024691,
+        "psnr": 30.813882428709768,
+        "decoded": "decoded-043.png"
+      },
+      {
+        "frame": 810,
+        "meanAbsoluteChannelError": 2.2296297903806583,
+        "fractionPixelsWithChannelErrorOver40": 0.003960262345679012,
+        "psnr": 30.81714828888537,
+        "decoded": "decoded-044.png"
+      },
+      {
+        "frame": 840,
+        "meanAbsoluteChannelError": 2.2235178755144034,
+        "fractionPixelsWithChannelErrorOver40": 0.003957851080246913,
+        "psnr": 30.820459715273742,
+        "decoded": "decoded-045.png"
+      },
+      {
+        "frame": 870,
+        "meanAbsoluteChannelError": 2.2218066808127572,
+        "fractionPixelsWithChannelErrorOver40": 0.003962673611111111,
+        "psnr": 30.821626698405243,
+        "decoded": "decoded-046.png"
+      },
+      {
+        "frame": 892,
+        "meanAbsoluteChannelError": 2.2196630658436214,
+        "fractionPixelsWithChannelErrorOver40": 0.003962191358024691,
+        "psnr": 30.822160065498302,
+        "decoded": "decoded-047.png"
+      },
+      {
+        "frame": 900,
+        "meanAbsoluteChannelError": 2.2196148405349794,
+        "fractionPixelsWithChannelErrorOver40": 0.0039617091049382715,
+        "psnr": 30.821602868169087,
+        "decoded": "decoded-048.png"
+      },
+      {
+        "frame": 930,
+        "meanAbsoluteChannelError": 2.2190711805555554,
+        "fractionPixelsWithChannelErrorOver40": 0.003955439814814814,
+        "psnr": 30.82243255388434,
+        "decoded": "decoded-049.png"
+      },
+      {
+        "frame": 960,
+        "meanAbsoluteChannelError": 2.2185418274176953,
+        "fractionPixelsWithChannelErrorOver40": 0.0039544753086419755,
+        "psnr": 30.823465224909157,
+        "decoded": "decoded-050.png"
+      },
+      {
+        "frame": 980,
+        "meanAbsoluteChannelError": 2.2176766653806586,
+        "fractionPixelsWithChannelErrorOver40": 0.0039544753086419755,
+        "psnr": 30.829487065777528,
+        "decoded": "decoded-051.png"
+      },
+      {
+        "frame": 981,
+        "meanAbsoluteChannelError": 2.156061278292181,
+        "fractionPixelsWithChannelErrorOver40": 0.0035165895061728394,
+        "psnr": 31.341539166318206,
+        "decoded": "decoded-052.png"
+      },
+      {
+        "frame": 982,
+        "meanAbsoluteChannelError": 2.138328671553498,
+        "fractionPixelsWithChannelErrorOver40": 0.0034871720679012347,
+        "psnr": 31.353513151292777,
+        "decoded": "decoded-053.png"
+      },
+      {
+        "frame": 990,
+        "meanAbsoluteChannelError": 2.1301374421296297,
+        "fractionPixelsWithChannelErrorOver40": 0.003490547839506173,
+        "psnr": 31.35673015872804,
+        "decoded": "decoded-054.png"
+      },
+      {
+        "frame": 1020,
+        "meanAbsoluteChannelError": 2.129751478909465,
+        "fractionPixelsWithChannelErrorOver40": 0.003486207561728395,
+        "psnr": 31.360863317635427,
+        "decoded": "decoded-055.png"
+      },
+      {
+        "frame": 1050,
+        "meanAbsoluteChannelError": 2.1307137345679013,
+        "fractionPixelsWithChannelErrorOver40": 0.0034852430555555557,
+        "psnr": 31.36279992663002,
+        "decoded": "decoded-056.png"
+      },
+      {
+        "frame": 1080,
+        "meanAbsoluteChannelError": 2.134699877829218,
+        "fractionPixelsWithChannelErrorOver40": 0.003486689814814815,
+        "psnr": 31.35842608911352,
+        "decoded": "decoded-057.png"
+      },
+      {
+        "frame": 1108,
+        "meanAbsoluteChannelError": 2.1357997363683126,
+        "fractionPixelsWithChannelErrorOver40": 0.003488136574074074,
+        "psnr": 31.361665307409346,
+        "decoded": "decoded-058.png"
+      },
+      {
+        "frame": 1110,
+        "meanAbsoluteChannelError": 2.136364776234568,
+        "fractionPixelsWithChannelErrorOver40": 0.0034871720679012347,
+        "psnr": 31.361734865508204,
+        "decoded": "decoded-059.png"
+      },
+      {
+        "frame": 1140,
+        "meanAbsoluteChannelError": 2.1426840599279835,
+        "fractionPixelsWithChannelErrorOver40": 0.003491994598765432,
+        "psnr": 31.358487330876216,
+        "decoded": "decoded-060.png"
+      },
+      {
+        "frame": 1170,
+        "meanAbsoluteChannelError": 2.1480206725823043,
+        "fractionPixelsWithChannelErrorOver40": 0.003500675154320988,
+        "psnr": 31.358957241879118,
+        "decoded": "decoded-061.png"
+      },
+      {
+        "frame": 1200,
+        "meanAbsoluteChannelError": 2.1524704218107,
+        "fractionPixelsWithChannelErrorOver40": 0.0035691550925925925,
+        "psnr": 31.352178054238035,
+        "decoded": "decoded-062.png"
+      },
+      {
+        "frame": 1230,
+        "meanAbsoluteChannelError": 2.1673294431584362,
+        "fractionPixelsWithChannelErrorOver40": 0.0035850694444444445,
+        "psnr": 31.34448701496869,
+        "decoded": "decoded-063.png"
+      },
+      {
+        "frame": 1235,
+        "meanAbsoluteChannelError": 2.167323816872428,
+        "fractionPixelsWithChannelErrorOver40": 0.00359375,
+        "psnr": 31.345991352077537,
+        "decoded": "decoded-064.png"
+      },
+      {
+        "frame": 1236,
+        "meanAbsoluteChannelError": 2.173772665895062,
+        "fractionPixelsWithChannelErrorOver40": 0.003953028549382716,
+        "psnr": 30.645356808559825,
+        "decoded": "decoded-065.png"
+      },
+      {
+        "frame": 1237,
+        "meanAbsoluteChannelError": 2.1681651877572015,
+        "fractionPixelsWithChannelErrorOver40": 0.003939043209876543,
+        "psnr": 30.64896871748928,
+        "decoded": "decoded-066.png"
+      },
+      {
+        "frame": 1260,
+        "meanAbsoluteChannelError": 2.156873553240741,
+        "fractionPixelsWithChannelErrorOver40": 0.003934702932098765,
+        "psnr": 30.65517768727218,
+        "decoded": "decoded-067.png"
+      },
+      {
+        "frame": 1290,
+        "meanAbsoluteChannelError": 2.1585161072530865,
+        "fractionPixelsWithChannelErrorOver40": 0.003934702932098765,
+        "psnr": 30.65132239911886,
+        "decoded": "decoded-068.png"
+      },
+      {
+        "frame": 1320,
+        "meanAbsoluteChannelError": 2.1597966499485595,
+        "fractionPixelsWithChannelErrorOver40": 0.003932291666666666,
+        "psnr": 30.65455405015551,
+        "decoded": "decoded-069.png"
+      },
+      {
+        "frame": 1350,
+        "meanAbsoluteChannelError": 2.160352205504115,
+        "fractionPixelsWithChannelErrorOver40": 0.003930844907407407,
+        "psnr": 30.65490920123961,
+        "decoded": "decoded-070.png"
+      },
+      {
+        "frame": 1364,
+        "meanAbsoluteChannelError": 2.160776427469136,
+        "fractionPixelsWithChannelErrorOver40": 0.003932291666666666,
+        "psnr": 30.655059921407172,
+        "decoded": "decoded-071.png"
+      },
+      {
+        "frame": 1380,
+        "meanAbsoluteChannelError": 2.162606577932099,
+        "fractionPixelsWithChannelErrorOver40": 0.003924093364197531,
+        "psnr": 30.65315382701221,
+        "decoded": "decoded-072.png"
+      },
+      {
+        "frame": 1410,
+        "meanAbsoluteChannelError": 2.164764981995885,
+        "fractionPixelsWithChannelErrorOver40": 0.003929398148148148,
+        "psnr": 30.65010755829999,
+        "decoded": "decoded-073.png"
+      },
+      {
+        "frame": 1440,
+        "meanAbsoluteChannelError": 2.166685474537037,
+        "fractionPixelsWithChannelErrorOver40": 0.0039289158950617286,
+        "psnr": 30.651491369067152,
+        "decoded": "decoded-074.png"
+      },
+      {
+        "frame": 1470,
+        "meanAbsoluteChannelError": 2.157552244084362,
+        "fractionPixelsWithChannelErrorOver40": 0.003927469135802469,
+        "psnr": 30.654671115729318,
+        "decoded": "decoded-075.png"
+      },
+      {
+        "frame": 1492,
+        "meanAbsoluteChannelError": 2.1607254693930042,
+        "fractionPixelsWithChannelErrorOver40": 0.003930362654320988,
+        "psnr": 30.6534431952465,
+        "decoded": "decoded-076.png"
+      }
+    ],
+    "repeatComparison": null
+  },
+  "encoder": "nvenc",
+  "artifact": "/home/jnlngx10/phd-research/repos/threejs-video-studio/output/wordpress-php/wordpress-php.mp4",
+  "sha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4",
+  "identity": "d2bacabe6ca577288431331d91a9a84e438c7cdd3f15542ce29357473b8b6279",
+  "source": [
+    [
+      "examples/wordpress-php/EP03-wordpress-php-youtube-upload.en-US.txt",
+      "fbe0ba1f1fc39af69e54b6e87afaa5eff02442bf96a2a071cc0dccdf71218599"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S01-1.wav",
+      "8436317462c0345f9585f1fbe7c6039568a03c86ab8f6186c2405cec2d4f1f1b"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S01-2.wav",
+      "18476595713cff7af0424e0367caccec3ffb0496dc8bc1df86cf439a1ab53cd9"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S02-1.wav",
+      "d4b1005b967f8f38a22cb2956acb97c15feff21ac67f895d8bca1d5aefcee522"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S02-2.wav",
+      "04b5609acbe8b08c60be02c8b7daec86ed1f49c3b4dbeee95397334a5a2e87c7"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S03-1.wav",
+      "3554db63a741445748a501b39af5b50cc34289ee10a3de8f886cd5a0ea17453e"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S03-2.wav",
+      "dcfd3c4609003106b944d3519eb1eea3812962949b7afc2294fb8e7473e05075"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S04-1.wav",
+      "69c1109dddb2a9f3ae2ab43f05d7047c14a43733bf96b43f04ac55a3d3239fa1"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S04-2.wav",
+      "6ff39883e772eb196afd9f8fe233b3c804ba7a1ab1a105de26a6236b75857fdb"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S05-1.wav",
+      "71c84e2b9c82eab7a20e8cbac869cde6bfe6a0ca38ae75c082f4518a815de9ce"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S06-1.wav",
+      "99b01bf28bfcbba92e1d0f936802e9607d39aaf6487c3d07d94024c4ccb40fa4"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S06-2.wav",
+      "3a7fbd797e74896bfc8df1295f0bf3b0ac7ed9b25c8618dc1ea2f31b2784a916"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S07-1.wav",
+      "88359700f3b97853cc47106a29c4185deb292ffcf9e6656c8952868f868be525"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/S07-2.wav",
+      "1cc4b44c8f05ef20669a6ec9da2f784087b04895eef7dfae5a7d410f13d36b35"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/ambience.wav",
+      "0c8e21dcabd4456c69f469ddd2ab249ead5733769ec849155248e5ca8a606247"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S01-1.wav",
+      "55c140a3eecd116fa873471d2d829e2729c4b411839f82e25ec0047fcf392289"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S01-2.wav",
+      "90ea0634c35478658c62dab6d18864320049dd067a7894a0d956fd8d9fd6a8c4"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S02-1.wav",
+      "bbbae4217cd1d7d968942716d71be0c9cc9bd6295707b49a4cec27d456bcd712"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S02-2.wav",
+      "97f2ea81d263c9103d3e46f2a48e5b123bf51c1994bc6dad3eeeec8a97075e7b"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S03-1.wav",
+      "11e7d89f11656c83dcd08a1a32c01d4233f51278abe4cfe3dc4fcb8cf858deed"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S03-2.wav",
+      "6ac5e0497b0d4ebcc8bac535e0401ce636de46dd625141784e3bd851d63a1167"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S04-1.wav",
+      "ce14d9a3329d1b219aba7bbcef6712f3122728122f06e15f6a1a9ce2d84b783b"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S04-2.wav",
+      "0e06559ca8eae51485737af925817ce643c981f63462b0c2291084a8d6d08714"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S05-1.wav",
+      "ecbdd9a07aee8065baa12c2f7309c274be6d76c23a9379e688aa5731c9c0b268"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S06-1.wav",
+      "1bee15e8a4af12c47a8041ad75d9ac87881eaac12e3e2d914dea3bc7f918e55a"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S06-2.wav",
+      "e59ecc6223860f84fd35bc0721398a94a087933a47094bcf841c67e39e96498d"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S07-1.wav",
+      "88782de1639e272026f4db64fccdd20ea898bd80d043550bf4355b03c8647666"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/baseline/S07-2.wav",
+      "76199bcf95a2cda5bdd918a3451b3405251b6a29d04e0dae5ea8901f19b9e6c8"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/effects.wav",
+      "ae40989d05445fec36c8a8c63261967fd9bd4cf4b25c3257d64b1b6af9479932"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/mix-receipt.json",
+      "1cec1b13df0d12d3a2a1524362f15f6b03e83bb5e841a41ebd92c09992da899e"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/mix.wav",
+      "532ae2f0798e04dfa49eeb6e7fe499536507984e9d4032a879f0de6a96432128"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/music.wav",
+      "d5c2a993d7680733aeeb556d4836ca2380fe94ea1e13ad67798700c43bb2cb83"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/narration.wav",
+      "dc37fd63b92a677d4fd50188e97b177a105b764fd03c69daed2d72a4dfc7098d"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/premix.wav",
+      "5b424a3398444b67c415b68f600eadc637539a1e077272c2bfdb2d278415bf22"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/source-manifest.json",
+      "8d053f0f554049f3f01c0e53c3274f0441e0e35636a1be26877f1bed8525caaa"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/sources/drone.mp3",
+      "8064d46541d29db0480fc2ebe238d7539a41493f2c002ebe8deb781512d732df"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/sources/drone.wav",
+      "ca213deba773ae26d1e4634e3bdfedec24fd5372648c9e2f29d04f636e4d4424"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/sources/key.mp3",
+      "7688572248f8f58e33db6986410ad5d03ed4a777ea0c3e39313d5c1d55c8eb02"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/sources/key.wav",
+      "ee2a4eba095ebe24203f139fccdcba451306191ab54a799ef0ab1897336136e1"
+    ],
+    [
+      "examples/wordpress-php/assets/audio/speech-receipt.json",
+      "53e90cdf796323d4b3d612f629ca3f7d7ede0aa49c9d469985a6fccf1d4ee035"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/IBMPlexMono-OFL.txt",
+      "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/IBMPlexMono-Regular.ttf",
+      "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/Noto-CJK-copyright.txt",
+      "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/Oswald-OFL.txt",
+      "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/Oswald.ttf",
+      "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/SignatureCaption.otf",
+      "7433029f51c4cddeb110198c8bc32943b43d5f101d6521a1af24fbb899916889"
+    ],
+    [
+      "examples/wordpress-php/assets/fonts/manifest.json",
+      "366423a2c300848e4abeaa1638f764e76fa418c286611dbf8049e0e8ea651925"
+    ],
+    [
+      "examples/wordpress-php/assets/js/GSAP-NOTICE.txt",
+      "8ef811e688d0bf67cce7bad35802d0447932915d0a7d3d9c098b5c3cd8af42f4"
+    ],
+    [
+      "examples/wordpress-php/assets/js/gsap.min.js",
+      "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    ],
+    [
+      "examples/wordpress-php/captions.en-US.srt",
+      "53b35bb16f3944671ff006e9f7a947b34af435b44a672f1acf41a1f1cc6df81a"
+    ],
+    [
+      "examples/wordpress-php/captions.en-US.vtt",
+      "25620327394085afb2d61d0460724bc5988846cc004c0b1a2674565c662a9b57"
+    ],
+    [
+      "examples/wordpress-php/captions.json",
+      "d82b625d753c0a31813773f56d5b31a7c138dd691b5317197821f0a5a83e2cde"
+    ],
+    [
+      "examples/wordpress-php/display-captions.json",
+      "f694675d5ba8b6c7941324cf9b7ef95749e74a2d194a97b3816e37439ae81ddd"
+    ],
+    [
+      "examples/wordpress-php/film.json",
+      "d9132484550de323abefedc4fc7961f898163a77a7ffa48b995b80a168a7d906"
+    ],
+    [
+      "examples/wordpress-php/hyperframes.json",
+      "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17"
+    ],
+    [
+      "examples/wordpress-php/index.html",
+      "7efcbd54832c36e0c69a0fa6f7ad20356ee9f44a9a1a6cf0ae8cd713996d27b3"
+    ],
+    [
+      "examples/wordpress-php/layout.py",
+      "f61b6aae280646fd83f90fd7549d6d034cc5c81aa04cd7413d7dda5d9afcfa33"
+    ],
+    [
+      "examples/wordpress-php/package.json",
+      "7be80eba325ad66dfce743fff4297c362d467787bde723c38474808b1ef63443"
+    ],
+    [
+      "examples/wordpress-php/scene.ts",
+      "e13c42905a554375666def356f1b9a698dfe8d9fffd4a6aab1c49eaf0d5a9598"
+    ],
+    [
+      "package-lock.json",
+      "323571ded17c53c03ffe8ac8e35b19267f162bfb95764e21a476e981f4a3ec13"
+    ],
+    [
+      "scripts/build.mjs",
+      "8a808ee91cbef9225fcd64a2df6be7fc7ccadeb3bbb5bedebe7a30906d2345fd"
+    ],
+    [
+      "scripts/cinematic-encoded.mjs",
+      "de7da6de4cdf76723ae4130fabe7c6df2558902ff195e99be9879cea171b37b5"
+    ],
+    [
+      "scripts/cinematic-speech.py",
+      "197f296824347d4dafe1f846d20296532b0b87a80ad73ba518bd7ff7f0fd9580"
+    ],
+    [
+      "scripts/php-audio.py",
+      "a3990a0252ac23bbb49d22368aa366ee609d70c94d3d6d985b1ca538500caa16"
+    ],
+    [
+      "scripts/php-browser-qa.mjs",
+      "9ccf5f545b306112c3e4302d4d2222df9486e8e8c3b677a11a159597746c45db"
+    ],
+    [
+      "scripts/php-layout.py",
+      "2d272570fc49f421338348e8429f02eb4c12232baf57dae875f0b5cf395d3516"
+    ],
+    [
+      "scripts/php-package.py",
+      "243708fc05fe31810f78b428827950e41f228dc92895653f5801c9e4d76de023"
+    ],
+    [
+      "scripts/php-restore.mjs",
+      "55a65e624bfe8e77a672e442620601ef4acdd39c6df7babb5dc9b07be6099a54"
+    ],
+    [
+      "scripts/php-studio.mjs",
+      "6aad1e2bbbb191c88382f8da7cd7244b178bb4fc7d4bc1919da85660dc4ab84f"
+    ],
+    [
+      "scripts/php-verify.py",
+      "442a970859d4859d0d6613b5688262c0d4de6f9ac4fdf0dc77ffa65873efd965"
+    ],
+    [
+      "scripts/studio.mjs",
+      "5218b4d0560b50f7eda369f5e5c28067ac453ccf2ce9d9f1a4ea300eb460ba72"
+    ],
+    [
+      "scripts/verify_audio.py",
+      "ff8112284c926d968adf6b8e5233dba8e5bee58cd8a17e2d4e1232d93534ad45"
+    ],
+    [
+      "scripts/verify_cinematic.py",
+      "2c4311be3b32b40441e57aac8a41242a34789d22662a0dfe1f12773d606c1d11"
+    ],
+    [
+      "src/php-series/scene.ts",
+      "418176ae9752c355b5f8a3c9a0d4374329e5bb9975252f4d0182e5618040f2bc"
+    ],
+    [
+      "src/php-series/state.ts",
+      "9f74e7b2507c1e46d20ad55d23e3094bf6ceba1f0be8c36f9c41e3a64f2f48c8"
+    ],
+    [
+      "src/php-series/wordpress-state.ts",
+      "8c9cd11a3ffdce99ea92b738eff9be2c56abd38967e81b9ba9e659267aa9e1b4"
+    ],
+    [
+      "src/php-series/wordpress.ts",
+      "2d0f3d5492b706603683c67536b68514ce0d66c5d913702e538a854f8bfbd85c"
+    ],
+    [
+      "tests/php-series.test.mjs",
+      "c039d419724af5efb078f16cbe1a884d35dcdf7576e924aa5a9b9de0b60ba706"
+    ],
+    [
+      "tests/wordpress-runtime.test.mjs",
+      "bee31a9021f04169142f8dfe96058f7593e18d5bab5361fe3b68f7657d55c585"
+    ]
+  ],
+  "gate": {
+    "status": "passed",
+    "identity": "d2bacabe6ca577288431331d91a9a84e438c7cdd3f15542ce29357473b8b6279",
+    "run": "qa/projects/wordpress-php/runs/2026-10-22T12-46-31-497Z-check",
+    "project": "wordpress-php",
+    "createdAt": "2026-10-22T12:47:46.501Z"
+  },
+  "humanReview": "pending"
+}

@@ -1,0 +1,15 @@
+{
+  "episode": "03",
+  "status": "passed",
+  "titleCharacters": 34,
+  "descriptionCharacters": 1781,
+  "tagCharacters": 327,
+  "subtitleCues": 21,
+  "subtitleTextCoverage": "complete",
+  "subtitleLastEnd": 48.262,
+  "timingMethod": "measured utterance edges; estimated phrase boundaries",
+  "files": [
+    "EP03-wordpress-php-youtube-upload.en-US.txt",
+    "EP03-wordpress-php.en-US.srt"
+  ]
+}

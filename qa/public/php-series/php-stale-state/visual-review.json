@@ -1,0 +1,23 @@
+{
+  "status": "reviewed",
+  "reviewer": "agent visual inspection",
+  "scope": "Seven decoded frames: six shot midpoints plus final frame. Not a complete real-time playback or a human acceptance decision.",
+  "videoSha256": "24093530b21d442ad2a6e98c2e8c06324832d69ce2e59e4578799ab8d5a32833",
+  "frames": [
+    47,
+    208,
+    401,
+    625,
+    1001,
+    1474,
+    1717
+  ],
+  "observations": [
+    "Titles and burned-in captions are legible in sampled frames.",
+    "M17 retains its visible outline when freed, and the reference remains in the vulnerable path.",
+    "Both requests are labeled as running in worker W01; RCE remains conditional and bounded by worker privileges.",
+    "In the corrected final frame, M17 is freed and the reference is absent.",
+    "The final sampled capture includes the complete 3D canvas."
+  ],
+  "humanViewingListening": "pending"
+}

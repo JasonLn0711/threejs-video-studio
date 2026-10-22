@@ -1,0 +1,107 @@
+EP03 | YOUTUBE SHORTS UPLOAD KIT
+WordPress Is Updated. Is Your PHP?
+
+COPY/PASTE SECTION
+==================
+
+TITLE
+WordPress Is Updated. Is Your PHP?
+
+DESCRIPTION — copy the complete block below, including sound attribution
+--- DESCRIPTION START ---
+WordPress and PHP have separate update paths. Updating WordPress does not, by itself, confirm that PHP's security fixes are installed.
+
+Check your site:
+1. Open Tools > Site Health > Info > Server and note the PHP version.
+2. Ask your hosting provider or server administrator to confirm the package build and security fixes used by your live site.
+3. Before a PHP upgrade, back up and test WordPress, theme and plugin compatibility.
+4. Afterward, verify the PHP actually serving requests and test the site's main functions.
+
+Vendors may backport security fixes into older packages. A version number alone is not a verdict; check the vendor's advisory and full package version. Managed hosting may handle these updates for you.
+
+Episode 3 | PHP Runtime Security
+Conceptual 3D animation with synthetic English narration. This is not a scan or recording of a compromised website.
+
+Official sources:
+WordPress PHP update guide: https://wordpress.org/documentation/update-php/
+WordPress Site Health: https://wordpress.org/documentation/article/site-health-screen/
+WordPress requirements: https://wordpress.org/about/requirements/
+Ubuntu security notice (vendor-package example): https://ubuntu.com/security/notices/USN-8948-1
+
+Production and sound credits:
+Narration: Kokoro ONNX, am_michael; no voice cloning.
+Original procedural animation and score: this project.
+"basscapes_Subbassonly.wav" by suonho, CC BY 4.0.
+https://freesound.org/people/suonho/sounds/58764
+License: https://creativecommons.org/licenses/by/4.0/
+Changes: resampling, filtering, envelopes and mixing.
+"mechanical key hard.wav" by bigmonmulgrew, CC0 1.0.
+https://freesound.org/people/bigmonmulgrew/sounds/378085
+https://creativecommons.org/publicdomain/zero/1.0/
+
+#WordPress #PHP #CyberSecurity #WebSecurity #Shorts
+--- DESCRIPTION END ---
+
+TAGS — paste as a comma-separated list
+WordPress security, PHP security, PHP runtime, WordPress update, PHP update, Site Health, patch management, security updates, web hosting, website security, cybersecurity, server security, security patches, backport, WordPress tutorial, PHP tutorial, website maintenance, managed hosting, runtime security, cybersecurity shorts
+
+PINNED COMMENT
+A PHP version number is a starting point. Your host or OS vendor may maintain a patched package with an older upstream version. Confirm the full package build and applicable security advisory, then check the PHP actually serving your site.
+
+ALTERNATIVE TITLES — optional; primary title above is the default
+1. Updated WordPress? Check Your PHP Too
+2. Check the PHP Behind Your WordPress Site
+
+UPLOAD NOTES — do not paste this section into the public description
+==================================================================
+
+FILE SELECTION
+Video: wordpress-php.mp4 (1080 x 1920, 30 fps, H.264/AAC)
+Subtitles: captions.en-US.srt; choose "With timing" when uploading.
+Upload-kit subtitle alias: EP03-wordpress-php.en-US.srt (same contents).
+Poster: poster.png. The file includes a cover design; Shorts thumbnail selection depends on the upload interface. A matching early frame remains available inside the video.
+Review-only fallback: wordpress-php-review.webm. Upload the MP4 master.
+Measured duration: 49.766667 seconds.
+
+SUGGESTED SETTINGS
+Category: Education
+Video language: English (United States)
+Subtitle language: English (United States)
+Audience: No, not made for kids — aimed at website operators and cybersecurity learners.
+Age restriction: None recommended for this educational, non-graphic film.
+License: Standard YouTube License. Retain the audio attribution in the description.
+Paid promotion: No sponsorship or paid product placement included.
+AI use: Yes recommended as this film's disclosure choice. Narration is synthetic; visuals are conceptual procedural animation. No person's voice is cloned, and no actual incident footage is presented.
+Initial visibility: Private for upload review. No publishing or scheduling has been performed.
+Playlist: PHP Runtime Security (suggested). No playlist ID supplied.
+Related video: The Pointer That Stayed (EP02), if already published. Select it in YouTube Studio; no URL is invented here.
+Recording date/location: Leave blank; this is an animation, not a location recording.
+
+SERIES CONTEXT
+EP01 — Before Your Code Runs
+EP02 — The Pointer That Stayed
+EP03 — WordPress Is Updated. Is Your PHP?
+No fixed series-total claim is made. Published URLs for EP01 and EP02 have not been supplied.
+
+COVER TEXT
+WORDPRESS UPDATED.
+PHP CHECKED?
+
+FACT-CHECK NOTES
+- A WordPress-core update indicator does not certify plugin, theme or PHP patch status.
+- Site Health is an information screen; it does not upgrade PHP.
+- A vendor package may contain backported fixes. Do not infer exposure solely from the upstream-looking version number.
+- Check the running website's PHP, not only a command-line PHP binary or the container host.
+- Patching alone does not establish that a site was never compromised.
+- The WordPress PHP update guide contains older version recommendations; this film uses its maintenance workflow, not those historical version numbers.
+
+CAPTION NOTES
+Plain UTF-8 SRT, maximum two lines per cue. Utterance boundaries come from the final narration WAV. Shorter phrase timings are estimated inside those measured boundaries; they are not forced word alignment. Human viewing/listening remains pending.
+
+PLATFORM REFERENCES
+SRT format: https://support.google.com/youtube/answer/2734698?hl=en
+Shorts upload: https://support.google.com/youtube/answer/12779649?hl=en
+AI use: https://support.google.com/youtube/answer/14328491?hl=en
+
+FINAL UPLOAD REVIEW
+Check playback, caption timing, cover selection, audio credits, title and description before changing visibility. This package does not upload, publish, schedule or post comments.

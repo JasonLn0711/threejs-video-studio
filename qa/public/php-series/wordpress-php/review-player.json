@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "videos": [
+    {
+      "source": "php-oom-review.webm",
+      "duration": 53.49,
+      "width": 1080,
+      "height": 1920,
+      "currentTime": 10,
+      "error": null,
+      "decodedFrames": 75
+    },
+    {
+      "source": "php-stale-state-review.webm",
+      "duration": 57.288,
+      "width": 1080,
+      "height": 1920,
+      "currentTime": 10,
+      "error": null,
+      "decodedFrames": 75
+    },
+    {
+      "source": "wordpress-php-review.webm",
+      "duration": 49.774,
+      "width": 1080,
+      "height": 1920,
+      "currentTime": 10,
+      "error": null,
+      "decodedFrames": 70
+    }
+  ],
+  "scope": "Three-film review page: metadata, play/decode, seek and local artifact links. H.264 master verification is separate.",
+  "localLinks": 25
+}

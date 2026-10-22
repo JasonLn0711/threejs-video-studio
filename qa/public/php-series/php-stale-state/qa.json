@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "project": "php-stale-state",
+  "title": "The Pointer That Stayed",
+  "cve": "CVE-2026-109619",
+  "durationSeconds": 57.266666666666666,
+  "frameCount": 1718,
+  "format": "1080x1920 / 30 fps / H.264 / AAC stereo 48 kHz",
+  "encoder": "nvenc",
+  "videoSha256": "24093530b21d442ad2a6e98c2e8c06324832d69ce2e59e4578799ab8d5a32833",
+  "sourceIdentity": "f393ab5f949c7b9ff086a3aed40094db29cf5bd714b6fb006c7adc9a92eef68b",
+  "fullFrameBrowser": {
+    "checkedFrames": 1718,
+    "layoutFindings": 0,
+    "errors": [],
+    "seekRepeatChecks": [
+      {
+        "frame": 10,
+        "passed": true,
+        "actual": "cf3a2de2882c18a9c3060641a63123eba2a99e4ce9dafa7663721836b0db56cb",
+        "expected": "cf3a2de2882c18a9c3060641a63123eba2a99e4ce9dafa7663721836b0db56cb"
+      },
+      {
+        "frame": 90,
+        "passed": true,
+        "actual": "3a334c612d113888ebbbcbf4f349a5cc0af2ec6e0cc2e30a68bcc7ac6ee69cea",
+        "expected": "3a334c612d113888ebbbcbf4f349a5cc0af2ec6e0cc2e30a68bcc7ac6ee69cea"
+      },
+      {
+        "frame": 50,
+        "passed": true,
+        "actual": "9403a484faf473c68c939fb3e53b77498b48e4be165ee9779c92a32a25e7f84f",
+        "expected": "9403a484faf473c68c939fb3e53b77498b48e4be165ee9779c92a32a25e7f84f"
+      },
+      {
+        "frame": 10,
+        "passed": true,
+        "actual": "cf3a2de2882c18a9c3060641a63123eba2a99e4ce9dafa7663721836b0db56cb",
+        "expected": "cf3a2de2882c18a9c3060641a63123eba2a99e4ce9dafa7663721836b0db56cb"
+      }
+    ]
+  },
+  "audio": {
+    "status": "passed",
+    "project": "php-stale-state",
+    "duration": 57.266666666666666,
+    "frameCount": 1718,
+    "narrationEndSeconds": 55.743541666666665,
+    "finalHoldSeconds": 1.523125,
+    "trailingSilenceSeconds": 0.20697916666666666,
+    "integratedLufs": -14.42,
+    "truePeakDbtp": -1.97,
+    "detectedSilences": [
+      [
+        25.1718,
+        25.725
+      ]
+    ],
+    "intentionalSilences": [
+      [
+        25.173520833333335,
+        25.723520833333332
+      ]
+    ],
+    "mixSha256": "64b17fd7751aafe9c9e7ad4d5e0e20fac302aae7660f4996bd6902904a6d1d55",
+    "humanListening": "pending",
+    "encoded": {
+      "status": "passed",
+      "videoSha256": "24093530b21d442ad2a6e98c2e8c06324832d69ce2e59e4578799ab8d5a32833",
+      "frames": 1718,
+      "duration": 57.266667,
+      "audioCorrelation": 0.9998930603109202,
+      "audioNormalizedRMSE": 0.014703909814866042,
+      "integratedLufs": -14.43,
+      "truePeakDbtp": -1.91,
+      "fullDecode": "passed",
+      "humanListening": "pending"
+    }
+  },
+  "videoAnomalies": {
+    "status": "passed",
+    "project": "php-stale-state",
+    "duration": 57.266666666666666,
+    "frameCount": 1718,
+    "utterances": 13,
+    "displayCues": 21,
+    "captionTextCoverage": "complete",
+    "timingMethod": "measured utterances; proportional phrase timing, not word forced alignment",
+    "technicalFacts": "Source-linked editorial review is documented separately; this check validates declared content consistency.",
+    "humanReview": "pending",
+    "videoSha256": "24093530b21d442ad2a6e98c2e8c06324832d69ce2e59e4578799ab8d5a32833",
+    "blackIntervals": [],
+    "freezeIntervals": [],
+    "anomalyMethod": "Full decoded stream; black >=98% pixels below 2% for 0.1s; freeze noise -60dB for 1s"
+  },
+  "encodedSampleComparison": {
+    "samples": 79,
+    "status": "passed",
+    "minimumPsnr": 30.076624693559406,
+    "tolerance": {
+      "meanAbsoluteChannelError": 8,
+      "fractionPixelsWithChannelErrorOver40": 0.02
+    }
+  },
+  "package": {
+    "status": "passed",
+    "zip": "php-stale-state-editable.zip",
+    "zipSha256": "368e185e86a38828b0e838ddc9c7b25e9d9b656ab330c6aae5838548bc80ca10",
+    "files": 108,
+    "crc": "passed",
+    "extractedHashes": "passed",
+    "restoreReceiptSha256": "c74abf370db3434f852667166d551c872fa4a358944e5d9a2c75b4195338ceec",
+    "videoSha256": "24093530b21d442ad2a6e98c2e8c06324832d69ce2e59e4578799ab8d5a32833",
+    "scope": "Full film editable source"
+  },
+  "restore": {
+    "status": "passed",
+    "frames": 79,
+    "tolerance": {
+      "meanAbsoluteChannelError": 0.005,
+      "maximumChannelError": 16,
+      "fractionPixelsWithChannelErrorOver8": 0.0001
+    },
+    "scope": "Clean install, rebuild and sequential native-seek pixel comparison on this machine; tiny GPU edge-raster variation is bounded explicitly"
+  },
+  "humanViewingListening": "pending",
+  "publication": "not_requested"
+}

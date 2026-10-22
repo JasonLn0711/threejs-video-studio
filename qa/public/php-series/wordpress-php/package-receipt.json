@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "zip": "wordpress-php-editable.zip",
+  "zipSha256": "36bad4ab77a1e4711b2d0b370f143908c03e4e1b9aa25c3bd12c04ba9aac5e3b",
+  "files": 114,
+  "crc": "passed",
+  "extractedHashes": "passed",
+  "restoreReceiptSha256": "d729adbb4ca0eb45e93d5c7798e2856bb9aa7f5f29d5bf2e742e4d692204aec8",
+  "videoSha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4",
+  "scope": "Full film editable source"
+}

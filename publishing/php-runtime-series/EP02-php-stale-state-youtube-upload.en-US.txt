@@ -1,0 +1,88 @@
+YOUTUBE SHORTS UPLOAD PACKET — EPISODE 02
+Language: English (United States)
+Video: php-stale-state.mp4
+Matching subtitle file: EP02-php-stale-state.en-US.srt
+Duration: 57.27 seconds
+Format: 1080 x 1920, 30 fps, H.264/AAC
+
+TITLE — recommended
+PHP Use-After-Free Explained | CVE-2026-109619
+
+TITLE — alternative (choose one title)
+The Request Ends. Its Pointer Stays. | PHP Security
+
+DESCRIPTION — copy only the text between these markers
+[BEGIN DESCRIPTION]
+A request ends. Its memory is released. A reference can still remain inside the PHP worker.
+
+CVE-2026-109619 involves stale worker-wide state that can point to memory from a completed request. When the same worker handles another request, an early operation may use that reference before normal initialization resets it.
+
+That is use-after-free: accessing memory after its lifetime has ended. Under exploitable conditions, the error can lead to remote code execution (RCE). The exact trigger depends on the deployment and internal state involved. Initial execution uses the worker’s permissions; root access is not automatic.
+
+Patch the PHP runtime, restart affected workers and verify the version actually serving requests.
+
+PHP Runtime Failures — Episode 2 of 2: The Pointer That Stayed.
+Episode 1 explains PHP’s out-of-memory error-handling flaw.
+
+Conceptual 3D animation, not footage of a live exploit. Narration is AI-generated with Kokoro’s am_michael voice; no real person is impersonated.
+
+Official sources:
+PHP security announcement (October 21, 2026):
+https://www.php.net/archive/2026.php#2026-10-21-5
+Technical advisory:
+https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp
+
+Sound credits:
+"basscapes_Subbassonly.wav" by suonho — CC BY 4.0
+https://freesound.org/people/suonho/sounds/58764
+License: https://creativecommons.org/licenses/by/4.0/
+Modified through resampling, filtering, envelopes and mixing.
+
+"mechanical key hard.wav" by bigmonmulgrew — CC0 1.0
+https://freesound.org/people/bigmonmulgrew/sounds/378085
+Terms: https://creativecommons.org/publicdomain/zero/1.0/
+Modified through resampling, filtering, envelopes and mixing.
+
+#PHP #Cybersecurity #Shorts
+[END DESCRIPTION]
+
+TAGS — comma-separated, for the tags field
+PHP, PHP security, CVE-2026-109619, use after free, use-after-free, UAF, dangling pointer, memory safety, worker lifecycle, RCE, remote code execution, cybersecurity, runtime security
+
+HASHTAGS — already included at the end of the description
+#PHP #Cybersecurity #Shorts
+
+PINNED COMMENT — optional draft
+Freeing memory ends its lifetime; it does not necessarily clear every reference to it. This example depends on stale state being used by a later request in the same worker.
+
+UPLOAD SETTINGS — suggested values, not actions already performed
+Video language: English (United States)
+Title and description language: English (United States)
+Category: Education
+Audience: Not made for kids — this is general technical education for students and developers, not child-directed content.
+Playlist suggestion: Cybersecurity Explained — Runtime & Memory Safety
+Episode order: 02 of 02
+Related video: EP01 — PHP RCE Before Your Code Runs | CVE-2026-109618
+Set the related-video link after the companion video has been uploaded; no public URL exists in this packet.
+Visibility and schedule: Choose according to your channel’s release plan. No upload or publication has been performed.
+
+COVER FRAME — editorial suggestion
+23.00 seconds — the stale reference reaches freed request memory.
+Optional cover wording: THE POINTER THAT STAYED
+
+SUBTITLES
+Use the matching UTF-8 .srt file as an English (United States) subtitle track with existing timing.
+The SRT matches the final MP4’s spoken text and burned-in caption timing. Utterance timing is measured; phrase splits are proportional estimates, not word-level forced alignment.
+The MP4 already has burned-in captions. Enabling a separate caption track may show a second set of subtitles; check the player display after import.
+
+PRODUCTION NOTE FOR THE UPLOADER
+The description discloses synthetic narration and the conceptual animation. If Studio asks about AI use, describe those actual production facts. No real event footage or identifiable person’s cloned voice is used.
+Keep the sound attribution and license links in the published description.
+
+YOUTUBE HELP REFERENCES — checked 2026-10-22
+Shorts upload:
+https://support.google.com/youtube/answer/12779649?hl=en
+Supported subtitle files (plain UTF-8 SRT):
+https://support.google.com/youtube/answer/2734698?hl=en
+AI-use disclosure guidance:
+https://support.google.com/youtube/answer/14328491?hl=en

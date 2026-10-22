@@ -1,0 +1,53 @@
+{
+  "episode": 3,
+  "title": "WordPress Is Updated. Is Your PHP?",
+  "alternativeTitles": [
+    "Updated WordPress? Check Your PHP Too",
+    "Check the PHP Behind Your WordPress Site"
+  ],
+  "description": "WordPress and PHP have separate update paths. Updating WordPress does not, by itself, confirm that PHP's security fixes are installed.\n\nCheck your site:\n1. Open Tools > Site Health > Info > Server and note the PHP version.\n2. Ask your hosting provider or server administrator to confirm the package build and security fixes used by your live site.\n3. Before a PHP upgrade, back up and test WordPress, theme and plugin compatibility.\n4. Afterward, verify the PHP actually serving requests and test the site's main functions.\n\nVendors may backport security fixes into older packages. A version number alone is not a verdict; check the vendor's advisory and full package version. Managed hosting may handle these updates for you.\n\nEpisode 3 | PHP Runtime Security\nConceptual 3D animation with synthetic English narration. This is not a scan or recording of a compromised website.\n\nOfficial sources:\nWordPress PHP update guide: https://wordpress.org/documentation/update-php/\nWordPress Site Health: https://wordpress.org/documentation/article/site-health-screen/\nWordPress requirements: https://wordpress.org/about/requirements/\nUbuntu security notice (vendor-package example): https://ubuntu.com/security/notices/USN-8948-1\n\nProduction and sound credits:\nNarration: Kokoro ONNX, am_michael; no voice cloning.\nOriginal procedural animation and score: this project.\n\"basscapes_Subbassonly.wav\" by suonho, CC BY 4.0.\nhttps://freesound.org/people/suonho/sounds/58764\nLicense: https://creativecommons.org/licenses/by/4.0/\nChanges: resampling, filtering, envelopes and mixing.\n\"mechanical key hard.wav\" by bigmonmulgrew, CC0 1.0.\nhttps://freesound.org/people/bigmonmulgrew/sounds/378085\nhttps://creativecommons.org/publicdomain/zero/1.0/\n\n#WordPress #PHP #CyberSecurity #WebSecurity #Shorts",
+  "hashtags": [
+    "#WordPress",
+    "#PHP",
+    "#CyberSecurity",
+    "#WebSecurity",
+    "#Shorts"
+  ],
+  "tags": [
+    "WordPress security",
+    "PHP security",
+    "PHP runtime",
+    "WordPress update",
+    "PHP update",
+    "Site Health",
+    "patch management",
+    "security updates",
+    "web hosting",
+    "website security",
+    "cybersecurity",
+    "server security",
+    "security patches",
+    "backport",
+    "WordPress tutorial",
+    "PHP tutorial",
+    "website maintenance",
+    "managed hosting",
+    "runtime security",
+    "cybersecurity shorts"
+  ],
+  "pinnedComment": "A PHP version number is a starting point. Your host or OS vendor may maintain a patched package with an older upstream version. Confirm the full package build and applicable security advisory, then check the PHP actually serving your site.",
+  "videoLanguage": "English (United States)",
+  "subtitleLanguage": "English (United States)",
+  "category": "Education",
+  "license": "Standard YouTube License",
+  "madeForKids": false,
+  "ageRestriction": "None recommended for this educational, non-graphic film",
+  "visibility": "Private for initial upload review; no publication scheduled",
+  "aiUse": "Yes recommended as a transparent disclosure choice: synthetic narrator and conceptual procedural visuals",
+  "paidPromotion": "No sponsorship or paid product placement included",
+  "playlist": "PHP Runtime Security (suggested; no playlist ID supplied)",
+  "relatedVideo": "The Pointer That Stayed (EP02); select its published video in Studio if available; no URL supplied",
+  "thumbnailText": "WORDPRESS UPDATED.\nPHP CHECKED?",
+  "durationSeconds": 49.766666666666666,
+  "publicationStatus": "Not uploaded or published"
+}

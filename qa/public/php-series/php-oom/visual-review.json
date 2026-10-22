@@ -1,0 +1,22 @@
+{
+  "status": "reviewed",
+  "reviewer": "agent visual inspection",
+  "scope": "Seven decoded frames: six shot midpoints plus final frame. Not a complete real-time playback or a human acceptance decision.",
+  "videoSha256": "e5e180eb074218531aaf53c7a7457e6117e7d0335734d2836fea677ef57a21f8",
+  "frames": [
+    100,
+    279,
+    427,
+    671,
+    1022,
+    1400,
+    1603
+  ],
+  "observations": [
+    "Titles and burned-in captions are legible in sampled frames.",
+    "Macro shot isolates incomplete M17 and unsafe cleanup; the failed allocation is a separate absent cell.",
+    "The RCE shot retains worker privilege and mod_php context qualifiers.",
+    "The corrected closing view remains framed through the final frame."
+  ],
+  "humanViewingListening": "pending"
+}

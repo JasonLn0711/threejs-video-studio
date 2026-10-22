@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "project": "wordpress-php",
+  "title": "WordPress Is Updated. Is Your PHP?",
+  "durationSeconds": 49.766666666666666,
+  "frames": 1493,
+  "videoSha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4",
+  "editableSha256": "36bad4ab77a1e4711b2d0b370f143908c03e4e1b9aa25c3bd12c04ba9aac5e3b",
+  "checkRun": "qa/projects/wordpress-php/runs/2026-10-22T12-46-31-497Z-check",
+  "renderRun": "qa/projects/wordpress-php/runs/2026-10-22T12-48-57-859Z-render",
+  "browserFramesChecked": 1493,
+  "encodedPixelSamples": 77,
+  "nativeCheck": "passed",
+  "javascriptTests": 18,
+  "pythonAudioTests": 9,
+  "audio": {
+    "status": "passed",
+    "project": "wordpress-php",
+    "duration": 49.766666666666666,
+    "frameCount": 1493,
+    "narrationEndSeconds": 48.2615625,
+    "finalHoldSeconds": 1.5051041666666667,
+    "trailingSilenceSeconds": 0.1904375,
+    "integratedLufs": -14.39,
+    "truePeakDbtp": -1.99,
+    "detectedSilences": [
+      [
+        9.66985,
+        10.2204
+      ]
+    ],
+    "intentionalSilences": [
+      [
+        9.67025,
+        10.22025
+      ]
+    ],
+    "mixSha256": "532ae2f0798e04dfa49eeb6e7fe499536507984e9d4032a879f0de6a96432128",
+    "humanListening": "pending",
+    "encoded": null
+  },
+  "captionAndContent": {
+    "status": "passed",
+    "project": "wordpress-php",
+    "duration": 49.766666666666666,
+    "frameCount": 1493,
+    "utterances": 13,
+    "displayCues": 21,
+    "captionTextCoverage": "complete",
+    "timingMethod": "measured utterances; proportional phrase timing, not word forced alignment",
+    "technicalFacts": "Source-linked editorial review is documented separately; this check validates declared content consistency.",
+    "humanReview": "pending"
+  },
+  "package": {
+    "status": "passed",
+    "zip": "wordpress-php-editable.zip",
+    "zipSha256": "36bad4ab77a1e4711b2d0b370f143908c03e4e1b9aa25c3bd12c04ba9aac5e3b",
+    "files": 114,
+    "crc": "passed",
+    "extractedHashes": "passed",
+    "restoreReceiptSha256": "d729adbb4ca0eb45e93d5c7798e2856bb9aa7f5f29d5bf2e742e4d692204aec8",
+    "videoSha256": "ada072513f1536e68281caf5c7678bb667dfcc1976c7b9ac6b231fe9ca5a60c4",
+    "scope": "Full film editable source"
+  },
+  "restore": {
+    "status": "passed",
+    "samples": 77
+  },
+  "priorEpisodeRegression": {
+    "status": "passed",
+    "samples": 156
+  },
+  "protectedFiles": {
+    "status": "passed",
+    "protectedFiles": 364,
+    "changed": [],
+    "scope": "Original episode source/assets and delivered artifacts; generated caches/dist excluded"
+  },
+  "reviewCopy": {
+    "status": "passed",
+    "file": "wordpress-php-review.webm",
+    "scope": "AV1/Opus browser derivative; MP4 is the delivery master",
+    "sha256": "cca8e7c19fe385a0bc7fdc99bb6b1fa7baba28af7fb3b777d69a84bae291d4a7",
+    "frames": 1493,
+    "duration": 49.774,
+    "audioCorrelation": 0.9988545550032603,
+    "audioNormalizedRMSE": 0.06422117163207676,
+    "integratedLufs": -14.78,
+    "truePeakDbtp": -1.9,
+    "fullDecode": "passed",
+    "pixelComparison": {
+      "status": "passed",
+      "samples": 77,
+      "minimumPsnr": 30.627225209598326
+    }
+  },
+  "humanViewingAndListening": "pending",
+  "uploaded": false,
+  "published": false,
+  "scope": "Automated technical checks and sampled agent visual inspection; not human acceptance or a scan of a real website"
+}

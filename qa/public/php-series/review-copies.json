@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "copies": [
+    {
+      "status": "passed",
+      "project": "php-oom",
+      "file": "php-oom-review.webm",
+      "sha256": "92f41103d2d45f03058a99dc68d2676a50f11e312e05655f1565459b71c7852b",
+      "format": "AV1 / Opus / WebM",
+      "frames": 1604,
+      "duration": 53.49,
+      "audioCorrelation": 0.9991010420544281,
+      "audioNormalizedRMSE": 0.04239251069543706,
+      "integratedLufs": -14.39,
+      "truePeakDbtp": -1.49,
+      "scope": "Browser review derivative; H.264/AAC MP4 remains delivery master.",
+      "pixelComparison": {
+        "status": "passed",
+        "samples": 77,
+        "tolerance": {
+          "meanAbsoluteChannelError": 8,
+          "fractionPixelsWithChannelErrorOver40": 0.02
+        },
+        "minimumPsnr": 29.98643807124847
+      }
+    },
+    {
+      "status": "passed",
+      "project": "php-stale-state",
+      "file": "php-stale-state-review.webm",
+      "sha256": "2ca0eaf1cc087c1619de032dd2e26538ea1013512b193b7e30fbfe0be9feac04",
+      "format": "AV1 / Opus / WebM",
+      "frames": 1718,
+      "duration": 57.288,
+      "audioCorrelation": 0.9991462868448997,
+      "audioNormalizedRMSE": 0.04131221785141688,
+      "integratedLufs": -14.42,
+      "truePeakDbtp": -1.7,
+      "scope": "Browser review derivative; H.264/AAC MP4 remains delivery master.",
+      "pixelComparison": {
+        "status": "passed",
+        "samples": 79,
+        "tolerance": {
+          "meanAbsoluteChannelError": 8,
+          "fractionPixelsWithChannelErrorOver40": 0.02
+        },
+        "minimumPsnr": 30.064756183056865
+      }
+    }
+  ]
+}
