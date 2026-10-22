@@ -2,7 +2,7 @@
 import argparse,json,hashlib,wave,math,subprocess
 from array import array
 from pathlib import Path
-from verify_audio import trailing_silence
+from pcm_silence import trailing_silence
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def require(x,msg):
