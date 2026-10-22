@@ -9,4 +9,3 @@ def trailing_silence(pcm, channels=2, threshold_db=-50):
         if any(abs(pcm[frame * channels + c]) >= threshold for c in range(channels)):
             return (total - frame - 1) / RATE
     return total / RATE
-
