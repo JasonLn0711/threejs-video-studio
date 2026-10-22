@@ -27,3 +27,12 @@ qa/encoded/
 **/.waveform-cache/
 
 qa/history/
+
+# Per-project raw cinematic QA; curated evidence is kept in qa/public/.
+qa/projects/*/runs/
+qa/projects/*/layout-*/
+qa/projects/*/latest-check.json
+
+# PHP-series exploratory captures and protected-worktree inventory.
+qa/projects/*/prototype*/
+qa/projects/php-series/setup/

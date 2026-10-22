@@ -7,6 +7,16 @@ import { root, compile } from './build.mjs';
 import { renderIdentity, qaIdentity, fileHash } from './identity.mjs';
 import { encode } from './render-exec.mjs';
 const command = process.argv[2];
+const projectFlag = process.argv.indexOf('--project');
+if (projectFlag >= 0) {
+  const selected = process.argv[projectFlag + 1];
+  if (!selected || selected.startsWith('--')) throw new Error('--project requires a path');
+  if (path.resolve(selected) !== path.join(root, 'examples/ddos-capacity')) {
+    const selectedFilm = JSON.parse(await fs.readFile(path.join(path.resolve(selected), 'film.json'), 'utf8'));
+    await import(['php-runtime-v1','wordpress-runtime-v1'].includes(selectedFilm.validationProfile) ? './php-studio.mjs' : './cinematic-studio.mjs');
+    process.exit(process.exitCode || 0);
+  }
+}
 if (!['preview', 'check', 'render', 'package'].includes(command)) throw new Error('Use preview, check, render or package');
 const project = path.join(root, 'examples/ddos-capacity');
 const output = path.resolve(process.env.STUDIO_OUTPUT || path.join(root, 'output'));

@@ -5,7 +5,9 @@
   "private": true,
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
@@ -18,14 +20,15 @@
     "verify:video": "python3 scripts/verify_video.py"
   },
   "dependencies": {
-    "three": "0.186.1",
-    "hyperframes": "0.8.181"
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.181",
+    "three": "0.186.1"
   },
   "devDependencies": {
     "@types/three": "0.183.1",
     "esbuild": "0.25.12",
-    "typescript": "5.9.3",
     "playwright": "1.62.1",
-    "pngjs": "7.0.0"
+    "pngjs": "7.0.0",
+    "typescript": "5.9.3"
   }
 }
