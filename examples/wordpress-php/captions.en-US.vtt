@@ -1,0 +1,93 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:01.825
+You updated WordPress.
+
+2
+00:00:02.075 --> 00:00:03.886
+But what about the PHP running
+it?
+
+3
+00:00:04.136 --> 00:00:06.998
+WordPress, themes, and plugins
+contain code.
+
+4
+00:00:07.248 --> 00:00:09.670
+PHP runs their server-side code.
+
+5
+00:00:10.220 --> 00:00:12.486
+A green WordPress update badge
+
+6
+00:00:12.486 --> 00:00:14.752
+does not confirm that PHP's
+
+7
+00:00:14.752 --> 00:00:16.565
+security fixes are installed.
+
+8
+00:00:16.815 --> 00:00:19.234
+The runtime can have a
+vulnerability
+
+9
+00:00:19.234 --> 00:00:21.653
+even when WordPress itself is
+current.
+
+10
+00:00:21.903 --> 00:00:24.702
+Start with Tools, Site Health,
+Info, then Server.
+
+11
+00:00:24.952 --> 00:00:26.517
+Note the PHP version.
+
+12
+00:00:26.767 --> 00:00:28.957
+Then ask your host or
+
+13
+00:00:28.957 --> 00:00:30.709
+server administrator to confirm
+
+14
+00:00:30.709 --> 00:00:32.461
+the installed security fixes.
+
+15
+00:00:32.711 --> 00:00:35.389
+Vendors may patch an older
+package
+
+16
+00:00:35.389 --> 00:00:38.068
+without adopting the newest PHP
+version.
+
+17
+00:00:38.318 --> 00:00:40.970
+Managed hosting may handle
+updates for you.
+
+18
+00:00:41.220 --> 00:00:42.369
+Before an upgrade,
+
+19
+00:00:42.369 --> 00:00:44.285
+back up and test compatibility.
+
+20
+00:00:44.535 --> 00:00:46.398
+Afterward, verify the PHP
+
+21
+00:00:46.398 --> 00:00:48.262
+actually serving your site.

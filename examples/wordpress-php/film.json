@@ -1,0 +1,282 @@
+{
+  "id": "wordpress-php",
+  "title": "WordPress Is Updated. Is Your PHP?",
+  "episode": "wordpress",
+  "episodeNumber": 3,
+  "profile": "cinematic-short-v1",
+  "validationProfile": "wordpress-runtime-v1",
+  "entry": "examples/wordpress-php/scene.ts",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 49.766666666666666,
+  "seed": 20261025,
+  "voice": {
+    "name": "am_michael",
+    "speed": 1.0,
+    "language": "en-us"
+  },
+  "review": {
+    "mode": "final_only",
+    "renderAuthorization": "User approved the complete seven-scene plan and explicitly requested implementation, including full film, subtitles and YouTube metadata; final human review only.",
+    "humanReview": "pending"
+  },
+  "audioTiming": {
+    "mode": "cinematic_sentences",
+    "startSeconds": 0.3,
+    "sentenceGapSeconds": 0.25,
+    "tailPolicy": "bounded_final_hold",
+    "finalHoldSeconds": 1.5,
+    "maxFinalHoldSeconds": 2,
+    "trimThresholdDb": -50,
+    "trimPaddingSamples": 480
+  },
+  "safeArea": {
+    "left": 100,
+    "right": 890,
+    "top": 250,
+    "bottom": 1480
+  },
+  "audioMaster": "assets/audio/mix.wav",
+  "narration": [
+    {
+      "id": "S01-1",
+      "shot": "S01",
+      "text": "You updated WordPress.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S01-2",
+      "shot": "S01",
+      "text": "But what about the PHP running it?",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S02-1",
+      "shot": "S02",
+      "text": "WordPress, themes, and plugins contain code.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S02-2",
+      "shot": "S02",
+      "text": "PHP runs their server-side code.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S03-1",
+      "shot": "S03",
+      "text": "A green WordPress update badge does not confirm that PHP's security fixes are installed.",
+      "gapBefore": 0.55
+    },
+    {
+      "id": "S03-2",
+      "shot": "S03",
+      "text": "The runtime can have a vulnerability even when WordPress itself is current.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S04-1",
+      "shot": "S04",
+      "text": "Start with Tools, Site Health, Info, then Server.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S04-2",
+      "shot": "S04",
+      "text": "Note the PHP version.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S05-1",
+      "shot": "S05",
+      "text": "Then ask your host or server administrator to confirm the installed security fixes.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-1",
+      "shot": "S06",
+      "text": "Vendors may patch an older package without adopting the newest PHP version.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-2",
+      "shot": "S06",
+      "text": "Managed hosting may handle updates for you.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S07-1",
+      "shot": "S07",
+      "text": "Before an upgrade, back up and test compatibility.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S07-2",
+      "shot": "S07",
+      "text": "Afterward, verify the PHP actually serving your site.",
+      "gapBefore": 0.25
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start_frame": 0,
+      "start": 0.0,
+      "end_frame_exclusive": 124,
+      "end": 4.133333333333334,
+      "frames": 124
+    },
+    {
+      "id": "S02",
+      "start_frame": 124,
+      "start": 4.133333333333334,
+      "end_frame_exclusive": 306,
+      "end": 10.2,
+      "frames": 182
+    },
+    {
+      "id": "S03",
+      "start_frame": 306,
+      "start": 10.2,
+      "end_frame_exclusive": 657,
+      "end": 21.9,
+      "frames": 351
+    },
+    {
+      "id": "S04",
+      "start_frame": 657,
+      "start": 21.9,
+      "end_frame_exclusive": 803,
+      "end": 26.766666666666666,
+      "frames": 146
+    },
+    {
+      "id": "S05",
+      "start_frame": 803,
+      "start": 26.766666666666666,
+      "end_frame_exclusive": 981,
+      "end": 32.7,
+      "frames": 178
+    },
+    {
+      "id": "S06",
+      "start_frame": 981,
+      "start": 32.7,
+      "end_frame_exclusive": 1236,
+      "end": 41.2,
+      "frames": 255
+    },
+    {
+      "id": "S07",
+      "start_frame": 1236,
+      "start": 41.2,
+      "end_frame_exclusive": 1493,
+      "end": 49.766666666666666,
+      "frames": 257
+    }
+  ],
+  "sources": [
+    "https://wordpress.org/documentation/update-php/",
+    "https://wordpress.org/documentation/article/site-health-screen/",
+    "https://wordpress.org/about/requirements/",
+    "https://ubuntu.com/security/notices/USN-8948-1"
+  ],
+  "soundEvents": [
+    [
+      0,
+      0,
+      "mechanical",
+      "wordpress_status"
+    ],
+    [
+      1,
+      0.12,
+      "mechanical",
+      "application_layers"
+    ],
+    [
+      2,
+      0,
+      "impact",
+      "runtime_status_unknown"
+    ],
+    [
+      3,
+      0.1,
+      "mechanical",
+      "site_health_path"
+    ],
+    [
+      4,
+      0.18,
+      "mechanical",
+      "host_confirmation"
+    ],
+    [
+      5,
+      0.2,
+      "mechanical",
+      "vendor_backport"
+    ],
+    [
+      6,
+      0.12,
+      "mechanical",
+      "backup_and_verify"
+    ]
+  ],
+  "frameCount": 1493,
+  "adminRevealSeconds": 44.53516666666667,
+  "events": [
+    {
+      "at": 0.0,
+      "frame": 0,
+      "kind": "mechanical",
+      "shot": "S01",
+      "purpose": "wordpress_status"
+    },
+    {
+      "at": 4.866666666666666,
+      "frame": 146,
+      "kind": "mechanical",
+      "shot": "S02",
+      "purpose": "application_layers"
+    },
+    {
+      "at": 10.2,
+      "frame": 306,
+      "kind": "impact",
+      "shot": "S03",
+      "purpose": "runtime_status_unknown"
+    },
+    {
+      "at": 22.4,
+      "frame": 672,
+      "kind": "mechanical",
+      "shot": "S04",
+      "purpose": "site_health_path"
+    },
+    {
+      "at": 27.833333333333332,
+      "frame": 835,
+      "kind": "mechanical",
+      "shot": "S05",
+      "purpose": "host_confirmation"
+    },
+    {
+      "at": 34.4,
+      "frame": 1032,
+      "kind": "mechanical",
+      "shot": "S06",
+      "purpose": "vendor_backport"
+    },
+    {
+      "at": 42.233333333333334,
+      "frame": 1267,
+      "kind": "mechanical",
+      "shot": "S07",
+      "purpose": "backup_and_verify"
+    }
+  ]
+}
