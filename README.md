@@ -147,3 +147,7 @@ Every attempt retains a unique ID; a failed attempt is not overwritten by a retr
 Original code and documentation: [MIT](LICENSE).
 Fonts, model dependencies and installed packages retain their upstream licenses;
 see [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## PHP runtime Shorts delivery
+
+[Three-film delivery record](docs/php-series-delivery-2026-10-22.md) connects editable episode sources, SRT captions, YouTube upload copy, technical evidence and the Planning review gate. EP03 is technically verified; human viewing/listening and YouTube publication remain pending.
