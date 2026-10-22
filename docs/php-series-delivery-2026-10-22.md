@@ -32,3 +32,7 @@ The audience is beginning-to-intermediate security learners and WordPress site o
 **Pending confirmation:** full-film human viewing/listening, pronunciation and editorial acceptance. Jason owns that gate before upload. YouTube publication remains unperformed; record its actual URL and visibility only after upload. The AV1/Opus review copy has separate acceptance evidence because the automation browser does not decode the H.264 master.
 
 Git publication covers selected source, captions, metadata and curated evidence. Generated audio, masters, caches and raw capture runs are excluded from Git. The delivered ZIP includes generated audio; a Git checkout requires regeneration or those locally retained assets. Production receipts describe the checked delivery snapshot, not a later documentation commit or a clean-clone full render. Unrelated DDoS and Missing Signature work remains outside this publication.
+
+## Git snapshot validation
+
+[Isolated checkout validation](../qa/public/php-series/git-snapshot-validation.json) passed dependency installation, typechecking, 14 JavaScript tests, four synthetic audio tests and the EP03 build. All 23 checked documentation links and 11 delivered artifact hashes resolved or matched. This smaller suite reflects the selected Git scope; the 18/9 historical production counts above remain separate. A shared PCM helper was isolated from unpublished DDoS work and included in the PHP source identity. Future renders must run a fresh check. Vendored license and GSAP whitespace is preserved; authored diff checks pass.

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "scope": "Selected Git publication snapshot, separate from recorded full production QA",
+  "checkedCommit": "5e39e6d",
+  "isolatedCheckout": true,
+  "npmCi": "passed",
+  "typecheck": "passed",
+  "javascriptTests": {
+    "passed": 14
+  },
+  "pythonAudioTests": {
+    "passed": 4
+  },
+  "wordpressBuild": "passed",
+  "phpStudioSyntax": "passed",
+  "documentationLinks": 23,
+  "deliveryHashes": 11,
+  "whitespace": "Authored scope passed; vendored font licenses and GSAP retained byte-for-byte with upstream whitespace",
+  "fullFilmRenderRepeated": false,
+  "humanAcceptance": "pending",
+  "youtubeUploaded": false,
+  "notes": [
+    "Initial isolated Python discovery exposed unpublished DDoS fixture dependency. Cinematic PCM helper was isolated and its source hash added to PHP validation identity; selected checks passed after correction.",
+    "Historical production receipts remain bound to their delivered snapshots; publication changes require a fresh check before a future render."
+  ]
+}
