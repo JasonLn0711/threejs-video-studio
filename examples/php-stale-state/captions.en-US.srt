@@ -1,0 +1,98 @@
+1
+00:00:00,300 --> 00:00:01,562
+The request is gone.
+
+2
+00:00:01,812 --> 00:00:02,891
+Its pointer isn't.
+
+3
+00:00:03,141 --> 00:00:07,072
+Inside a PHP worker, one request
+creates data in
+
+4
+00:00:07,072 --> 00:00:07,508
+memory.
+
+5
+00:00:07,758 --> 00:00:10,539
+Worker-wide state keeps a
+reference to that data.
+
+6
+00:00:10,789 --> 00:00:13,751
+When the request ends, its
+memory is released, but
+
+7
+00:00:13,751 --> 00:00:15,727
+some state can still point
+there.
+
+8
+00:00:15,977 --> 00:00:18,656
+Now the same worker handles
+another request.
+
+9
+00:00:18,906 --> 00:00:22,488
+Before normal initialization
+resets that state, an early
+
+10
+00:00:22,488 --> 00:00:25,174
+operation can use the stale
+reference.
+
+11
+00:00:25,724 --> 00:00:28,750
+That's use-after-free: accessing
+memory after its
+
+12
+00:00:28,750 --> 00:00:30,263
+lifetime has ended.
+
+13
+00:00:30,513 --> 00:00:34,074
+Under exploitable conditions, an
+attacker can turn that
+
+14
+00:00:34,074 --> 00:00:36,745
+memory error into remote code
+execution.
+
+15
+00:00:36,995 --> 00:00:40,379
+That means the worker's
+permissions, not automatic root
+
+16
+00:00:40,379 --> 00:00:40,802
+access.
+
+17
+00:00:41,052 --> 00:00:44,747
+The exact trigger depends on the
+deployment and internal
+
+18
+00:00:44,747 --> 00:00:45,568
+state involved.
+
+19
+00:00:45,818 --> 00:00:48,949
+PHP's fix addresses this
+lifecycle bug.
+
+20
+00:00:49,199 --> 00:00:53,227
+Patch the runtime, restart
+affected workers, and verify
+
+21
+00:00:53,227 --> 00:00:55,744
+the version actually serving
+requests.

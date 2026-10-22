@@ -1,0 +1,204 @@
+{
+  "id": "php-oom",
+  "title": "Before Your Code Runs",
+  "episode": "oom",
+  "episodeNumber": 1,
+  "profile": "cinematic-short-v1",
+  "validationProfile": "php-runtime-v1",
+  "entry": "examples/php-oom/scene.ts",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 53.46666666666667,
+  "seed": 20261023,
+  "voice": {
+    "name": "am_michael",
+    "speed": 1.0,
+    "language": "en-us"
+  },
+  "review": {
+    "mode": "final_only",
+    "renderAuthorization": "Explicit user instruction: autonomously finish both films through Gate 4; final human review at Gate 5.",
+    "humanReview": "pending"
+  },
+  "audioTiming": {
+    "mode": "cinematic_sentences",
+    "startSeconds": 0.3,
+    "sentenceGapSeconds": 0.25,
+    "tailPolicy": "bounded_final_hold",
+    "finalHoldSeconds": 1.5,
+    "maxFinalHoldSeconds": 2,
+    "trimThresholdDb": -50,
+    "trimPaddingSamples": 480
+  },
+  "safeArea": {
+    "left": 100,
+    "right": 890,
+    "top": 250,
+    "bottom": 1480
+  },
+  "audioMaster": "assets/audio/mix.wav",
+  "narration": [
+    {
+      "id": "S01-1",
+      "shot": "S01",
+      "text": "Your website's code hasn't even started.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S01-2",
+      "shot": "S01",
+      "text": "But PHP is already parsing an incoming request.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S02-1",
+      "shot": "S02",
+      "text": "While internal data is still being initialized, a memory allocation fails.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S03-1",
+      "shot": "S03",
+      "text": "PHP's old out-of-memory handling jumps out of that work.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S04-1",
+      "shot": "S04",
+      "text": "The trouble comes next: cleanup can treat the unfinished data as valid.",
+      "gapBefore": 0.55
+    },
+    {
+      "id": "S04-2",
+      "shot": "S04",
+      "text": "With a carefully crafted request, that memory error can become remote code execution, without a login.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S05-1",
+      "shot": "S05",
+      "text": "The code runs with the web worker's permissions, so root access isn't automatic.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S05-2",
+      "shot": "S05",
+      "text": "This was demonstrated with Apache's mod_php; other deployments have different conditions.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-1",
+      "shot": "S06",
+      "text": "PHP patched the flaw on October twenty-first.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-2",
+      "shot": "S06",
+      "text": "Update the PHP runtime, then verify the running service has loaded the fix.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-3",
+      "shot": "S06",
+      "text": "A firewall can't repair the runtime underneath your site.",
+      "gapBefore": 0.25
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 6.666666666666667,
+      "start_frame": 0,
+      "end_frame_exclusive": 200,
+      "frames": 200
+    },
+    {
+      "id": "S02",
+      "start": 6.666666666666667,
+      "end": 11.933333333333334,
+      "start_frame": 200,
+      "end_frame_exclusive": 358,
+      "frames": 158
+    },
+    {
+      "id": "S03",
+      "start": 11.933333333333334,
+      "end": 16.533333333333335,
+      "start_frame": 358,
+      "end_frame_exclusive": 496,
+      "frames": 138
+    },
+    {
+      "id": "S04",
+      "start": 16.533333333333335,
+      "end": 28.233333333333334,
+      "start_frame": 496,
+      "end_frame_exclusive": 847,
+      "frames": 351
+    },
+    {
+      "id": "S05",
+      "start": 28.233333333333334,
+      "end": 39.9,
+      "start_frame": 847,
+      "end_frame_exclusive": 1197,
+      "frames": 350
+    },
+    {
+      "id": "S06",
+      "start": 39.9,
+      "end": 53.46666666666667,
+      "start_frame": 1197,
+      "end_frame_exclusive": 1604,
+      "frames": 407
+    }
+  ],
+  "sources": [
+    "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w",
+    "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp",
+    "https://ubuntu.com/security/notices/USN-8948-1"
+  ],
+  "cve": "CVE-2026-109618",
+  "frameCount": 1604,
+  "events": [
+    {
+      "at": 0.0,
+      "frame": 0,
+      "kind": "mechanical",
+      "shot": "S01",
+      "purpose": "request_arrival"
+    },
+    {
+      "at": 10.6,
+      "frame": 318,
+      "kind": "mechanical",
+      "shot": "S02",
+      "purpose": "allocation_failure"
+    },
+    {
+      "at": 11.933333333333334,
+      "frame": 358,
+      "kind": "mechanical",
+      "shot": "S03",
+      "purpose": "early_exit"
+    },
+    {
+      "at": 19.1,
+      "frame": 573,
+      "kind": "impact",
+      "shot": "S04",
+      "purpose": "unsafe_access"
+    },
+    {
+      "at": 42.63333333333333,
+      "frame": 1279,
+      "kind": "mechanical",
+      "shot": "S06",
+      "purpose": "patched_path"
+    }
+  ]
+}

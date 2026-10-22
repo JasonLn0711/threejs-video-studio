@@ -1,0 +1,138 @@
+[
+  {
+    "id": "S01-1-1",
+    "utterance": "S01-1",
+    "start": 0.3,
+    "end": 2.7620833333333334,
+    "text": "Your website's code hasn't even\nstarted.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S01-2-1",
+    "utterance": "S01-2",
+    "start": 3.0120833333333334,
+    "end": 6.432854166666667,
+    "text": "But PHP is already parsing an\nincoming request.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S02-1-1",
+    "utterance": "S02-1",
+    "start": 6.682854166666667,
+    "end": 10.793007575757576,
+    "text": "While internal data is still\nbeing initialized, a memory",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S02-1-2",
+    "utterance": "S02-1",
+    "start": 10.793007575757576,
+    "end": 11.706375,
+    "text": "allocation fails.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S03-1-1",
+    "utterance": "S03-1",
+    "start": 11.956375,
+    "end": 16.005166666666668,
+    "text": "PHP's old out-of-memory handling\njumps out of that work.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-1-1",
+    "utterance": "S04-1",
+    "start": 16.55516666666667,
+    "end": 19.92129166666667,
+    "text": "The trouble comes next: cleanup\ncan treat the unfinished",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-1-2",
+    "utterance": "S04-1",
+    "start": 19.92129166666667,
+    "end": 21.043333333333333,
+    "text": "data as valid.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-2-1",
+    "utterance": "S04-2",
+    "start": 21.293333333333333,
+    "end": 25.065458333333332,
+    "text": "With a carefully crafted\nrequest, that memory error can",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-2-2",
+    "utterance": "S04-2",
+    "start": 25.065458333333332,
+    "end": 27.999333333333333,
+    "text": "become remote code execution,\nwithout a login.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-1-1",
+    "utterance": "S05-1",
+    "start": 28.249333333333333,
+    "end": 31.814891025641025,
+    "text": "The code runs with the web\nworker's permissions, so",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-1-2",
+    "utterance": "S05-1",
+    "start": 31.814891025641025,
+    "end": 33.39958333333333,
+    "text": "root access isn't automatic.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-2-1",
+    "utterance": "S05-2",
+    "start": 33.64958333333333,
+    "end": 37.47711174242424,
+    "text": "This was demonstrated with\nApache's mod_php; other",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-2-2",
+    "utterance": "S05-2",
+    "start": 37.47711174242424,
+    "end": 39.66427083333333,
+    "text": "deployments have different\nconditions.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-1-1",
+    "utterance": "S06-1",
+    "start": 39.91427083333333,
+    "end": 42.88766666666667,
+    "text": "PHP patched the flaw on October\ntwenty-first.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-2-1",
+    "utterance": "S06-2",
+    "start": 43.13766666666667,
+    "end": 46.829166666666666,
+    "text": "Update the PHP runtime, then\nverify the running service",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-2-2",
+    "utterance": "S06-2",
+    "start": 46.829166666666666,
+    "end": 48.469833333333334,
+    "text": "has loaded the fix.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-3-1",
+    "utterance": "S06-3",
+    "start": 48.719833333333334,
+    "end": 51.94379166666667,
+    "text": "A firewall can't repair the\nruntime underneath your site.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  }
+]

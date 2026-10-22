@@ -1,0 +1,170 @@
+[
+  {
+    "id": "S01-1-1",
+    "utterance": "S01-1",
+    "start": 0.3,
+    "end": 1.5617916666666667,
+    "text": "The request is gone.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S01-2-1",
+    "utterance": "S01-2",
+    "start": 1.8117916666666667,
+    "end": 2.8910625,
+    "text": "Its pointer isn't.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S02-1-1",
+    "utterance": "S02-1",
+    "start": 3.1410625,
+    "end": 7.07160625,
+    "text": "Inside a PHP worker, one request\ncreates data in",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S02-1-2",
+    "utterance": "S02-1",
+    "start": 7.07160625,
+    "end": 7.508333333333334,
+    "text": "memory.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S02-2-1",
+    "utterance": "S02-2",
+    "start": 7.758333333333334,
+    "end": 10.538729166666666,
+    "text": "Worker-wide state keeps a\nreference to that data.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S03-1-1",
+    "utterance": "S03-1",
+    "start": 10.788729166666666,
+    "end": 13.751404166666667,
+    "text": "When the request ends, its\nmemory is released, but",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S03-1-2",
+    "utterance": "S03-1",
+    "start": 13.751404166666667,
+    "end": 15.726520833333334,
+    "text": "some state can still point\nthere.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-1-1",
+    "utterance": "S04-1",
+    "start": 15.976520833333334,
+    "end": 18.656333333333333,
+    "text": "Now the same worker handles\nanother request.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-2-1",
+    "utterance": "S04-2",
+    "start": 18.906333333333333,
+    "end": 22.487583333333333,
+    "text": "Before normal initialization\nresets that state, an early",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S04-2-2",
+    "utterance": "S04-2",
+    "start": 22.487583333333333,
+    "end": 25.173520833333335,
+    "text": "operation can use the stale\nreference.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-1-1",
+    "utterance": "S05-1",
+    "start": 25.723520833333332,
+    "end": 28.749993055555553,
+    "text": "That's use-after-free: accessing\nmemory after its",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-1-2",
+    "utterance": "S05-1",
+    "start": 28.749993055555553,
+    "end": 30.263229166666665,
+    "text": "lifetime has ended.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-2-1",
+    "utterance": "S05-2",
+    "start": 30.513229166666665,
+    "end": 34.07396726190476,
+    "text": "Under exploitable conditions, an\nattacker can turn that",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-2-2",
+    "utterance": "S05-2",
+    "start": 34.07396726190476,
+    "end": 36.74452083333333,
+    "text": "memory error into remote code\nexecution.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-3-1",
+    "utterance": "S05-3",
+    "start": 36.99452083333333,
+    "end": 40.37926157407407,
+    "text": "That means the worker's\npermissions, not automatic root",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S05-3-2",
+    "utterance": "S05-3",
+    "start": 40.37926157407407,
+    "end": 40.80235416666667,
+    "text": "access.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-1-1",
+    "utterance": "S06-1",
+    "start": 41.05235416666667,
+    "end": 44.74734848484849,
+    "text": "The exact trigger depends on the\ndeployment and internal",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-1-2",
+    "utterance": "S06-1",
+    "start": 44.74734848484849,
+    "end": 45.56845833333333,
+    "text": "state involved.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-2-1",
+    "utterance": "S06-2",
+    "start": 45.81845833333333,
+    "end": 48.949416666666664,
+    "text": "PHP's fix addresses this\nlifecycle bug.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-3-1",
+    "utterance": "S06-3",
+    "start": 49.199416666666664,
+    "end": 53.22657051282051,
+    "text": "Patch the runtime, restart\naffected workers, and verify",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  },
+  {
+    "id": "S06-3-2",
+    "utterance": "S06-3",
+    "start": 53.22657051282051,
+    "end": 55.743541666666665,
+    "text": "the version actually serving\nrequests.",
+    "alignment": "phrase estimate within measured utterance; not word forced alignment"
+  }
+]

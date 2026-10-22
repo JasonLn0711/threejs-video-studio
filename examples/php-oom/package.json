@@ -1,0 +1,9 @@
+{
+  "name": "php-oom",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "hyperframes preview",
+    "render": "hyperframes render"
+  }
+}

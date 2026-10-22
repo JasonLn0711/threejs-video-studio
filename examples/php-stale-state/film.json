@@ -1,0 +1,216 @@
+{
+  "id": "php-stale-state",
+  "title": "The Pointer That Stayed",
+  "episode": "stale",
+  "episodeNumber": 2,
+  "profile": "cinematic-short-v1",
+  "validationProfile": "php-runtime-v1",
+  "entry": "examples/php-stale-state/scene.ts",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 57.266666666666666,
+  "seed": 20261024,
+  "voice": {
+    "name": "am_michael",
+    "speed": 1.0,
+    "language": "en-us"
+  },
+  "review": {
+    "mode": "final_only",
+    "renderAuthorization": "Explicit user instruction: autonomously finish both films through Gate 4; final human review at Gate 5.",
+    "humanReview": "pending"
+  },
+  "audioTiming": {
+    "mode": "cinematic_sentences",
+    "startSeconds": 0.3,
+    "sentenceGapSeconds": 0.25,
+    "tailPolicy": "bounded_final_hold",
+    "finalHoldSeconds": 1.5,
+    "maxFinalHoldSeconds": 2,
+    "trimThresholdDb": -50,
+    "trimPaddingSamples": 480
+  },
+  "safeArea": {
+    "left": 100,
+    "right": 890,
+    "top": 250,
+    "bottom": 1480
+  },
+  "audioMaster": "assets/audio/mix.wav",
+  "narration": [
+    {
+      "id": "S01-1",
+      "shot": "S01",
+      "text": "The request is gone.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S01-2",
+      "shot": "S01",
+      "text": "Its pointer isn't.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S02-1",
+      "shot": "S02",
+      "text": "Inside a PHP worker, one request creates data in memory.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S02-2",
+      "shot": "S02",
+      "text": "Worker-wide state keeps a reference to that data.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S03-1",
+      "shot": "S03",
+      "text": "When the request ends, its memory is released, but some state can still point there.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S04-1",
+      "shot": "S04",
+      "text": "Now the same worker handles another request.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S04-2",
+      "shot": "S04",
+      "text": "Before normal initialization resets that state, an early operation can use the stale reference.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S05-1",
+      "shot": "S05",
+      "text": "That's use-after-free: accessing memory after its lifetime has ended.",
+      "gapBefore": 0.55
+    },
+    {
+      "id": "S05-2",
+      "shot": "S05",
+      "text": "Under exploitable conditions, an attacker can turn that memory error into remote code execution.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S05-3",
+      "shot": "S05",
+      "text": "That means the worker's permissions, not automatic root access.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-1",
+      "shot": "S06",
+      "text": "The exact trigger depends on the deployment and internal state involved.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-2",
+      "shot": "S06",
+      "text": "PHP's fix addresses this lifecycle bug.",
+      "gapBefore": 0.25
+    },
+    {
+      "id": "S06-3",
+      "shot": "S06",
+      "text": "Patch the runtime, restart affected workers, and verify the version actually serving requests.",
+      "gapBefore": 0.25
+    }
+  ],
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 3.1333333333333333,
+      "start_frame": 0,
+      "end_frame_exclusive": 94,
+      "frames": 94
+    },
+    {
+      "id": "S02",
+      "start": 3.1333333333333333,
+      "end": 10.766666666666667,
+      "start_frame": 94,
+      "end_frame_exclusive": 323,
+      "frames": 229
+    },
+    {
+      "id": "S03",
+      "start": 10.766666666666667,
+      "end": 15.966666666666667,
+      "start_frame": 323,
+      "end_frame_exclusive": 479,
+      "frames": 156
+    },
+    {
+      "id": "S04",
+      "start": 15.966666666666667,
+      "end": 25.7,
+      "start_frame": 479,
+      "end_frame_exclusive": 771,
+      "frames": 292
+    },
+    {
+      "id": "S05",
+      "start": 25.7,
+      "end": 41.03333333333333,
+      "start_frame": 771,
+      "end_frame_exclusive": 1231,
+      "frames": 460
+    },
+    {
+      "id": "S06",
+      "start": 41.03333333333333,
+      "end": 57.266666666666666,
+      "start_frame": 1231,
+      "end_frame_exclusive": 1718,
+      "frames": 487
+    }
+  ],
+  "sources": [
+    "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w",
+    "https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp",
+    "https://ubuntu.com/security/notices/USN-8948-1"
+  ],
+  "cve": "CVE-2026-109619",
+  "frameCount": 1718,
+  "events": [
+    {
+      "at": 0.0,
+      "frame": 0,
+      "kind": "mechanical",
+      "shot": "S01",
+      "purpose": "preview"
+    },
+    {
+      "at": 4.666666666666667,
+      "frame": 140,
+      "kind": "mechanical",
+      "shot": "S02",
+      "purpose": "allocation"
+    },
+    {
+      "at": 12.966666666666667,
+      "frame": 389,
+      "kind": "mechanical",
+      "shot": "S03",
+      "purpose": "release"
+    },
+    {
+      "at": 22.966666666666665,
+      "frame": 689,
+      "kind": "impact",
+      "shot": "S04",
+      "purpose": "unsafe_access"
+    },
+    {
+      "at": 43.96666666666667,
+      "frame": 1319,
+      "kind": "mechanical",
+      "shot": "S06",
+      "purpose": "reference_reset"
+    }
+  ]
+}

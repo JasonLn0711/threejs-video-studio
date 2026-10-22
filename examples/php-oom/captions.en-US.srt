@@ -1,0 +1,80 @@
+1
+00:00:00,300 --> 00:00:02,762
+Your website's code hasn't even
+started.
+
+2
+00:00:03,012 --> 00:00:06,433
+But PHP is already parsing an
+incoming request.
+
+3
+00:00:06,683 --> 00:00:10,793
+While internal data is still
+being initialized, a memory
+
+4
+00:00:10,793 --> 00:00:11,706
+allocation fails.
+
+5
+00:00:11,956 --> 00:00:16,005
+PHP's old out-of-memory handling
+jumps out of that work.
+
+6
+00:00:16,555 --> 00:00:19,921
+The trouble comes next: cleanup
+can treat the unfinished
+
+7
+00:00:19,921 --> 00:00:21,043
+data as valid.
+
+8
+00:00:21,293 --> 00:00:25,065
+With a carefully crafted
+request, that memory error can
+
+9
+00:00:25,065 --> 00:00:27,999
+become remote code execution,
+without a login.
+
+10
+00:00:28,249 --> 00:00:31,815
+The code runs with the web
+worker's permissions, so
+
+11
+00:00:31,815 --> 00:00:33,400
+root access isn't automatic.
+
+12
+00:00:33,650 --> 00:00:37,477
+This was demonstrated with
+Apache's mod_php; other
+
+13
+00:00:37,477 --> 00:00:39,664
+deployments have different
+conditions.
+
+14
+00:00:39,914 --> 00:00:42,888
+PHP patched the flaw on October
+twenty-first.
+
+15
+00:00:43,138 --> 00:00:46,829
+Update the PHP runtime, then
+verify the running service
+
+16
+00:00:46,829 --> 00:00:48,470
+has loaded the fix.
+
+17
+00:00:48,720 --> 00:00:51,944
+A firewall can't repair the
+runtime underneath your site.
