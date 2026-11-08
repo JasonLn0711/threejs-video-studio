@@ -40,13 +40,15 @@ Other environments require their own browser/GPU checks.
 ```bash
 npm ci
 npx playwright install chromium
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-audio.txt
+uv venv .venv --python 3.12
+uv pip install --python .venv/bin/python --require-hashes --link-mode hardlink -r requirements-audio.lock
 python3 scripts/download_models.py --directory models
 .venv/bin/python scripts/speech.py --models models
 npm run build
 npm run preview
 ```
+
+The audio lock pins the full declared dependency set with SHA-256 hashes. Keep an existing `.venv` and run only the install command to preserve extra local tools. Cached wheels support `--offline`; model downloads and speech generation remain separate steps. See the [workstation validation receipt](https://github.com/JasonLn0711/planning-everything-track/blob/main/data/projects/2026-04-ubuntu-storage-governance.md#dependency-sharing-2026-11-08).
 
 For Windows, use the equivalent virtual-environment Python executable.
 The provided scripts are validated on Linux; Windows execution is not certified.
