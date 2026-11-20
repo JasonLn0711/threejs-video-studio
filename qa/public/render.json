@@ -1,26 +1,30 @@
 {
-  "identity": "9f06989cd01145a2ecd5340cfa299a48b2bce06be6dc4e4a1cf4c82d8562cc43",
-  "sha256": "e1a6d2ca2407555dbe638ea2904d9600fca8fbd9a282c33c3138f1833a9332d4",
-  "runId": "2026-10-20T10-27-16-491Z-render",
+  "identity": "a2d96dfbffda11de12171ea5c898153186df0d1c4fd9040d5f2f89779a35c3a2",
+  "sha256": "badf751046dafc2ef81d74b3039d7a74c2538243c77b88f7af590b201a9d052e",
+  "runId": "2026-10-21T07-56-44-684Z-render",
   "source": {
-    "examples/ddos-capacity/assets/audio/narration.wav": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
+    "examples/ddos-capacity/assets/audio/narration.wav": "476575d678059843859a382ad0d1bec2c461c46be7099b1b42e4d670a6a20a4b",
     "examples/ddos-capacity/assets/fonts/IBMPlexMono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
     "examples/ddos-capacity/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
     "examples/ddos-capacity/assets/fonts/Oswald-OFL.txt": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
     "examples/ddos-capacity/assets/fonts/Oswald.ttf": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
     "examples/ddos-capacity/assets/fonts/manifest.json": "c70fc3be5e987d10cdcc78b815f855400cca1718cddf42509d032711e674e324",
     "examples/ddos-capacity/captions.json": "66b0137e87339aaca180f698490eb7539c210dc2d8b57912417227ebffae67f6",
-    "examples/ddos-capacity/film.json": "8fa51cbfade312bd6265f0f5dffa767bcef645b76da71f1b62fc03a7d05bf04d",
-    "examples/ddos-capacity/index.html": "32e6b954a2dcb5c40c991613470f6710d3f51ef6a98fe1a80e02ba70f7ecc7e1",
+    "examples/ddos-capacity/film.json": "9d0f11ff4e76594f1a220685fb80a1910b153ccfb57944d41b60f15ad1849cf3",
+    "examples/ddos-capacity/index.html": "a184c354a01ebe8fa4683e82301e26c38c3fecd7390e76acb5492c1d09430a62",
     "package-lock.json": "714c80acd1cf2ccbe2f99e0f4f496be31f0eb06d037791c09cf08f5f09be2700",
     "scripts/build.mjs": "bc0d9a32ffa6a0544b6cfdb3fc24891dea2d14d7204b1654a945a5a24a83dd1d",
     "src/events.ts": "398feff72787d2ca1c2441884d02e2db85041541ac2eea67999372ff0e1d8359",
-    "src/scene.ts": "50c70a920bab8b7acd416b25a4825d6df01fb1ff5246a9411aa5b0f52ae06110",
+    "src/scene.ts": "dc692d7d0b56ecf97785a4b6584d539e838c264bb697cffcbf73798f66448a72",
     "src/traffic.ts": "5706bf93984a19ca11676f36b6ed577a82366197b31ea4b895534a3d0612fc4e",
-    "scripts/render-exec.mjs": "fbf6ad8d85fcc03990c572e251e797d4fbdfd7fb75ecffc771ad6f879c00494e"
+    "scripts/render-exec.mjs": "a811e25fcb73fc7695782b3d1cc0d20237648c8d3f7280361899b9b775308402"
   },
+  "qaIdentity": "e26b38b0b4d57de6f382e408510b85340915c3f926c7eb89bac7629901b452c0",
+  "encodedReport": "qa/runs/2026-10-21T07-56-44-684Z-render/encoded/report.json",
+  "encodedReportSha256": "0961c87a6d5b0cffafa10edffafae84eb55d482e098f6677b0b9aa470578165a",
   "settings": {
     "fps": 30,
+    "duration": 44,
     "workers": 1,
     "quality": "delivery",
     "browserGpu": true

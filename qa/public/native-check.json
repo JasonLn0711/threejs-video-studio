@@ -23,21 +23,21 @@
     "warningCount": 0,
     "infoCount": 0,
     "findings": [],
-    "duration": 60,
+    "duration": 44,
     "samples": [
-      2.308,
-      6.923,
-      11.538,
-      16.154,
-      20.769,
+      1.692,
+      5.077,
+      8.462,
+      11.846,
+      15.231,
+      18.615,
+      22,
       25.385,
-      30,
-      34.615,
-      39.231,
-      43.846,
-      48.462,
-      53.077,
-      57.692
+      28.769,
+      32.154,
+      35.538,
+      38.923,
+      42.308
     ],
     "transitionSamples": [],
     "transitionSamplesDropped": 0,
@@ -62,14 +62,14 @@
     "findings": [],
     "enabled": true,
     "samples": [
-      2.308,
-      16.154,
-      30,
-      43.846,
-      57.692
+      1.692,
+      11.846,
+      22,
+      32.154,
+      42.308
     ],
-    "checked": 60,
-    "passed": 60
+    "checked": 61,
+    "passed": 61
   },
   "hdr": {
     "autoPromotion": null,
@@ -82,14 +82,14 @@
     "findingFiles": []
   },
   "saved": {
-    "id": "ce1d80ac-4ac1-4f6b-8192-9c490605a06c",
-    "revision": "cc0c45d4-fb3f-4a8d-8c25-5d935b5c71ac",
-    "report": "/home/jnlngx10/phd-research/repos/threejs-video-studio/examples/ddos-capacity/.hyperframes/artifacts/checks/ce1d80ac-4ac1-4f6b-8192-9c490605a06c.json",
+    "id": "102efb59-47c8-48d3-90e5-904833e5fd34",
+    "revision": "4e0f9db4-8f12-4e91-b1f1-8c892f11a13c",
+    "report": "examples/ddos-capacity/.hyperframes/artifacts/checks/102efb59-47c8-48d3-90e5-904833e5fd34.json",
     "attribution": "recorded-revision"
   },
   "_meta": {
     "version": "0.8.181",
-    "latestVersion": "0.8.174",
+    "latestVersion": "0.8.181",
     "updateAvailable": false
   }
 }

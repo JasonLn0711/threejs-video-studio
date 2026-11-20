@@ -19,10 +19,14 @@
   ],
   "gapSeconds": 0.35,
   "sampleRate": 48000,
-  "audioFrames": 2880000,
-  "durationSeconds": 60,
+  "audioFrames": 2112000,
+  "durationSeconds": 44,
   "narrationEndSeconds": 42.38191666666667,
-  "animatedTailSeconds": 17.61808333333333,
-  "pcmSha256": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
-  "scope": "Exact processed-clip boundaries and zero PCM between clips; phonetic boundary acceptance requires listening."
+  "animatedTailSeconds": 1.6180833333333333,
+  "finalHoldSeconds": 1.6180833333333333,
+  "maxFinalHoldSeconds": 2.0,
+  "trailingSilenceSeconds": 1.6525833333333333,
+  "silenceThresholdDb": -50,
+  "pcmSha256": "476575d678059843859a382ad0d1bec2c461c46be7099b1b42e4d670a6a20a4b",
+  "scope": "Exact original processed clips, PCM gaps and bounded ending. Human listening remains separate."
 }

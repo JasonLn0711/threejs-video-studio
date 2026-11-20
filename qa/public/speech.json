@@ -1,5 +1,5 @@
 {
-  "status": "generated_and_assembled",
+  "status": "reassembled_existing_clips",
   "voice": {
     "name": "af_heart",
     "language": "en-us",
@@ -16,13 +16,13 @@
     "numpy": "2.5.4",
     "soundfile": "0.14.0"
   },
-  "generatedClips": 8,
-  "reusedClips": 7,
+  "generatedClips": 0,
+  "reusedClips": 15,
   "sampleRate": 48000,
   "channels": 2,
-  "audioFrames": 2880000,
+  "audioFrames": 2112000,
   "tempoPasses": 0,
-  "narrationSha256": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
+  "narrationSha256": "476575d678059843859a382ad0d1bec2c461c46be7099b1b42e4d670a6a20a4b",
   "humanListening": "pending",
   "segments": [
     {
@@ -210,11 +210,20 @@
     "mode": "sequential_sentences",
     "sentenceGapSeconds": 0.35,
     "startSeconds": 0.35,
-    "tailPolicy": "animated_takeaway_until_duration",
+    "tailPolicy": "bounded_final_hold",
     "trimThresholdDb": -55,
-    "trimPaddingSamples": 240
+    "trimPaddingSamples": 240,
+    "maxFinalHoldSeconds": 2.0
   },
   "gapSamples": 16800,
   "narrationEndSeconds": 42.38191666666667,
-  "animatedTailSeconds": 17.61808333333333
+  "animatedTailSeconds": 1.618083333333331,
+  "previousAssembly": {
+    "narrationSha256": "2e442e1212684f39fbdaa33e14282d9250a65e8c7e796b1cad580d99b10aac04",
+    "audioFrames": 2880000,
+    "animatedTailSeconds": 17.61808333333333,
+    "generatedClips": 8,
+    "reusedClips": 7
+  },
+  "finalHoldSeconds": 1.618083333333331
 }

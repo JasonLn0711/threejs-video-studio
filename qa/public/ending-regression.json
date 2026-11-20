@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "historicalLongHold": {
+    "durationSeconds": 60,
+    "expected": "rejected",
+    "exitCode": 1,
+    "result": {
+      "status": "failed",
+      "error": "Final hold 17.618083s exceeds limit 2.0s or truncates speech"
+    }
+  },
+  "originalNarration": {
+    "processedClipCount": 15,
+    "allSegmentRecordsIdentical": true,
+    "voiceUnchanged": true,
+    "newInferenceClips": 0
+  },
+  "scope": "Actual CLI rejection of the prior 60-second timing under the new policy, and unchanged historical speech segment records. No network experiment."
+}

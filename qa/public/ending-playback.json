@@ -1,0 +1,13 @@
+{
+  "status": "not_evaluated",
+  "videoSha256": "badf751046dafc2ef81d74b3039d7a74c2538243c77b88f7af590b201a9d052e",
+  "scope": "Optional continuous HTML video playback; separate from FFmpeg full decode and encoded-frame inspection.",
+  "attempt": "Timed out waiting for readyState >= 3 in local Playwright Chromium.",
+  "diagnosis": {
+    "h264CanPlayType": "",
+    "aacCanPlayType": "",
+    "vp9CanPlayType": "probably"
+  },
+  "reason": "Installed ARM64 Chromium does not advertise H.264 or AAC playback support.",
+  "humanListening": "pending"
+}

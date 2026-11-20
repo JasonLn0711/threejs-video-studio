@@ -1,108 +1,109 @@
-# Pilot evidence — cinematic-event revision, 2026-10-20
+# Pilot evidence — bounded-ending revision, 2026-10-21
 
-The DDoS shared-capacity pilot has passed the recorded technical checks on Linux
-ARM64 / NVIDIA GB10. Human viewing, listening and pronunciation acceptance remain
-pending. No YouTube or Instagram upload has been performed.
+This revision shortens the DDoS shared-capacity film to 44.000 seconds and retains
+all 15 original spoken sentences at their original speed. The final sentence ends
+at 42.381917 seconds; the concluding visual holds for 1.618083 seconds.
+Current-source browser and encoded-media verification passed on Linux ARM64 /
+NVIDIA GB10. Human viewing, listening and
+pronunciation acceptance remain pending; social publication is outside this revision.
+
+## Source, diagnosis and adopted correction
+
+User report, preserved verbatim:
+
+> 你昨天給我的影片 `ddos-capacity.mp4` 後段有很奇怪的沒有旁白也沒有聲音的影片，請優化，並將優化的內容等等寫入標準化的文件規範內。
+
+The user selected the shorter, approximately 44-second version, preserving the
+original speech, speed and 0.35-second sentence gaps. The former requirement to
+fill exactly 60 seconds is superseded for this film.
+
+The prior delivered MP4 hash is
+`e1a6d2ca2407555dbe638ea2904d9600fca8fbd9a282c33c3138f1833a9332d4`.
+Its matching PCM/caption ledger ends at 42.381917 seconds and leaves 17.618083
+seconds of silence. A read-only FFmpeg `silencedetect=noise=-50dB:d=1` scan of
+that actual MP4 reported silence beginning at 42.3474 seconds and continuing to
+the decoded AAC boundary at 60.0107 seconds. The former tests verified exact
+sentence gaps and reference agreement but explicitly allowed the long final hold.
+The file encoded successfully; its ending failed the user's viewing expectations.
+
+The [preserved previous evidence](history/2026-10-20-cinematic-events/README.md)
+retains that delivery's reports, contact sheets and technical outcomes. They apply
+to the earlier source and criteria, not to this revised acceptance policy.
+Local native-check report locators are normalized to repository-relative paths;
+measurements and media hashes are unchanged. Original raw logs remain in local runs.
+
+## Current acceptance inventory
 
 | Layer | Result and evidence |
 | --- | --- |
-| Source | One concept; illustrative FIFO model; pinned Three.js/HyperFrames; 6 unit tests and TypeScript checks pass |
-| Native host | [HyperFrames check](native-check.json): 13 layout samples, 60 contrast checks, zero findings; built-in motion check disabled, covered separately below |
-| 3D runtime | [Browser report](browser.json): all 1,800 frames checked for bounds; 40 native seek samples; 7 repeated/reverse seeks with identical pixels |
-| Render | [Receipt](render.json): complete 60.000-second MP4, 1080×1920, 1,800 frames, 30 fps, H.264/AAC |
-| Encoded media | [Automated report](encoded.json): constant frame timestamps, full decode, subtitle coverage, no detected black/frozen intervals, exact 2,880,000 decoded audio frames |
-| Audio | [Prior synthesis receipt](speech.json): all 15 sentence clips reused unchanged in this visual revision (the prior timing revision generated 8 and reused 7), af_heart, speed 1.0, zero tempo passes; AAC/reference correlation 0.999952, normalized RMS error 0.009874 |
-| Pixel comparison | [40 native/encoded comparisons](encoded-comparison.json) pass the declared lossy thresholds; no registration or masking |
-| Sample inspection | [Agent review](visual-review.json): all 89 extracted samples inspected; this is separate from the automated report's pending human-review field |
-| Restore | [Restore report](restore.json): clean npm install and rebuild from ZIP; frames 0, 484, 600, 934 and 1020 match the original native captures byte-for-byte |
-| CLI cancellation | [Historical controlled SIGTERM check](cli-interruption.json): owned check stops and records cancelled; successful prior gate retained |
+| Regression | [Ending regression](ending-regression.json): actual CLI rejects the former 17.618083-second hold; all 15 original speech segment records unchanged; 7 Node tests and 5 Python tests pass |
+| PCM | [Audio timing](audio-timing.json): 14 gaps of 16,800 samples, 2,112,000 stereo sample frames, 1.618083-second final hold; independently measured silence 1.652583 seconds at -50 dBFS |
+| Native host | [HyperFrames check](native-check.json): passed; browser checks ran |
+| 3D runtime | [Browser report](browser.json): all 1,320 frames, 41 native seek samples and 7 repeated/reverse seeks pass |
+| Render | [Receipt](render.json): 44.000-second, 1080×1920, 30 fps H.264/AAC; current source and encoded-report hash bound |
+| Encoded media | [Report](encoded.json): all 16 checks pass; full decode, exact frame timestamps, subtitles, no detected black/frozen intervals, bounded final hold and AAC silence |
+| Audio agreement | [Speech receipt](speech.json): 15 existing processed clips reused, zero new inference; decoded AAC/reference correlation 0.999952 and normalized RMS error 0.009874 |
+| Pixel comparison | [41 comparisons](encoded-comparison.json): pass the existing lossy thresholds, including the final frame |
+| Agent sample inspection | [Review](visual-review.json): all 76 decoded samples inspected in contact sheets; final frame and incident peak inspected at full resolution |
+| Restore | [Candidate restore](restore.json): clean install/build; all six frames including frame 1319 match byte-for-byte; final ZIP restore receipt is delivered beside the archive |
 
-Runtime: Chromium 151.0.7922.34, ANGLE / NVIDIA GB10 / OpenGL ES 3.2.
-One GPU worker renders the complete film. The render receipt identifies the exact
-run and source hashes. There is no paired performance comparison or speedup claim.
-
-**Actual capture path:** hardware WebGL rendering with screenshot capture.
-`HeadlessExperimental.enable` was unavailable, so HyperFrames fell back from
-BeginFrame. Some trace rows retained the requested `beginframe` label; the fallback
-message, session initialization and final summary establish the actual path.
-
-## Cinematic event amendment
-
-Amber capacity warning begins at frame 463. Actual first packet loss triggers
-“PACKETS DROPPED” at frame 478; a legitimate request loss triggers “REQUEST LOST”
-at frame 928. An outlined exclamation mark, local expanding ring and brief camera
-push focus attention on the affected queue. The server stays online. All effects
-are deterministic on absolute frame seeks. Native and encoded sampling includes
-event entry, peak and exit. The two rejected layout checks remain in local run
-records; adding font descent space resolved the title overflow before delivery.
-
-## Timing amendment
-
-[Sample-precision audio verification](audio-timing.json) confirms 15 sentences
-and 14 inter-sentence gaps of exactly 16,800 samples (0.35 seconds at 48 kHz).
-Original wording and voice speed are preserved. Processed clips trim synthesis
-edge silence at -55 dB with a 240-sample safety pad; original baselines are retained.
-Narration ends at 42.381917 seconds. The animated takeaway continues for
-17.618083 seconds, bringing the file to exactly 60.000 seconds. This deliberate
-final hold is separate from sentence gaps. Captions and scene beats were retimed.
-
-## Inspection and controls
-
-The final encoded file SHA-256 is
-`e1a6d2ca2407555dbe638ea2904d9600fca8fbd9a282c33c3138f1833a9332d4`.
-Its complete extracted-image hash inventory is in `encoded.json`.
-
-[Contact sheet 1](contact-sheet-1.jpg), [2](contact-sheet-2.jpg),
+The new MP4 SHA-256 is
+`badf751046dafc2ef81d74b3039d7a74c2538243c77b88f7af590b201a9d052e`.
+[Sheet 1](contact-sheet-1.jpg), [2](contact-sheet-2.jpg),
 [3](contact-sheet-3.jpg), [4](contact-sheet-4.jpg), [5](contact-sheet-5.jpg),
-[6](contact-sheet-6.jpg) and [the cover extracted at frame 934](cover.png) show the delivered picture.
-These are frames from the MP4, not substitutes captured from the source preview.
+[6](contact-sheet-6.jpg) and [7](contact-sheet-7.jpg) contain actual decoded frames.
+Sheet 7 shows the caption ending and brief final hold. [Cover](cover.png) is frame 934.
 
-The historical [freeze-control record](freeze-control.json) retains the initial whole-frame
-false positives and the revised viewport method. A three-second static control
-is correctly detected after two seconds. Detection is scoped to freezes lasting
-at least two seconds; continuous human review remains a separate check.
+The final-hold limit is 2.0 seconds; encoded boundaries allow 0.05 seconds.
+The actual renderer used hardware WebGL with screenshot capture; BeginFrame was
+unavailable. The CLI trace sometimes retained its requested `beginframe` label;
+the renderer's final summary identifies the actual capture path.
 
-The historical [initial comparison](encoded-comparison-initial.json) failed on frames 420
-and 1020 because the QA browser used different font hinting and graphics flags
-from the production renderer. QA and restore now use the production-compatible
-`gl-egl`, `--font-render-hinting=none`, sRGB and pixel ratio 1 profile. At that revision, all-frame
-checks, repeated seeks and the 12 encoded comparisons then passed with unchanged
-tolerances. The MP4 itself was unchanged. The corrected native reference was
-visually inspected at frame 420. Earlier receipts remain in Git history.
+[Optional continuous HTML playback](ending-playback.json) is `not_evaluated`:
+the local ARM64 Playwright Chromium advertises neither H.264 nor AAC playback and
+timed out waiting for video readiness. FFmpeg fully decoded the delivered file.
+This environment limitation is recorded separately from media integrity and from
+pending human continuous viewing/listening acceptance.
 
-The original pilot’s rejected attempts remain in local run directories: a phase-locked FIFO
-model initially failed the normal-traffic-loss test; floating screen-label
-positions failed repeat-seek pixel equality; the first ARM64 browser auto-install
-failed; Studio's first editor-ID stamping invalidated an earlier source gate.
-These issues were resolved before the successful production render. No failing
-capture was automatically promoted into a baseline.
+The regression suite covers the historical rejected 17.618083-second hold,
+the exact two-second limit, a one-sample excess, truncated speech, actual decoded
+silence, HTML/configuration mismatch and the complete 44-second reference PCM.
+The traffic test verifies that shortening the simulation preserves its original
+first 1,320 frame states. QA identities include the validators and tests, excluding
+Python bytecode caches. `render` now runs encoded checks after muxing and binds
+the passing report into its receipt, including when video bytes are reused.
 
-## Delivery and reproducibility
+## Editorial and runtime boundaries
 
-Large MP4/audio/ZIP files and full raw run logs are outside Git. The editable ZIP
-includes baseline and processed narration, fonts, scene source, lockfiles and
-captions. Each package operation verifies CRC and every extracted SHA-256 value.
-The final `package-receipt.json` stays beside the ZIP to avoid a circular archive
-hash dependency; it binds the exact ZIP and the final restore result.
+The dark procedural 3D scene, English synthetic af_heart voice, captions and
+existing event cues remain: amber capacity warning at frame 463, first packet
+loss at 478 and legitimate request loss at 928. The server stays online in this
+illustrative model. No real network traffic or defensive efficacy is measured.
 
-The public restore record concerns the identical visual source used by the final
-archive. Final archive integrity and restore receipts are retained with the local
-delivery. This restore test uses the same machine/GPU and does not certify another
-platform or a second full-film render.
+The [production standard](../../THREEJS_VIDEO_PRODUCTION_STANDARD_v1.0.md)
+contains the 2026-10-21 bounded-ending amendment. The brief, storyboard, design
+notes and repository README describe the corrected duration. Sentence captions
+retain their original measured boundaries. Technical validation, agent sample
+inspection, human listening and publication are distinct acceptance layers.
 
-To repeat the frame comparison after extraction:
+Large media and complete logs remain in the local delivery workspace. The editable
+archive contains source, fonts, original and processed speech clips, updated PCM,
+captions, current reports and historical evidence. Archive checks verify CRC and
+all extracted hashes; clean-install restore checks include the new last frame.
+Restoration on this machine does not certify another GPU/platform or new TTS
+inference. No Git commit, remote push or social upload is part of this correction.
 
-```bash
-node scripts/restore-check.mjs /path/to/extracted-project qa/public/browser.json /path/to/restore-receipt.json
-```
+## Restore diagnostic and final archive binding
 
-Original 2D source remains separately owned. This project writes only its own
-source and delivery workspace. A local before/after inventory detected four
-concurrent changes in the 2D workspace; those files were left in place. This
-report therefore makes no byte-identical claim about the concurrently active
-2D workspace.
+The [initial restore attempt](restore-initial.json) differed only at frame 0;
+frames 600, 1020, 1319, 484 and 934 matched exactly. The diagnostic rerun matched
+all six frames without altering scene code, baseline pixels or equality rules.
+The initial difference did not reproduce; its cause is unconfirmed. The restore
+checker now saves mismatched PNGs beside a failed receipt for future diagnosis.
+This does not establish that a transient first-frame issue has been fixed.
 
-Remaining acceptance: user review of the continuous film and pronunciation;
-destination-specific safe-area/playback review if social publication is activated.
-Fresh TTS dependency installation on another machine, cross-platform rendering,
-WebGPU and social-platform publication are not certified by these receipts.
+The public restore report concerns the candidate archive's visual source. The
+final ZIP includes these current reports and the diagnostic improvement. A fresh
+extraction of that final ZIP is checked separately; `restore-receipt.json` and
+`package-receipt.json` beside the delivery bind the final ZIP hash and restore
+result without a circular archive hash dependency.

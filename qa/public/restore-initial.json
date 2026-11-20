@@ -1,0 +1,43 @@
+{
+  "status": "failed",
+  "scope": "Clean npm install, rebuild and native-seek pixel comparisons including incident peaks on the original machine; not a second full MP4 render or cross-platform certification.",
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "frames": [
+    {
+      "frame": 0,
+      "actual": "0f66f950946b13e12fcfc648cad17556d7f14187934a749e14470772862ba79d",
+      "expected": "fcf3fd1d93152959397dfc1649b560c5eaa543c01410236c64a87b6e9f71360b",
+      "passed": false
+    },
+    {
+      "frame": 600,
+      "actual": "ff6b4c334665632c996d27a5fd2a3b91b04824be9c21044e44673b463d8950f2",
+      "expected": "ff6b4c334665632c996d27a5fd2a3b91b04824be9c21044e44673b463d8950f2",
+      "passed": true
+    },
+    {
+      "frame": 1020,
+      "actual": "f0f94c273a4c53f1d93d90cae828aa7191e29fc981647b12241a37e7b36de49e",
+      "expected": "f0f94c273a4c53f1d93d90cae828aa7191e29fc981647b12241a37e7b36de49e",
+      "passed": true
+    },
+    {
+      "frame": 1319,
+      "actual": "f7a8eea7fe5117c55a6a484c9a478617841c5967a34615f5b1d50330fc83bca0",
+      "expected": "f7a8eea7fe5117c55a6a484c9a478617841c5967a34615f5b1d50330fc83bca0",
+      "passed": true
+    },
+    {
+      "frame": 484,
+      "actual": "2e14309f476174de24117a9065ae4faa7ad6a9088c74ca2aa2f04ba87c1e0f0f",
+      "expected": "2e14309f476174de24117a9065ae4faa7ad6a9088c74ca2aa2f04ba87c1e0f0f",
+      "passed": true
+    },
+    {
+      "frame": 934,
+      "actual": "fb148a742c73feef41c8965d6cc82e959a4b36cc89ca13a1ed1f29aa6e32a3c2",
+      "expected": "fb148a742c73feef41c8965d6cc82e959a4b36cc89ca13a1ed1f29aa6e32a3c2",
+      "passed": true
+    }
+  ]
+}

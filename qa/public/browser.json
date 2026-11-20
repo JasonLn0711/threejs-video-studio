@@ -1,5 +1,5 @@
 {
-  "runId": "2026-10-20T10-26-15-606Z-browser",
+  "runId": "2026-10-21T07-55-40-555Z-browser",
   "status": "passed",
   "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
   "captures": [
@@ -1770,7 +1770,7 @@
     {
       "frame": 616,
       "file": "frame-0616.png",
-      "sha256": "1298dc3fcc38a9fee4002691c5df4e0e915f7e0c5a0b4bb844e54bf9f09fb71b",
+      "sha256": "45812946a59871de073035820fb141f6aa719aa9e81ccf6e59d75506473b6667",
       "objects": [
         {
           "id": "source-0",
@@ -3028,9 +3028,9 @@
       "dropped": 1021
     },
     {
-      "frame": 1320,
-      "file": "frame-1320.png",
-      "sha256": "1820ae63b0c0fac40e5c991b4fa9592dba63883174a7fe8db86e1913cc088425",
+      "frame": 1270,
+      "file": "frame-1270.png",
+      "sha256": "8c33ed64a5096ada490b38195c9b61bed0603599420ac9047d570ac9717d6019",
       "objects": [
         {
           "id": "source-0",
@@ -3103,18 +3103,186 @@
         ]
       },
       "serverOnline": true,
-      "normalInstances": 6,
+      "normalInstances": 5,
       "attackInstances": 153,
       "drawCalls": 84,
-      "triangles": 6316,
+      "triangles": 6148,
       "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
-      "queueLength": 23,
-      "dropped": 1305
+      "queueLength": 24,
+      "dropped": 1220
     },
     {
-      "frame": 1500,
-      "file": "frame-1500.png",
-      "sha256": "22ce224f1a2b3ecd283fdc4bf31aa6d1618d02745a7f4c64caf2950fada94d5f",
+      "frame": 1271,
+      "file": "frame-1271.png",
+      "sha256": "4c9336f5525ccfdeb5be158935039c89a287a3915150f9a1132681ac7a4e1e7d",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 149,
+      "drawCalls": 84,
+      "triangles": 6100,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 23,
+      "dropped": 1220
+    },
+    {
+      "frame": 1272,
+      "file": "frame-1272.png",
+      "sha256": "b95d3f2ccda14a436ea5ca47946c9b06f093d9a814b7427f2e73752059fa5ca9",
+      "objects": [
+        {
+          "id": "source-0",
+          "minX": 198.56719071320475,
+          "maxX": 280.91111990984956,
+          "minY": 960.1500625279018,
+          "maxY": 1032.5709532908284,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-1",
+          "minX": 297.3162071588771,
+          "maxX": 382.77754768227504,
+          "minY": 1022.0172926552607,
+          "maxY": 1102.849159104859,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-2",
+          "minX": 459.9700131564152,
+          "maxX": 542.6850644204197,
+          "minY": 1060.1465124487445,
+          "maxY": 1146.3321724336947,
+          "visibleDepth": true
+        },
+        {
+          "id": "source-3",
+          "minX": 671.8974104140325,
+          "maxX": 751.703310108536,
+          "minY": 1039.1274886814435,
+          "maxY": 1122.3457396066397,
+          "visibleDepth": true
+        },
+        {
+          "id": "router",
+          "minX": 484.36314691292074,
+          "maxX": 588.8541656117815,
+          "minY": 906.2281958309361,
+          "maxY": 968.3264504602656,
+          "visibleDepth": true
+        },
+        {
+          "id": "server",
+          "minX": 581.108016075309,
+          "maxX": 656.5622465290082,
+          "minY": 740.0640866775374,
+          "maxY": 850.1028664993573,
+          "visibleDepth": true
+        }
+      ],
+      "incident": null,
+      "incidentCues": {
+        "warningFrame": 463,
+        "events": [
+          {
+            "id": "packet-loss",
+            "start": 478,
+            "end": 550,
+            "title": "PACKETS DROPPED",
+            "detail": "LINK CAPACITY EXCEEDED"
+          },
+          {
+            "id": "request-lost",
+            "start": 928,
+            "end": 1012,
+            "title": "REQUEST LOST",
+            "detail": "SERVER STILL ONLINE",
+            "packetId": 837
+          }
+        ]
+      },
+      "serverOnline": true,
+      "normalInstances": 5,
+      "attackInstances": 150,
+      "drawCalls": 84,
+      "triangles": 6112,
+      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
+      "queueLength": 24,
+      "dropped": 1226
+    },
+    {
+      "frame": 1290,
+      "file": "frame-1290.png",
+      "sha256": "5cd2208dbfaed05b720f5296c45eeb977086d3fb6e0b0110414ef42cfbe70ff6",
       "objects": [
         {
           "id": "source-0",
@@ -3193,96 +3361,12 @@
       "triangles": 6292,
       "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
       "queueLength": 24,
-      "dropped": 1606
+      "dropped": 1256
     },
     {
-      "frame": 1650,
-      "file": "frame-1650.png",
-      "sha256": "d9878b907c8bdb9b7e7c9fc333fe916afe8375687bf42b922b91389652728dd4",
-      "objects": [
-        {
-          "id": "source-0",
-          "minX": 198.56719071320475,
-          "maxX": 280.91111990984956,
-          "minY": 960.1500625279018,
-          "maxY": 1032.5709532908284,
-          "visibleDepth": true
-        },
-        {
-          "id": "source-1",
-          "minX": 297.3162071588771,
-          "maxX": 382.77754768227504,
-          "minY": 1022.0172926552607,
-          "maxY": 1102.849159104859,
-          "visibleDepth": true
-        },
-        {
-          "id": "source-2",
-          "minX": 459.9700131564152,
-          "maxX": 542.6850644204197,
-          "minY": 1060.1465124487445,
-          "maxY": 1146.3321724336947,
-          "visibleDepth": true
-        },
-        {
-          "id": "source-3",
-          "minX": 671.8974104140325,
-          "maxX": 751.703310108536,
-          "minY": 1039.1274886814435,
-          "maxY": 1122.3457396066397,
-          "visibleDepth": true
-        },
-        {
-          "id": "router",
-          "minX": 484.36314691292074,
-          "maxX": 588.8541656117815,
-          "minY": 906.2281958309361,
-          "maxY": 968.3264504602656,
-          "visibleDepth": true
-        },
-        {
-          "id": "server",
-          "minX": 581.108016075309,
-          "maxX": 656.5622465290082,
-          "minY": 740.0640866775374,
-          "maxY": 850.1028664993573,
-          "visibleDepth": true
-        }
-      ],
-      "incident": null,
-      "incidentCues": {
-        "warningFrame": 463,
-        "events": [
-          {
-            "id": "packet-loss",
-            "start": 478,
-            "end": 550,
-            "title": "PACKETS DROPPED",
-            "detail": "LINK CAPACITY EXCEEDED"
-          },
-          {
-            "id": "request-lost",
-            "start": 928,
-            "end": 1012,
-            "title": "REQUEST LOST",
-            "detail": "SERVER STILL ONLINE",
-            "packetId": 837
-          }
-        ]
-      },
-      "serverOnline": true,
-      "normalInstances": 6,
-      "attackInstances": 153,
-      "drawCalls": 84,
-      "triangles": 6316,
-      "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
-      "queueLength": 23,
-      "dropped": 1854
-    },
-    {
-      "frame": 1799,
-      "file": "frame-1799.png",
-      "sha256": "50304cde48e01641c044db0423a1d44b3711fa3930a54ab66dc94ea8a1a7f781",
+      "frame": 1319,
+      "file": "frame-1319.png",
+      "sha256": "f7a8eea7fe5117c55a6a484c9a478617841c5967a34615f5b1d50330fc83bca0",
       "objects": [
         {
           "id": "source-0",
@@ -3356,12 +3440,12 @@
       },
       "serverOnline": true,
       "normalInstances": 5,
-      "attackInstances": 154,
+      "attackInstances": 151,
       "drawCalls": 84,
-      "triangles": 6160,
+      "triangles": 6124,
       "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
       "queueLength": 23,
-      "dropped": 2101
+      "dropped": 1305
     }
   ],
   "failures": [],
@@ -3369,8 +3453,8 @@
   "captureProfile": "HyperFrames-compatible gl-egl, font-render-hinting=none, sRGB, deviceScaleFactor=1",
   "browser": "151.0.7922.34",
   "gpu": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)",
-  "checkedFrames": 1800,
-  "nativeSeekSamples": 40,
+  "checkedFrames": 1320,
+  "nativeSeekSamples": 41,
   "repeatSeekSamples": 7,
   "frameMetrics": [
     {
@@ -3592,86 +3676,6 @@
       "frame": 1290,
       "calls": 84,
       "triangles": 6292
-    },
-    {
-      "frame": 1320,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1350,
-      "calls": 84,
-      "triangles": 6328
-    },
-    {
-      "frame": 1380,
-      "calls": 84,
-      "triangles": 6280
-    },
-    {
-      "frame": 1410,
-      "calls": 84,
-      "triangles": 6304
-    },
-    {
-      "frame": 1440,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1470,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1500,
-      "calls": 84,
-      "triangles": 6292
-    },
-    {
-      "frame": 1530,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1560,
-      "calls": 84,
-      "triangles": 6328
-    },
-    {
-      "frame": 1590,
-      "calls": 84,
-      "triangles": 6280
-    },
-    {
-      "frame": 1620,
-      "calls": 84,
-      "triangles": 6304
-    },
-    {
-      "frame": 1650,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1680,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1710,
-      "calls": 84,
-      "triangles": 6292
-    },
-    {
-      "frame": 1740,
-      "calls": 84,
-      "triangles": 6316
-    },
-    {
-      "frame": 1770,
-      "calls": 84,
-      "triangles": 6328
     }
   ]
 }

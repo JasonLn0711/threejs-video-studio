@@ -22,6 +22,12 @@
       "passed": true
     },
     {
+      "frame": 1319,
+      "actual": "f7a8eea7fe5117c55a6a484c9a478617841c5967a34615f5b1d50330fc83bca0",
+      "expected": "f7a8eea7fe5117c55a6a484c9a478617841c5967a34615f5b1d50330fc83bca0",
+      "passed": true
+    },
+    {
       "frame": 484,
       "actual": "2e14309f476174de24117a9065ae4faa7ad6a9088c74ca2aa2f04ba87c1e0f0f",
       "expected": "2e14309f476174de24117a9065ae4faa7ad6a9088c74ca2aa2f04ba87c1e0f0f",
