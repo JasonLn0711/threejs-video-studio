@@ -6,5 +6,6 @@
     "dev": "node ../../scripts/studio.mjs preview",
     "check": "node ../../scripts/studio.mjs check",
     "render": "node ../../scripts/studio.mjs render"
-  }
+  },
+  "packageManager": "pnpm@12.15.0"
 }
