@@ -20,7 +20,7 @@ const hf=path.join(root,'node_modules/.bin/hyperframes');const hash=b=>createHas
 export async function sourceIdentity(){
  const files=[];async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){if(['.cache','.media','.hyperframes','dist','__pycache__','.thumbnails','.waveform-cache'].includes(e.name))continue;const p=path.join(dir,e.name);if(e.isSymbolicLink())throw new Error('Source symlink unsupported');if(e.isDirectory())await walk(p);else if(!e.name.endsWith('.md'))files.push(p);}}
  await walk(path.join(root,'src/php-series'));await walk(project);
- for(const rel of ['package-lock.json','scripts/build.mjs','scripts/studio.mjs','scripts/php-studio.mjs','scripts/php-browser-qa.mjs','scripts/php-layout.py','scripts/php-audio.py','scripts/php-verify.py','scripts/php-package.py','scripts/php-restore.mjs','scripts/cinematic-speech.py','scripts/verify_cinematic.py','scripts/pcm_silence.py','scripts/verify_audio.py','scripts/cinematic-encoded.mjs','tests/php-series.test.mjs'])files.push(path.join(root,rel));
+ for(const rel of ['package.json', 'pnpm-workspace.yaml', 'pnpm-lock.yaml','scripts/build.mjs','scripts/studio.mjs','scripts/php-studio.mjs','scripts/php-browser-qa.mjs','scripts/php-layout.py','scripts/php-audio.py','scripts/php-verify.py','scripts/php-package.py','scripts/php-restore.mjs','scripts/cinematic-speech.py','scripts/verify_cinematic.py','scripts/pcm_silence.py','scripts/verify_audio.py','scripts/cinematic-encoded.mjs','tests/php-series.test.mjs'])files.push(path.join(root,rel));
  if(film.validationProfile==='wordpress-runtime-v1')files.push(path.join(root,'tests/wordpress-runtime.test.mjs'));
  const hashes=await Promise.all([...new Set(files)].sort().map(async p=>[path.relative(root,p),await hashFile(p)]));return {key:hash(JSON.stringify(hashes)),hashes};
 }
@@ -32,7 +32,7 @@ try{
  if(command==='preview')result.url=await child('preview',hf,['preview','--background','--port',arg('--port',film.episode==='wordpress'?'3052':film.episode==='oom'?'3050':'3051')],project);
  else if(command==='check'){
   const identity=await sourceIdentity();
-  await child('typecheck','npm',['run','typecheck']);await child('unit-tests','npm',['test']);
+  await child('typecheck','pnpm',['run','typecheck']);await child('unit-tests','pnpm',['test']);
   await child('audio-tests','python3',['-m','unittest','discover','-s','tests','-p','*_test.py']);
   await child('audio','python3',['scripts/verify_cinematic.py','--project',project,'--output',path.join(run,'audio.json')]);
   await child('content','python3',['scripts/php-verify.py','--project',project,'--output',path.join(run,'content.json')]);
