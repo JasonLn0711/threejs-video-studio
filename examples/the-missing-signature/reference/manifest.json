@@ -1,0 +1,13 @@
+{
+  "zipSha256": "052db5defe66b1e7e35096bf1bb5cb455a37f7e084cea61943aed4f099abcab4",
+  "files": {
+    "README.md": "4b30b39badb5f28b771a677a9b6e1de3b22e8e39785c9e77b7e38057c2169af2",
+    "codex_implementation_prompt.txt": "af6472d35e9fdd0bc6a729ce7b63b22fbadd48e0d8ade1cfb32ad21008a8225e",
+    "production_bible.md": "c51b13fc1c67ac2d9bddd6dea3daae06f6d087af44a7cf44f7c268181e24a55b",
+    "shotlist_60s.json": "89120e4b03d7d98ecd94cc45ce1167b7f9ccab2cb75361c3bec4eb3282afc6d7",
+    "storyboard_contact_sheet.png": "8299a15a4ce13ab3c9550edd484e7f70c2dddf301693bc966de8aae873c9849a",
+    "storyboard_contact_sheet.svg": "7824347b40b3213137ca24ba6b93a9f34c4eac64bae98d478927c94bba661ef5",
+    "subtitles_zh_tw_DRAFT.srt": "dc2baacf233b7565bab8f84895267cd0dde2c7920d58136bf12aaa080e832e14",
+    "voiceover_en_master.txt": "4d61d2108abad4fa46d1ab1e9719b5b34cd2bdc296c7bafa14aac6142ff2704e"
+  }
+}

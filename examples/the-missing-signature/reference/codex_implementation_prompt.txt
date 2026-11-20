@@ -1,0 +1,19 @@
+TASK: Produce the 60-second, cinematic cybersecurity YouTube Short “THE MISSING SIGNATURE” from the attached production_bible.md and shotlist_60s.json. This is a maintainable HyperFrames project in my EXISTING Python + GSAP + HyperFrames + FFmpeg video system. Do not replace or rewrite the system architecture. Do not render the whole movie until a 10-second shot proof is approved.
+
+FIRST: Inspect the current repo, current approved production rules, HyperFrames skills, tool versions, asset licenses, renderer behavior, and existing quality gates. Document any conflicts. The CEH tutorial's 16:9 output and fast 1.4x narration MUST remain unchanged; create a separate cinematic-shorts 9:16 profile.
+
+SPEC: 1080x1920, 30 fps, exactly 1800 frames / 60 sec, dark controlled color palette from shotlist JSON. US English cinematic voice + zh-TW subtitles. Prefer actual silence/holds over overfast spoken delivery. If final TTS duration differs from provisional timings, retime shots and subtitle cues while holding total runtime and preserving story order. No clipping.
+
+SHOTS: implement S01..S12 in machine JSON with exact frame anchors. Three.js for genuine 3D camera, doors, glass JWT object, 17 tower architecture only. HTML/CSS/SVG + GSAP for all technical labels, captions, and critical numbers. User prioritizes pixel-precise rounded corners, arrow geometry, grids, layout alignment, predictable motion: constraint-based composition required.
+
+ADAPTER ISSUE: Verify installed HyperFrames' Three.js support. Public docs show first-party Three.js adapter may be planned/experimental. Either implement and test seek-driven deterministic integration or pre-render shot MP4/PNG sequences from Three.js and composite in HyperFrames, depending on actual version. NEVER rely on live browser clock/requestAnimationFrame for final frame state.
+
+DETERMINISM: frame->scene must be pure at t=frame/fps; seed any particle randomness; no render-time external fetching or hidden timers; respect paused GSAP timelines and registration keys; separate audio track from muted videos. Compare frames after seeks [90,10,50,10] and render twice.
+
+DESIGN / FACT RULES: no hacker hoodies, green code rain, stock visuals, actual corporate screenshots or identifiable person. Show JWT header/payload/signature as three pristine orthogonal panes: the signature is NOT VERIFIED, not 'cryptography broken'. Show successful `SELECT 1 → 1` as tiny bounded proof, not data theft. On S09 lock `17.3 TRILLION` with `ESTIMATED ROWS` and `POTENTIALLY REACHABLE / NOT EXFILTRATED`. S10 depicts responsible disclosure, S11 Microsoft endpoint restriction / $5,000 award, all sourced.
+
+AUDIO: Use existing dry WAV TTS/voice engine, 48k PCM; create versioned 12-line English master and word-aligned zh-TW subtitle SRT. Separate cinematic narrator preset (not CEH fast teaching profile), foley, music licenses, mix QA. One meaningful near-silence before `admin`; one restrained stinger at numeral 1.
+
+DELIVERABLES: (1) narrative/visual risk report; (2) JSON-validated 12-scene project, shareable design tokens; (3) 10s proof focusing on S07/S08/S09, then seek QA screenshots; (4) after approval final editable HTML/GSAP/Three source, voice WAV stems, music SFX stems, edited zh-TW SRT/VTT; (5) final H.264/AAC 1080x1920 MP4; (6) ffprobe outputs, screenshot-diff report and reproducible render commands; (7) complete attribution/source/asset license inventory.
+
+STOP POINT: Build storyboard and 10-second cinematic proof first. Report design decisions, assumptions, adapter support findings, cost/performance tradeoffs, and QA results before attempting the full render.

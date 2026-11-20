@@ -1,6 +1,6 @@
 # The Missing Signature — English full film
 
-> Git archive of the authored source. The supplied reference bundle, local audio, and compiled delivery files are held with the original production materials.
+> Git archive of the authored source. The supplied reference bundle is preserved under `reference/`. Local audio and compiled delivery files are held with the original production materials.
 
 A 49.233333-second, 12-shot cybersecurity Short with conversational US English narration and English captions. The user approved the visual proof and authorized this revision and full rendering. `film.json` records that approval and the reviewed proof hash. Historical reference files remain unchanged under `reference/`.
 

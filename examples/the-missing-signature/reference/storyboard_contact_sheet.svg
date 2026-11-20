@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1095" height="1775" viewBox="0 0 1095 1775">
+<defs><linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172436"/><stop offset="1" stop-color="#070B14"/></linearGradient><linearGradient id="glow" x1="0" x2="1"><stop stop-color="#143A51"/><stop offset="1" stop-color="#DFAB6C"/></linearGradient></defs>
+<rect width="1095" height="1775" fill="#070B14"/>
+<text x="35" y="49" font-family="Arial, sans-serif" font-weight="700" font-size="30" fill="#F1F4F6">THE MISSING SIGNATURE</text>
+<text x="35" y="76" font-family="Arial, sans-serif" font-size="15" fill="#74B8C6">60s VERTICAL SHOTBOARD — SCHEMATIC PREVIS · NOT FINAL RENDERS</text>
+<rect x="35" y="96" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="38" y="99" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="80" y="170" width="140" height="245" rx="8" fill="#1D2A35" stroke="#74B8C6" stroke-width="3"/>
+<path d="M 150.0 170 V 415" stroke="#74B8C6" opacity=".7"/>
+<rect x="101.0" y="278" width="98" height="34" rx="3" fill="#09151C" stroke="#74B8C6"/>
+<text x="150.0" y="299" text-anchor="middle" font-family="monospace" font-size="11" fill="#BFE8EA">VPN REQUIRED</text>
+<text x="41" y="531" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S01  00.0–03.5s</text>
+<text x="41" y="555" font-family="Arial" font-size="12" fill="#94B5C3">LOCKED FRONT DOOR</text>
+<line x1="41" y1="571" x2="265" y2="571" stroke="#344357"/>
+<rect x="300" y="96" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="303" y="99" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="322" y="161" width="154" height="255" rx="6" fill="#223040" stroke="#425D70"/>
+<rect x="485" y="261" width="18" height="29" rx="4" fill="#E0A96B"/>
+<path d="M 485 277 Q 445 272, 415.0 381" stroke="#E0A96B" stroke-width="3" fill="none"/>
+<text x="306" y="531" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S02  03.5–07.5s</text>
+<text x="306" y="555" font-family="Arial" font-size="12" fill="#94B5C3">THE SIDE ENTRANCE</text>
+<line x1="306" y1="571" x2="530" y2="571" stroke="#344357"/>
+<rect x="565" y="96" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="568" y="99" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<line x1="625" y1="236" x2="730" y2="201" stroke="#74B8C6" stroke-width="2" opacity=".65"/>
+<line x1="625" y1="236" x2="687" y2="316" stroke="#74B8C6" stroke-width="2" opacity=".65"/>
+<line x1="730" y1="201" x2="742" y2="386" stroke="#74B8C6" stroke-width="2" opacity=".65"/>
+<line x1="687" y1="316" x2="625" y2="381" stroke="#74B8C6" stroke-width="2" opacity=".65"/>
+<line x1="687" y1="316" x2="742" y2="386" stroke="#74B8C6" stroke-width="2" opacity=".65"/>
+<circle cx="625" cy="236" r="7" fill="#74B8C6"/>
+<circle cx="730" cy="201" r="7" fill="#74B8C6"/>
+<circle cx="687" cy="316" r="7" fill="#74B8C6"/>
+<circle cx="625" cy="381" r="7" fill="#74B8C6"/>
+<circle cx="742" cy="386" r="7" fill="#74B8C6"/>
+<text x="680.0" y="446" text-anchor="middle" font-family="monospace" font-size="16" fill="#F1F4F6">ANTARES</text>
+<text x="571" y="531" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S03  07.5–12.0s</text>
+<text x="571" y="555" font-family="Arial" font-size="12" fill="#94B5C3">AI FINDS A LEAD</text>
+<line x1="571" y1="571" x2="795" y2="571" stroke="#344357"/>
+<rect x="830" y="96" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="833" y="99" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="856" y="190" width="178" height="39" rx="5" fill="#243042" stroke="#74B8C6" opacity="0.5"/>
+<text x="945.0" y="215" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">TENANT</text>
+<rect x="856" y="247" width="178" height="39" rx="5" fill="#243042" stroke="#74B8C6" opacity="0.6"/>
+<text x="945.0" y="272" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">AUDIENCE</text>
+<rect x="856" y="304" width="178" height="39" rx="5" fill="#243042" stroke="#74B8C6" opacity="0.7"/>
+<text x="945.0" y="329" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">APP ID</text>
+<rect x="856" y="361" width="178" height="39" rx="5" fill="#243042" stroke="#74B8C6" opacity="0.8"/>
+<text x="945.0" y="386" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">USER</text>
+<text x="836" y="531" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S04  12.0–18.5s</text>
+<text x="836" y="555" font-family="Arial" font-size="12" fill="#94B5C3">TEN DAYS OF ERRORS</text>
+<line x1="836" y1="571" x2="1060" y2="571" stroke="#344357"/>
+<rect x="35" y="651" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="38" y="654" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="73" y="751" width="56" height="205" rx="4" fill="#47788E" fill-opacity=".23" stroke="#47788E" stroke-width="2"/>
+<rect x="124" y="738" width="56" height="205" rx="4" fill="#7C9FAD" fill-opacity=".23" stroke="#7C9FAD" stroke-width="2"/>
+<rect x="175" y="725" width="56" height="205" rx="4" fill="#D9A066" fill-opacity=".23" stroke="#D9A066" stroke-width="2"/>
+<text x="150.0" y="1002" text-anchor="middle" font-family="monospace" font-size="13" fill="#E0A96B">SIGNATURE: EMPTY</text>
+<text x="41" y="1086" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S05  18.5–24.5s</text>
+<text x="41" y="1110" font-family="Arial" font-size="12" fill="#94B5C3">THE MISSING SIGNATURE</text>
+<line x1="41" y1="1126" x2="265" y2="1126" stroke="#344357"/>
+<rect x="300" y="651" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="303" y="654" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="326" y="745" width="178" height="39" rx="5" fill="#243042" stroke="#C85A5A" opacity="0.5"/>
+<text x="415.0" y="770" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">USER NOT FOUND</text>
+<rect x="326" y="802" width="178" height="39" rx="5" fill="#243042" stroke="#C85A5A" opacity="0.6"/>
+<text x="415.0" y="827" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">USER NOT FOUND</text>
+<rect x="326" y="859" width="178" height="39" rx="5" fill="#243042" stroke="#C85A5A" opacity="0.7"/>
+<text x="415.0" y="884" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">USER NOT FOUND</text>
+<rect x="326" y="916" width="178" height="39" rx="5" fill="#243042" stroke="#C85A5A" opacity="0.8"/>
+<text x="415.0" y="941" text-anchor="middle" font-family="monospace" font-size="11" fill="#E8EDF2">USER NOT FOUND</text>
+<text x="306" y="1086" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S06  24.5–29.5s</text>
+<text x="306" y="1110" font-family="Arial" font-size="12" fill="#94B5C3">THE WRONG ASSUMPTION</text>
+<line x1="306" y1="1126" x2="530" y2="1126" stroke="#344357"/>
+<rect x="565" y="651" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="568" y="654" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="589" y="797" width="182" height="76" rx="6" fill="#111D2C" stroke="#E0A96B" stroke-width="2"/>
+<text x="680.0" y="844" font-size="28" font-family="monospace" text-anchor="middle" fill="#E0A96B">admin_</text>
+<text x="571" y="1086" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S07  29.5–34.0s</text>
+<text x="571" y="1110" font-family="Arial" font-size="12" fill="#94B5C3">ONE HUMAN HUNCH</text>
+<line x1="571" y1="1126" x2="795" y2="1126" stroke="#344357"/>
+<rect x="830" y="651" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="833" y="654" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<text x="945.0" y="901" text-anchor="middle" font-weight="700" font-size="190" font-family="monospace" fill="#F1F4F6">1</text>
+<text x="945.0" y="946" text-anchor="middle" font-size="15" font-family="monospace" fill="#74B8C6">SELECT 1</text>
+<text x="836" y="1086" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S08  34.0–37.0s</text>
+<text x="836" y="1110" font-family="Arial" font-size="12" fill="#94B5C3">QUERY RETURNS ONE</text>
+<line x1="836" y1="1126" x2="1060" y2="1126" stroke="#344357"/>
+<rect x="35" y="1206" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="38" y="1209" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="49" y="1416" width="16" height="90" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="73" y="1363" width="16" height="143" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="97" y="1310" width="16" height="196" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="121" y="1257" width="16" height="249" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="145" y="1416" width="16" height="90" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="169" y="1363" width="16" height="143" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="193" y="1310" width="16" height="196" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="217" y="1257" width="16" height="249" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<rect x="241" y="1416" width="16" height="90" fill="#1F3448" stroke="#477C88" opacity=".87"/>
+<text x="150.0" y="1556" text-anchor="middle" font-size="36" font-weight="700" font-family="Arial" fill="#F1F4F6">17.3T</text>
+<text x="41" y="1641" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S09  37.0–46.5s</text>
+<text x="41" y="1665" font-family="Arial" font-size="12" fill="#94B5C3">UNIMAGINABLE SCALE</text>
+<line x1="41" y1="1681" x2="265" y2="1681" stroke="#344357"/>
+<rect x="300" y="1206" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="303" y="1209" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="330" y="1338" width="170" height="166" rx="8" fill="#172335" stroke="#74B8C6"/>
+<text x="415.0" y="1409" text-anchor="middle" font-size="28" font-family="Arial" fill="#F1F4F6">MSRC</text>
+<text x="415.0" y="1441" text-anchor="middle" font-size="15" font-family="monospace" fill="#74B8C6">REPORTED</text>
+<text x="306" y="1641" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S10  46.5–51.5s</text>
+<text x="306" y="1665" font-family="Arial" font-size="12" fill="#94B5C3">RESPONSIBLE DISCLOSURE</text>
+<line x1="306" y1="1681" x2="530" y2="1681" stroke="#344357"/>
+<rect x="565" y="1206" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="568" y="1209" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<path d="M 595 1311 H 765 V 1502 H 595 Z" fill="#1F3040" stroke="#74B8C6"/>
+<path d="M 619 1326 V 1488 M 660 1326 V 1488 M 702 1326 V 1488 M 743 1326 V 1488" stroke="#74B8C6" stroke-width="4"/>
+<text x="680.0" y="1551" text-anchor="middle" font-size="17" font-family="monospace" fill="#E0A96B">$5,000</text>
+<text x="571" y="1641" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S11  51.5–56.0s</text>
+<text x="571" y="1665" font-family="Arial" font-size="12" fill="#94B5C3">ENDPOINT RESTRICTED</text>
+<line x1="571" y1="1681" x2="795" y2="1681" stroke="#344357"/>
+<rect x="830" y="1206" width="230" height="410" rx="12" fill="url(#shade)" stroke="#2B3949" stroke-width="2"/>
+<rect x="833" y="1209" width="224" height="404" rx="10" fill="none" stroke="#476073" opacity=".4"/>
+<rect x="875" y="1280" width="140" height="245" rx="8" fill="#1D2A35" stroke="#74B8C6" stroke-width="3"/>
+<path d="M 945.0 1280 V 1525" stroke="#74B8C6" opacity=".7"/>
+<rect x="896.0" y="1388" width="98" height="34" rx="3" fill="#09151C" stroke="#74B8C6"/>
+<text x="945.0" y="1409" text-anchor="middle" font-family="monospace" font-size="11" fill="#BFE8EA">NO SIGNATURE</text>
+<text x="836" y="1641" font-family="Arial" font-size="15" font-weight="700" fill="#F1F4F6">S12  56.0–60.0s</text>
+<text x="836" y="1665" font-family="Arial" font-size="12" fill="#94B5C3">THE LAST QUESTION</text>
+<line x1="836" y1="1681" x2="1060" y2="1681" stroke="#344357"/>
+</svg>

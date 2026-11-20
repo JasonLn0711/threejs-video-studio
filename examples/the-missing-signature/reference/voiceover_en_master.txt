@@ -1,0 +1,18 @@
+THE MISSING SIGNATURE
+60-second US English narrator / working draft. Durations approximate until final WAV is recorded.
+
+S01  000.0–003.5s | Microsoft's front door said: VPN required.
+S02  003.5–007.5s | But a public API was still listening.
+S03  007.5–012.0s | An AI agent found the lead for a sixteen-year-old researcher.
+S04  012.0–018.5s | For ten days, it chased error messages, one security check at a time.
+S05  018.5–024.5s | The server inspected the token's claims—but never verified its signature.
+S06  024.5–029.5s | Every normal-looking username failed.
+S07  029.5–034.0s | Then the researcher tried one word: admin.
+S08  034.0–037.0s | The query returned one.
+S09  037.0–046.5s | Beyond it were seventeen databases, with an estimated seventeen point three trillion stored rows potentially reachable.
+S10  046.5–051.5s | He checked limited samples, then reported the flaw.
+S11  051.5–056.0s | Microsoft restricted the endpoint, and awarded five thousand dollars.
+S12  056.0–060.0s | It checked the claims. Not the signature.
+
+CONTINUOUS READ:
+Microsoft's front door said: VPN required. But a public API was still listening. An AI agent found the lead for a sixteen-year-old researcher. For ten days, it chased error messages, one security check at a time. The server inspected the token's claims—but never verified its signature. Every normal-looking username failed. Then the researcher tried one word: admin. The query returned one. Beyond it were seventeen databases, with an estimated seventeen point three trillion stored rows potentially reachable. He checked limited samples, then reported the flaw. Microsoft restricted the endpoint, and awarded five thousand dollars. It checked the claims. Not the signature.
