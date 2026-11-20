@@ -66,6 +66,7 @@ try {
   } else if (command === 'check') {
     const identity = await qaIdentity();
     await child('audio-timing', 'python3', ['scripts/verify_audio.py']);
+    await child('audio-tests', 'python3', ['-m', 'unittest', 'discover', '-s', 'tests', '-p', '*_test.py']);
     await child('types', path.join(root, 'node_modules/.bin/tsc'), ['--noEmit']);
     await child('tests', process.execPath, ['--test', 'tests/traffic.test.mjs', 'tests/events.test.mjs']);
     const raw = await child('hyperframes-check', hf, ['check', '--json', '--samples', '13'], project, false);
@@ -81,7 +82,7 @@ try {
     summary.gate = gate;
   } else if (command === 'render') {
     const gate = JSON.parse(await fs.readFile(path.join(root, 'qa/latest-check.json'), 'utf8'));
-    if (gate.status !== 'passed' || gate.identity !== await qaIdentity()) throw new Error('Missing or stale check; run npm run check');
+    if (gate.status !== 'passed' || gate.identity !== await qaIdentity()) throw new Error('Missing or stale check; run pnpm run check');
     const identity = await renderIdentity(), target = path.join(output, 'ddos-capacity.mp4');
     const receiptFile = path.join(output, 'render-receipt.json');
     let cached;
@@ -92,10 +93,24 @@ try {
       await child('usage', hf, ['usage', '--json'], project);
       await encode({ child, hf, project, output });
       if ((await renderIdentity()).key !== identity.key) throw new Error('Source changed during render');
-      await fs.writeFile(receiptFile, JSON.stringify({ identity: identity.key, sha256: await fileHash(target),
-        runId, source: identity.hashes, settings: { fps: 30, workers: 1, quality: 'delivery', browserGpu: true } }, null, 2) + '\n');
     }
+    const encodedDir = path.join(run, 'encoded');
+    await child('encoded', 'python3', ['scripts/verify_video.py', target, '--output', encodedDir,
+      '--browser-report', path.join(root, gate.browserRun, 'report.json')]);
+    const encodedFile = path.join(encodedDir, 'report.json');
+    const encoded = JSON.parse(await fs.readFile(encodedFile, 'utf8'));
+    if (encoded.status !== 'passed' || encoded.videoSha256 !== await fileHash(target) ||
+        (await renderIdentity()).key !== identity.key || gate.identity !== await qaIdentity()) {
+      throw new Error('Encoded acceptance or current-source identity failed');
+    }
+    const film = JSON.parse(await fs.readFile(path.join(project, 'film.json'), 'utf8'));
+    await fs.writeFile(receiptFile, JSON.stringify({ identity: identity.key, sha256: encoded.videoSha256,
+      runId, source: identity.hashes, qaIdentity: gate.identity,
+      encodedReport: path.relative(root, encodedFile), encodedReportSha256: await fileHash(encodedFile),
+      settings: { fps: film.fps, duration: film.duration, workers: 1, quality: 'delivery', browserGpu: true }
+    }, null, 2) + '\n');
     summary.artifact = target;
+    summary.encodedReport = path.relative(root, encodedFile);
   } else {
     await child('package', 'python3', ['scripts/package.py', '--output', output]);
   }

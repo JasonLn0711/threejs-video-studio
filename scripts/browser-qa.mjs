@@ -36,20 +36,22 @@ try {
   await page.waitForFunction(() => window.studio && window.__player?.renderSeek, { timeout: 45000 });
   await page.evaluate(async () => { await document.fonts.ready; await Promise.all(Object.values(window.__hf?.buildReady || {})); });
   await page.evaluate(() => window.__player.pause());
+  const film = JSON.parse(await fs.readFile(path.join(project, 'film.json'), 'utf8'));
+  const count = Math.round(film.duration * film.fps);
+  const ending = Math.round(film.narration.at(-1).until * film.fps);
   const seek = async frame => {
-    await page.evaluate(async f => {
-      await window.__player.renderSeek(f / 30, { exact: true });
+    await page.evaluate(async ({ f, fps }) => {
+      await window.__player.renderSeek(f / fps, { exact: true });
       await window.__hfWaitForSeekCompletion?.();
       await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-    }, frame);
+    }, { f: frame, fps: film.fps });
   };
-  const film = JSON.parse(await fs.readFile(path.join(project, 'film.json'), 'utf8'));
   const boundaries = film.beats.slice(1).map(b => Math.round(b.start * film.fps));
   const incidents = await page.evaluate(() => window.studio.inspect().incidentCues);
   const eventFrames = incidents.events.flatMap(e => [e.start - 1, e.start, e.start + 6, e.start + 12, e.end - 1, e.end]);
-  const repeats = [1020, 60, 1799, 0, 810, ...incidents.events.map(e => e.start + 6)];
-  const frames = [...new Set([0, 60, 120, 300, 420, 600, 810, 1020, 1320, 1500, 1650, 1799,
-    incidents.warningFrame, ...eventFrames, ...boundaries.flatMap(f => [f - 1, f, f + 1])])].sort((a, b) => a - b);
+  const repeats = [1020, 60, count - 1, 0, 810, ...incidents.events.map(e => e.start + 6)].filter(f => f >= 0 && f < count);
+  const frames = [...new Set([0, 60, 120, 300, 420, 600, 810, 1020, count - 1, count - film.fps, ending - 1, ending, ending + 1,
+    incidents.warningFrame, ...eventFrames, ...boundaries.flatMap(f => [f - 1, f, f + 1])])].filter(f => f >= 0 && f < count).sort((a, b) => a - b);
   for (const frame of frames) {
     await seek(frame);
     const state = await page.evaluate(() => window.studio.inspect());
@@ -69,9 +71,9 @@ try {
   }
   // All-frame geometry checks read pure scene state. Native seeking is checked
   // above independently; this loop does not substitute for that integration.
-  const allFrames = await page.evaluate(() => {
+  const allFrames = await page.evaluate(({ count, fps }) => {
     const issues = [], results = [];
-    for (let f = 0; f < 1800; f++) {
+    for (let f = 0; f < count; f++) {
       window.studio.renderAt(f);
       const state = window.studio.inspect();
       for (const b of state.objects) if (!b.visibleDepth || b.minX < 40 || b.maxX > 1040 || b.minY < 565 || b.maxY > 1305)
@@ -82,15 +84,15 @@ try {
             el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1) issues.push({ kind: 'text-bounds', frame: f, id,
               height: el.clientHeight, scrollHeight: el.scrollHeight, bottom: box.bottom });
       }
-      if (f % 30 === 0) results.push({ frame: f, calls: state.drawCalls, triangles: state.triangles });
+      if (f % fps === 0) results.push({ frame: f, calls: state.drawCalls, triangles: state.triangles });
     }
     return { issues, results };
-  });
+  }, { count, fps: film.fps });
   failures.push(...allFrames.issues);
   if (consoleErrors.length) failures.push({ kind: 'console-errors', count: consoleErrors.length });
   report = { ...report, status: failures.length ? 'failed' : 'passed',
     captureProfile: 'HyperFrames-compatible gl-egl, font-render-hinting=none, sRGB, deviceScaleFactor=1',
-    browser: browser.version(), gpu: report.captures[0].gpu, checkedFrames: 1800,
+    browser: browser.version(), gpu: report.captures[0].gpu, checkedFrames: count,
     nativeSeekSamples: frames.length, repeatSeekSamples: repeats.length, frameMetrics: allFrames.results };
 } catch (e) { failures.push({ kind: 'runtime', message: e.message }); }
 finally {
