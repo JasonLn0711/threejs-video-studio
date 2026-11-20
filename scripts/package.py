@@ -20,7 +20,7 @@ def sha(p):
 def manifest():
     files = []
     for p in ROOT.iterdir():
-        if p.is_file() and (p.suffix in {".md", ".json", ".txt"} or p.name in {"LICENSE", ".gitignore", ".gitattributes"}):
+        if p.is_file() and (p.suffix in {".md", ".json", ".txt", ".lock"} or p.name in {"LICENSE", ".gitignore", ".gitattributes"}):
             files.append(p)
     for folder in sorted(ALLOWED | {"qa/public"}):
         base = ROOT / folder
