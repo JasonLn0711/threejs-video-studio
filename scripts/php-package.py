@@ -8,7 +8,7 @@ def main():
  if receipt['status']!='passed':raise RuntimeError('A passed render receipt is required')
  movie=output/('proof-10s.mp4' if x.proof else f['id']+'.mp4')
  if sha(movie)!=receipt['sha256']:raise RuntimeError('Delivery changed after verification')
- files=[];exclude={'.cache','.media','.hyperframes','dist','node_modules','__pycache__'}
+ files=[];exclude={'.local','.cache','.media','.hyperframes','dist','node_modules','__pycache__'}
  for base in [ROOT/'scripts',ROOT/'src/php-series',project]:
   for parent,dirs,names in os.walk(base):
    for d in dirs:
@@ -18,7 +18,7 @@ def main():
     p=Path(parent)/name
     if p.is_symlink():raise RuntimeError('Symlink in package')
     if not name.endswith('.log'):files.append(p)
- for name in ['package.json','package-lock.json','tsconfig.json','requirements-audio.txt','requirements-audio.lock','LICENSE','THREEJS_VIDEO_PRODUCTION_STANDARD_v1.0.md']:
+ for name in ['package.json','pnpm-lock.yaml','pnpm-workspace.yaml','tsconfig.json','requirements-audio.txt','requirements-audio.lock','LICENSE','THREEJS_VIDEO_PRODUCTION_STANDARD_v1.0.md']:
   files.append(ROOT/name)
  # Include both small episode source fixtures so shared state tests remain runnable.
  for slug in ['php-oom','php-stale-state']:

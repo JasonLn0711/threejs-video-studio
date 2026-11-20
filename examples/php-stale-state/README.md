@@ -4,15 +4,15 @@ A sourced cinematic explanation of CVE-2026-109619. Technical claims and simplif
 
 ## Reproduce
 
-Use the pinned root package-lock.json, Node.js 24, Python 3.12+ and FFmpeg with H.264/AAC support.
+Use the pinned root pnpm-lock.yaml, Node.js 24, Python 3.12+ and FFmpeg with H.264/AAC support.
 
 ```sh
-npm ci
-npm run build -- --project examples/php-stale-state
-npm run preview -- --project examples/php-stale-state
-npm run check -- --project examples/php-stale-state
-npm run render -- --project examples/php-stale-state
-npm run package -- --project examples/php-stale-state
+pnpm install --frozen-lockfile
+pnpm run build --project examples/php-stale-state
+pnpm run preview --project examples/php-stale-state
+pnpm run check --project examples/php-stale-state
+pnpm run render --project examples/php-stale-state
+pnpm run package --project examples/php-stale-state
 ```
 
 The editable archive includes generated speech and the final mix; restoration does not require TTS inference. Fresh narration uses the pinned Kokoro files documented in scripts/download_models.py and requirements-audio.txt. Rebuild captions/layout with `python3 scripts/php-layout.py --project examples/php-stale-state` after speech changes. Rebuild sound with `.venv/bin/python scripts/php-audio.py --project examples/php-stale-state`. Never regenerate old episodes as part of this workflow.

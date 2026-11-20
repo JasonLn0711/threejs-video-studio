@@ -8,7 +8,7 @@ import tempfile
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED = {".git", ".cache", ".venv", "node_modules", ".hyperframes", ".media", "__pycache__", ".thumbnails", ".waveform-cache"}
+EXCLUDED = {".local", ".git", ".cache", ".venv", "node_modules", ".hyperframes", ".media", "__pycache__", ".thumbnails", ".waveform-cache"}
 ALLOWED = {"src", "scripts", "tests", "examples", ".github"}
 
 
@@ -20,7 +20,7 @@ def sha(p):
 def manifest():
     files = []
     for p in ROOT.iterdir():
-        if p.is_file() and (p.suffix in {".md", ".json", ".txt", ".lock"} or p.name in {"LICENSE", ".gitignore", ".gitattributes"}):
+        if p.is_file() and (p.suffix in {".md", ".json", ".txt", ".yaml", ".lock"} or p.name in {"LICENSE", ".gitignore", ".gitattributes"}):
             files.append(p)
     for folder in sorted(ALLOWED | {"qa/public"}):
         base = ROOT / folder

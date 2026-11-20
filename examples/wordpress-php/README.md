@@ -4,15 +4,15 @@ A sourced cinematic explanation of the WordPress/PHP maintenance boundary. Techn
 
 ## Reproduce
 
-Use the pinned root package-lock.json, Node.js 24, Python 3.12+ and FFmpeg with H.264/AAC support.
+Use the pinned root pnpm-lock.yaml, Node.js 24, Python 3.12+ and FFmpeg with H.264/AAC support.
 
 ```sh
-npm ci
-npm run build -- --project examples/wordpress-php
-npm run preview -- --project examples/wordpress-php
-npm run check -- --project examples/wordpress-php
-npm run render -- --project examples/wordpress-php
-npm run package -- --project examples/wordpress-php
+pnpm install --frozen-lockfile
+pnpm run build --project examples/wordpress-php
+pnpm run preview --project examples/wordpress-php
+pnpm run check --project examples/wordpress-php
+pnpm run render --project examples/wordpress-php
+pnpm run package --project examples/wordpress-php
 ```
 
 The editable archive includes generated speech and the final mix; restoration does not require TTS inference. Fresh narration uses the pinned Kokoro files documented in scripts/download_models.py and requirements-audio.txt. Rebuild captions/layout with `python3 examples/wordpress-php/layout.py --project examples/wordpress-php` after speech changes. Rebuild sound with `.venv/bin/python scripts/php-audio.py --project examples/wordpress-php`. Never regenerate old episodes as part of this workflow.
