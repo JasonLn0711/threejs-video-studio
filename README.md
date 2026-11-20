@@ -157,6 +157,26 @@ Original code and documentation: [MIT](LICENSE).
 Fonts, model dependencies and installed packages retain their upstream licenses;
 see [third-party notices](THIRD_PARTY_NOTICES.md).
 
+## PHP Runtime Failures — two independent Shorts
+
+**Before Your Code Runs** explains CVE-2026-109618 through an illustrative
+Apache mod_php request: incomplete initialization, allocation failure, early
+exit and unsafe cleanup. **The Pointer That Stayed** explains CVE-2026-109619:
+request-owned memory, retained worker state and an early consumer in a later
+request. Both preserve conditional exploitability and worker-account boundaries.
+
+- [EP01 source and reproduction](examples/php-oom/README.md)
+- [EP02 source and reproduction](examples/php-stale-state/README.md)
+- [Series delivery evidence](qa/public/php-series/README.md)
+
+Use the existing commands with `--project examples/php-oom` or
+`--project examples/php-stale-state`. These projects explicitly use `final_only`
+review, based on the user's full-production authorization. It does not change
+The Missing Signature's proof approval rules or establish human acceptance.
+The series keeps the existing package pins, English male voice at speed 1.0,
+0.25-second ordinary gaps, a 0.55-second reveal gap and a bounded final hold.
+Its decoded-video checks and source-bound receipts are independent per film.
+
 ## PHP runtime Shorts delivery
 
 [Three-film delivery record](docs/php-series-delivery-2026-10-22.md) connects editable episode sources, SRT captions, YouTube upload copy, technical evidence and the Planning review gate. EP03 is technically verified; human viewing/listening and YouTube publication remain pending.
