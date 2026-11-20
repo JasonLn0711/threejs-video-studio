@@ -1,0 +1,93 @@
+1
+00:00:00,300 --> 00:00:03,270
+Microsoft's front door required
+a VPN.
+
+2
+00:00:03,520 --> 00:00:06,965
+But its analytics API was still
+reachable online.
+
+3
+00:00:07,215 --> 00:00:09,160
+An AI agent found it
+
+4
+00:00:09,160 --> 00:00:10,716
+for a sixteen-year-old
+researcher.
+
+5
+00:00:10,966 --> 00:00:13,059
+For ten days, it worked through
+
+6
+00:00:13,059 --> 00:00:14,803
+one security check after
+another.
+
+7
+00:00:15,053 --> 00:00:17,168
+The server checked the token's
+claims,
+
+8
+00:00:17,168 --> 00:00:19,192
+but never verified its
+signature.
+
+9
+00:00:19,442 --> 00:00:22,070
+Still, every email-style
+username failed.
+
+10
+00:00:22,320 --> 00:00:24,501
+Then the researcher tried a
+simpler name.
+
+11
+00:00:25,051 --> 00:00:25,714
+Admin.
+
+12
+00:00:25,964 --> 00:00:28,223
+This time, a test query returned
+one.
+
+13
+00:00:28,473 --> 00:00:30,625
+That meant seventeen databases,
+
+14
+00:00:30,625 --> 00:00:33,503
+with an estimated seventeen
+point three
+
+15
+00:00:33,503 --> 00:00:35,515
+trillion rows potentially
+reachable.
+
+16
+00:00:35,765 --> 00:00:38,886
+He checked limited samples, then
+reported the flaw.
+
+17
+00:00:39,136 --> 00:00:40,323
+Microsoft restricted access
+
+18
+00:00:40,323 --> 00:00:43,596
+and awarded him five thousand
+dollars.
+
+19
+00:00:43,846 --> 00:00:45,686
+So checking claims isn't enough.
+
+20
+00:00:45,936 --> 00:00:47,881
+You have to verify the
+signature.

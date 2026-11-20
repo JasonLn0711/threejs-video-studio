@@ -1,0 +1,162 @@
+[
+  {
+    "id": "S01-1-caption-1",
+    "utterance": "S01-1",
+    "start": 0.3,
+    "end": 3.269791666666667,
+    "text": "Microsoft's front door required\na VPN.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S02-1-caption-1",
+    "utterance": "S02-1",
+    "start": 3.519791666666667,
+    "end": 6.965083333333333,
+    "text": "But its analytics API was still\nreachable online.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S03-1-caption-1",
+    "utterance": "S03-1",
+    "start": 7.215083333333333,
+    "end": 9.159909722222222,
+    "text": "An AI agent found it",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S03-1-caption-2",
+    "utterance": "S03-1",
+    "start": 9.159909722222222,
+    "end": 10.715770833333334,
+    "text": "for a sixteen-year-old\nresearcher.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S04-1-caption-1",
+    "utterance": "S04-1",
+    "start": 10.965770833333334,
+    "end": 13.058850378787879,
+    "text": "For ten days, it worked through",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S04-1-caption-2",
+    "utterance": "S04-1",
+    "start": 13.058850378787879,
+    "end": 14.803083333333333,
+    "text": "one security check after\nanother.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S05-1-caption-1",
+    "utterance": "S05-1",
+    "start": 15.053083333333333,
+    "end": 17.167808333333333,
+    "text": "The server checked the token's\nclaims,",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S05-1-caption-2",
+    "utterance": "S05-1",
+    "start": 17.167808333333333,
+    "end": 19.192208333333333,
+    "text": "but never verified its\nsignature.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S06-1-caption-1",
+    "utterance": "S06-1",
+    "start": 19.442208333333333,
+    "end": 22.0703125,
+    "text": "Still, every email-style\nusername failed.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S07-1-caption-1",
+    "utterance": "S07-1",
+    "start": 22.3203125,
+    "end": 24.500875,
+    "text": "Then the researcher tried a\nsimpler name.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S07-2-caption-1",
+    "utterance": "S07-2",
+    "start": 25.050875,
+    "end": 25.713958333333334,
+    "text": "Admin.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S08-1-caption-1",
+    "utterance": "S08-1",
+    "start": 25.963958333333334,
+    "end": 28.223020833333333,
+    "text": "This time, a test query returned\none.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S09-1-caption-1",
+    "utterance": "S09-1",
+    "start": 28.473020833333333,
+    "end": 30.624965833333334,
+    "text": "That meant seventeen databases,",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S09-1-caption-2",
+    "utterance": "S09-1",
+    "start": 30.624965833333334,
+    "end": 33.50305059523809,
+    "text": "with an estimated seventeen\npoint three",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S09-1-caption-3",
+    "utterance": "S09-1",
+    "start": 33.50305059523809,
+    "end": 35.5150625,
+    "text": "trillion rows potentially\nreachable.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S10-1-caption-1",
+    "utterance": "S10-1",
+    "start": 35.7650625,
+    "end": 38.88577083333333,
+    "text": "He checked limited samples, then\nreported the flaw.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S11-1-caption-1",
+    "utterance": "S11-1",
+    "start": 39.13577083333333,
+    "end": 40.323325833333335,
+    "text": "Microsoft restricted access",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S11-1-caption-2",
+    "utterance": "S11-1",
+    "start": 40.323325833333335,
+    "end": 43.59558333333333,
+    "text": "and awarded him five thousand\ndollars.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S12-1-caption-1",
+    "utterance": "S12-1",
+    "start": 43.84558333333333,
+    "end": 45.6861875,
+    "text": "So checking claims isn't enough.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  },
+  {
+    "id": "S12-2-caption-1",
+    "utterance": "S12-2",
+    "start": 45.9361875,
+    "end": 47.881145833333335,
+    "text": "You have to verify the\nsignature.",
+    "alignment": "measured utterance; estimated phrase split snapped to nearby silence"
+  }
+]

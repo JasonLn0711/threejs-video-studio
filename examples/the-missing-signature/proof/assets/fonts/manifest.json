@@ -1,0 +1,15 @@
+{
+  "caption": {
+    "source": "https://github.com/notofonts/noto-cjk",
+    "license": "SIL OFL 1.1",
+    "derivation": "Traditional Chinese face, text subset using fonttools 4.67.0; renamed Signature Caption"
+  },
+  "files": {
+    "IBMPlexMono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "SignatureCaption.otf": "7433029f51c4cddeb110198c8bc32943b43d5f101d6521a1af24fbb899916889",
+    "Oswald-OFL.txt": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+    "Oswald.ttf": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+    "Noto-CJK-copyright.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+    "IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+  }
+}

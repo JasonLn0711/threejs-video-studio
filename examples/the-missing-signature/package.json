@@ -1,0 +1,7 @@
+{
+  "name": "the-missing-signature",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Measured cinematic Short; full delivery awaits proof approval.",
+  "packageManager": "pnpm@12.15.0"
+}

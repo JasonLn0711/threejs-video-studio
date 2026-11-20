@@ -1,0 +1,7 @@
+{
+  "name": "the-missing-signature-proof",
+  "private": true,
+  "version": "0.1.0",
+  "description": "10-second S07/S08/S09 review montage.",
+  "packageManager": "pnpm@12.15.0"
+}

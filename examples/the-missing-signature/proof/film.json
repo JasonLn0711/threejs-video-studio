@@ -1,0 +1,106 @@
+{
+  "id": "the-missing-signature-proof",
+  "profile": "cinematic-proof-v1",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 10,
+  "frameCount": 300,
+  "audioMaster": "assets/audio/mix.wav",
+  "audioTiming": {
+    "mode": "cinematic_sentences",
+    "startSeconds": 0.3,
+    "sentenceGapSeconds": 0.35,
+    "adminGapSeconds": 0.65,
+    "tailPolicy": "bounded_final_hold",
+    "finalHoldSeconds": 1.5,
+    "maxFinalHoldSeconds": 2,
+    "trimThresholdDb": -50,
+    "trimPaddingSamples": 480
+  },
+  "sourceProject": "examples/the-missing-signature",
+  "sourceMap": [
+    {
+      "at": 0,
+      "duration": 4.3,
+      "source": 23.266666666666666
+    },
+    {
+      "at": 4.3,
+      "duration": 2,
+      "source": 26.8
+    },
+    {
+      "at": 6.3,
+      "duration": 3.7,
+      "source": 28.533333333333335
+    }
+  ],
+  "editorialNote": "S09 first clause ends at 2.45s, inside the measured 2.209–2.679s pause; no rate change. Final film uses the whole sentence.",
+  "narration": [
+    {
+      "id": "S07-1",
+      "shot": "S07",
+      "text": "Then the researcher tried one word.",
+      "zh": "最後，研究者親自\n試了一個字：",
+      "gapBefore": 0.35,
+      "startSample": 1541,
+      "endSample": 90075,
+      "start": 0.03210416666666667,
+      "end": 1.8765625,
+      "sha256": "d16ad51e9471f008bfbd0fc115e807ba4f6f2540deef9e627df29ca2e3adb5f8",
+      "baselineSha256": "b71873b6a94392bb3a39c9217ade8d44b23be0a174f86430eaf4fb2a4adfdeea",
+      "trimStartSample48k": 2620,
+      "trimEndSample48k": 91154,
+      "excerpt": false
+    },
+    {
+      "id": "S07-2",
+      "shot": "S07",
+      "text": "Admin.",
+      "zh": "admin。",
+      "gapBefore": 0.65,
+      "startSample": 121275,
+      "endSample": 153103,
+      "start": 2.5265625,
+      "end": 3.1896458333333335,
+      "sha256": "710e8ecbad783725190c24361367a49e8d23c352610ddf6d3cb979c17e3824bd",
+      "baselineSha256": "f4ea86967b42bb5fcdbc7d833a647fee4863d5091e0c872e7cfd68f7e0a282f2",
+      "trimStartSample48k": 3611,
+      "trimEndSample48k": 35439,
+      "excerpt": false
+    },
+    {
+      "id": "S08-1",
+      "shot": "S08",
+      "text": "The query returned one.",
+      "zh": "查詢成功，\n結果只回傳數字 1。",
+      "gapBefore": 0.35,
+      "startSample": 206703,
+      "endSample": 273648,
+      "start": 4.3063125,
+      "end": 5.701,
+      "sha256": "f97b600f1ea1d1b77dbb9d64263a92d36e8c453852d0ddf56b772eeff965ab76",
+      "baselineSha256": "f257561a44a6ada2c4de4b2061293cea978c38daec3be11142f0d332a4104371",
+      "trimStartSample48k": 2722,
+      "trimEndSample48k": 69667,
+      "excerpt": false
+    },
+    {
+      "id": "S09-1",
+      "shot": "S09",
+      "text": "Beyond it were seventeen databases, with an estimated seventeen point three trillion stored rows potentially reachable.",
+      "zh": "背後有 17 座分析資料庫。",
+      "gapBefore": 0.35,
+      "startSample": 303248,
+      "endSample": 420848,
+      "start": 6.317666666666667,
+      "end": 8.767666666666667,
+      "sha256": "025f036c15a57596b4eedd6a895a44a4e37e05de017d3b73c7d4f06032c18996",
+      "baselineSha256": "b7726f803f51566c88e985a63293cbff9a2e5a478f02b0f81745e4576798f76d",
+      "trimStartSample48k": 1778,
+      "trimEndSample48k": 375443,
+      "excerpt": true
+    }
+  ]
+}
