@@ -1,0 +1,565 @@
+{
+  "status": "passed",
+  "method": "Unregistered RGB comparison using the existing DDoS delivery tolerance; PSNR is diagnostic. Independent repeat encodes must decode to exactly identical frames.",
+  "tolerance": {
+    "meanAbsoluteChannelError": 8,
+    "fractionPixelsWithChannelErrorOver40": 0.02
+  },
+  "minimumPsnr": 30.064756183056865,
+  "frames": [
+    {
+      "frame": 0,
+      "meanAbsoluteChannelError": 2.2702133166152265,
+      "fractionPixelsWithChannelErrorOver40": 0.0032937885802469136,
+      "psnr": 32.070608743421836,
+      "decoded": "decoded-000.png"
+    },
+    {
+      "frame": 1,
+      "meanAbsoluteChannelError": 2.26640351723251,
+      "fractionPixelsWithChannelErrorOver40": 0.0032904128086419754,
+      "psnr": 32.07268950950788,
+      "decoded": "decoded-001.png"
+    },
+    {
+      "frame": 30,
+      "meanAbsoluteChannelError": 2.2798895640432097,
+      "fractionPixelsWithChannelErrorOver40": 0.0033116319444444443,
+      "psnr": 32.068511894615185,
+      "decoded": "decoded-002.png"
+    },
+    {
+      "frame": 47,
+      "meanAbsoluteChannelError": 2.2407537615740742,
+      "fractionPixelsWithChannelErrorOver40": 0.00331983024691358,
+      "psnr": 32.08761332345712,
+      "decoded": "decoded-003.png"
+    },
+    {
+      "frame": 60,
+      "meanAbsoluteChannelError": 2.2717922132201647,
+      "fractionPixelsWithChannelErrorOver40": 0.003343942901234568,
+      "psnr": 32.0508469030964,
+      "decoded": "decoded-004.png"
+    },
+    {
+      "frame": 90,
+      "meanAbsoluteChannelError": 2.2469550540123455,
+      "fractionPixelsWithChannelErrorOver40": 0.00331983024691358,
+      "psnr": 32.05944282531506,
+      "decoded": "decoded-005.png"
+    },
+    {
+      "frame": 93,
+      "meanAbsoluteChannelError": 2.2468786972736625,
+      "fractionPixelsWithChannelErrorOver40": 0.003331886574074074,
+      "psnr": 32.05690472298826,
+      "decoded": "decoded-006.png"
+    },
+    {
+      "frame": 94,
+      "meanAbsoluteChannelError": 2.2201459619341564,
+      "fractionPixelsWithChannelErrorOver40": 0.0035590277777777777,
+      "psnr": 31.33785909919151,
+      "decoded": "decoded-007.png"
+    },
+    {
+      "frame": 95,
+      "meanAbsoluteChannelError": 2.248163258744856,
+      "fractionPixelsWithChannelErrorOver40": 0.003572048611111111,
+      "psnr": 31.32144407904837,
+      "decoded": "decoded-008.png"
+    },
+    {
+      "frame": 120,
+      "meanAbsoluteChannelError": 2.2533465149176957,
+      "fractionPixelsWithChannelErrorOver40": 0.0036318479938271604,
+      "psnr": 31.30812392764865,
+      "decoded": "decoded-009.png"
+    },
+    {
+      "frame": 150,
+      "meanAbsoluteChannelError": 2.2532423482510286,
+      "fractionPixelsWithChannelErrorOver40": 0.0035966435185185185,
+      "psnr": 31.314906187253694,
+      "decoded": "decoded-010.png"
+    },
+    {
+      "frame": 180,
+      "meanAbsoluteChannelError": 2.2621471514917695,
+      "fractionPixelsWithChannelErrorOver40": 0.0036328125,
+      "psnr": 31.30540687829514,
+      "decoded": "decoded-011.png"
+    },
+    {
+      "frame": 208,
+      "meanAbsoluteChannelError": 2.260717271090535,
+      "fractionPixelsWithChannelErrorOver40": 0.0036125578703703706,
+      "psnr": 31.314809341969855,
+      "decoded": "decoded-012.png"
+    },
+    {
+      "frame": 210,
+      "meanAbsoluteChannelError": 2.268096868569959,
+      "fractionPixelsWithChannelErrorOver40": 0.0035908564814814813,
+      "psnr": 31.316534845616523,
+      "decoded": "decoded-013.png"
+    },
+    {
+      "frame": 240,
+      "meanAbsoluteChannelError": 2.2691859567901234,
+      "fractionPixelsWithChannelErrorOver40": 0.0036005015432098767,
+      "psnr": 31.32026149914068,
+      "decoded": "decoded-014.png"
+    },
+    {
+      "frame": 270,
+      "meanAbsoluteChannelError": 2.2660321823559673,
+      "fractionPixelsWithChannelErrorOver40": 0.0035971257716049384,
+      "psnr": 31.329652991258172,
+      "decoded": "decoded-015.png"
+    },
+    {
+      "frame": 300,
+      "meanAbsoluteChannelError": 2.25740435313786,
+      "fractionPixelsWithChannelErrorOver40": 0.0035672260802469134,
+      "psnr": 31.34233885293575,
+      "decoded": "decoded-016.png"
+    },
+    {
+      "frame": 322,
+      "meanAbsoluteChannelError": 2.240061728395062,
+      "fractionPixelsWithChannelErrorOver40": 0.0036024305555555558,
+      "psnr": 31.343421739139494,
+      "decoded": "decoded-017.png"
+    },
+    {
+      "frame": 323,
+      "meanAbsoluteChannelError": 2.420830922067901,
+      "fractionPixelsWithChannelErrorOver40": 0.004268422067901235,
+      "psnr": 30.538727833979284,
+      "decoded": "decoded-018.png"
+    },
+    {
+      "frame": 324,
+      "meanAbsoluteChannelError": 2.4382291666666664,
+      "fractionPixelsWithChannelErrorOver40": 0.0042336998456790126,
+      "psnr": 30.536795108112834,
+      "decoded": "decoded-019.png"
+    },
+    {
+      "frame": 330,
+      "meanAbsoluteChannelError": 2.432619116512346,
+      "fractionPixelsWithChannelErrorOver40": 0.004239969135802469,
+      "psnr": 30.54092973302538,
+      "decoded": "decoded-020.png"
+    },
+    {
+      "frame": 360,
+      "meanAbsoluteChannelError": 2.4200552983539096,
+      "fractionPixelsWithChannelErrorOver40": 0.004225983796296296,
+      "psnr": 30.54618505882932,
+      "decoded": "decoded-021.png"
+    },
+    {
+      "frame": 390,
+      "meanAbsoluteChannelError": 2.42645608281893,
+      "fractionPixelsWithChannelErrorOver40": 0.00421923225308642,
+      "psnr": 30.508428527319083,
+      "decoded": "decoded-022.png"
+    },
+    {
+      "frame": 401,
+      "meanAbsoluteChannelError": 2.427382008744856,
+      "fractionPixelsWithChannelErrorOver40": 0.004244791666666667,
+      "psnr": 30.49993305477573,
+      "decoded": "decoded-023.png"
+    },
+    {
+      "frame": 420,
+      "meanAbsoluteChannelError": 2.4285699588477367,
+      "fractionPixelsWithChannelErrorOver40": 0.0042250192901234565,
+      "psnr": 30.501434153499105,
+      "decoded": "decoded-024.png"
+    },
+    {
+      "frame": 450,
+      "meanAbsoluteChannelError": 2.4273093492798354,
+      "fractionPixelsWithChannelErrorOver40": 0.004279031635802469,
+      "psnr": 30.516244967939347,
+      "decoded": "decoded-025.png"
+    },
+    {
+      "frame": 478,
+      "meanAbsoluteChannelError": 2.4083489261831277,
+      "fractionPixelsWithChannelErrorOver40": 0.004237557870370371,
+      "psnr": 30.53607883115562,
+      "decoded": "decoded-026.png"
+    },
+    {
+      "frame": 479,
+      "meanAbsoluteChannelError": 2.3843105388374486,
+      "fractionPixelsWithChannelErrorOver40": 0.0041324266975308645,
+      "psnr": 30.889699815957606,
+      "decoded": "decoded-027.png"
+    },
+    {
+      "frame": 480,
+      "meanAbsoluteChannelError": 2.4087506430041152,
+      "fractionPixelsWithChannelErrorOver40": 0.004124710648148148,
+      "psnr": 30.88689870346025,
+      "decoded": "decoded-028.png"
+    },
+    {
+      "frame": 510,
+      "meanAbsoluteChannelError": 2.3815835583847735,
+      "fractionPixelsWithChannelErrorOver40": 0.004105902777777778,
+      "psnr": 30.91076109291148,
+      "decoded": "decoded-029.png"
+    },
+    {
+      "frame": 540,
+      "meanAbsoluteChannelError": 2.3689575295781893,
+      "fractionPixelsWithChannelErrorOver40": 0.004061053240740741,
+      "psnr": 30.950368126247,
+      "decoded": "decoded-030.png"
+    },
+    {
+      "frame": 570,
+      "meanAbsoluteChannelError": 2.370386284722222,
+      "fractionPixelsWithChannelErrorOver40": 0.00410059799382716,
+      "psnr": 30.961405385967453,
+      "decoded": "decoded-031.png"
+    },
+    {
+      "frame": 600,
+      "meanAbsoluteChannelError": 2.374898566100823,
+      "fractionPixelsWithChannelErrorOver40": 0.004184027777777778,
+      "psnr": 30.927891117825048,
+      "decoded": "decoded-032.png"
+    },
+    {
+      "frame": 625,
+      "meanAbsoluteChannelError": 2.3699024241255144,
+      "fractionPixelsWithChannelErrorOver40": 0.004154128086419753,
+      "psnr": 30.975486915091924,
+      "decoded": "decoded-033.png"
+    },
+    {
+      "frame": 630,
+      "meanAbsoluteChannelError": 2.36788258744856,
+      "fractionPixelsWithChannelErrorOver40": 0.004152199074074074,
+      "psnr": 30.984459231659578,
+      "decoded": "decoded-034.png"
+    },
+    {
+      "frame": 660,
+      "meanAbsoluteChannelError": 2.3640870949074073,
+      "fractionPixelsWithChannelErrorOver40": 0.004185474537037037,
+      "psnr": 31.008333018298785,
+      "decoded": "decoded-035.png"
+    },
+    {
+      "frame": 690,
+      "meanAbsoluteChannelError": 2.3927372685185184,
+      "fractionPixelsWithChannelErrorOver40": 0.00478443287037037,
+      "psnr": 30.934646485951273,
+      "decoded": "decoded-036.png"
+    },
+    {
+      "frame": 720,
+      "meanAbsoluteChannelError": 2.385686406893004,
+      "fractionPixelsWithChannelErrorOver40": 0.004823013117283951,
+      "psnr": 30.954952417536372,
+      "decoded": "decoded-037.png"
+    },
+    {
+      "frame": 750,
+      "meanAbsoluteChannelError": 2.3937871334876544,
+      "fractionPixelsWithChannelErrorOver40": 0.004877025462962963,
+      "psnr": 30.971172167773794,
+      "decoded": "decoded-038.png"
+    },
+    {
+      "frame": 770,
+      "meanAbsoluteChannelError": 2.371218492798354,
+      "fractionPixelsWithChannelErrorOver40": 0.004858217592592593,
+      "psnr": 30.978425686066622,
+      "decoded": "decoded-039.png"
+    },
+    {
+      "frame": 771,
+      "meanAbsoluteChannelError": 2.409798257458848,
+      "fractionPixelsWithChannelErrorOver40": 0.005012056327160494,
+      "psnr": 30.08119807824191,
+      "decoded": "decoded-040.png"
+    },
+    {
+      "frame": 772,
+      "meanAbsoluteChannelError": 2.442552404835391,
+      "fractionPixelsWithChannelErrorOver40": 0.005033275462962963,
+      "psnr": 30.068825674086646,
+      "decoded": "decoded-041.png"
+    },
+    {
+      "frame": 780,
+      "meanAbsoluteChannelError": 2.4411265432098768,
+      "fractionPixelsWithChannelErrorOver40": 0.005013503086419753,
+      "psnr": 30.07341638941893,
+      "decoded": "decoded-042.png"
+    },
+    {
+      "frame": 810,
+      "meanAbsoluteChannelError": 2.4337906700102883,
+      "fractionPixelsWithChannelErrorOver40": 0.0049845679012345675,
+      "psnr": 30.07512573424277,
+      "decoded": "decoded-043.png"
+    },
+    {
+      "frame": 840,
+      "meanAbsoluteChannelError": 2.4207402584876543,
+      "fractionPixelsWithChannelErrorOver40": 0.00498119212962963,
+      "psnr": 30.0797431946487,
+      "decoded": "decoded-044.png"
+    },
+    {
+      "frame": 870,
+      "meanAbsoluteChannelError": 2.41858297968107,
+      "fractionPixelsWithChannelErrorOver40": 0.004953221450617284,
+      "psnr": 30.08031812505323,
+      "decoded": "decoded-045.png"
+    },
+    {
+      "frame": 900,
+      "meanAbsoluteChannelError": 2.422477494855967,
+      "fractionPixelsWithChannelErrorOver40": 0.004956114969135802,
+      "psnr": 30.075174792915348,
+      "decoded": "decoded-046.png"
+    },
+    {
+      "frame": 930,
+      "meanAbsoluteChannelError": 2.4197591949588477,
+      "fractionPixelsWithChannelErrorOver40": 0.004983603395061729,
+      "psnr": 30.073555330271006,
+      "decoded": "decoded-047.png"
+    },
+    {
+      "frame": 960,
+      "meanAbsoluteChannelError": 2.42562098122428,
+      "fractionPixelsWithChannelErrorOver40": 0.004997588734567901,
+      "psnr": 30.064756183056865,
+      "decoded": "decoded-048.png"
+    },
+    {
+      "frame": 990,
+      "meanAbsoluteChannelError": 2.422461098251029,
+      "fractionPixelsWithChannelErrorOver40": 0.004981674382716049,
+      "psnr": 30.07140362162388,
+      "decoded": "decoded-049.png"
+    },
+    {
+      "frame": 1001,
+      "meanAbsoluteChannelError": 2.426399659207819,
+      "fractionPixelsWithChannelErrorOver40": 0.004997106481481482,
+      "psnr": 30.081341468987045,
+      "decoded": "decoded-050.png"
+    },
+    {
+      "frame": 1020,
+      "meanAbsoluteChannelError": 2.423822980967078,
+      "fractionPixelsWithChannelErrorOver40": 0.004978780864197531,
+      "psnr": 30.081435362516746,
+      "decoded": "decoded-051.png"
+    },
+    {
+      "frame": 1050,
+      "meanAbsoluteChannelError": 2.429377250514403,
+      "fractionPixelsWithChannelErrorOver40": 0.004985050154320988,
+      "psnr": 30.085158892971027,
+      "decoded": "decoded-052.png"
+    },
+    {
+      "frame": 1080,
+      "meanAbsoluteChannelError": 2.426812628600823,
+      "fractionPixelsWithChannelErrorOver40": 0.00498022762345679,
+      "psnr": 30.09285611921427,
+      "decoded": "decoded-053.png"
+    },
+    {
+      "frame": 1110,
+      "meanAbsoluteChannelError": 2.423555652006173,
+      "fractionPixelsWithChannelErrorOver40": 0.005022183641975308,
+      "psnr": 30.09378330034554,
+      "decoded": "decoded-054.png"
+    },
+    {
+      "frame": 1140,
+      "meanAbsoluteChannelError": 2.4240853266460904,
+      "fractionPixelsWithChannelErrorOver40": 0.005012056327160494,
+      "psnr": 30.102933151855954,
+      "decoded": "decoded-055.png"
+    },
+    {
+      "frame": 1170,
+      "meanAbsoluteChannelError": 2.423412744341564,
+      "fractionPixelsWithChannelErrorOver40": 0.005053047839506173,
+      "psnr": 30.111382886027943,
+      "decoded": "decoded-056.png"
+    },
+    {
+      "frame": 1200,
+      "meanAbsoluteChannelError": 2.4235509902263375,
+      "fractionPixelsWithChannelErrorOver40": 0.004997588734567901,
+      "psnr": 30.11909775078552,
+      "decoded": "decoded-057.png"
+    },
+    {
+      "frame": 1230,
+      "meanAbsoluteChannelError": 2.4029624807098764,
+      "fractionPixelsWithChannelErrorOver40": 0.0049845679012345675,
+      "psnr": 30.127863881167375,
+      "decoded": "decoded-058.png"
+    },
+    {
+      "frame": 1231,
+      "meanAbsoluteChannelError": 2.315217817644033,
+      "fractionPixelsWithChannelErrorOver40": 0.0038970871913580245,
+      "psnr": 30.88058208402878,
+      "decoded": "decoded-059.png"
+    },
+    {
+      "frame": 1232,
+      "meanAbsoluteChannelError": 2.3324297518004116,
+      "fractionPixelsWithChannelErrorOver40": 0.003869116512345679,
+      "psnr": 30.877383387430896,
+      "decoded": "decoded-060.png"
+    },
+    {
+      "frame": 1260,
+      "meanAbsoluteChannelError": 2.3157177533436215,
+      "fractionPixelsWithChannelErrorOver40": 0.0038705632716049382,
+      "psnr": 30.8883767228615,
+      "decoded": "decoded-061.png"
+    },
+    {
+      "frame": 1290,
+      "meanAbsoluteChannelError": 2.305401556069959,
+      "fractionPixelsWithChannelErrorOver40": 0.003863329475308642,
+      "psnr": 30.898235557296164,
+      "decoded": "decoded-062.png"
+    },
+    {
+      "frame": 1320,
+      "meanAbsoluteChannelError": 2.2949165702160492,
+      "fractionPixelsWithChannelErrorOver40": 0.003781828703703704,
+      "psnr": 30.91962412335294,
+      "decoded": "decoded-063.png"
+    },
+    {
+      "frame": 1350,
+      "meanAbsoluteChannelError": 2.302495016718107,
+      "fractionPixelsWithChannelErrorOver40": 0.0037847222222222223,
+      "psnr": 30.92149574926298,
+      "decoded": "decoded-064.png"
+    },
+    {
+      "frame": 1380,
+      "meanAbsoluteChannelError": 2.2982000707304526,
+      "fractionPixelsWithChannelErrorOver40": 0.0037842399691358024,
+      "psnr": 30.927433784450884,
+      "decoded": "decoded-065.png"
+    },
+    {
+      "frame": 1410,
+      "meanAbsoluteChannelError": 2.297279449588477,
+      "fractionPixelsWithChannelErrorOver40": 0.0037861689814814815,
+      "psnr": 30.931673567507254,
+      "decoded": "decoded-066.png"
+    },
+    {
+      "frame": 1440,
+      "meanAbsoluteChannelError": 2.2989890367798353,
+      "fractionPixelsWithChannelErrorOver40": 0.0037803819444444443,
+      "psnr": 30.938142596029103,
+      "decoded": "decoded-067.png"
+    },
+    {
+      "frame": 1470,
+      "meanAbsoluteChannelError": 2.2820592206790122,
+      "fractionPixelsWithChannelErrorOver40": 0.003781346450617284,
+      "psnr": 30.948572028411263,
+      "decoded": "decoded-068.png"
+    },
+    {
+      "frame": 1474,
+      "meanAbsoluteChannelError": 2.283799993569959,
+      "fractionPixelsWithChannelErrorOver40": 0.0037779706790123458,
+      "psnr": 30.94897400475731,
+      "decoded": "decoded-069.png"
+    },
+    {
+      "frame": 1500,
+      "meanAbsoluteChannelError": 2.2966793659979423,
+      "fractionPixelsWithChannelErrorOver40": 0.003766878858024691,
+      "psnr": 30.95107910730693,
+      "decoded": "decoded-070.png"
+    },
+    {
+      "frame": 1530,
+      "meanAbsoluteChannelError": 2.2919450874485596,
+      "fractionPixelsWithChannelErrorOver40": 0.0037688078703703703,
+      "psnr": 30.957138874339115,
+      "decoded": "decoded-071.png"
+    },
+    {
+      "frame": 1560,
+      "meanAbsoluteChannelError": 2.2938551311728395,
+      "fractionPixelsWithChannelErrorOver40": 0.003803047839506173,
+      "psnr": 30.92038167184227,
+      "decoded": "decoded-072.png"
+    },
+    {
+      "frame": 1590,
+      "meanAbsoluteChannelError": 2.29278018904321,
+      "fractionPixelsWithChannelErrorOver40": 0.0037991898148148147,
+      "psnr": 30.92387454733781,
+      "decoded": "decoded-073.png"
+    },
+    {
+      "frame": 1620,
+      "meanAbsoluteChannelError": 2.294913033693416,
+      "fractionPixelsWithChannelErrorOver40": 0.003805459104938272,
+      "psnr": 30.92665104313916,
+      "decoded": "decoded-074.png"
+    },
+    {
+      "frame": 1650,
+      "meanAbsoluteChannelError": 2.294728973765432,
+      "fractionPixelsWithChannelErrorOver40": 0.0037977430555555555,
+      "psnr": 30.928478461196,
+      "decoded": "decoded-075.png"
+    },
+    {
+      "frame": 1680,
+      "meanAbsoluteChannelError": 2.2814605838477364,
+      "fractionPixelsWithChannelErrorOver40": 0.003806905864197531,
+      "psnr": 30.941520594647244,
+      "decoded": "decoded-076.png"
+    },
+    {
+      "frame": 1710,
+      "meanAbsoluteChannelError": 2.28104391718107,
+      "fractionPixelsWithChannelErrorOver40": 0.0038493441358024693,
+      "psnr": 30.939945475994335,
+      "decoded": "decoded-077.png"
+    },
+    {
+      "frame": 1717,
+      "meanAbsoluteChannelError": 2.2808815586419753,
+      "fractionPixelsWithChannelErrorOver40": 0.0038488618827160494,
+      "psnr": 30.944262708472934,
+      "decoded": "decoded-078.png"
+    }
+  ],
+  "repeatComparison": null
+}
