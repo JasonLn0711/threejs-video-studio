@@ -8,6 +8,7 @@ from pathlib import Path
 import subprocess
 import sys
 import shutil
+from verify_audio import final_hold
 
 
 def digest(path):
@@ -99,6 +100,9 @@ def main():
                       "trimStartSample48k": trim_start, "trimEndSample48k": trim_end})
         print(f"speech {i+1}/{len(film['narration'])} | generated={generated} reused={reused} | {len(data)/rate:.2f}s", file=sys.stderr)
     if sequential:
+        if timing.get('tailPolicy') != 'bounded_final_hold':
+            raise RuntimeError('An explicit bounded_final_hold policy is required')
+        final_hold(len(output), clips[-1]['endSample'], timing['maxFinalHoldSeconds'])
         for b, beat in enumerate(film["beats"]):
             first = next(c for c, line in zip(clips, film["narration"]) if line["beat"] == b)
             beat["start"] = 0 if b == 0 else round(first["start"] * film["fps"]) / film["fps"]

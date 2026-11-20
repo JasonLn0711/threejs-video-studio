@@ -37,11 +37,11 @@ src: index.html
 
 src: index.html
 
-38.300000–60.000000 seconds. Keep the takeaway visible and packet animation running through frame 1799.
+38.300000–44.000000 seconds. Keep the takeaway visible and packet animation running through frame 1319.
 
 Final spoken sentence ends at 42.381917 seconds.
-The animated takeaway continues for 17.618083 seconds to make
-the delivery exactly 60.000 seconds. This final hold contains no further sentence.
+The animated takeaway continues for 1.618083 seconds to make
+the delivery exactly 44.000 seconds. This final hold contains no further sentence.
 
 ## Cinematic event treatment
 
@@ -52,5 +52,4 @@ ring at the queue. The banner holds through frame 549. At frame 928 (30.933 s),
 a modeled legitimate request is dropped; “REQUEST LOST / SERVER STILL ONLINE”
 holds through frame 1011. Each cue enters over nine frames and fades over eight.
 The server remains green and operational. The effect is a local visual impact;
-there is no added sound or full-screen flash. Narration and the 60-second timing
-remain unchanged.
+there is no added sound or full-screen flash. The original narration and event timing are preserved in the 44-second revision.

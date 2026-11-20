@@ -36,5 +36,4 @@ ring at the queue. The banner holds through frame 549. At frame 928 (30.933 s),
 a modeled legitimate request is dropped; “REQUEST LOST / SERVER STILL ONLINE”
 holds through frame 1011. Each cue enters over nine frames and fades over eight.
 The server remains green and operational. The effect is a local visual impact;
-there is no added sound or full-screen flash. Narration and the 60-second timing
-remain unchanged.
+there is no added sound or full-screen flash. The original narration and event timing are preserved in the 44-second revision.

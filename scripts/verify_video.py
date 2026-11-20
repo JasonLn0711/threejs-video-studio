@@ -4,7 +4,8 @@ import hashlib
 import json
 from pathlib import Path
 import subprocess
-import tempfile
+import sys
+from verify_audio import verify, trailing_silence
 import math
 from array import array
 
@@ -25,6 +26,13 @@ def main():
     parser.add_argument("--reference", default="examples/ddos-capacity/assets/audio/narration.wav")
     parser.add_argument("--output", default="qa/encoded")
     args = parser.parse_args()
+    print('encoded | checking delivery streams, silence and decoded frames', file=sys.stderr)
+    project = Path(args.reference).resolve().parents[2]
+    cues = json.loads((project / "captions.json").read_text())
+    film = json.loads((project / "film.json").read_text())
+    pcm_report = verify(project)
+    duration, fps = film['duration'], film['fps']
+    count = round(duration * fps)
     movie = Path(args.video)
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
@@ -33,12 +41,12 @@ def main():
     video = next(s for s in probe["streams"] if s["codec_type"] == "video")
     audio = next(s for s in probe["streams"] if s["codec_type"] == "audio")
     checks = {
-        "dimensions": (video["width"], video["height"]) == (1080, 1920),
-        "frames": int(video["nb_read_frames"]) == 1800,
-        "fps": video["avg_frame_rate"] == "30/1",
+        "dimensions": (video["width"], video["height"]) == (film["width"], film["height"]),
+        "frames": int(video["nb_read_frames"]) == count,
+        "fps": video["avg_frame_rate"] == f"{fps}/1",
         "codecs": video["codec_name"] == "h264" and audio["codec_name"] == "aac",
         "sampleRate": audio["sample_rate"] == "48000" and audio["channels"] == 2,
-        "duration": abs(float(probe["format"]["duration"]) - 60) < .05,
+        "duration": abs(float(probe["format"]["duration"]) - duration) < .05,
     }
     decoded = call(["ffmpeg", "-v", "error", "-i", str(movie), "-f", "null", "-"])
     checks["fullDecode"] = not decoded.stderr
@@ -52,11 +60,8 @@ def main():
     checks["noUnexpectedFreeze"] = not freeze_lines
     timestamps = json.loads(call(["ffprobe", "-v", "error", "-select_streams", "v:0",
         "-show_entries", "frame=best_effort_timestamp_time", "-of", "json", str(movie)]).stdout)["frames"]
-    checks["constantFrameTimestamps"] = len(timestamps) == 1800 and all(
-        abs(float(f["best_effort_timestamp_time"]) - i/30) < .00001 for i, f in enumerate(timestamps))
-    project = Path(args.reference).resolve().parents[2]
-    cues = json.loads((project / "captions.json").read_text())
-    film = json.loads((project / "film.json").read_text())
+    checks["constantFrameTimestamps"] = len(timestamps) == count and all(
+        abs(float(f["best_effort_timestamp_time"]) - i/fps) < .00001 for i, f in enumerate(timestamps))
     checks["subtitleCoverage"] = len(cues) == len(film["narration"]) and all(
         c["text"] == n["text"] and c["start"] == n["at"] and c["start"] < c["end"] <= n["until"]
         and (i == 0 or cues[i-1]["end"] <= c["start"])
@@ -64,22 +69,28 @@ def main():
     pcm = []
     for file in [args.reference, str(movie)]:
         data = call(["ffmpeg", "-v", "error", "-i", file, "-vn", "-ar", "48000", "-ac", "2",
-                     "-t", "60", "-f", "s16le", "-"]).stdout
+                     "-t", str(duration), "-f", "s16le", "-"]).stdout
         a = array("h"); a.frombytes(data); pcm.append(a)
     a, b = pcm
-    checks["decodedAudioFrames"] = len(a) == len(b) == 60 * 48000 * 2
+    checks["decodedAudioFrames"] = len(a) == len(b) == round(duration * 48000) * 2
     if len(a) != len(b):
         raise RuntimeError("Unexpected decoded PCM length")
     aa = sum(x*x for x in a); bb = sum(x*x for x in b)
     ab = sum(x*y for x, y in zip(a, b))
-    correlation = ab / math.sqrt(aa*bb)
-    nrmse = math.sqrt(sum((x-y)**2 for x, y in zip(a, b)) / aa)
-    checks["audioReferenceAgreement"] = correlation >= .98 and nrmse <= .15
-    frames = sorted(set([n * 30 for n in range(60)] + [1799] +
+    correlation = ab / math.sqrt(aa*bb) if aa and bb else 0
+    nrmse = math.sqrt(sum((x-y)**2 for x, y in zip(a, b)) / aa) if aa else None
+    checks["audioReferenceAgreement"] = correlation >= .98 and nrmse is not None and nrmse <= .15
+    silence = trailing_silence(b)
+    checks['boundedFinalHold'] = pcm_report['finalHoldSeconds'] <= film['audioTiming']['maxFinalHoldSeconds']
+    checks['boundedEncodedSilence'] = silence <= film['audioTiming']['maxFinalHoldSeconds'] + .05
+    checks['audioStreamDuration'] = abs(float(audio['duration']) - duration) < .05
+    ending = round(cues[-1]['end'] * fps)
+    frames = sorted(set([n * fps for n in range(math.ceil(duration))] + [count-1, ending-1, ending, ending+1] +
                         [round(b["start"] * film["fps"]) + d for b in film["beats"][1:] for d in [-1, 0, 1]]))
     if args.browser_report:
         native = json.loads(Path(args.browser_report).read_text())
         frames = sorted(set(frames + [c["frame"] for c in native["captures"]]))
+    frames = [f for f in frames if 0 <= f < count]
     select = "+".join(f"eq(n\\,{f})" for f in frames)
     call(["ffmpeg", "-v", "error", "-i", str(movie), "-vf", f"select='{select}'",
           "-fps_mode", "vfr", "-y", str(out / "sample-%03d.png")])
@@ -90,10 +101,11 @@ def main():
               "video": {k: video[k] for k in ["width", "height", "codec_name", "avg_frame_rate", "nb_read_frames", "pix_fmt"]},
               "duration": float(probe["format"]["duration"]), "blackIntervals": black_lines, "freezeIntervals": freeze_lines,
               "freezeMethod": "FFmpeg freezedetect on the 1080x740 canvas at (0,565), -80 dB noise threshold, minimum 2 seconds; excludes the static title/caption field",
-              "audio": {"correlation": correlation, "normalizedRMSE": nrmse, "decodedAudioFrames": len(b)//2,
+              "audio": {"trailingSilenceSeconds": silence, "silenceThresholdDb": -50, "codecToleranceSeconds": .05, "finalHoldSeconds": pcm_report["finalHoldSeconds"], "maxFinalHoldSeconds": film["audioTiming"]["maxFinalHoldSeconds"], "narrationEndSeconds": cues[-1]["end"], "correlation": correlation, "normalizedRMSE": nrmse, "decodedAudioFrames": len(b)//2,
                         "scope": "All decoded PCM samples; zero-shift comparison; lossy AAC tolerance."},
               "samples": samples, "visualReview": "pending", "humanListening": "pending"}
     (out / "report.json").write_text(json.dumps(report, indent=2) + "\n")
+    print(f"encoded | {report['status']} | {count} frames | tail silence {silence:.6f}s", file=sys.stderr)
     print(json.dumps({k: v for k, v in report.items() if k != "samples"}))
     if report["status"] != "passed":
         raise SystemExit(1)
