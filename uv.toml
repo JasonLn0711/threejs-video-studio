@@ -1,0 +1,3 @@
+# Reuse immutable uv cache files while keeping environments isolated.
+# Use uv to replace packages; do not modify shared package files in place.
+link-mode = "hardlink"
