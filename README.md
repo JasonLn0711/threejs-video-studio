@@ -157,6 +157,14 @@ Original code and documentation: [MIT](LICENSE).
 Fonts, model dependencies and installed packages retain their upstream licenses;
 see [third-party notices](THIRD_PARTY_NOTICES.md).
 
+## The Missing Signature — cinematic proof project
+
+The second project adapts a supplied 12-shot cybersecurity treatment with US English male narration, English captions and licensed sound design. The user approved its visual proof and authorized the 49.233-second full film with more connected conversational narration and 0.1-second shorter sentence gaps.
+
+See the [project and reproduction guide](examples/the-missing-signature/README.md), [adopted brief](examples/the-missing-signature/BRIEF.md), [measured storyboard](examples/the-missing-signature/STORYBOARD.md), [source boundaries](examples/the-missing-signature/SOURCES.md) and [sound credits](examples/the-missing-signature/CREDITS.md). The canonical production standard now defines the cinematic-short profile separately from the narration-only DDoS pilot.
+
+Select it explicitly with `--project examples/the-missing-signature` on build, preview, check, render and package commands. Add `--proof` for the review composition. Each project's QA gates and outputs remain separate. Full render approval records the reviewed proof hash; neither a pilot check nor a proof encode certifies the full film.
+
 ## PHP runtime Shorts delivery
 
 [Three-film delivery record](docs/php-series-delivery-2026-10-22.md) connects editable episode sources, SRT captions, YouTube upload copy, technical evidence and the Planning review gate. EP03 is technically verified; human viewing/listening and YouTube publication remain pending.

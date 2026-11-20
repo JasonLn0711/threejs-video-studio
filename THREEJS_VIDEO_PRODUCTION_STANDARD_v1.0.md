@@ -397,3 +397,17 @@ social uploads or comparative production speedups.
 
 References checked during design on 2026-10-20. Refresh version-sensitive guidance
 when changing dependencies or activating a new destination.
+
+## 13. Cinematic-short profile v1 — adopted 2026-10-21
+
+This named profile supports a sourced narrative with designed sound and translated captions. It retains the 1080×1920/30 fps baseline and the bounded final hold. The DDoS pilot remains governed by its existing narration-only profile.
+
+- Derive duration and shot boundaries from measured, complete speech. Quantize the final duration upward to a frame; target 1.5 seconds after narration, with a hard 2.0-second maximum. Preserve nominal reference timings as source, not executable truth.
+- Default to 0.35-second sentence gaps. Record intentional exceptions with exact sample intervals and editorial purpose; a declared 0.65-second pre-reveal pause must remain quiet in the final mix. A music bed never exempts an excessive narration tail.
+- Preserve dry source voice, processed clips, ambience, effects and the final mix separately. Preview and encode MUST consume the same frozen mix. Verify voice integrity against dry clips, and separately measure mix loudness, true peak, unexplained silence and the encoded audio. Working target: −14 ±1 LUFS integrated and true peak ≤−1 dBTP; allow codec headroom in the PCM master. These are engineering targets, not platform guarantees.
+- Traditional Chinese captions use locally supplied, licensed fonts, at most two lines, and measured phrase/utterance alignment. Do not describe translation alignment as word-level alignment. Recheck actual glyph bounds and contrast over moving geometry.
+- Use a separate project identity, QA gate and output namespace. A check from another project, a stale source tree, or a proof-only run MUST NOT authorize full-film delivery.
+- A proof may montage selected shots and end at a documented clause boundary. Declare its source map, excerpt boundary, voice tail and duration independently. Render repeatability and encoded-pixel tests apply to the actual proof. The proof does not certify the unrendered full film.
+- Honor a source-requested proof approval gate. Record the reviewed proof hash when approval is received; preserve pending human listening, phone review, viewer feedback and publication states until actual evidence exists.
+- When a hardware screenshot differs between runs, compare native lossless frames before blaming the video codec. Retain failed artifacts. Present completed GPU frames atomically if capture can observe partial drawing, and rerun native-frame, encoded-frame and clean-restore checks. A browser seek test alone does not certify the native capture path.
+- Apply requested gap reductions to the existing measured gaps, including declared dramatic pauses, and record the new sample counts. A language change must update on-screen captions, exported subtitle files, font checks and narration-copy checks together. For The Missing Signature's approved English revision, ordinary gaps are 0.25 seconds and the admin reveal pause is 0.55 seconds. Phrase-level subtitle timing must not be described as word-level forced alignment.
