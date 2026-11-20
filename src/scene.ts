@@ -110,7 +110,7 @@ function projection(point: THREE.Vector3) {
   return { x: (p.x + 1) / 2 * W, y: (1 - p.y) / 2 * H + TOP, depth: p.z };
 }
 export function renderAt(frame: number) {
-  if (!Number.isInteger(frame) || frame < 0 || frame >= 1800) throw new Error('Frame outside [0, 1799]');
+  if (!Number.isInteger(frame) || frame < 0 || frame >= model.frames.length) throw new Error(`Frame outside [0, ${model.frames.length - 1}]`);
   lastFrame = frame;
   const t = frame / film.fps, state = model.frames[frame];
   const push = Math.sin(Math.min(1, Math.max(0, (t - film.beats[2].start - 2) / (film.beats[5].start - film.beats[2].start - 2))) * Math.PI);

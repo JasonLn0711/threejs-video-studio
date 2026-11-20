@@ -5,7 +5,7 @@
   "width": 1080,
   "height": 1920,
   "fps": 30,
-  "duration": 60,
+  "duration": 44,
   "seed": 1973,
   "safeArea": {
     "left": 90,
@@ -57,7 +57,7 @@
     },
     {
       "start": 38.3,
-      "end": 60,
+      "end": 44,
       "eyebrow": "ONE CONCEPT / DDoS",
       "title": "A full link can\nblock a service.",
       "detail": "Shared capacity becomes an availability limit."
@@ -159,8 +159,9 @@
     "mode": "sequential_sentences",
     "sentenceGapSeconds": 0.35,
     "startSeconds": 0.35,
-    "tailPolicy": "animated_takeaway_until_duration",
+    "tailPolicy": "bounded_final_hold",
     "trimThresholdDb": -55,
-    "trimPaddingSamples": 240
+    "trimPaddingSamples": 240,
+    "maxFinalHoldSeconds": 2.0
   }
 }

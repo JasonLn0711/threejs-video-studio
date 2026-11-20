@@ -36,3 +36,11 @@ test('retimed narration keeps attacks after their cue and preserves link capacit
   assert.ok(m.frames[900].dropped > 0);
   for (let f = 30; f < 1800; f++) assert.ok(m.frames[f].served - m.frames[f - 30].served <= CAPACITY);
 });
+
+test('44-second delivery ends at frame 1319 without changing the simulation prefix', () => {
+  const full = buildTraffic(30, 60, 1973, 11.3, 9.2);
+  const short = buildTraffic(30, 44, 1973, 11.3, 9.2);
+  assert.equal(short.frames.length, 1320);
+  assert.deepEqual(short.frames, full.frames.slice(0, 1320));
+  assert.equal(frameIndex(44, 30, short.frames.length), 1319);
+});
