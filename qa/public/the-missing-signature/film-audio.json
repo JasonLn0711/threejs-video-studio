@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "project": "the-missing-signature",
+  "duration": 49.233333333333334,
+  "frameCount": 1477,
+  "narrationEndSeconds": 47.706125,
+  "finalHoldSeconds": 1.5272083333333333,
+  "trailingSilenceSeconds": 0.4265,
+  "integratedLufs": -14.36,
+  "truePeakDbtp": -1.94,
+  "detectedSilences": [
+    [
+      25.1423,
+      25.7947
+    ]
+  ],
+  "intentionalSilences": [
+    [
+      25.143229166666668,
+      25.793229166666666
+    ]
+  ],
+  "mixSha256": "1551c8bdee701302d2c948a8fcb589a4df525efd09c588b200d24675d68fa713",
+  "humanListening": "pending",
+  "encoded": null
+}

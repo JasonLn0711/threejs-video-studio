@@ -1,0 +1,17 @@
+{
+  "status": "full_film_delivered",
+  "duration": 49.233333333333334,
+  "frames": 1477,
+  "language": "en-US",
+  "ordinaryGapSeconds": 0.25,
+  "adminGapSeconds": 0.55,
+  "renderSha256": "4779b9b613bca2258493fc972419355dc92cc2b7a276a2467c76a30fd4782363",
+  "archiveSha256": "ddf1c267c35d0a954e91e212ebfb88c10710ecc94471ea014e672b08d52bc4b4",
+  "renderRun": "qa/projects/the-missing-signature/runs/2026-10-21T10-42-07-599Z-render",
+  "sourceCheck": "qa/projects/the-missing-signature/runs/2026-10-21T10-40-58-447Z-check",
+  "encodedAudio": "passed",
+  "encodedPixels": "passed",
+  "archiveRestore": "passed",
+  "fullFilmHumanListening": "pending",
+  "publication": "not_performed"
+}

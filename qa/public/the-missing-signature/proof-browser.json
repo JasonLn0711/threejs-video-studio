@@ -1,0 +1,402 @@
+{
+  "status": "passed",
+  "project": "the-missing-signature-proof",
+  "checkedFrames": 300,
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "captures": [
+    {
+      "frame": 0,
+      "sha256": "27708b3f5dd82bf5b8fa1eb7e18ca6e4940d361b440e1660893a97a0cc7bfe63",
+      "file": "frame-0000.png",
+      "sourceTime": 23.266666666666666,
+      "shot": "S07",
+      "progress": 0,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.5
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 15,
+      "sha256": "534cfd86f0aec3e0d49b720e4a58ee60b89d3bdf62036f1ac1d68ba20eebdf36",
+      "file": "frame-0015.png",
+      "sourceTime": 23.766666666666666,
+      "shot": "S07",
+      "progress": 0.1415094339622641,
+      "caption": "S07-1",
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.483677801137851
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 30,
+      "sha256": "256d270837f6e4f0a679637436583596309e19e80f6498292e2dc571e694f856",
+      "file": "frame-0030.png",
+      "sourceTime": 24.266666666666666,
+      "shot": "S07",
+      "progress": 0.2830188679245282,
+      "caption": "S07-1",
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.44151212074397
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 45,
+      "sha256": "f1bdbaea364e23aaec984137f2f1b8e1cd5b8f3c3b9d33b03b8a36f2b19175e5",
+      "file": "frame-0045.png",
+      "sourceTime": 24.766666666666666,
+      "shot": "S07",
+      "progress": 0.42452830188679225,
+      "caption": "S07-1",
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.383704333107197
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 60,
+      "sha256": "b2aeb4fa6578d61d618bdcf02c0b50763bdb3d652404ee1586d11129be0b1d06",
+      "file": "frame-0060.png",
+      "sourceTime": 25.266666666666666,
+      "shot": "S07",
+      "progress": 0.5660377358490564,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.320455812516373
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 75,
+      "sha256": "f416e5a0c0e8e643009941bfcfda8bbf3ffb52ecb0fe0e6f034b4fb573a3e059",
+      "file": "frame-0075.png",
+      "sourceTime": 25.766666666666666,
+      "shot": "S07",
+      "progress": 0.7075471698113204,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.261967933260342
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 90,
+      "sha256": "cdf42b0af9728d889766863a92a6e01f7714f60f2c29345a2da58a47e2e32831",
+      "file": "frame-0090.png",
+      "sourceTime": 26.266666666666666,
+      "shot": "S07",
+      "progress": 0.8490566037735845,
+      "caption": "S07-2",
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.218442069627947
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 105,
+      "sha256": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "file": "frame-0105.png",
+      "sourceTime": 26.766666666666666,
+      "shot": "S07",
+      "progress": 0.9905660377358486,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.200079595908031
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 120,
+      "sha256": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "file": "frame-0120.png",
+      "sourceTime": 26.766666666666666,
+      "shot": "S07",
+      "progress": 0.9905660377358486,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0.4,
+        3,
+        13.200079595908031
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 135,
+      "sha256": "b0e3c8193fd0e15cb9fade985b9301a5465c5e1edfd9adeeb06351ce8d552b90",
+      "file": "frame-0135.png",
+      "sourceTime": 27,
+      "shot": "S08",
+      "progress": 0.1153846153846149,
+      "caption": "S08-1",
+      "towerCount": 17,
+      "camera": [
+        0,
+        0.4,
+        14.294469731451981
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 150,
+      "sha256": "20a911b7cdaf5ce4d4ca4fd1f2c03d897c5e081caca82a20dc5f43d52b23de0e",
+      "file": "frame-0150.png",
+      "sourceTime": 27.5,
+      "shot": "S08",
+      "progress": 0.4038461538461532,
+      "caption": "S08-1",
+      "towerCount": 17,
+      "camera": [
+        0,
+        0.4,
+        14.246367916477015
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 165,
+      "sha256": "cf4fedf6967681002b1c2b85a4fb1771245cb68199132c92729a083399c2041c",
+      "file": "frame-0165.png",
+      "sourceTime": 27.999999999999996,
+      "shot": "S08",
+      "progress": 0.6923076923076895,
+      "caption": "S08-1",
+      "towerCount": 17,
+      "camera": [
+        0,
+        0.4,
+        14.183864360491581
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 180,
+      "sha256": "6e0577f650143548dc96eb00a426be7b5f7eac3a6ff851e6ef2c92028fa5dcc2",
+      "file": "frame-0180.png",
+      "sourceTime": 28.499999999999996,
+      "shot": "S08",
+      "progress": 0.9807692307692277,
+      "caption": null,
+      "towerCount": 17,
+      "camera": [
+        0,
+        0.4,
+        14.150164286527083
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 195,
+      "sha256": "42753c1b06e645bd93513284a8e2672548709ba3f8c619aec589145d58a347e8",
+      "file": "frame-0195.png",
+      "sourceTime": 28.73333333333333,
+      "shot": "S09",
+      "progress": 0.02459016393442572,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        2.5035685806300965,
+        5.005352870945145,
+        12.01070574189029
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 210,
+      "sha256": "4fd2df550d41c3236bcb271c8d255d2a617ef873456fbcd280c6d15c1afb144f",
+      "file": "frame-0210.png",
+      "sourceTime": 29.23333333333333,
+      "shot": "S09",
+      "progress": 0.08606557377049132,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        2.54189364968874,
+        5.06284047453311,
+        12.12568094906622
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 225,
+      "sha256": "2ff013ea489b912c7172174952a8dfe4700f5c1b89348282cffbac5171995b77",
+      "file": "frame-0225.png",
+      "sourceTime": 29.73333333333333,
+      "shot": "S09",
+      "progress": 0.14754098360655693,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        2.6177631607931935,
+        5.17664474118979,
+        12.35328948237958
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 240,
+      "sha256": "f93fbe126e86e0853afbab49b05077ce18dc0eab033b2c7227439d11dd4b62a6",
+      "file": "frame-0240.png",
+      "sourceTime": 30.23333333333333,
+      "shot": "S09",
+      "progress": 0.20901639344262252,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        2.7256012067089306,
+        5.338401810063396,
+        12.676803620126792
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 255,
+      "sha256": "6768870037e36aec34fc8e1ecc83190bbeb5532748a20458d86b814cde43282a",
+      "file": "frame-0255.png",
+      "sourceTime": 30.73333333333333,
+      "shot": "S09",
+      "progress": 0.27049180327868816,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        2.8598318802014258,
+        5.539747820302138,
+        13.079495640604277
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 270,
+      "sha256": "aec93bb12475ebe6408b0862380e266695fa7657bcdc47a5fa632c97bc88cec3",
+      "file": "frame-0270.png",
+      "sourceTime": 31.23333333333333,
+      "shot": "S09",
+      "progress": 0.33196721311475375,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        3.0148792740361516,
+        5.772318911054228,
+        13.544637822108456
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 285,
+      "sha256": "77d384d87d5ef4f0b778ce63369484a6f607936639ac53df026922d34ce4913c",
+      "file": "frame-0285.png",
+      "sourceTime": 31.73333333333333,
+      "shot": "S09",
+      "progress": 0.39344262295081933,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        3.185167480978583,
+        6.027751221467875,
+        14.05550244293575
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    },
+    {
+      "frame": 299,
+      "sha256": "4dca08a89484f7ffc2fc3c60436f229db02651b45dd123bbe3adaa1066e4d5dd",
+      "file": "frame-0299.png",
+      "sourceTime": 32.2,
+      "shot": "S09",
+      "progress": 0.45081967213114793,
+      "caption": "S09-1",
+      "towerCount": 17,
+      "camera": [
+        3.3529348271441233,
+        6.279402240716185,
+        14.55880448143237
+      ],
+      "proof": true,
+      "sourceOffset": 0
+    }
+  ],
+  "repeats": [
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "e8f5403ead5b05c28e8c5b383fbb7f3c708d0eb292107f4ce529459d7e521702",
+      "expected": "e8f5403ead5b05c28e8c5b383fbb7f3c708d0eb292107f4ce529459d7e521702"
+    },
+    {
+      "frame": 90,
+      "passed": true,
+      "actual": "cdf42b0af9728d889766863a92a6e01f7714f60f2c29345a2da58a47e2e32831",
+      "expected": "cdf42b0af9728d889766863a92a6e01f7714f60f2c29345a2da58a47e2e32831"
+    },
+    {
+      "frame": 50,
+      "passed": true,
+      "actual": "b3bf587021e5162129dda6a82ebc41dee609eae487cf6cb3ccf93868317cb535",
+      "expected": "b3bf587021e5162129dda6a82ebc41dee609eae487cf6cb3ccf93868317cb535"
+    },
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "e8f5403ead5b05c28e8c5b383fbb7f3c708d0eb292107f4ce529459d7e521702",
+      "expected": "e8f5403ead5b05c28e8c5b383fbb7f3c708d0eb292107f4ce529459d7e521702"
+    }
+  ],
+  "errors": [],
+  "layoutFindings": [],
+  "fonts": {
+    "caption": true,
+    "title": true,
+    "mono": true
+  },
+  "audio": {
+    "duration": 10,
+    "error": null
+  }
+}

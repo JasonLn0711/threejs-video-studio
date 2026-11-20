@@ -1,0 +1,12 @@
+{
+  "status": "visually_reviewed",
+  "scope": "Actual encoded sample frames 0,90,135,195 viewed as a contact sheet; full encoded video decoded by FFmpeg. Human real-time listening and phone review remain pending.",
+  "sampledFrames": [
+    0,
+    90,
+    135,
+    195
+  ],
+  "findings": [],
+  "videoSha256": "9579ae3ce4e844dd6a5811ecc7c4e662cd9e69c207bc59c2ce9cfd73ed2475ba"
+}

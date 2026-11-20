@@ -1,0 +1,17 @@
+{
+  "status": "proof_ready_for_review",
+  "videoSha256": "9579ae3ce4e844dd6a5811ecc7c4e662cd9e69c207bc59c2ce9cfd73ed2475ba",
+  "archiveSha256": "3cb21586d95fbc0a069b28e742d32522099120e9857565a4dcd82cc7d502e07f",
+  "sourceIdentity": "e11e9d2f1a5218ebf3afd45412a2f25cf192e841782dfdff6f63b2988e133aaf",
+  "sourceCheck": "qa/projects/the-missing-signature/runs/2026-10-21T10-24-15-846Z-check",
+  "renderRun": "qa/projects/the-missing-signature/runs/2026-10-21T10-25-46-012Z-render-proof",
+  "nativeFrameRepeat": "300/300 exact",
+  "decodedVideoRepeat": "300/300 exact",
+  "audio": "passed",
+  "archiveRestore": "passed with explicitly bounded GPU edge-raster tolerance",
+  "fullFilmDuration": 49.233333333333334,
+  "fullFilmEncode": "pending_proof_approval",
+  "humanListening": "pending",
+  "phoneReview": "pending",
+  "publication": "not_performed"
+}

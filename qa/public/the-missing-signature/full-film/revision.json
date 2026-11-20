@@ -1,0 +1,27 @@
+{
+  "approval": {
+    "fullRender": "approved",
+    "proofSha256": "9579ae3ce4e844dd6a5811ecc7c4e662cd9e69c207bc59c2ce9cfd73ed2475ba",
+    "authorizedChanges": [
+      "English captions",
+      "Contextually connected conversational American English narration",
+      "Reduce every inter-utterance gap by 0.1 seconds"
+    ],
+    "authority": "User approval in this conversation, 2026-10-21",
+    "requestedDurationSeconds": 49.233333333333334
+  },
+  "subtitleLanguage": "en-US",
+  "utterances": 14,
+  "displayCaptionCues": 20,
+  "ordinaryGapSeconds": 0.25,
+  "adminGapSeconds": 0.55,
+  "gapReductionSeconds": 0.1,
+  "interUtteranceGapsVerified": 13,
+  "duration": 49.233333333333334,
+  "frameCount": 1477,
+  "narrationEndSeconds": 47.881145833333335,
+  "finalHoldSeconds": 1.3521874999999994,
+  "speechSpeed": 1,
+  "timeStretchPasses": 0,
+  "alignment": "Measured utterances; estimated internal phrase boundaries snapped to nearby acoustic silence"
+}

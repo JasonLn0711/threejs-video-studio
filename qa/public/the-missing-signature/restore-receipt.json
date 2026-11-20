@@ -1,0 +1,221 @@
+{
+  "status": "passed",
+  "scope": "Clean install, rebuild and sequential native-seek pixel comparison on this machine; tiny GPU edge-raster variation is bounded explicitly",
+  "frames": [
+    {
+      "frame": 0,
+      "expected": "27708b3f5dd82bf5b8fa1eb7e18ca6e4940d361b440e1660893a97a0cc7bfe63",
+      "actual": "27708b3f5dd82bf5b8fa1eb7e18ca6e4940d361b440e1660893a97a0cc7bfe63",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "expected": "534cfd86f0aec3e0d49b720e4a58ee60b89d3bdf62036f1ac1d68ba20eebdf36",
+      "actual": "534cfd86f0aec3e0d49b720e4a58ee60b89d3bdf62036f1ac1d68ba20eebdf36",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "expected": "e892463931216d6b3c44e71e957a129c371705a3e352680bd3387c70489a166d",
+      "actual": "256d270837f6e4f0a679637436583596309e19e80f6498292e2dc571e694f856",
+      "exact": false,
+      "meanAbsoluteChannelError": 0.0010704411008230453,
+      "maximumChannelError": 10,
+      "fractionPixelsWithChannelErrorOver8": 0.00004677854938271605,
+      "passed": true
+    },
+    {
+      "frame": 45,
+      "expected": "f1bdbaea364e23aaec984137f2f1b8e1cd5b8f3c3b9d33b03b8a36f2b19175e5",
+      "actual": "f1bdbaea364e23aaec984137f2f1b8e1cd5b8f3c3b9d33b03b8a36f2b19175e5",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 60,
+      "expected": "b2aeb4fa6578d61d618bdcf02c0b50763bdb3d652404ee1586d11129be0b1d06",
+      "actual": "b2aeb4fa6578d61d618bdcf02c0b50763bdb3d652404ee1586d11129be0b1d06",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 75,
+      "expected": "f416e5a0c0e8e643009941bfcfda8bbf3ffb52ecb0fe0e6f034b4fb573a3e059",
+      "actual": "f416e5a0c0e8e643009941bfcfda8bbf3ffb52ecb0fe0e6f034b4fb573a3e059",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "expected": "cdf42b0af9728d889766863a92a6e01f7714f60f2c29345a2da58a47e2e32831",
+      "actual": "cdf42b0af9728d889766863a92a6e01f7714f60f2c29345a2da58a47e2e32831",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 105,
+      "expected": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "actual": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 120,
+      "expected": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "actual": "23b1f7113b97975828c3ee9a619f65991c184932efbf2ebc68c06f5ba4f0653c",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 135,
+      "expected": "b0e3c8193fd0e15cb9fade985b9301a5465c5e1edfd9adeeb06351ce8d552b90",
+      "actual": "b0e3c8193fd0e15cb9fade985b9301a5465c5e1edfd9adeeb06351ce8d552b90",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "expected": "20a911b7cdaf5ce4d4ca4fd1f2c03d897c5e081caca82a20dc5f43d52b23de0e",
+      "actual": "20a911b7cdaf5ce4d4ca4fd1f2c03d897c5e081caca82a20dc5f43d52b23de0e",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 165,
+      "expected": "cf4fedf6967681002b1c2b85a4fb1771245cb68199132c92729a083399c2041c",
+      "actual": "cf4fedf6967681002b1c2b85a4fb1771245cb68199132c92729a083399c2041c",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 180,
+      "expected": "6e0577f650143548dc96eb00a426be7b5f7eac3a6ff851e6ef2c92028fa5dcc2",
+      "actual": "6e0577f650143548dc96eb00a426be7b5f7eac3a6ff851e6ef2c92028fa5dcc2",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 195,
+      "expected": "42753c1b06e645bd93513284a8e2672548709ba3f8c619aec589145d58a347e8",
+      "actual": "42753c1b06e645bd93513284a8e2672548709ba3f8c619aec589145d58a347e8",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 210,
+      "expected": "4fd2df550d41c3236bcb271c8d255d2a617ef873456fbcd280c6d15c1afb144f",
+      "actual": "4fd2df550d41c3236bcb271c8d255d2a617ef873456fbcd280c6d15c1afb144f",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 225,
+      "expected": "2ff013ea489b912c7172174952a8dfe4700f5c1b89348282cffbac5171995b77",
+      "actual": "2ff013ea489b912c7172174952a8dfe4700f5c1b89348282cffbac5171995b77",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 240,
+      "expected": "f93fbe126e86e0853afbab49b05077ce18dc0eab033b2c7227439d11dd4b62a6",
+      "actual": "f93fbe126e86e0853afbab49b05077ce18dc0eab033b2c7227439d11dd4b62a6",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 255,
+      "expected": "6768870037e36aec34fc8e1ecc83190bbeb5532748a20458d86b814cde43282a",
+      "actual": "6768870037e36aec34fc8e1ecc83190bbeb5532748a20458d86b814cde43282a",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 270,
+      "expected": "aec93bb12475ebe6408b0862380e266695fa7657bcdc47a5fa632c97bc88cec3",
+      "actual": "aec93bb12475ebe6408b0862380e266695fa7657bcdc47a5fa632c97bc88cec3",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 285,
+      "expected": "77d384d87d5ef4f0b778ce63369484a6f607936639ac53df026922d34ce4913c",
+      "actual": "77d384d87d5ef4f0b778ce63369484a6f607936639ac53df026922d34ce4913c",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    },
+    {
+      "frame": 299,
+      "expected": "4dca08a89484f7ffc2fc3c60436f229db02651b45dd123bbe3adaa1066e4d5dd",
+      "actual": "4dca08a89484f7ffc2fc3c60436f229db02651b45dd123bbe3adaa1066e4d5dd",
+      "exact": true,
+      "meanAbsoluteChannelError": 0,
+      "maximumChannelError": 0,
+      "fractionPixelsWithChannelErrorOver8": 0,
+      "passed": true
+    }
+  ],
+  "tolerance": {
+    "meanAbsoluteChannelError": 0.005,
+    "maximumChannelError": 16,
+    "fractionPixelsWithChannelErrorOver8": 0.0001
+  }
+}

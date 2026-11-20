@@ -1,0 +1,6 @@
+{
+  "input": "same 300 native PNG files",
+  "encoder": "libx264 slow CRF15 automatic threads, aq-mode3, aq-strength0.8",
+  "frames": 300,
+  "mismatches": []
+}

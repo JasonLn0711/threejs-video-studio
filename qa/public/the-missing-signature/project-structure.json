@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "shots": 12,
+  "frameCount": 1477,
+  "duration": 49.233333333333334,
+  "checks": [
+    "ordered unique shot IDs",
+    "positive shot lengths",
+    "contiguous frame ranges",
+    "exact final frame count",
+    "duration/fps agreement"
+  ],
+  "fullRenderApproval": "pending"
+}

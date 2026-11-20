@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "command": "check",
+  "project": "the-missing-signature",
+  "proof": false,
+  "run": "qa/projects/the-missing-signature/runs/2026-10-21T10-47-14-700Z-check",
+  "gate": {
+    "status": "passed",
+    "identity": "bb375f3caa565773d69587effbc8a356db028cfe579ff364d3b223d194e8304a",
+    "run": "qa/projects/the-missing-signature/runs/2026-10-21T10-47-14-700Z-check",
+    "project": "the-missing-signature",
+    "createdAt": "2026-10-21T10:48:19.885Z"
+  },
+  "elapsedSeconds": 65.18746052
+}

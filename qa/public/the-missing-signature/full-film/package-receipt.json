@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "zip": "the-missing-signature-editable.zip",
+  "zipSha256": "ddf1c267c35d0a954e91e212ebfb88c10710ecc94471ea014e672b08d52bc4b4",
+  "files": 168,
+  "crc": "passed",
+  "extractedHashes": "passed",
+  "restoreReceiptSha256": "422df492cfa32bc7958b1eb12a1d4551fc9d0e48c938d6322f0b56f06090ed8e",
+  "videoSha256": "4779b9b613bca2258493fc972419355dc92cc2b7a276a2467c76a30fd4782363",
+  "scope": "Full film editable source"
+}

@@ -1,0 +1,281 @@
+{
+  "status": "passed",
+  "command": "render",
+  "project": "the-missing-signature",
+  "proof": false,
+  "run": "qa/projects/the-missing-signature/runs/2026-10-21T10-42-07-599Z-render",
+  "encoded": {
+    "status": "passed",
+    "method": "Unregistered RGB comparison using the existing DDoS delivery tolerance; PSNR is diagnostic. Independent repeat encodes must decode to exactly identical frames.",
+    "tolerance": {
+      "meanAbsoluteChannelError": 8,
+      "fractionPixelsWithChannelErrorOver40": 0.02
+    },
+    "minimumPsnr": 30.376385988301756,
+    "frames": [
+      {
+        "frame": 0,
+        "meanAbsoluteChannelError": 2.289489615483539,
+        "fractionPixelsWithChannelErrorOver40": 0.0007663001543209877,
+        "psnr": 37.42627692542709,
+        "decoded": "decoded-000.png"
+      },
+      {
+        "frame": 52,
+        "meanAbsoluteChannelError": 2.2564338991769546,
+        "fractionPixelsWithChannelErrorOver40": 0.0006833526234567901,
+        "psnr": 37.184238818483365,
+        "decoded": "decoded-001.png"
+      },
+      {
+        "frame": 104,
+        "meanAbsoluteChannelError": 2.2729293659979426,
+        "fractionPixelsWithChannelErrorOver40": 0.000705054012345679,
+        "psnr": 37.00184551871679,
+        "decoded": "decoded-002.png"
+      },
+      {
+        "frame": 105,
+        "meanAbsoluteChannelError": 2.320777874228395,
+        "fractionPixelsWithChannelErrorOver40": 0.0007817322530864197,
+        "psnr": 37.34689509140666,
+        "decoded": "decoded-003.png"
+      },
+      {
+        "frame": 160,
+        "meanAbsoluteChannelError": 2.2757474922839505,
+        "fractionPixelsWithChannelErrorOver40": 0.0007349537037037037,
+        "psnr": 37.272441363347795,
+        "decoded": "decoded-004.png"
+      },
+      {
+        "frame": 215,
+        "meanAbsoluteChannelError": 2.2533476401748973,
+        "fractionPixelsWithChannelErrorOver40": 0.0006712962962962962,
+        "psnr": 37.5439987930074,
+        "decoded": "decoded-005.png"
+      },
+      {
+        "frame": 216,
+        "meanAbsoluteChannelError": 2.504091595936214,
+        "fractionPixelsWithChannelErrorOver40": 0.0007142168209876543,
+        "psnr": 36.636104038016256,
+        "decoded": "decoded-006.png"
+      },
+      {
+        "frame": 272,
+        "meanAbsoluteChannelError": 2.5065406378600823,
+        "fractionPixelsWithChannelErrorOver40": 0.0007142168209876543,
+        "psnr": 36.62523410791023,
+        "decoded": "decoded-007.png"
+      },
+      {
+        "frame": 327,
+        "meanAbsoluteChannelError": 2.51863683127572,
+        "fractionPixelsWithChannelErrorOver40": 0.0007180748456790124,
+        "psnr": 36.58413219900602,
+        "decoded": "decoded-008.png"
+      },
+      {
+        "frame": 328,
+        "meanAbsoluteChannelError": 2.4362130272633746,
+        "fractionPixelsWithChannelErrorOver40": 0.0008101851851851852,
+        "psnr": 36.72530512696811,
+        "decoded": "decoded-009.png"
+      },
+      {
+        "frame": 389,
+        "meanAbsoluteChannelError": 2.4154261509773662,
+        "fractionPixelsWithChannelErrorOver40": 0.0007113233024691358,
+        "psnr": 36.82651341299169,
+        "decoded": "decoded-010.png"
+      },
+      {
+        "frame": 450,
+        "meanAbsoluteChannelError": 2.4158240097736625,
+        "fractionPixelsWithChannelErrorOver40": 0.0007036072530864197,
+        "psnr": 36.845946964153924,
+        "decoded": "decoded-011.png"
+      },
+      {
+        "frame": 451,
+        "meanAbsoluteChannelError": 2.506160943930041,
+        "fractionPixelsWithChannelErrorOver40": 0.0018504050925925925,
+        "psnr": 34.94898674950943,
+        "decoded": "decoded-012.png"
+      },
+      {
+        "frame": 517,
+        "meanAbsoluteChannelError": 2.483335905349794,
+        "fractionPixelsWithChannelErrorOver40": 0.0018499228395061728,
+        "psnr": 34.96100556197756,
+        "decoded": "decoded-013.png"
+      },
+      {
+        "frame": 582,
+        "meanAbsoluteChannelError": 2.4695224086934155,
+        "fractionPixelsWithChannelErrorOver40": 0.0018494405864197532,
+        "psnr": 34.97556993035638,
+        "decoded": "decoded-014.png"
+      },
+      {
+        "frame": 583,
+        "meanAbsoluteChannelError": 2.526429398148148,
+        "fractionPixelsWithChannelErrorOver40": 0.0017462384259259258,
+        "psnr": 36.10413552943939,
+        "decoded": "decoded-015.png"
+      },
+      {
+        "frame": 626,
+        "meanAbsoluteChannelError": 2.5037371399176953,
+        "fractionPixelsWithChannelErrorOver40": 0.0016970486111111112,
+        "psnr": 36.17336735824174,
+        "decoded": "decoded-016.png"
+      },
+      {
+        "frame": 668,
+        "meanAbsoluteChannelError": 2.508843878600823,
+        "fractionPixelsWithChannelErrorOver40": 0.0016922260802469135,
+        "psnr": 36.160196882415924,
+        "decoded": "decoded-017.png"
+      },
+      {
+        "frame": 669,
+        "meanAbsoluteChannelError": 2.4126784336419753,
+        "fractionPixelsWithChannelErrorOver40": 0.0012586805555555556,
+        "psnr": 35.16770686855648,
+        "decoded": "decoded-018.png"
+      },
+      {
+        "frame": 723,
+        "meanAbsoluteChannelError": 2.3911316872427983,
+        "fractionPixelsWithChannelErrorOver40": 0.0011472800925925925,
+        "psnr": 35.22289124590887,
+        "decoded": "decoded-019.png"
+      },
+      {
+        "frame": 777,
+        "meanAbsoluteChannelError": 2.481090695730453,
+        "fractionPixelsWithChannelErrorOver40": 0.0019502314814814814,
+        "psnr": 33.946068700546334,
+        "decoded": "decoded-020.png"
+      },
+      {
+        "frame": 778,
+        "meanAbsoluteChannelError": 2.538538612397119,
+        "fractionPixelsWithChannelErrorOver40": 0.0008072916666666667,
+        "psnr": 36.51718545578448,
+        "decoded": "decoded-021.png"
+      },
+      {
+        "frame": 816,
+        "meanAbsoluteChannelError": 2.529411490483539,
+        "fractionPixelsWithChannelErrorOver40": 0.0007489390432098765,
+        "psnr": 36.59186710192393,
+        "decoded": "decoded-022.png"
+      },
+      {
+        "frame": 853,
+        "meanAbsoluteChannelError": 2.5364798739711936,
+        "fractionPixelsWithChannelErrorOver40": 0.0007489390432098765,
+        "psnr": 36.58765284688997,
+        "decoded": "decoded-023.png"
+      },
+      {
+        "frame": 854,
+        "meanAbsoluteChannelError": 2.657178337191358,
+        "fractionPixelsWithChannelErrorOver40": 0.0034673996913580246,
+        "psnr": 30.376385988301756,
+        "decoded": "decoded-024.png"
+      },
+      {
+        "frame": 963,
+        "meanAbsoluteChannelError": 2.6491882073045265,
+        "fractionPixelsWithChannelErrorOver40": 0.003399884259259259,
+        "psnr": 30.3860435341553,
+        "decoded": "decoded-025.png"
+      },
+      {
+        "frame": 1071,
+        "meanAbsoluteChannelError": 2.6571579218106995,
+        "fractionPixelsWithChannelErrorOver40": 0.003390721450617284,
+        "psnr": 30.379910266335216,
+        "decoded": "decoded-026.png"
+      },
+      {
+        "frame": 1072,
+        "meanAbsoluteChannelError": 2.4927570408950617,
+        "fractionPixelsWithChannelErrorOver40": 0.0016753472222222222,
+        "psnr": 33.849110340808856,
+        "decoded": "decoded-027.png"
+      },
+      {
+        "frame": 1123,
+        "meanAbsoluteChannelError": 2.4883815586419753,
+        "fractionPixelsWithChannelErrorOver40": 0.00165991512345679,
+        "psnr": 33.8480267630259,
+        "decoded": "decoded-028.png"
+      },
+      {
+        "frame": 1173,
+        "meanAbsoluteChannelError": 2.51074893904321,
+        "fractionPixelsWithChannelErrorOver40": 0.0016550925925925926,
+        "psnr": 33.84113432157199,
+        "decoded": "decoded-029.png"
+      },
+      {
+        "frame": 1174,
+        "meanAbsoluteChannelError": 2.5437863297325105,
+        "fractionPixelsWithChannelErrorOver40": 0.003117283950617284,
+        "psnr": 31.905666474210594,
+        "decoded": "decoded-030.png"
+      },
+      {
+        "frame": 1244,
+        "meanAbsoluteChannelError": 2.535236625514403,
+        "fractionPixelsWithChannelErrorOver40": 0.0029658564814814816,
+        "psnr": 31.950860455842225,
+        "decoded": "decoded-031.png"
+      },
+      {
+        "frame": 1314,
+        "meanAbsoluteChannelError": 2.5681494341563784,
+        "fractionPixelsWithChannelErrorOver40": 0.0029484953703703704,
+        "psnr": 31.96313559062491,
+        "decoded": "decoded-032.png"
+      },
+      {
+        "frame": 1315,
+        "meanAbsoluteChannelError": 2.2954110403806585,
+        "fractionPixelsWithChannelErrorOver40": 0.0008232060185185185,
+        "psnr": 37.333571725899574,
+        "decoded": "decoded-033.png"
+      },
+      {
+        "frame": 1396,
+        "meanAbsoluteChannelError": 2.2604734117798353,
+        "fractionPixelsWithChannelErrorOver40": 0.0006809413580246914,
+        "psnr": 37.534732859899755,
+        "decoded": "decoded-034.png"
+      },
+      {
+        "frame": 1476,
+        "meanAbsoluteChannelError": 2.2840504436728395,
+        "fractionPixelsWithChannelErrorOver40": 0.0006809413580246914,
+        "psnr": 37.503624644922155,
+        "decoded": "decoded-035.png"
+      }
+    ],
+    "repeatComparison": null
+  },
+  "artifact": "/home/jnlngx10/Videos/The_Missing_Signature_v1/output/the-missing-signature.mp4",
+  "sha256": "4779b9b613bca2258493fc972419355dc92cc2b7a276a2467c76a30fd4782363",
+  "identity": "c9c4905e7a1ca81da64eb7a407c817aa2fb27376bb9cdc26624133c6e9ba7c2a",
+  "gate": {
+    "status": "passed",
+    "identity": "c9c4905e7a1ca81da64eb7a407c817aa2fb27376bb9cdc26624133c6e9ba7c2a",
+    "run": "qa/projects/the-missing-signature/runs/2026-10-21T10-40-58-447Z-check",
+    "project": "the-missing-signature",
+    "createdAt": "2026-10-21T10:41:44.269Z"
+  }
+}
