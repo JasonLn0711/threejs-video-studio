@@ -1,0 +1,1266 @@
+{
+  "status": "passed",
+  "scope": "Pre-existing PHP films: sampled native seeks compared with their previous accepted browser captures",
+  "episodes": [
+    {
+      "id": "php-oom",
+      "samples": 77,
+      "frames": [
+        {
+          "frame": 0,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 60,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 100,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 120,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 199,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 200,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 201,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 210,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 240,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 270,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 279,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 300,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 330,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 357,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 358,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 359,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 360,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 390,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 420,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 427,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 450,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 480,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 495,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 496,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 497,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 510,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 540,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 570,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 600,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 630,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 660,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 671,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 690,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 720,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 750,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 780,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 810,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 840,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 846,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 847,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 848,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 870,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 900,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 930,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 960,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 990,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1020,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1022,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1050,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1080,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1110,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1140,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1170,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1196,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1197,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1198,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1200,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1230,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1260,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1290,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1320,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1350,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1380,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1400,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1410,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1440,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1470,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1500,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1530,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1560,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1590,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1603,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "php-stale-state",
+      "samples": 79,
+      "frames": [
+        {
+          "frame": 0,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 47,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 60,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 93,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 94,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 95,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 120,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 208,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 210,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 240,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 270,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 300,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 322,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 323,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 324,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 330,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 360,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 390,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 401,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 420,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 450,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 478,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 479,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 480,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 510,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 540,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 570,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 600,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 625,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 630,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 660,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 690,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 720,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 750,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 770,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 771,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 772,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 780,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 810,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 840,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 870,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 900,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 930,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 960,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 990,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1001,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1020,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1050,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1080,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1110,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1140,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1170,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1200,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1230,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1231,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1232,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1260,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1290,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1320,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1350,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1380,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1410,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1440,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1470,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1474,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1500,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1530,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1560,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1590,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1620,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1650,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1680,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1710,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        },
+        {
+          "frame": 1717,
+          "exact": true,
+          "mae": 0,
+          "max": 0,
+          "fractionOver8": 0,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

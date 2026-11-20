@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "file": "wordpress-php-review.webm",
+  "scope": "AV1/Opus browser derivative; MP4 is the delivery master",
+  "error": "Opus transcode true peak -0.92 dBTP exceeds the -1 dBTP ceiling",
+  "integratedLufs": -14.42,
+  "truePeakDbtp": -0.92,
+  "audioCorrelation": 0.9987772697468528,
+  "audioNormalizedRMSE": 0.049454573268068784,
+  "fullDecode": "passed",
+  "pixelComparison": "passed",
+  "frames": 1493
+}

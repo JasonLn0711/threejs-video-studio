@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "videoBitstreamIdentical": true,
+  "hash": "SHA256=96d923bb98ab7b3c7b0c4fc52e50317c04f560cd9b3fe849822cf13cad57e443",
+  "integratedLufs": -14.78,
+  "truePeakDbtp": -1.9,
+  "change": "Audio remade from PCM master with -0.4 dB gain; video stream copied unchanged",
+  "pixelEvidence": "Existing 77-frame comparison remains valid for identical video bitstream"
+}

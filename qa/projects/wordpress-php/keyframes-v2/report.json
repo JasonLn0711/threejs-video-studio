@@ -1,0 +1,234 @@
+{
+  "status": "passed",
+  "project": "wordpress-php",
+  "checkedFrames": 7,
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "captures": [
+    {
+      "frame": 30,
+      "sha256": "e80a5d05f98ede7aceaad06d28c0b03d1ca69be8b680cc97a54e34ebf970954c",
+      "file": "frame-0030.png",
+      "index": 0,
+      "shot": "S01",
+      "progress": 0.24390243902439024,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": false,
+      "fixVerified": false,
+      "verificationStep": "application-status",
+      "caption": "S01-1-1",
+      "essentialPoints": {
+        "focus": {
+          "x": 540.0000000000001,
+          "y": 959.9999999999998,
+          "z": 0.9906983672735797
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 229,
+      "sha256": "ae644de23d71e8e5079b15f1c0495c1a24626f16d2670f2eca96b43cf5b1afd7",
+      "file": "frame-0229.png",
+      "index": 1,
+      "shot": "S02",
+      "progress": 0.580110497237569,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": false,
+      "fixVerified": false,
+      "verificationStep": "dependency-map",
+      "caption": "S02-2-1",
+      "essentialPoints": {
+        "focus": {
+          "x": 539.9999999999995,
+          "y": 960.0000000000005,
+          "z": 0.9944718687447168
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 509,
+      "sha256": "e3b530b34181f512cdd7664a0fbaf9508e7b7f2fa0831bc2484f3634fc46e875",
+      "file": "frame-0509.png",
+      "index": 2,
+      "shot": "S03",
+      "progress": 0.58,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": false,
+      "fixVerified": false,
+      "verificationStep": "runtime-unknown",
+      "caption": "S03-2-1",
+      "essentialPoints": {
+        "focus": {
+          "x": 540,
+          "y": 959.9999999999995,
+          "z": 0.9925960376805728
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 741,
+      "sha256": "ed4767c73b2944c42bb9714fef0b655cdf50586b0ef21ca9c142e9fa41a37b29",
+      "file": "frame-0741.png",
+      "index": 3,
+      "shot": "S04",
+      "progress": 0.5793103448275863,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": true,
+      "fixVerified": false,
+      "verificationStep": "observe-version",
+      "caption": "S04-1-1",
+      "essentialPoints": {
+        "focus": {
+          "x": 540.0000000000001,
+          "y": 959.9999999999999,
+          "z": 0.994612074142768
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 906,
+      "sha256": "b1cdc9b04cef8c19f0e8ea1d92411c7e431fb88ba8be799d12fd37b74a22bd79",
+      "file": "frame-0906.png",
+      "index": 4,
+      "shot": "S05",
+      "progress": 0.5819209039548022,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": true,
+      "fixVerified": false,
+      "verificationStep": "ask-provider",
+      "caption": "S05-1-2",
+      "essentialPoints": {
+        "focus": {
+          "x": 540.0000000000001,
+          "y": 960,
+          "z": 0.9935401892444464
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1128,
+      "sha256": "cedb4501eb455d3f06b73def5b438abba6aa84474ac5e7d9d9b33d84133bb647",
+      "file": "frame-1128.png",
+      "index": 5,
+      "shot": "S06",
+      "progress": 0.5787401574803149,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": true,
+      "fixVerified": false,
+      "verificationStep": "vendor-package",
+      "caption": "S06-1-2",
+      "essentialPoints": {
+        "focus": {
+          "x": 540,
+          "y": 960.0000000000002,
+          "z": 0.9937773694934486
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1385,
+      "sha256": "9ed87a2e0e73a643fe8e3fadaca583e60acf5e0cf20c117049e9d9f69d2d6aa4",
+      "file": "frame-1385.png",
+      "index": 6,
+      "shot": "S07",
+      "progress": 0.58203125,
+      "wordpressCoreStatus": "up-to-date",
+      "phpPatchStatus": "unknown",
+      "conceptual": true,
+      "realSiteScanned": false,
+      "versionObserved": true,
+      "fixVerified": false,
+      "verificationStep": "verify-running-php",
+      "caption": "S07-2-1",
+      "essentialPoints": {
+        "focus": {
+          "x": 540,
+          "y": 959.9999999999998,
+          "z": 0.9949915038326097
+        }
+      },
+      "contextLost": false,
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    }
+  ],
+  "repeats": [
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "20d3dcbdb76b239aff016fd613d53cac9935c67feed004ca014f98b3b24939a3",
+      "expected": "20d3dcbdb76b239aff016fd613d53cac9935c67feed004ca014f98b3b24939a3"
+    },
+    {
+      "frame": 90,
+      "passed": true,
+      "actual": "c748653223ee3acd4eac641123b7099f8d9f4097451db0fe358c4c9f4b586a2d",
+      "expected": "c748653223ee3acd4eac641123b7099f8d9f4097451db0fe358c4c9f4b586a2d"
+    },
+    {
+      "frame": 50,
+      "passed": true,
+      "actual": "d6b8d6e7508b1bc024a526266ebba9829bd8528fb1a72cab703371b86a68acef",
+      "expected": "d6b8d6e7508b1bc024a526266ebba9829bd8528fb1a72cab703371b86a68acef"
+    },
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "20d3dcbdb76b239aff016fd613d53cac9935c67feed004ca014f98b3b24939a3",
+      "expected": "20d3dcbdb76b239aff016fd613d53cac9935c67feed004ca014f98b3b24939a3"
+    }
+  ],
+  "errors": [],
+  "layoutFindings": [],
+  "fonts": {
+    "caption": true,
+    "title": true,
+    "mono": true
+  },
+  "audio": {
+    "duration": 49.766667,
+    "error": null
+  }
+}

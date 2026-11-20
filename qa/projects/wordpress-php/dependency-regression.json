@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "matchesPriorDeliveredArchive": {
+    "package.json": true,
+    "package-lock.json": true
+  }
+}

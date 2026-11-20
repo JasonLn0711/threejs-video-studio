@@ -1,0 +1,3430 @@
+{
+  "status": "passed",
+  "project": "php-oom",
+  "checkedFrames": 77,
+  "runtimeHash": "2ae4b2eb24c5dea85f83bd9af6c14abc153ad59fc3f338d1ca9142d9df0c662e",
+  "captures": [
+    {
+      "frame": 0,
+      "sha256": "645b940c8719dc36bf5f715c603c20bd7f52692f74635af5d481ed919ad8a26d",
+      "file": "frame-0000.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        8.5,
+        12,
+        22
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 790.1118032062685,
+          "y": 1005.258841643198,
+          "z": 0.9939989330403414
+        },
+        "worker": {
+          "x": 540.0000000000005,
+          "y": 960.0000000000002,
+          "z": 0.9943977933243828
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1,
+      "sha256": "93c0f4d626ca3b2a07021510f17980f832bc02fa88a37d90529febec9659cfac",
+      "file": "frame-0001.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.005025125628140704,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        8.499947148687555,
+        11.999924498125079,
+        21.99989429737511
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 790.1132633687996,
+          "y": 1005.258945893004,
+          "z": 0.993998888798674
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 960.0000000000005,
+          "z": 0.994397753192748
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 30,
+      "sha256": "fe199fdf8fd8bbe84fce51c0ea0a7b1375c1c1144918032db6fc32862825ed0b",
+      "file": "frame-0030.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.1507537688442211,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-1-1",
+      "camera": [
+        8.457070522177311,
+        11.938672174539017,
+        21.914141044354622
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 791.3033578000047,
+          "y": 1005.3434133657609,
+          "z": 0.9939628372991876
+        },
+        "worker": {
+          "x": 540,
+          "y": 960.0000000000002,
+          "z": 0.9943650568003805
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 60,
+      "sha256": "935ee09d5750593eda07ea488236f690bd42b99fcf31bd8489f9ebbb766a7f67",
+      "file": "frame-0060.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.3015075376884422,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-1-1",
+      "camera": [
+        8.347468447512682,
+        11.782097782160974,
+        21.694936895025364
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 794.3963456960818,
+          "y": 1005.5582777610986,
+          "z": 0.9938692097818185
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 960,
+          "z": 0.9942801979089869
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 90,
+      "sha256": "4281d36d37a0c8fb8e0e9f920f8a1f73ad7d575f18578de0c29ebf05bd3066d3",
+      "file": "frame-0090.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.45226130653266333,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        8.199973314211267,
+        11.57139044887324,
+        21.399946628422533
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 798.6778223189765,
+          "y": 1005.8446612376324,
+          "z": 0.9937397671746877
+        },
+        "worker": {
+          "x": 539.9999999999998,
+          "y": 960.0000000000002,
+          "z": 0.994163008823935
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 100,
+      "sha256": "7cfa97f8b969c61d642227fb54eb7b37154026265227ed79ed839f8d5f4f4b31",
+      "file": "frame-0100.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.5025125628140703,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-2-1",
+      "camera": [
+        8.14736183125166,
+        11.49623118750237,
+        21.29472366250332
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 800.239222563913,
+          "y": 1005.9459309620324,
+          "z": 0.9936926074080008
+        },
+        "worker": {
+          "x": 539.9999999999995,
+          "y": 960.0000000000002,
+          "z": 0.9941203508432779
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 120,
+      "sha256": "0340d6030d91b17b93b2d0c082597560e7c77d087e0041d1a3d8325f3da3925e",
+      "file": "frame-0120.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.6030150753768844,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-2-1",
+      "camera": [
+        8.04336466047822,
+        11.347663800683172,
+        21.08672932095644
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 803.3803293245659,
+          "y": 1006.1445565364494,
+          "z": 0.9935978093610335
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 959.9999999999999,
+          "z": 0.9940346622273082
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 150,
+      "sha256": "16d19cc279022cc5e0270cdce8d0bbb04cf5a972a869c8e63ead24913ce09467",
+      "file": "frame-0150.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.7537688442211056,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-2-1",
+      "camera": [
+        7.906422024518695,
+        11.152031463598135,
+        20.812844049037388
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 807.6309473817468,
+          "y": 1006.4025585222018,
+          "z": 0.9934696834994701
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 959.9999999999995,
+          "z": 0.9939189753447789
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 180,
+      "sha256": "35927a94f1d413f8e40653b0008759ae57227dcc3696c1c54177b9810377628c",
+      "file": "frame-0180.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 0.9045226130653267,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S01-2-1",
+      "camera": [
+        7.817924944537846,
+        11.025607063625493,
+        20.63584988907569
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 810.4496189110142,
+          "y": 1006.5668551794784,
+          "z": 0.9933848193539979
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 960.0000000000002,
+          "z": 0.9938424299689241
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 199,
+      "sha256": "2e4372764403011d3913a7a45ff0cf2ec5ae91b9a42a5172d124ddb5a4a62cd5",
+      "file": "frame-0199.png",
+      "shot": "S01",
+      "index": 0,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": false,
+      "initialized": false,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        7.8,
+        11,
+        20.6
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 811.0275885311643,
+          "y": 1006.5998788815888,
+          "z": 0.9933674275936866
+        },
+        "worker": {
+          "x": 539.9999999999999,
+          "y": 960,
+          "z": 0.9938267508410307
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 200,
+      "sha256": "2e249b128bd06d73e75bd27fc447e28f86c7c993da3c6118b5f505ad6b1cca29",
+      "file": "frame-0200.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        9.402001231089011,
+        13,
+        24.240510985756895
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 758.813184019151,
+          "y": 1017.9552523080031,
+          "z": 0.994754034415689
+        },
+        "worker": {
+          "x": 532.4440049780103,
+          "y": 977.9983389002233,
+          "z": 0.9950831270683933
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 201,
+      "sha256": "5b67cc5276c03876d406bfcf9f69ea3dfaff86cdc2bab0a03922c387d2ad652d",
+      "file": "frame-0201.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.006369426751592357,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        9.401560566202471,
+        13,
+        24.240681898825095
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 758.8159517841268,
+          "y": 1017.9534666281213,
+          "z": 0.9947540431935661
+        },
+        "worker": {
+          "x": 532.4443594998962,
+          "y": 977.9983977717059,
+          "z": 0.9950831270696017
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 210,
+      "sha256": "5f6da1a2f32486f4dc0641fc69bad5e46754ec1585d42c82d5210d17ab8b38aa",
+      "file": "frame-0210.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.06369426751592357,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        9.359611798833582,
+        13,
+        24.256909674876873
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 759.0789661401562,
+          "y": 1017.7834469015324,
+          "z": 0.994754878886905
+        },
+        "worker": {
+          "x": 532.478107692902,
+          "y": 978.0039874257038,
+          "z": 0.9950831271843837
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 240,
+      "sha256": "ffd9513b34fcc6928b4ccf5a3d7a6edb9e96e8833b6bad3064043dcd70a96f2e",
+      "file": "frame-0240.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.25477707006369427,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        8.811493110766982,
+        13,
+        24.461348882653752
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 762.432614506838,
+          "y": 1015.5559591623941,
+          "z": 0.9947658143375779
+        },
+        "worker": {
+          "x": 532.9190293193459,
+          "y": 978.0743982181775,
+          "z": 0.9950831286390972
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 270,
+      "sha256": "f7024ef0a7c57a9870673c6abda97e568a1463372ccea0fde6ed09173967a029",
+      "file": "frame-0270.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.445859872611465,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        7.860526017906943,
+        13,
+        24.783303466685147
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 767.8944012024772,
+          "y": 1011.6662553259771,
+          "z": 0.9947848532251155
+        },
+        "worker": {
+          "x": 533.6838274995057,
+          "y": 978.1852514344001,
+          "z": 0.9950831309625919
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 279,
+      "sha256": "34c9f708378a297bdb01155204174f33ee36afe68f72f09f60889f19bc8430d6",
+      "file": "frame-0279.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.5031847133757962,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        7.541408632778642,
+        13,
+        24.8822658902571
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 769.6286591963502,
+          "y": 1010.3541930792447,
+          "z": 0.9947912597001933
+        },
+        "worker": {
+          "x": 533.9404235284724,
+          "y": 978.2193178916531,
+          "z": 0.9950831316847951
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 300,
+      "sha256": "931e8b71af22ea5f901d4443070cdaba86f147caa1881755ad4ca6ebd2d447a1",
+      "file": "frame-0300.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.6369426751592356,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-1",
+      "camera": [
+        6.808595517453828,
+        13,
+        25.092688717626647
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 773.4290732047867,
+          "y": 1007.3289386979432,
+          "z": 0.9948060023993341
+        },
+        "worker": {
+          "x": 534.5295809908799,
+          "y": 978.2917411707125,
+          "z": 0.9950831332329183
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 330,
+      "sha256": "fbda7c251802dfcab726f289939a566303415a638c5a0888bf1f627421988701",
+      "file": "frame-0330.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 0.8280254777070064,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S02-1-2",
+      "camera": [
+        5.972543397957151,
+        13,
+        25.30471745267112
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 777.4627086448328,
+          "y": 1003.8575208382464,
+          "z": 0.9948228714759314
+        },
+        "worker": {
+          "x": 535.2016112354236,
+          "y": 978.3647008104499,
+          "z": 0.9950831348100646
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 357,
+      "sha256": "92ea77ce497e72909b8cbb43c607b7c444319275aa858f2f9d16af6b2b0a7f9d",
+      "file": "frame-0357.png",
+      "shot": "S02",
+      "index": 1,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        5.673970200102603,
+        13,
+        25.373333682595742
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 778.8269489838116,
+          "y": 1002.6128525360876,
+          "z": 0.9948289077855579
+        },
+        "worker": {
+          "x": 535.441578818361,
+          "y": 978.38830831739,
+          "z": 0.9950831353241555
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 358,
+      "sha256": "0e4221a3c0bc6256633e2fcd5259f457aa05b3f7af87279e64b5d36905db2e0f",
+      "file": "frame-0358.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        7,
+        10,
+        19
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 737.903402633672,
+          "y": 964.9919192301097,
+          "z": 0.9925690674728493
+        },
+        "worker": {
+          "x": 439.2035873483702,
+          "y": 920.9770126420254,
+          "z": 0.9930795556160957
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 359,
+      "sha256": "b5a09765b5c2be1cfba993115dc34ea428f6ab0e73c4240009da7b77c03f1563",
+      "file": "frame-0359.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.0072992700729927005,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.999793221700793,
+        10,
+        18.99992046988492
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 737.9054666747038,
+          "y": 964.9915373233863,
+          "z": 0.9925690165601918
+        },
+        "worker": {
+          "x": 439.20248735039127,
+          "y": 920.9770421468145,
+          "z": 0.9930795031444721
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 360,
+      "sha256": "03f2d9b314ed9956822ffa5d867d75a570bcd77a797ddbc991becd554a70f238",
+      "file": "frame-0360.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.014598540145985401,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.999176931366483,
+        10,
+        18.999683435140955
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 737.9116184590397,
+          "y": 964.9903989098095,
+          "z": 0.9925688648192679
+        },
+        "worker": {
+          "x": 439.1992088356699,
+          "y": 920.9771301722102,
+          "z": 0.9930793467556115
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 390,
+      "sha256": "05477ae30a01fe30c5e5da72fbfe64bab83de244e5ecea342c931db4aa209f29",
+      "file": "frame-0390.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.23357664233576642,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.820356676037868,
+        10,
+        18.93090641386072
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 739.6985914352972,
+          "y": 964.6496361382099,
+          "z": 0.9925249153660772
+        },
+        "worker": {
+          "x": 438.245665554347,
+          "y": 921.0083107988388,
+          "z": 0.9930339507929364
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 420,
+      "sha256": "6b9c6df147751c09b049524d8b7ffd96df1252cb42ed1512bb59172b991a4160",
+      "file": "frame-0420.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.45255474452554745,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.442240563625453,
+        10,
+        18.785477139855942
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 743.4874253980597,
+          "y": 963.8583892995089,
+          "z": 0.9924325660456182
+        },
+        "worker": {
+          "x": 436.21570704493513,
+          "y": 921.1125691449748,
+          "z": 0.9929378807487386
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 427,
+      "sha256": "620b80245f719a7b4a63ed964c27405b5eb0e6ef7795b8021ee7d6f9201e9bbc",
+      "file": "frame-0427.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.5036496350364964,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.342883338071435,
+        10,
+        18.747262822335166
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 744.4845442312799,
+          "y": 963.6339753575421,
+          "z": 0.9924084477173901
+        },
+        "worker": {
+          "x": 435.67953865251764,
+          "y": 921.1489503500087,
+          "z": 0.992912630364763
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 450,
+      "sha256": "84a9ac6ca8194ba3a6efb0109c019c4660e4b1eb3b47f50a60f35b1453afb24c",
+      "file": "frame-0450.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.6715328467153284,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        6.028633408170718,
+        10,
+        18.626397464681045
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 747.6396989882396,
+          "y": 962.877103191706,
+          "z": 0.992332630113975
+        },
+        "worker": {
+          "x": 433.9773325255703,
+          "y": 921.2898063496192,
+          "z": 0.9928327921572834
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 480,
+      "sha256": "0849e13aae10d563ec75116932977e68cae25502930318a0db5d91fc84875572",
+      "file": "frame-0480.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 0.8905109489051095,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S03-1-1",
+      "camera": [
+        5.743340023715142,
+        10,
+        18.51666923989044
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 750.5025993869474,
+          "y": 962.1258250505256,
+          "z": 0.9922644803650431
+        },
+        "worker": {
+          "x": 432.4250158887928,
+          "y": 921.4529880327749,
+          "z": 0.992760393313641
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 495,
+      "sha256": "5e7ccb19f1385b3d5e24482ad520b565def431fd80d419630aa91f8dc84d5516",
+      "file": "frame-0495.png",
+      "shot": "S03",
+      "index": 2,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        5.7,
+        10,
+        18.5
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 750.9371137510115,
+          "y": 962.0061881170925,
+          "z": 0.9922541897416695
+        },
+        "worker": {
+          "x": 432.1887356153002,
+          "y": 921.4808223437,
+          "z": 0.9927494058141222
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 496,
+      "sha256": "9167a7b210ce65639220cc4b4ada6aa36e88faf0ebdefb6c4daa94cd1cc50f92",
+      "file": "frame-0496.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        6.4,
+        6.55,
+        11.51
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 626.0093470581276,
+          "y": 985.7881194443459,
+          "z": 0.9867744451030384
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 497,
+      "sha256": "743658c07ec70f7120d373f01b9f46ccd898117f6f4d7cd982c59977b8261720",
+      "file": "frame-0497.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.002857142857142857,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-1",
+      "camera": [
+        6.399985334110787,
+        6.55,
+        11.509987778425655
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 626.0094695235655,
+          "y": 985.7881332055705,
+          "z": 0.9867744280883096
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 510,
+      "sha256": "e9fdfe9d877d0b71bfce73f8b5d70180d944a4543a533c8c310974f2ab88029d",
+      "file": "frame-0510.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.04,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-1",
+      "camera": [
+        6.3971968,
+        6.55,
+        11.507664
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 626.0327588534252,
+          "y": 985.790747314632,
+          "z": 0.9867711924990025
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 540,
+      "sha256": "e5c0afe3f1032ce020e7c7faafc323d18e5340a27fb0d93e9cd34eff1d67db87",
+      "file": "frame-0540.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.12571428571428572,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-1",
+      "camera": [
+        6.373936811661808,
+        6.55,
+        11.48828067638484
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 626.22733748363,
+          "y": 985.8123640327512,
+          "z": 0.9867441683872404
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 570,
+      "sha256": "c76d0f55f89f4cc68c36214998da60194fb62bb2f17113f9ecff1de6d4f8635c",
+      "file": "frame-0570.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.21142857142857144,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-1",
+      "camera": [
+        6.3308778728862976,
+        6.55,
+        11.452398227405247
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 626.589028733915,
+          "y": 985.8514782343219,
+          "z": 0.9866939759011292
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 600,
+      "sha256": "05117015b391c190d1c8aed60d9c05b9ec60141c9ea272d2986731033624e0d4",
+      "file": "frame-0600.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.29714285714285715,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-2",
+      "camera": [
+        6.2725540944606415,
+        6.55,
+        11.4037950787172
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 627.082022332611,
+          "y": 985.9025324635661,
+          "z": 0.9866256474285469
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 630,
+      "sha256": "7892cdba19fc1ebf37109e01800e573462496d98bf3405e4926e18bc7fe5ca93",
+      "file": "frame-0630.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.38285714285714284,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-1-2",
+      "camera": [
+        6.203499587172011,
+        6.55,
+        11.346249655976676
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 627.6702987490713,
+          "y": 985.9599950647665,
+          "z": 0.9865442390545004
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 660,
+      "sha256": "cb8ab24d4834cf176fedf99b2c1a03cd273235f99e4dd55bbdba0dd1d846fcca",
+      "file": "frame-0660.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.4685714285714286,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-1",
+      "camera": [
+        6.12824846180758,
+        6.55,
+        11.28354038483965
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 628.3170125855244,
+          "y": 986.0187483324559,
+          "z": 0.9864548989810339
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 671,
+      "sha256": "87674f26ee37861e86c5352a73e37d44ab1c315574d7763de369046ed4db1da8",
+      "file": "frame-0671.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.5,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-1",
+      "camera": [
+        6.1,
+        6.55,
+        11.26
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 628.561300918312,
+          "y": 986.0397201535867,
+          "z": 0.9864211933378062
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 690,
+      "sha256": "cf64b1ec93315abeff7fd2c7c192d4aa9343fdadefb2f1e4fbb6b02240455384",
+      "file": "frame-0690.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.5542857142857143,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-1",
+      "camera": [
+        6.051334829154519,
+        6.55,
+        11.219445690962099
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 628.9840915069359,
+          "y": 986.0744126760467,
+          "z": 0.9863629117136254
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 720,
+      "sha256": "553342152e97cc3ac503229556a58ca0ed530622affd66926492c0e8cc259ae9",
+      "file": "frame-0720.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.64,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-1",
+      "camera": [
+        5.9772928,
+        6.55,
+        11.157744
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 629.6320539401435,
+          "y": 986.1235853503608,
+          "z": 0.9862737178649321
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 750,
+      "sha256": "c2529268ddcf4b693d0911ee94ce9bf3522de508cfc39089a2fadf23cbe57f93",
+      "file": "frame-0750.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.7257142857142858,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-1",
+      "camera": [
+        5.910656485131195,
+        6.55,
+        11.102213737609329
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 630.2200462711095,
+          "y": 986.1639507111754,
+          "z": 0.9861929097258012
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 780,
+      "sha256": "fd1d829b07186bf92f8a75c91e4592ab5ae7b335aa54e3d4d1f65878bb0c5afd",
+      "file": "frame-0780.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.8114285714285714,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-2",
+      "camera": [
+        5.855959995335277,
+        6.55,
+        11.056633329446063
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 630.7060959581626,
+          "y": 986.1942068494848,
+          "z": 0.9861262031395459
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 810,
+      "sha256": "93899df04537b37a27e4554a9fbffa1bc3cedd4fb6f622886bbd15adca780b3c",
+      "file": "frame-0810.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.8971428571428571,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S04-2-2",
+      "camera": [
+        5.817737441399417,
+        6.55,
+        11.02478120116618
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 631.0475732389093,
+          "y": 986.2137552113725,
+          "z": 0.9860793864827943
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 840,
+      "sha256": "605db93f98d77d93259151bfacfd53157069ac6e60494cc3704eeaa28df8ba93",
+      "file": "frame-0840.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 0.9828571428571429,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        5.800522934110788,
+        6.55,
+        11.010435778425656
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 631.2018539533213,
+          "y": 986.2221202112717,
+          "z": 0.9860582474614814
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 846,
+      "sha256": "1a583f7f4e149b6e7cee4a92ad144a885e35702d1b65612aef310571e695452f",
+      "file": "frame-0846.png",
+      "shot": "S04",
+      "index": 3,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        5.8,
+        6.55,
+        11.01
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 631.2065453520314,
+          "y": 986.2223699986414,
+          "z": 0.986057604786874
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 847,
+      "sha256": "e3add268f0ab582573b3ecd43e9e315ab3fb6cf6f4bc82360d19b733db411ef1",
+      "file": "frame-0847.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        6,
+        10,
+        19
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 797.2907925442898,
+          "y": 1019.5980804590332,
+          "z": 0.9924667759275534
+        },
+        "worker": {
+          "x": 487.2755135952563,
+          "y": 978.0607545886803,
+          "z": 0.9929664080611514
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 848,
+      "sha256": "829f4030e4ba0d2fb60d336f3d9a2560f384d4b2322e1bea8ae79a39c43b0dc6",
+      "file": "frame-0848.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.0028653295128939827,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-1",
+      "camera": [
+        6.0000491665805855,
+        10.000049166580586,
+        19.000049166580585
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 797.2896293259619,
+          "y": 1019.5981724097525,
+          "z": 0.9924668095194257
+        },
+        "worker": {
+          "x": 487.2757229321471,
+          "y": 978.0606324021261,
+          "z": 0.9929664394642317
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 870,
+      "sha256": "9b33c5cdb2ceb9862dccb4a5212ee7ea37f1802aae83cbcdd29162bd1b68390e",
+      "file": "frame-0870.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.0659025787965616,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-1",
+      "camera": [
+        6.0249140002402815,
+        10.024914000240281,
+        19.02491400024028
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 796.7023857993538,
+          "y": 1019.6443440538065,
+          "z": 0.9924837724137603
+        },
+        "worker": {
+          "x": 487.3814204808395,
+          "y": 977.9989787096166,
+          "z": 0.9929822960087877
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 900,
+      "sha256": "6504d5078f1fdb899f49debbb9110f40c7605976426a5b71f9fd034310cd3786",
+      "file": "frame-0900.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.1518624641833811,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-1",
+      "camera": [
+        6.124364113204617,
+        10.124364113204617,
+        19.124364113204617
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 794.3739905412385,
+          "y": 1019.8225026348478,
+          "z": 0.9925511135756591
+        },
+        "worker": {
+          "x": 487.80080593974736,
+          "y": 977.7551432424714,
+          "z": 0.9930452242248381
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 930,
+      "sha256": "133aa550f44d6c16d55ecfc72f546ce53c074cc4de28417165b5e2f502158583",
+      "file": "frame-0930.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.23782234957020057,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-1",
+      "camera": [
+        6.285552395589884,
+        10.285552395589885,
+        19.285552395589885
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 790.6683432825523,
+          "y": 1020.0897504406482,
+          "z": 0.992658568327103
+        },
+        "worker": {
+          "x": 488.4692604548514,
+          "y": 977.3691263316366,
+          "z": 0.9931455708877523
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 960,
+      "sha256": "f5aadfa06b9064accb440da690c989b831de7cc09bf0f0aebe0cc1615fc02e27",
+      "file": "frame-0960.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.3237822349570201,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-2",
+      "camera": [
+        6.493234854946472,
+        10.493234854946472,
+        19.493234854946472
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 786.0152664057076,
+          "y": 1020.3966431414517,
+          "z": 0.9927939977851213
+        },
+        "worker": {
+          "x": 489.3104069749136,
+          "y": 976.888006418754,
+          "z": 0.9932719323163856
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 990,
+      "sha256": "ebc352516b9746d9cd5561441f765e101e26e36a698f95140c5d5a49c3346de0",
+      "file": "frame-0990.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.40974212034383956,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-1-2",
+      "camera": [
+        6.732167498824766,
+        10.732167498824765,
+        19.732167498824765
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 780.8260101652251,
+          "y": 1020.7006446654807,
+          "z": 0.99294571314437
+        },
+        "worker": {
+          "x": 490.2509029129408,
+          "y": 976.356210986503,
+          "z": 0.9934133557499724
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1020,
+      "sha256": "a9ed7666f32e0aba1195463157b86970d405ba0742c743d948fa1d509c96fac2",
+      "file": "frame-1020.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.49570200573065903,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-1",
+      "camera": [
+        6.987106334775153,
+        10.987106334775152,
+        19.987106334775152
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 775.4756554585765,
+          "y": 1020.9710917341862,
+          "z": 0.993102917193721
+        },
+        "worker": {
+          "x": 491.22336849887046,
+          "y": 975.8132305752422,
+          "z": 0.9935597609054638
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1022,
+      "sha256": "ee544043f1f6a0fb41be7fd1376adcca0f9c7553e740f9a3f3c4a19568e9a39b",
+      "file": "frame-1022.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.501432664756447,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-1",
+      "camera": [
+        7.004297982507001,
+        11.004297982507001,
+        20.004297982507
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 775.1216042284543,
+          "y": 1020.9874283870115,
+          "z": 0.993113348547981
+        },
+        "worker": {
+          "x": 491.28782169706875,
+          "y": 975.77749211203,
+          "z": 0.993569471204644
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1050,
+      "sha256": "06be3e120059c5ff4bd0eb1d79008623fbb06de9aa88e93c62f44eaf1784e543",
+      "file": "frame-1050.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.5816618911174785,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-1",
+      "camera": [
+        7.242807370348021,
+        11.242807370348022,
+        20.24280737034802
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 770.2952534665833,
+          "y": 1021.1905706472065,
+          "z": 0.9932559100003021
+        },
+        "worker": {
+          "x": 492.1677256134095,
+          "y": 975.2927161468655,
+          "z": 0.9937021265447038
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1080,
+      "sha256": "8af98aa92f197635c11404045cb7c7b4eb70e9d572b19e9b31977e03ae129328",
+      "file": "frame-1080.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.667621776504298,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-1",
+      "camera": [
+        7.484026613093757,
+        11.484026613093757,
+        20.484026613093757
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 765.5722519421756,
+          "y": 1021.3536561277339,
+          "z": 0.9933960902613074
+        },
+        "worker": {
+          "x": 493.0311715374586,
+          "y": 974.8226934033958,
+          "z": 0.9938324793832064
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1110,
+      "sha256": "76ce77aec39b0f78387b5b76c9cdf5da93a9e23afb7a1c443de6f16c71442cc2",
+      "file": "frame-1110.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.7535816618911175,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-1",
+      "camera": [
+        7.695520070562747,
+        11.695520070562747,
+        20.695520070562747
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 761.5573862495037,
+          "y": 1021.4640437425761,
+          "z": 0.9935157926437397
+        },
+        "worker": {
+          "x": 493.7670707882291,
+          "y": 974.4265851549983,
+          "z": 0.9939437295096448
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1140,
+      "sha256": "df41a22f465f38d6b73e2e6f83cde09b913dfc47d8c8f2699d825e8043ce265a",
+      "file": "frame-1140.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.839541547277937,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-2",
+      "camera": [
+        7.8620437503053795,
+        11.86204375030538,
+        20.86204375030538
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 758.4763877812505,
+          "y": 1021.5308871174021,
+          "z": 0.993607998229792
+        },
+        "worker": {
+          "x": 494.33302270299805,
+          "y": 974.1247812867941,
+          "z": 0.9940293905723459
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1170,
+      "sha256": "ec01219bbcd17ca683d723d3d7a65aa673ab0fdc9b78b790ffeb46844cae7ef4",
+      "file": "frame-1170.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 0.9255014326647565,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": "S05-2-2",
+      "camera": [
+        7.968353659872042,
+        11.968353659872042,
+        20.96835365987204
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 756.5454468391333,
+          "y": 1021.5647777668481,
+          "z": 0.9936659425518684
+        },
+        "worker": {
+          "x": 494.6882726384382,
+          "y": 973.9366012425261,
+          "z": 0.9940832084765898
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1196,
+      "sha256": "e7ed70c5e653e90d2a5838657bb5cff34017ae8b3c8a3def1f5fea340166a62a",
+      "file": "frame-1196.png",
+      "shot": "S05",
+      "index": 4,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": true,
+      "allocated": true,
+      "initialized": false,
+      "partial": true,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": true,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": false,
+      "context": "vulnerable_path_illustration",
+      "caption": null,
+      "camera": [
+        8,
+        12,
+        21
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 755.9759725986091,
+          "y": 1021.5735869131141,
+          "z": 0.9936830549021443
+        },
+        "worker": {
+          "x": 494.7931256096573,
+          "y": 973.8812462916882,
+          "z": 0.9940991003039719
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1197,
+      "sha256": "60bcd44fa1e31a0bbd634c36476dd49f0987ddf2a1135ad725cb9427853d5595",
+      "file": "frame-1197.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": null,
+      "camera": [
+        8,
+        12,
+        22
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 794.5398683627315,
+          "y": 1014.1279339670048,
+          "z": 0.9939601811933418
+        },
+        "worker": {
+          "x": 540,
+          "y": 970.4246366302164,
+          "z": 0.9943520864606217
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1198,
+      "sha256": "884bac2e109bc10519befac4e1d7955a20ec4a23283e9aecbe71a9126f5b529d",
+      "file": "frame-1198.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.0024630541871921183,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-1-1",
+      "camera": [
+        7.995073891625616,
+        12.002463054187192,
+        22.007389162561577
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 794.5232315037006,
+          "y": 1014.0788009327239,
+          "z": 0.9939622403453994
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 970.422349167155,
+          "z": 0.9943537838315558
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1200,
+      "sha256": "431733fe74d6f31df19a2a887fde55f9b7d7aa58a6c1dc52b61b550b85d81c3d",
+      "file": "frame-1200.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.007389162561576354,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-1-1",
+      "camera": [
+        7.985221674876847,
+        12.007389162561577,
+        22.02216748768473
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 794.4897916402111,
+          "y": 1013.9806117680354,
+          "z": 0.9939663572274223
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 970.4177754914007,
+          "z": 0.9943571780269889
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1230,
+      "sha256": "497ffcbb694f94a8a5e142caa3e01586d531fc6d8ba88b1f481fb1f500ff40f5",
+      "file": "frame-1230.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.0812807881773399,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-1-1",
+      "camera": [
+        7.83743842364532,
+        12.08128078817734,
+        22.24384236453202
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 793.9621005438726,
+          "y": 1012.5201621681573,
+          "z": 0.9940278801886183
+        },
+        "worker": {
+          "x": 539.9999999999999,
+          "y": 970.3493729651908,
+          "z": 0.9944080002032227
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1260,
+      "sha256": "b3cdac03175086a22c925167eac341d366e097f5d8c542287ae599f3f69a9689",
+      "file": "frame-1260.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.15517241379310345,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-1-1",
+      "camera": [
+        7.689655172413793,
+        12.155172413793103,
+        22.46551724137931
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 793.3871859866767,
+          "y": 1011.0832081326084,
+          "z": 0.9940889621993388
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 970.2813589844085,
+          "z": 0.9944586408421004
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1290,
+      "sha256": "e53daeaf9e8a834bbc3764da88ca359a1789e0808ea02160f3b9741bc50fa117",
+      "file": "frame-1290.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.229064039408867,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": null,
+      "camera": [
+        7.541871921182266,
+        12.229064039408867,
+        22.6871921182266
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 792.7674631321737,
+          "y": 1009.6700881612079,
+          "z": 0.9941495908102326
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 970.2137454133058,
+          "z": 0.9945090841534935
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1320,
+      "sha256": "5117b03c80bbade2a85b1c764f72701582245732905f5fd9d5d72c14c17e094f",
+      "file": "frame-1320.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.30295566502463056,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-1",
+      "camera": [
+        7.394088669950738,
+        12.30295566502463,
+        22.908866995073893
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 792.1052756959998,
+          "y": 1008.2810775268123,
+          "z": 0.9942097547002758
+        },
+        "worker": {
+          "x": 539.9999999999999,
+          "y": 970.1465432417908,
+          "z": 0.994559315258914
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1350,
+      "sha256": "90e4c086ca2daa9e26410b294de1a1d09e165034008080dd3ac59ff5a05e3195",
+      "file": "frame-1350.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.3768472906403941,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-1",
+      "camera": [
+        7.246305418719212,
+        12.376847290640393,
+        23.13054187192118
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 791.4028954408973,
+          "y": 1006.916392207348,
+          "z": 0.9942694436226642
+        },
+        "worker": {
+          "x": 540,
+          "y": 970.0797626231006,
+          "z": 0.9946093201630027
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1380,
+      "sha256": "dfcf6fb61acb337876deec1e031cf45cfe3fedd1fdcc05c7668d8f3ccc779306",
+      "file": "frame-1380.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.45073891625615764,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-1",
+      "camera": [
+        7.098522167487685,
+        12.450738916256158,
+        23.352216748768473
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 790.6625219604136,
+          "y": 1005.5761927083977,
+          "z": 0.9943286483520049
+        },
+        "worker": {
+          "x": 540,
+          "y": 970.0134129104603,
+          "z": 0.994659085724771
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1400,
+      "sha256": "493c00ad5aa9bc8d5a459f41e9555488f9bb5955b4897dc74b1d227b35384757",
+      "file": "frame-1400.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.5,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-1",
+      "camera": [
+        7,
+        12.5,
+        23.5
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 790.1488858562301,
+          "y": 1004.6963853282605,
+          "z": 0.9943678450602873
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 969.9694234327567,
+          "z": 0.994692123683167
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1410,
+      "sha256": "b17c6620b80845e0c03a3231bef868b464327fad332acd80e1f712b3c0965f61",
+      "file": "frame-1410.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.5246305418719212,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-2",
+      "camera": [
+        6.9507389162561575,
+        12.524630541871922,
+        23.573891625615765
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 789.8862827247951,
+          "y": 1004.2605877670542,
+          "z": 0.994387360632898
+        },
+        "worker": {
+          "x": 540,
+          "y": 969.947502692706,
+          "z": 0.9947085996287187
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1440,
+      "sha256": "38818b535a1249751c11661b5816af1743b603ca9a060d683e9e2f5ca7b59f02",
+      "file": "frame-1440.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.5985221674876847,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-2-2",
+      "camera": [
+        6.802955665024631,
+        12.598522167487685,
+        23.795566502463053
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 789.0762333638086,
+          "y": 1002.9696379296075,
+          "z": 0.994445573129981
+        },
+        "worker": {
+          "x": 540,
+          "y": 969.8820398288468,
+          "z": 0.9947578503559474
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1470,
+      "sha256": "f83dca45a861f3a28ab118f7b7547b43b416f1a0e3178f9fc9fc3acd7de2549e",
+      "file": "frame-1470.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.6724137931034483,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-3-1",
+      "camera": [
+        6.655172413793103,
+        12.672413793103448,
+        24.017241379310345
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 788.2343581625252,
+          "y": 1001.7033589973166,
+          "z": 0.9945032793794943
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 969.8170314815598,
+          "z": 0.9948068271553692
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1500,
+      "sha256": "ba2407664d1aa4d01fc7d9996e0da045ffec946d212cfe7af2419656c8ff37e4",
+      "file": "frame-1500.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.7463054187192119,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-3-1",
+      "camera": [
+        6.5073891625615765,
+        12.746305418719212,
+        24.238916256157637
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 787.3625707474066,
+          "y": 1000.4617253360507,
+          "z": 0.9945604737424111
+        },
+        "worker": {
+          "x": 540.0000000000002,
+          "y": 969.7524841496163,
+          "z": 0.9948555200151046
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1530,
+      "sha256": "adc2f4eefdde7b29828f0a129b246cb521c2bbf0317d54b2a807692006c96264",
+      "file": "frame-1530.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.8201970443349754,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": "S06-3-1",
+      "camera": [
+        6.359605911330049,
+        12.820197044334975,
+        24.460591133004925
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 786.4627149413649,
+          "y": 999.244673046933,
+          "z": 0.9946171513591631
+        },
+        "worker": {
+          "x": 539.9999999999999,
+          "y": 969.6884036992276,
+          "z": 0.9949039196341558
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1560,
+      "sha256": "37e8d9d84f1a0ada0200c258519c7350db0f456328e538ad0e6190f2b5d45e9d",
+      "file": "frame-1560.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.8940886699507389,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": null,
+      "camera": [
+        6.211822660098522,
+        12.894088669950738,
+        24.682266009852217
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 785.5365657677974,
+          "y": 998.0521029963718,
+          "z": 0.9946733081059804
+        },
+        "worker": {
+          "x": 540,
+          "y": 969.6247953943317,
+          "z": 0.9949520173944243
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1590,
+      "sha256": "38027620efb0ccb0bdfe69b7849261264099ab466962c3139e1441c856f0f8a6",
+      "file": "frame-1590.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 0.9679802955665024,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": null,
+      "camera": [
+        6.064039408866995,
+        12.967980295566502,
+        24.90394088669951
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 784.5858305849039,
+          "y": 996.8838837049019,
+          "z": 0.9947289405528549
+        },
+        "worker": {
+          "x": 540.0000000000001,
+          "y": 969.561663925813,
+          "z": 0.9949998053331424
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    },
+    {
+      "frame": 1603,
+      "sha256": "609abd8573f85b6133bb1b5e4ee26707f05a3f67356c9f7dd2bc3b98c03e6395",
+      "file": "frame-1603.png",
+      "shot": "S06",
+      "index": 5,
+      "progress": 1,
+      "workerId": "W01",
+      "requestId": "A",
+      "memoryId": "M17",
+      "allocationFailed": false,
+      "allocated": true,
+      "initialized": true,
+      "partial": false,
+      "freed": false,
+      "referenceRetained": false,
+      "invalidAccess": false,
+      "earlyConsumer": false,
+      "sameWorker": true,
+      "rce": "conditional_risk",
+      "rootAccess": false,
+      "corrected": true,
+      "context": "corrected_lifecycle_illustration",
+      "caption": null,
+      "camera": [
+        6,
+        13,
+        25
+      ],
+      "essentialPoints": {
+        "memory": {
+          "x": 784.1666256996955,
+          "y": 996.3851780256089,
+          "z": 0.9947528844004604
+        },
+        "worker": {
+          "x": 539.9999999999999,
+          "y": 969.5344561034381,
+          "z": 0.9950204153538194
+        }
+      },
+      "drawCalls": 1,
+      "triangles": 1,
+      "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GB10/PCIe, OpenGL ES 3.2)"
+    }
+  ],
+  "repeats": [
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c",
+      "expected": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c"
+    },
+    {
+      "frame": 90,
+      "passed": true,
+      "actual": "4281d36d37a0c8fb8e0e9f920f8a1f73ad7d575f18578de0c29ebf05bd3066d3",
+      "expected": "4281d36d37a0c8fb8e0e9f920f8a1f73ad7d575f18578de0c29ebf05bd3066d3"
+    },
+    {
+      "frame": 50,
+      "passed": true,
+      "actual": "67b3d951ce3ced7b0131fd6f44d0b36e6ccc423be2f22eab06cf284d68769f95",
+      "expected": "67b3d951ce3ced7b0131fd6f44d0b36e6ccc423be2f22eab06cf284d68769f95"
+    },
+    {
+      "frame": 10,
+      "passed": true,
+      "actual": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c",
+      "expected": "69a1efada1de80846b5a51f45d656da0b1388303cc057c7caa8a65b0151cae1c"
+    }
+  ],
+  "errors": [],
+  "layoutFindings": [],
+  "fonts": {
+    "caption": true,
+    "title": true,
+    "mono": true
+  },
+  "audio": {
+    "duration": 53.466667,
+    "error": null
+  }
+}
