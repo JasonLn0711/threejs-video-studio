@@ -4,7 +4,7 @@ Status: implemented specification; validation is reported separately in the
 repository evidence index. A passing pilot certifies its recorded profile and
 runtime, not every possible Three.js scene.
 
-Owner: `threejs-video-studio`. Effective: 2026-10-20, Asia/Taipei.
+Owner: `threejs-video-studio`. Effective: 2026-10-20; bounded-ending amendment: 2026-10-21, Asia/Taipei.
 Normative terms **MUST**, **SHOULD**, and **MAY** mean required, recommended with
 a documented reason to vary, and optional. This is the complete normative
 document. Examples and external references illustrate it; they do not introduce
@@ -89,7 +89,7 @@ learner progress.
 | --- | --- |
 | Canvas | 1080 × 1920, pixel ratio 1 |
 | Frame rate | 30 constant frames/second |
-| Pilot duration | 60.000 seconds / 1,800 frames |
+| Current pilot duration | 44.000 seconds / 1,320 frames; derive duration from content |
 | Delivery | MP4, H.264 video, AAC audio, SDR |
 | Reference audio | 48,000 Hz, stereo PCM |
 | Key-copy safe rectangle | x=90..900, y=240..1480 |
@@ -158,7 +158,7 @@ repetitive strobing, and reset all effects on arbitrary seeks.
 Name the actual failure: packet loss or link saturation does not establish a
 server crash. A crash cue requires a modeled server failure. Sample event entry,
 peak and exit in native and decoded-video QA. Cinematic effects preserve the
-adopted narration, 0.35-second sentence gaps and exact 60-second pilot duration.
+adopted narration, 0.35-second sentence gaps and the current declared pilot duration.
 
 ## 6. Deterministic rendering contract
 
@@ -222,11 +222,43 @@ pause at beat boundaries. Preserve the original baseline, trim synthesis edge
 silence only in processed clips, and record the trim method and sample indices.
 Sentence captions follow these measured clips; scene beats follow their starts.
 
-The pilot preserves its original wording and voice speed. It begins at 0.35 seconds;
-after the final sentence, the takeaway remains visible with continuing 3D animation
-until exactly 60.000 seconds. This ending interval is an explicit final hold, not an
-inter-sentence pause. Do not stretch speech or insert additional pauses to fill the
-remaining duration. Report both narration end and final-hold duration.
+### Bounded endings — amendment 2026-10-21
+
+Determine duration from the complete narration and its visual conclusion. A narrated
+short SHOULD allow about 1.5 seconds after its final sentence and MUST keep this
+final hold at or below 2.0 seconds under this profile. A different editorial need
+requires an explicitly revised profile and acceptance criteria before production.
+Do not pad an ending merely to reach a nominal 60 seconds, stretch speech, or add
+sentence pauses to consume unused time. Background sound does not exempt a long
+non-narrated ending from the editorial hold limit.
+
+The pilot keeps its 15 original sentences, voice speed and 0.35-second gaps.
+Narration ends at 42.381917 seconds; the final takeaway remains visible until
+44.000 seconds (1,320 frames), leaving a 1.618083-second final hold.
+`film.json` is the canonical duration/fps source. Root and audio HTML durations,
+beat endpoints, renderer bounds, mux duration, PCM length and QA samples MUST
+agree with it. No production consumer may assume 60 seconds or 1,800 frames.
+
+Set `audioTiming.tailPolicy` to `bounded_final_hold` and
+`audioTiming.maxFinalHoldSeconds` to `2.0` for this profile. Validate opening
+silence, sentence gaps, complete spoken clips and the final hold separately.
+The PCM check MUST compare processed-clip hashes and samples, reject truncated
+speech, and enforce the final hold at sample precision. Measure actual trailing
+silence independently of clip/caption metadata using the last sample above
+-50 dBFS in either channel. For encoded AAC, permit at most 0.05 seconds of
+boundary tolerance beyond the 2.0-second limit. Report narration end, final hold,
+measured trailing silence, threshold, tolerance and the exact artifact hash.
+
+After muxing, `render` MUST run encoded verification, including the audio checks,
+before issuing its delivery receipt. A verified video cache hit still runs current
+encoded checks. Include audio/encoded validators and acceptance tests in the QA
+identity so changed rules invalidate an older check. A file containing an audio
+stream, matching reference PCM, or moving geometry does not prove a good ending.
+Continuous viewing and listening acceptance remain separate from these checks.
+
+This amendment supersedes the 2026-10-20 policy that filled the pilot to 60 seconds
+with a 17.618083-second silent animated hold. Those historical technical results
+remain in the evidence archive and do not establish acceptance under this revision.
 
 Keep PCM truth separate from lossy AAC behavior. AAC encoder delay/residue does
 not establish an error in the PCM ledger. Compare decoded audio against the

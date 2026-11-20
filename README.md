@@ -13,7 +13,7 @@ The implementation is independent of the original CEH 2D production system.
 **How DDoS Fills a Network Link** explains one mechanism: distributed traffic
 consumes shared link capacity and legitimate traffic is delayed or dropped.
 The film uses a procedural 3D network, English narration and captions.
-Target: 60 seconds, 1080 × 1920, 30 fps, H.264/AAC, 48 kHz stereo reference PCM.
+Target: 44 seconds, 1080 × 1920, 30 fps, H.264/AAC, 48 kHz stereo reference PCM.
 
 See the [brief](examples/ddos-capacity/BRIEF.md),
 [storyboard](examples/ddos-capacity/STORYBOARD.md),
@@ -24,8 +24,10 @@ Human listening/viewing and social-platform upload are separate acceptance layer
 
 Current timing revision: 15 sentences with exactly 0.35 seconds between processed
 clips. Wording and voice speed are preserved. Narration ends at 42.381917 seconds;
-the animated takeaway continues for 17.618083 seconds, reaching exactly 60 seconds.
-`python3 scripts/verify_audio.py` verifies all 14 gaps at PCM sample precision.
+the animated takeaway continues for 1.618083 seconds, reaching exactly 44 seconds.
+`python3 scripts/verify_audio.py` verifies all 14 gaps at PCM sample precision,
+checks complete original clips and enforces the two-second final-hold limit.
+The 2026-10-21 ending correction supersedes the former 60-second padded version.
 
 Cinematic event cues now mark the first packet loss and a later lost legitimate
 request with red warning type, an outlined exclamation mark, a brief camera push
@@ -38,17 +40,17 @@ The first measured production environment is Linux ARM64 with NVIDIA GB10.
 Other environments require their own browser/GPU checks.
 
 ```bash
-npm ci
-npx playwright install chromium
+pnpm install --frozen-lockfile
+pnpm exec playwright install chromium
 uv venv .venv --python 3.12
 uv pip install --python .venv/bin/python --require-hashes --link-mode hardlink -r requirements-audio.lock
 python3 scripts/download_models.py --directory models
 .venv/bin/python scripts/speech.py --models models
-npm run build
-npm run preview
+pnpm run build
+pnpm run preview
 ```
 
-The audio lock pins the full declared dependency set with SHA-256 hashes. Keep an existing `.venv` and run only the install command to preserve extra local tools. Cached wheels support `--offline`; model downloads and speech generation remain separate steps. See the [workstation validation receipt](https://github.com/JasonLn0711/planning-everything-track/blob/main/data/projects/2026-04-ubuntu-storage-governance.md#dependency-sharing-2026-11-08).
+The audio lock pins the full declared Python dependency set with SHA-256 hashes. Install uv before setup. Keep an existing `.venv` and run only the install command to preserve additional local tools; installations reuse the host uv cache. Use `--offline` when all locked wheels are already cached. Model downloads and speech generation are separate explicit steps. See the [workstation validation receipt](https://github.com/JasonLn0711/planning-everything-track/blob/main/data/projects/2026-04-ubuntu-storage-governance.md#dependency-sharing-2026-11-08).
 
 For Windows, use the equivalent virtual-environment Python executable.
 The provided scripts are validated on Linux; Windows execution is not certified.
@@ -68,11 +70,11 @@ installation on a new operating system.
 ## Production
 
 ```bash
-npm run preview
-npm run check
-npm run render
+pnpm run preview
+pnpm run check
+pnpm run render
 python3 scripts/verify_video.py output/ddos-capacity.mp4 --output qa/encoded --browser-report qa/public/browser.json
-npm run package
+pnpm run package
 ```
 
 After encoded validation, compare native and delivery frames with
@@ -91,7 +93,8 @@ Stop it with the pinned HyperFrames CLI's `preview --stop` in the example folder
 The renderer emits a native HyperFrames MP4, then copies its video stream into
 the delivery MP4 with an explicitly encoded 48 kHz AAC track from reference PCM.
 It does not re-encode the picture or change playback speed.
-The final encoded-artifact checks are separate from the render receipt.
+After muxing, rendering runs encoded-artifact checks and binds the passing report
+and hash into the render receipt. Verified video cache hits also run current checks.
 
 ### Outputs
 
@@ -124,13 +127,17 @@ social upload or full generic film editor is included in v0.1.
 
 ## Checks and troubleshooting
 
-`npm test` checks bounded queues, fixed service capacity, overload losses,
-repeatability and exact beat boundaries. `npm run typecheck` validates source
-types. `npm run check` combines these with native HyperFrames checks and actual
-hardware browser QA. The latter verifies all 1,800 pilot frames and performs
+`pnpm test` checks bounded queues, fixed service capacity, overload losses,
+repeatability and exact beat boundaries. `pnpm run typecheck` validates source
+types. `pnpm run check` also runs five audio/ending regression tests, including
+the rejected historical long hold, the exact limit and one-sample overrun.
+It combines these with native HyperFrames checks and actual
+hardware browser QA. The latter verifies all 1,320 pilot frames and performs
 pixel-identical repeated/reverse seeks.
 
 - **Missing audio:** run the speech command or restore the editable archive.
+- **Long silent ending:** shorten the declared duration to fit the complete narration
+  and a brief takeaway; the final hold must be at most two seconds.
 - **Narration exceeds a window:** revise the script; the synthesizer fails rather
   than truncating or speeding speech.
 - **Stale QA:** reopen preview if needed, then run check against the final source.
